@@ -25,15 +25,19 @@ ssh-keygen -t ed25519 -C "tuemail@ejemplo.com"
 ```
 Sigue las instrucciones y copia el SSH generado 
 <br>
-Luego, ve a tu perfil de GitHub → Settings → SSH and GPG keys → New SSH key, y pega la clave.
+Luego, ve a tu perfil de GitHub  → Settings 
 
-<img src="/Laboratorios/Laboratorio 1 - Git y Github/Imagenes en el Anexo/Figura4.png" alt="Figura 4" width="500">
+<img src="/Laboratorios/Laboratorio 1 - Git y Github/Imagenes en el Anexo/Figura4.png" alt="Figura 4" width="200">
 
-<img src="/Laboratorios/Laboratorio 1 - Git y Github/Imagenes en el Anexo/Figura5.png" alt="Figura 5" width="500">
+→ SSH and GPG keys
+
+<img src="/Laboratorios/Laboratorio 1 - Git y Github/Imagenes en el Anexo/Figura5.png" alt="Figura 5" width="400">
+
+→ New SSH key
 
 <img src="/Laboratorios/Laboratorio 1 - Git y Github/Imagenes en el Anexo/Figura6.png" alt="Figura 6" width="500">
 	
-
+y pega la clave :)
 
 
 **3. Configura tu usuario en Git**
