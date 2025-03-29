@@ -110,7 +110,7 @@ git branch -M main
 git push -u origin main
 ```
 
-# ¿Qué pasa si ya clonamos un repositorio con `git clone`?
+### ¿Qué pasa si ya clonamos un repositorio con `git clone`?
 - Si es que ya clonamos un repositorio existente de GitHub:
 ```bash
 git clone https://github.com/Rodrigo1804/repositorio.git
@@ -130,7 +130,10 @@ Usualmente la rama principal tiene como nombre `master`, así que también podem
 ```bash
 git pull origin master
 ```
-
+Algunos comandos útiles:
+- Podemos usar `git status` para ver qué archivos están listos para realizar `commit` para guardar el historial del proyecto o volver atrás si es que algo saliera mal.
+- Usar `git log` nos sirve para ver el historial de `commits`
+- siempre debes usar `git pull` antes de `git push` si es que estás trabajando en equipo.
 
 ### Extra: Ramas
 En git existe la posibilidad de crear ramas, estas son útiles para trabajar sin dañas el documento principal
