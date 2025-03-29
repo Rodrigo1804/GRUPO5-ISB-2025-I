@@ -148,11 +148,20 @@ Algunos comandos útiles:
 5. Hacer clic en **Commit changes**.  
 
 
-### Extra 1: Ramas
-En git existe la posibilidad de crear ramas, estas son útiles para trabajar sin dañas el documento principal
- git branch nome
-  git checkout rama 
+## Extra 1: Ramas
+En GitHub, una rama (también llamado branch) es una línea independiente de desarrollo en un repositorio. Ayuda a mantener el código principal sin cambios ya que se pueden añadir nuevas características y/o correcciones hasta que se decida que estos estén listos y se fusionen en un Pull Request.
 
+### Ver las ramas en el repositorio en GitHub
+1. Ve al repositorio en GitHub
+    ![Figura 10](/Laboratorios/Laboratorio%201%20-%20Git%20y%20Github/Imagenes%20en%20el%20Anexo/Figura10.png) 
+3. Haz clic en el botón desplegable que muestra la rama actual (por defecto, suele ser `main`)
+4. Verás una lista de ramas disponibles
+    ![Figura 11](/Laboratorios/Laboratorio%201%20-%20Git%20y%20Github/Imagenes%20en%20el%20Anexo/Figura11.png) 
+### Creación de nueva rama en GitHub
+### Cambiar de rama en GitHub
+### Hacer cambios en una rama y creación de Pull Request
+### Fusión de una rama en `main`
+### Eliminar ramas en GitHub
 
 ## Extra 2: Lenguaje Markdown
 Markdown es un lenguaje de marcado ligero para dar formato a texto en plataformas como GitHub.
