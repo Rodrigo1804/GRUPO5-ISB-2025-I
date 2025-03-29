@@ -84,8 +84,24 @@ Ahora ya tienes tu repositorio creado y puedes comenzar a usarlo!
 ```bash
 git init
 ```
+2. Agregamos los archivos al área de staging
+```bash
+git add .
+```  
+El punto "." significa "todos los archivos del directorio actual".
 
-   
+3. Realizamos un commit:
+```bash
+git commit -m "1er commit: subiendo archivos iniciales"
+```
+
+4. Conectamos nuestro proyecto con GitHub:
+```bash
+git remote add origin https://gitgub.com/Rodrigo1804/repositorio.git
+```
+
+5. Cambiamos la rama principal a main 
+
 git clone hhttp 
 cd repositoro
 
