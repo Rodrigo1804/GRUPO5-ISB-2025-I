@@ -153,9 +153,12 @@ En GitHub, una rama (también llamado branch) es una línea independiente de des
 
 ### Ver las ramas en el repositorio en GitHub
 1. Ve al repositorio en GitHub
-    ![Figura 10](/Laboratorios/Laboratorio%201%20-%20Git%20y%20Github/Imagenes%20en%20el%20Anexo/Figura10.png) 
+   
+    ![Figura 10](/Laboratorios/Laboratorio%201%20-%20Git%20y%20Github/Imagenes%20en%20el%20Anexo/Figura10.png)
+   
 3. Haz clic en el botón desplegable que muestra la rama actual (por defecto, suele ser `main`)
 4. Verás una lista de ramas disponibles
+   
     ![Figura 11](/Laboratorios/Laboratorio%201%20-%20Git%20y%20Github/Imagenes%20en%20el%20Anexo/Figura11.png) 
 ### Creación de nueva rama en GitHub
 ### Cambiar de rama en GitHub
