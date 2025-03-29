@@ -159,12 +159,44 @@ En GitHub, una rama (también llamado branch) es una línea independiente de des
 3. Haz clic en el botón desplegable que muestra la rama actual (por defecto, suele ser `main`)
 4. Verás una lista de ramas disponibles
    
-    ![Figura 11](/Laboratorios/Laboratorio%201%20-%20Git%20y%20Github/Imagenes%20en%20el%20Anexo/Figura11.png) 
+    ![Figura 11](/Laboratorios/Laboratorio%201%20-%20Git%20y%20Github/Imagenes%20en%20el%20Anexo/Figura11.png)
+   
 ### Creación de nueva rama en GitHub
-### Cambiar de rama en GitHub
+1. En el repositorio, haz clic en el botón desplegable de la rama
+2. Escribe el nombre de la nueva rama a crear en el cuadro de búsqueda
+3. Haz clic en `Create branch`
+
+    ![Figura 12](/Laboratorios/Laboratorio%201%20-%20Git%20y%20Github/Imagenes%20en%20el%20Anexo/Figura12.png)
+
 ### Hacer cambios en una rama y creación de Pull Request
+1. Cambia a la rama en donde deseas hacer cambios (a través del menú desplegable)
+2. Edita los archivos. Puede ser directamente en GitHub o puedes subir dedsde tu computadora
+3. Confirma los cambios dando clic en **Commit changes**
+4. Ve a la pestaña `Pull Requests` y haz clic en `New pull request`
+   
+    ![Figura 13](/Laboratorios/Laboratorio%201%20-%20Git%20y%20Github/Imagenes%20en%20el%20Anexo/Figura13.png)
+    ![Figura 14](/Laboratorios/Laboratorio%201%20-%20Git%20y%20Github/Imagenes%20en%20el%20Anexo/Figura14.png)
+   
+6. Selecciona la rama con cambios y compárala con `main`
+   
+   ![Figura 15](/Laboratorios/Laboratorio%201%20-%20Git%20y%20Github/Imagenes%20en%20el%20Anexo/Figura15.png)
+
+Un Pull Request ayudará a algún miembro del equipo a revisar las diferencias entre el main y la rama antes de fusionarlas.
+
 ### Fusión de una rama en `main`
+
+1. Abre el Pull Request correspondiente.
+2. Revisa los cambios y asegúrate de que todo esté correcto.
+3. Haz clic en `Merge pulll request` y confirma la fusión.
+
+Una vez fusionado el main con la rama elegida, puedes eliminar la rama en caso de que ya no la necesites.
+
 ### Eliminar ramas en GitHub
+1. Ve a la pestaña de `Branches` en el repositorio
+2. Busca la rama que deseas eliminar
+3. Haz clic en el ícono de eliminar (papelera) que se encuentra junto a la rama
+   
+    ![Figura 16](/Laboratorios/Laboratorio%201%20-%20Git%20y%20Github/Imagenes%20en%20el%20Anexo/Figura16.png)
 
 ## Extra 2: Lenguaje Markdown
 Markdown es un lenguaje de marcado ligero para dar formato a texto en plataformas como GitHub.
