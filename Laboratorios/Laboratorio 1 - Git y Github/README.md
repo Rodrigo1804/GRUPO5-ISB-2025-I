@@ -139,6 +139,7 @@ Algunos comandos útiles:
 ### Desde GitHub
 .	Entrar al repositorio creado.
 	2.	Hacer clic en Add file > Upload files.
+ <img src="/Laboratorios/Laboratorio 1 - Git y Github/Imagenes en el Anexo/Figura4.png" alt="Figura 7" width="200">
 	3.	Arrastrar o seleccionar los archivos a subir.
 	4.	Escribir un mensaje de commit.
 	5.	Hacer clic en Commit changes.
