@@ -137,12 +137,17 @@ Algunos comandos útiles:
 
 
 ### Desde GitHub
-.	Entrar al repositorio creado.
-	2.	Hacer clic en Add file > Upload files.
- <img src="/Laboratorios/Laboratorio 1 - Git y Github/Imagenes en el Anexo/Figura7.png" alt="Figura 7" width="200">
-	3.	Arrastrar o seleccionar los archivos a subir.
-	4.	Escribir un mensaje de commit.
-	5.	Hacer clic en Commit changes.
+### Desde GitHub
+
+1. Entrar al repositorio creado.  
+2. Hacer clic en **Add file > Upload files**.  
+   ![Figura 7](/Laboratorios/Laboratorio%201%20-%20Git%20y%20Github/Imagenes%20en%20el%20Anexo/Figura7.png)  
+3. Arrastrar o seleccionar los archivos a subir.  
+   ![Figura 8](/Laboratorios/Laboratorio%201%20-%20Git%20y%20Github/Imagenes%20en%20el%20Anexo/Figura8.png)  
+4. Escribir un mensaje de commit.  
+   ![Figura 9](/Laboratorios/Laboratorio%201%20-%20Git%20y%20Github/Imagenes%20en%20el%20Anexo/Figura9.png)  
+5. Hacer clic en **Commit changes**.  
+
 
 ### Extra 1: Ramas
 En git existe la posibilidad de crear ramas, estas son útiles para trabajar sin dañas el documento principal
