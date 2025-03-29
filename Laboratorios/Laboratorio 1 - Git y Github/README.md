@@ -100,7 +100,7 @@ git commit -m "1er commit: subiendo archivos iniciales"
 git remote add origin https://gitgub.com/Rodrigo1804/repositorio.git
 ```
 
-5. Cambiamos la rama principal a main 
+5. Cambiamos la rama principal a `main` 
 
 git clone hhttp 
 cd repositoro
