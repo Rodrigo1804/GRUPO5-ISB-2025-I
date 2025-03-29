@@ -63,8 +63,6 @@ git init
 Ahora ya tienes tu repositorio creado y puedes comenzar a usarlo!
 
 ### Desde GitHub
-
-### Desde Git
 1. Registrate o inicia sesión en GitHub.
 2. Crea un nuevo repositorio
 <br>Hacer clic en *New* o *Nuevo repositorio*. Esta opción se encuentra en la pestaña *Home*, en la esquina superior izquierda
@@ -81,6 +79,13 @@ Ahora ya tienes tu repositorio creado y puedes comenzar a usarlo!
 
 ## ¿Cómo subir archivos?
 
+### Desde Git:
+1. Inicializamos Git
+```bash
+git init
+```
+
+   
 git clone hhttp 
 cd repositoro
 
