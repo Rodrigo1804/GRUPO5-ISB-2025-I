@@ -16,7 +16,7 @@ Puedes verificar si Git está instalado escribiendo en la terminal:
 ```bash
 git --version
 ```
-Si no lo está, instálalo desde: https://git-scm.com
+Este comando debería devolver la versión de git. En caso no esté instalado, instálalo desde: https://git-scm.com
 
 **2. Inicia sesión y autentificate con GitHub**
 Para poder subir archivos a tu cuenta de GitHub desde la terminal, debes autenticarte. 
@@ -26,6 +26,15 @@ ssh-keygen -t ed25519 -C "tuemail@ejemplo.com"
 Sigue las instrucciones y copia el SSH generado 
 <br>
 Luego, ve a tu perfil de GitHub → Settings → SSH and GPG keys → New SSH key, y pega la clave.
+
+<img src="/Laboratorios/Laboratorio 1 - Git y Github/Imagenes en el Anexo/Figura4.png" alt="Figura 4" width="500">
+
+<img src="/Laboratorios/Laboratorio 1 - Git y Github/Imagenes en el Anexo/Figura5.png" alt="Figura 5" width="500">
+
+<img src="/Laboratorios/Laboratorio 1 - Git y Github/Imagenes en el Anexo/Figura6.png" alt="Figura 6" width="500">
+	
+
+
 
 **3. Configura tu usuario en Git**
 Este Paso solo se realiza por única vez
@@ -50,18 +59,21 @@ git init
 Ahora ya tienes tu repositorio creado y puedes comenzar a usarlo!
 
 ### Desde GitHub
-	1.	Registrate o inicia sesión en GitHub.
-	2.	Hacer clic en New o Nuevo repositorio.
- Esta opción se encuentra en la pestaña *Home*, en la esquina superior izquierda
 
- *aca va imagen de eso 
- 
-	3.	Crear el repositorio
+### Desde Git
+1. Registrate o inicia sesión en GitHub.
+2. Crea un nuevo repositorio
+<br>Hacer clic en *New* o *Nuevo repositorio*. Esta opción se encuentra en la pestaña *Home*, en la esquina superior izquierda
+<img src="/Laboratorios/Laboratorio 1 - Git y Github/Imagenes en el Anexo/Figura1.png" alt="Figura 1" width="500">
+	
+3. Crear el repositorio
  Acá se abrirá una nueva pagina donde podrás asignarle un nombre a tu nuevo repositorio y opcionalmente una pequeña descripción. 
- <br>Nota: Para evitar complicaciones no sugerimos tocar nada de las otras opciones que están seleccionadas o no seleccionadas por defecto
-
-	5.	Hacer clic en Create repository.
-	6.	Copiar la URL del repositorio para conectarlo con Git.
+ <img src="/Laboratorios/Laboratorio 1 - Git y Github/Imagenes en el Anexo/Figura2.png" alt="Figura 2" width="500">
+ <br>Nota: Recomendamos utilizar un repositorio publico y activar la opción de generar un archivo README.md al crearlo.
+ 
+4. Hacer clic en Create repository.
+<img src="/Laboratorios/Laboratorio 1 - Git y Github/Imagenes en el Anexo/Figura3.png" alt="Figura 3" width="400">
+6. Copiar la URL del repositorio para conectarlo con Git.
 
 ## ¿Cómo subir archivos?
 
@@ -89,8 +101,6 @@ git branch -M main
 En git existe la posibilidad de crear ramas, estas son útiles para trabajar sin dañas el documento principal
  git branch nome
   git checkout rama 
-
-### Desde Git
 
 
 ### Desde GitHub
