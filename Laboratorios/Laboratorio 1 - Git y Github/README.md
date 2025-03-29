@@ -135,11 +135,6 @@ Algunos comandos útiles:
 - Usar `git log` nos sirve para ver el historial de `commits`
 - siempre debes usar `git pull` antes de `git push` si es que estás trabajando en equipo.
 
-### Extra: Ramas
-En git existe la posibilidad de crear ramas, estas son útiles para trabajar sin dañas el documento principal
- git branch nome
-  git checkout rama 
-
 
 ### Desde GitHub
 .	Entrar al repositorio creado.
@@ -148,9 +143,13 @@ En git existe la posibilidad de crear ramas, estas son útiles para trabajar sin
 	4.	Escribir un mensaje de commit.
 	5.	Hacer clic en Commit changes.
 
+### Extra 1: Ramas
+En git existe la posibilidad de crear ramas, estas son útiles para trabajar sin dañas el documento principal
+ git branch nome
+  git checkout rama 
 
 
-## Extra: Lenguaje Markdown
+## Extra 2: Lenguaje Markdown
 Markdown es un lenguaje de marcado ligero para dar formato a texto en plataformas como GitHub.
 <br>
 Ejemplos útiles:
