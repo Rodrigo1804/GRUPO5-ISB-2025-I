@@ -100,26 +100,36 @@ git commit -m "1er commit: subiendo archivos iniciales"
 git remote add origin https://gitgub.com/Rodrigo1804/repositorio.git
 ```
 
-5. Cambiamos la rama principal a `main` 
-
-git clone hhttp 
-cd repositoro
-
-git add.
-
-git commit -m "Escribr mrnsaje si quieres"
-git commit 
-
-git push -u origin main
-
-git pull origin master
-
-inicializa git 
-git add.
-
-git remote add origin https://github.com/usuario/repositorio.git
+5. Cambiamos la rama principal a `main`:
+```bash
 git branch -M main
+```
 
+6. Subimos nuestros archivos a Github
+```bash
+git push -u origin main
+```
+
+# ¿Qué pasa si ya clonamos un repositorio con `git clone`?
+- Si es que ya clonamos un repositorio existente de GitHub:
+```bash
+git clone https://github.com/Rodrigo1804/repositorio.git
+cd repositorio
+```
+- Podemos hacer nuestros cambios de esta manera:
+```bash
+git add .
+git commit -m "Mis cambios"
+git push
+```
+- Si es que necesitamos traer los últimos cambios del repositorio remoto:
+```bash
+git pull origin main
+```
+Usualmente la rama principal tiene como nombre `master`, así que también podemos usar:
+```bash
+git pull origin master
+```
 
 
 ### Extra: Ramas
