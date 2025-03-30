@@ -310,14 +310,14 @@ Para la creación de links o enlaces, se crean escribiendo la palabra con el enl
 ```
 [enlace aquí](www.google.com)
 ```
-[enlace aquí](www.google.com)
+[enlace aquí](https://www.google.com.pe/?hl=es)
 
-## Código
 ## Imágenes
+Para insertar imágenes, solos se debe colocar un signo de exclamación `!`, entre corchetes `[]` la muestra si la carga de la imagen falla y entre paréntesis `()` la ruta de la imagen.
 
- 
+```
+![Título alternativo](/ruta/a/la/imagen.jpg)
+```
+Por otro lado, dentro de los paréntesis, después de la ruta, puedes colocar entre comillas `""` el nombre de la imagen que quieras que aparezca si el cursos está sobre la imagen.
 
- ### Titulo 3
- ´´´
- # Título 1, ## Título 2, ### Título 3
  
