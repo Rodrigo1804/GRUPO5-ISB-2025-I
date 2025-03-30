@@ -224,6 +224,12 @@ Por ejemplo:
 ##### Encabezado de nivel 5  
 ###### Encabezado de nivel 6  
 ```
+# Encabezado de nivel 1  
+## Encabezado de nivel 2  
+### Encabezado de nivel 3  
+#### Encabezado de nivel 4  
+##### Encabezado de nivel 5  
+###### Encabezado de nivel 6  
 
 ## Citas
 Las citas se generan utilizando  `>` al comienzo del bloque de texto:
@@ -231,18 +237,73 @@ Las citas se generan utilizando  `>` al comienzo del bloque de texto:
 >Tengo deberes sagrados que cumplir y los cumpliré hasta quemar el último cartucho. - Francisco Bolognesi
  
 ```
+>Tengo deberes sagrados que cumplir y los cumpliré hasta quemar el último cartucho. - Francisco Bolognesi
+
 Si la cita está conformada de varios párrafos, se debe añadir el mismo símbolo `>` al comienzo de cada uno de ellos.
 
 
 ## Listas
 Para crear listas, se puede utilizar asteriscos `*`, guiones `-` o suma `+`
-## Códigos de bloque
+
+```
+* Elemento de lista 1
+* Elemento de lista 2
+- Elemento de lista 3
+- Elemento de lista 4
++ Elemento de lista 5
++ Elemento de lista 6
+ 
+```
+
+* Elemento de lista 1
+* Elemento de lista 2
+- Elemento de lista 3
+- Elemento de lista 4
++ Elemento de lista 5
++ Elemento de lista 6
 
 
+## Bloque de códigos
+
+Para la creación de un bloque de códigos solo se debe encerrarlo en tres virgulilllas `~`
+
+```
+~~~
+Código
+~~~
+ 
+```
+
+~~~
+Código
+~~~
 
  
 # Elementos de Línea 
 ## Negritas y cursivas
+
+En markdown se utilizan asteriscos `*` y guiones bajos `_` para enfatizar. Se escribe entre 2 `*` o `_` para negritas, entre 4 para cursivas y entre 6 para cursiva y negritas.
+
+```
+_cursiva_
+*cursiva*
+
+__negrita__
+**negrita**
+
+___cursivaynegrita___
+***cursivaynegrita***
+```
+_cursiva_
+*cursiva*
+
+__negrita__
+**negrita**
+
+___cursivaynegrita___
+***cursivaynegrita***
+
+
 ## Links o enlaces 
 ## Código
 ## Imágenes
