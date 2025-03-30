@@ -201,9 +201,21 @@ Una vez fusionado el main con la rama elegida, puedes eliminar la rama en caso d
 ## Extra 2: Lenguaje Markdown
 Markdown es un lenguaje de marcado ligero para dar formato a texto en plataformas como GitHub. Existen diversos tipos de elementos de síntaxis pero 3 son los más importantes y engloban la mayoría de elementos.
 
- #Elementos de Bloque 
+# Elementos de Bloque 
+## Párrafos y saltos de línea
+## Encabezados
+## Citas
+## Listas
+## Códigos de bloque
+
+
+
  
- #Elementos de Línea 
+# Elementos de Línea 
+## Negritas y cursivas
+## Links o enlaces 
+## Código
+## Imágenes
 
  
 
