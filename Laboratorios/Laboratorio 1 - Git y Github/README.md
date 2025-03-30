@@ -199,8 +199,13 @@ Una vez fusionado el main con la rama elegida, puedes eliminar la rama en caso d
     ![Figura 16](/Laboratorios/Laboratorio%201%20-%20Git%20y%20Github/Imagenes%20en%20el%20Anexo/Figura16.png)
 
 ## Extra 2: Lenguaje Markdown
-Markdown es un lenguaje de marcado ligero para dar formato a texto en plataformas como GitHub.
+Markdown es un lenguaje de marcado ligero para dar formato a texto en plataformas como GitHub. Existen diversos tipos de elementos de síntaxis pero 3 son los más importantes y engloban la mayoría de elementos.
+
+#Elementos de Bloque 
+
+
 <br>
+
 Ejemplos útiles:
 	•	Títulos: 
  ´´´bash
