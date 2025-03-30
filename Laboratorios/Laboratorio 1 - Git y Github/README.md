@@ -226,7 +226,16 @@ Por ejemplo:
 ```
 
 ## Citas
+Las citas se generan utilizando  `>` al comienzo del bloque de texto:
+```
+>Tengo deberes sagrados que cumplir y los cumpliré hasta quemar el último cartucho. - Francisco Bolognesi
+ 
+```
+Si la cita está conformada de varios párrafos, se debe añadir el mismo símbolo `>` al comienzo de cada uno de ellos.
+
+
 ## Listas
+Para crear listas, se puede utilizar asteriscos `*`, guiones `-` o suma `+`
 ## Códigos de bloque
 
 
