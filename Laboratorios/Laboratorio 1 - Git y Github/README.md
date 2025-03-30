@@ -313,7 +313,7 @@ Para la creación de links o enlaces, se crean escribiendo la palabra con el enl
 [enlace aquí](https://www.google.com.pe/?hl=es)
 
 ## Imágenes
-Para insertar imágenes, solos se debe colocar un signo de exclamación `!`, entre corchetes `[]` la muestra si la carga de la imagen falla y entre paréntesis `()` la ruta de la imagen.
+Para insertar imágenes, solos se debe colocar un signo de exclamación `!`, entre corchetes `[]` lo que se muestra si la carga de la imagen falla y entre paréntesis `()` la ruta de la imagen.
 
 ```
 ![Título alternativo](/ruta/a/la/imagen.jpg)
