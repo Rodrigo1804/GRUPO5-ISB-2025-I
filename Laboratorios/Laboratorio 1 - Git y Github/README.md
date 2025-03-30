@@ -203,6 +203,12 @@ Markdown es un lenguaje de marcado ligero para dar formato a texto en plataforma
 
 # Elementos de Bloque 
 ## Párrafos y saltos de línea
+Para crear un nuevo párrafo en Markdown, solo necesitas dejar una línea en blanco entre los bloques de texto (presionar dos veces la tecla Enter).
+
+Ten en cuenta que Markdown no permite múltiples líneas en blanco seguidas: si colocas varias, se reducirán a una sola cuando se renderice el texto.
+
+Si lo que buscas es hacer un salto de línea dentro del mismo párrafo, debes presionar la barra espaciadora dos veces y luego `Enter`.
+
 ## Encabezados
 ## Citas
 ## Listas
@@ -219,14 +225,6 @@ Markdown es un lenguaje de marcado ligero para dar formato a texto en plataforma
 
  
 
-
-<br>
-
-Ejemplos útiles:
-	•	Títulos: 
- ´´´bash
- # Título 1
- ## Título 2
  ### Titulo 3
  ´´´
  # Título 1, ## Título 2, ### Título 3
