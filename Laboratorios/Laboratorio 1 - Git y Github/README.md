@@ -305,6 +305,13 @@ ___cursivaynegrita___
 
 
 ## Links o enlaces 
+Para la creación de links o enlaces, se crean escribiendo la palabra con el enlace corchetes `[]` y el link entre paréntesis `()`
+
+```
+[enlace aquí](www.google.com)
+```
+[enlace aquí](www.google.com)
+
 ## Código
 ## Imágenes
 
