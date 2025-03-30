@@ -210,6 +210,19 @@ Ten en cuenta que Markdown no permite múltiples líneas en blanco seguidas: si 
 Si lo que buscas es hacer un salto de línea dentro del mismo párrafo, debes presionar la barra espaciadora dos veces y luego `Enter`.
 
 ## Encabezados
+Para crear títulos o subtítulos en Markdown se usan las almohadillas (#), que funcionan como indicadores de nivel.
+
+Debes colocar una almohadilla por cada nivel de encabezado que desees, desde el nivel 1 (más grande) hasta el nivel 6 (más pequeño).
+
+Por ejemplo:
+
+# Encabezado de nivel 1  
+## Encabezado de nivel 2  
+### Encabezado de nivel 3  
+#### Encabezado de nivel 4  
+##### Encabezado de nivel 5  
+###### Encabezado de nivel 6  
+
 ## Citas
 ## Listas
 ## Códigos de bloque
