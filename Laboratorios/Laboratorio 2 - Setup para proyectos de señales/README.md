@@ -191,6 +191,11 @@ plt.show()
 - Código en python:
 <img src="./Imágenes en el Anexo/CodigoEMGft.png" alt="Código EMGft" width="600">
 
+En este caso, todo las seccións anteriores en códigos es igual a excepción de que ahora agregamos, como en el caso de ECG, la creación de un vector de frecuencias y la generación de las fft de cada señal.
+```
+
+```
+
 - Resultado:
 <img src="./Imágenes en el Anexo/EMGft.png" alt="Gráfica EMGft" width="800">
 
