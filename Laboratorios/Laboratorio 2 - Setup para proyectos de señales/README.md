@@ -19,14 +19,31 @@
    conda create -n mi_entorno python=3.9 numpy pandas matplotlib 
    ``` 
 
-![FIG1 - Señal EMG](./Imágenes%20en%20el%20Anexo/Captura3.PNG)
+![FIG1 - Señal EMG](./Imágenes%20en%20el%20Anexo/Captura5.PNG)
+
  2. Se activa el entorno con el siguiente código:
    
    ``` 
    conda activate mi_entorno
    ```  
 
-![FIG1 - Señal EMG](./Imágenes%20en%20el%20Anexo/Captura4.PNG)
+![FIG1 - Señal EMG](./Imágenes%20en%20el%20Anexo/Captura6.PNG)
+
+  3. Se instalan más paquetes en el entorno con:
+   
+   ``` 
+   conda install scikit-learn
+   ```  
+
+![FIG1 - Señal EMG](./Imágenes%20en%20el%20Anexo/Captura7.PNG)
+
+  4. Se desactiva el entorno con:
+   
+   ``` 
+   conda deactivate
+   ```
+
+
 
 
 ## Ploteo de señales ECG y EMG
