@@ -13,7 +13,7 @@
 ### - Desde anaconda??
 
 
-## Ploteo de señales EMG y ECG
+## ¿Cómo plotera señales de ECG y EMG con la libreria Neurokit2?
 
 
 
