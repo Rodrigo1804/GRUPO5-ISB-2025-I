@@ -20,29 +20,29 @@ Todos los códigos se ejecutaron desde el terminal CMD con el siguiente comando:
 - Código en python:
 <img src="./Imágenes en el Anexo/CodigoECG.png" alt="Código ECG" width="600">
 
-#### -Resultado:
+- Resultado:
 <img src="./Imágenes en el Anexo/ECG.png" alt="Gráfica ECG" width="800">
 
 ### Ploteo de la señal EMG en el dominio de la frecuencia
-#### - Código en python:
+- Código en python:
 <img src="./Imágenes en el Anexo/CodigoECGft.png" alt="Código ECGft" width="600">
 
-#### - Resultado:
+- Resultado:
 <img src="./Imágenes en el Anexo/ECGft.png" alt="Gráfica ECGft" width="800">
 
 ## 2. EMG
 ### Ploteo de la señal EMG en el dominio del tiempo
-#### - Código en python:
+- Código en python:
 <img src="./Imágenes en el Anexo/CodigoEMG.png" alt="Código EMG" width="600">
 
-#### - Resultado:
+- Resultado:
 <img src="./Imágenes en el Anexo/EMG.png" alt="Gráfica EMG" width="800">
 
 ### Ploteo de la señal EMG en el dominio de la frecuencia
-#### - Código en python:
+- Código en python:
 <img src="./Imágenes en el Anexo/CodigoEMGft.png" alt="Código EMGft" width="600">
 
-#### - Resultado:
+- Resultado:
 <img src="./Imágenes en el Anexo/EMGft.png" alt="Gráfica EMGft" width="800">
 
 
