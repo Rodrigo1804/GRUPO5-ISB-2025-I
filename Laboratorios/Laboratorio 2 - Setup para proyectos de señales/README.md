@@ -32,8 +32,10 @@
 
 ### Ploteo de la señal EMG en el dominio de la frecuencia
 #### Código en python:
-#### Resultado:
+<img src="./Imágenes en el Anexo/CodigoEMGft.png" alt="Código EMGft" width="600">
 
+#### Resultado:
+<img src="./Imágenes en el Anexo/EMGft.png" alt="Gráfica EMGft" width="800">
 
 
 
