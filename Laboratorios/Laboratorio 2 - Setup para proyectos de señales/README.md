@@ -17,11 +17,11 @@
 ### Ploteo de la señal ECG en el dominio del tiempo
 
 ### Ploteo de la señal EMG en el dominio del tiempo
-#### Código en pytho:
+#### Código en python:
 <img src="./Imágenes en el Anexo/CodigoEMG.png" alt="Código EMG" width="600">
 
 #### Resultado:
-<img src="./Imágenes en el Anexo/EMG.png" alt="Gráfica EMG" width="600">
+<img src="./Imágenes en el Anexo/EMG.png" alt="Gráfica EMG" width="800">
 
 
 
