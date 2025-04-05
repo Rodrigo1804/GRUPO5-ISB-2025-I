@@ -14,8 +14,15 @@
 
 
 ## ¿Cómo plotear señales de ECG y EMG con la libreria Neurokit2?
+## ECG
 ### Ploteo de la señal ECG en el dominio del tiempo
+#### Código en python:
+#### Resultado:
+### Ploteo de la señal EMG en el dominio de la frecuencia
+#### Código en python:
+#### Resultado:
 
+## EMG
 ### Ploteo de la señal EMG en el dominio del tiempo
 #### Código en python:
 <img src="./Imágenes en el Anexo/CodigoEMG.png" alt="Código EMG" width="600">
@@ -23,7 +30,9 @@
 #### Resultado:
 <img src="./Imágenes en el Anexo/EMG.png" alt="Gráfica EMG" width="800">
 
-
+### Ploteo de la señal EMG en el dominio de la frecuencia
+#### Código en python:
+#### Resultado:
 
 
 
