@@ -151,6 +151,35 @@ En esta segunda sección, se define la duración de la señal en segundos, la fr
   sampling_rate = 1000  
   tiempo = np.linspace(0, duration, duration * sampling_rate)
    ```
+En esta sección se generan cuatro señales EMG con diferentes características. `burst_number` controla cuántos estallidos (ráfagas musculares) tiene cada señal, mientras que `burst_duration` define la duración de cada estallido. Estas variaciones permiten estudiar cómo cambia la señal con distintos niveles de actividad muscular.
+
+```
+emg3 = nk.emg_simulate(duration=duration, burst_number=3, burst_duration=1.0)  
+emg4_long = nk.emg_simulate(duration=duration, burst_number=4, burst_duration=1.5)  
+emg5 = nk.emg_simulate(duration=duration, burst_number=5, burst_duration=1.0)  
+emg6_short = nk.emg_simulate(duration=duration, burst_number=6, burst_duration=0.5) 
+```
+
+Ahora se organiza la información generada en un `DataFrame` de pandas, usando el vector de tiempo como índice. Cada columna representa una señal EMG distinta. Esto facilita la visualización y posterior análisis comparativo.
+```
+emg_df = pd.DataFrame({  
+    "EMG_3bursts": emg3,  
+    "EMG_4bursts_long": emg4_long,  
+    "EMG_5bursts": emg5,  
+    "EMG_6bursts_short": emg6_short  
+}, index=tiempo)  
+```
+Finalmente, se grafican las señales EMG utilizando signal_plot, con una subgráfica para cada señal. Se agrega un título general, se etiqueta el eje X como tiempo y se ajusta el diseño de las gráficas para una mejor presentación.
+```
+nk.signal_plot(emg_df, subplots=True)  
+plt.suptitle("Comparación de Señales EMG Simuladas (Dominio del Tiempo)", fontsize=16)  
+plt.xlabel("Tiempo (s)")  
+plt.tight_layout(rect=[0, 0, 1, 0.96])  # Para organizar cada gráfica con sus etiquetas.  
+plt.show()  
+```
+
+
+
 
 
 
