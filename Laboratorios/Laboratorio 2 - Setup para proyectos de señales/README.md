@@ -111,6 +111,22 @@ Finalmente, se plotean todas señales con sus respectivas etiquetas en X y Y
 - Código en python:
 <img src="./Imágenes en el Anexo/CodigoECGft.png" alt="Código ECGft" width="600">
 
+En el dominio de la frecuencia, las secciones de importación de librerías y creación del vector de tiempo es igual. Donde es diferente es en la creación del vector de frequencias a partir del vector de tiempo y la obtención de las transformada de fourier de cada señal.
+
+``` 
+frequencies = np.fft.fftfreq(len(tiempo), d=1/sampling_rate)
+
+fft_simple_80 = np.abs(np.fft.fft(ecg_simple_80))  
+fft_simple_120 = np.abs(np.fft.fft(ecg_simple_120))  
+fft_complex_80 = np.abs(np.fft.fft(ecg_complex_80))  
+fft_complex_120 = np.abs(np.fft.fft(ecg_complex_120))
+
+```
+
+El resto de secciones es igual. Solo se debe respetar el uso de 'frequencies' como el index del df para el ploteo y en y el uso de las variables fft.
+
+
+
 - Resultado:
 <img src="./Imágenes en el Anexo/ECGft.png" alt="Gráfica ECGft" width="800">
 
