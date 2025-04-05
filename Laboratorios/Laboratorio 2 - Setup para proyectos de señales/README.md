@@ -1,5 +1,6 @@
-# Anexo: Titulo..
-
+# Laboratorio 2: Setup para proyectos de señales
+* Link de drive para el entorno virtual creado: https://drive.google.com/drive/folders/1VfayKcBG8Qub2Wm_6Im6PK20pVKiZByx?usp=sharing
+  
 ## ¿Cómo crear un entorno virtual?
 
 ### 1. Desde el entorno virtual de Python
