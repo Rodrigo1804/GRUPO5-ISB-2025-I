@@ -123,7 +123,7 @@ fft_complex_120 = np.abs(np.fft.fft(ecg_complex_120))
 
 ```
 
-El resto de secciones es igual. Solo se debe respetar el uso de 'frequencies' como el index del df para el ploteo y en y el uso de las variables fft.
+El resto de secciones es igual. Solo se debe respetar el uso de ´frequencies´ como el index del df para el ploteo y en y el uso de las variables fft.
 
 
 
