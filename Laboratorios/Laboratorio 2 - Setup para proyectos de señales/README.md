@@ -13,13 +13,18 @@
 ### 2. Desde anaconda??
 ![FIG1 - Señal EMG](./Imágenes%20en%20el%20Anexo/Captura1.PNG)
 
-1. Crear un entorno virtual desde el Anaconda prompt, es recomendable ejecutarlo como administrador antes de crear el entorno en el prompt. Después.
+1. Crear un entorno virtual desde el Anaconda prompt, es recomendable ejecutarlo como administrador antes de crear el entorno en el prompt. El entorno se crea con el siguiente código:
    
    ``` 
    conda create -n mi_entorno python=3.9 numpy pandas matplotlib 
    ``` 
 
 ![FIG1 - Señal EMG](./Imágenes%20en%20el%20Anexo/Captura3.PNG)
+ 2. Se activa el entorno con el siguiente código:
+   
+   ``` 
+   conda activate mi_entorno
+   ```  
 
 ![FIG1 - Señal EMG](./Imágenes%20en%20el%20Anexo/Captura4.PNG)
 
