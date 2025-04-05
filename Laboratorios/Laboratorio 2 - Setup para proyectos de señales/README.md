@@ -53,6 +53,57 @@ Todos los códigos se ejecutaron desde el terminal CMD con el siguiente comando:
 - Código en python:
 <img src="./Imágenes en el Anexo/CodigoECG.png" alt="Código ECG" width="600">
 
+``` 
+   import neurokit2 as nk
+   import pandas as pd
+   import matplotlib.pyplot as plt
+   import numpy as np
+   ```
+En esta primera sección, se importan las librerías de uso para el ploteo de las señales. Por ejemplo, neurokit2 se usa para la simulación de señales fisiológicas como ECG.
+
+``` 
+ duration = 10
+ sampling_rate = 1000
+ tiempo = np.linspace(0, duration, duration * sampling_rate)
+```
+En esta segunda sección, se define la duración de las señales en segundos, la frecuencia de sampleo y el vector de tiempo para el ploteo de las señales.
+
+``` 
+ecg_simple_80 = nk.ecg_simulate(duration=duration, heart_rate=80, method="simple")
+ecg_simple_120 = nk.ecg_simulate(duration=duration, heart_rate=120, method="simple")
+ecg_complex_80 = nk.ecg_simulate(duration=duration, heart_rate=80, method="ecgsyn")
+ecg_complex_120 = nk.ecg_simulate(duration=duration, heart_rate=120, method="ecgsyn")
+
+```
+En esta tercera sección, se define la duración de la señal como el vector de tiempo que se había creado previamente, la frecuencia cardíaca de la señal y el modelo con el que se generará la señal. En este caso se usa simple y ecgsyn que es más complejo y realista.
+
+``` 
+ecg_df = pd.DataFrame({
+    "ECG_Simple_80bpm": ecg_simple_80,
+    "ECG_Simple_120bpm": ecg_simple_120,
+    "ECG_Complex_80bpm": ecg_complex_80,
+    "ECG_Complex_120bpm": ecg_complex_120
+}, index=tiempo)
+
+```
+Ahora, se crea un dataframe para adjuntar las señales y presentarlas mejor en el ploteo.
+
+``` 
+# Graficar
+nk.signal_plot(ecg_df, subplots=True)
+plt.suptitle("Comparación de Señales ECG Simuladas (Dominio del Tiempo)", fontsize=16)
+plt.xlabel("Tiempo (s)")
+plt.tight_layout(rect=[0, 0, 1, 0.96])  # Para organizar cada gráfica con sus etiquetas.
+plt.show()
+
+```
+Finalmente, se plotean todas señales con sus respectivas etiquetas en X y Y
+
+
+
+
+
+
 - Resultado:
 <img src="./Imágenes en el Anexo/ECG.png" alt="Gráfica ECG" width="800">
 
