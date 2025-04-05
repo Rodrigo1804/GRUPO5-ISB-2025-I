@@ -192,9 +192,28 @@ plt.show()
 <img src="./Imágenes en el Anexo/CodigoEMGft.png" alt="Código EMGft" width="600">
 
 En este caso, todo las seccións anteriores en códigos es igual a excepción de que ahora agregamos, como en el caso de ECG, la creación de un vector de frecuencias y la generación de las fft de cada señal.
-```
 
 ```
+# Calcular FFT
+frequencies = np.fft.fftfreq(len(tiempo), d=1/sampling_rate)
+
+fft_emg3 = np.abs(np.fft.fft(emg3))
+fft_emg4 = np.abs(np.fft.fft(emg4_long))
+fft_emg5 = np.abs(np.fft.fft(emg5))
+fft_emg6 = np.abs(np.fft.fft(emg6_short))
+
+# Visualizar
+fft_df = pd.DataFrame({
+    "EMG_3bursts": fft_emg3,
+    "EMG_4bursts_long": fft_emg4,
+    "EMG_5bursts": fft_emg5,
+    "EMG_6bursts_short": fft_emg6
+}, index=frequencies)
+
+# Ordenar el índice para que vaya de -f a +f
+fft_df = fft_df.sort_index()
+```
+Claramente, se deben respetar las etiquetas en el ploteo, frecuencias y las fft en X y Y respectivamente.
 
 - Resultado:
 <img src="./Imágenes en el Anexo/EMGft.png" alt="Gráfica EMGft" width="800">
