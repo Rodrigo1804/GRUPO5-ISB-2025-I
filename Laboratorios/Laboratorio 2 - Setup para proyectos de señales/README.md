@@ -11,6 +11,7 @@
 5. Para poder instalar las librerias necesarias para el laboratorio en el entorno virtual se usa el siguiente comando: `pip install neurokit2 matplotlib numpy pandas`
 
 ### 2. Desde anaconda??
+![FIG1 - Señal EMG](./Imágenes%20en%20el%20Anexo/Captura.png)
 
 
 ## Ploteo de señales ECG y EMG
