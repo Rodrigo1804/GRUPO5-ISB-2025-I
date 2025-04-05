@@ -24,7 +24,10 @@
 
 ### Ploteo de la señal EMG en el dominio de la frecuencia
 #### Código en python:
+<img src="./Imágenes en el Anexo/CodigoECGft.png" alt="Código ECGft" width="600">
+
 #### Resultado:
+<img src="./Imágenes en el Anexo/ECGft.png" alt="Gráfica ECGft" width="800">
 
 ## EMG
 ### Ploteo de la señal EMG en el dominio del tiempo
