@@ -10,7 +10,7 @@
 4. Verificar las librerías instaladas con:  `pip list`
 5. Para poder instalar las librerias necesarias para el laboratorio en el entorno virtual se usa el siguiente comando: `pip install neurokit2 matplotlib numpy pandas`
 
-### 2. Desde anaconda??
+### 2. Desde anaconda
 ![FIG1 - Señal EMG](./Imágenes%20en%20el%20Anexo/Captura1.PNG)
 
 1. Crear un entorno virtual desde el Anaconda prompt, es recomendable ejecutarlo como administrador antes de crear el entorno en el prompt. El entorno se crea con el siguiente código:
@@ -134,6 +134,26 @@ El resto de secciones es igual. Solo se debe respetar el uso de `frequencies` co
 ### Ploteo de la señal EMG en el dominio del tiempo
 - Código en python:
 <img src="./Imágenes en el Anexo/CodigoEMG.png" alt="Código EMG" width="600">
+
+En esta primera sección, se importan las librerías necesarias. neurokit2 se usa para la simulación de señales fisiológicas como EMG (electromiograma), mientras que pandas, matplotlib y numpy ayudan con el manejo de datos y la visualización.
+
+``` 
+   import neurokit2 as nk
+   import pandas as pd
+   import matplotlib.pyplot as plt
+   import numpy as np
+   ```
+
+En esta segunda sección, se define la duración de la señal en segundos, la frecuencia de muestreo (sampling_rate), y se genera un vector de tiempo uniforme utilizando linspace.
+
+``` 
+  duration = 10  
+  sampling_rate = 1000  
+  tiempo = np.linspace(0, duration, duration * sampling_rate)
+   ```
+
+
+
 
 - Resultado:
 <img src="./Imágenes en el Anexo/EMG.png" alt="Gráfica EMG" width="800">
