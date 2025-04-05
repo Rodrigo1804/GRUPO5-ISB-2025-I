@@ -21,6 +21,7 @@
 
 #### Resultado:
 <img src="./Imágenes en el Anexo/ECG.png" alt="Gráfica ECG" width="800">
+
 ### Ploteo de la señal EMG en el dominio de la frecuencia
 #### Código en python:
 #### Resultado:
