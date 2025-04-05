@@ -15,6 +15,9 @@
 
 ## ¿Cómo plotear señales de ECG y EMG con la libreria Neurokit2?
 
+<img src="./Imágenes en el Anexo/CodigoEMG.png" alt="Código EMG" width="600">
+<img src="./Imágenes en el Anexo/EMG.png" alt="Gráfica EMG" width="600">
+
 
 
 
