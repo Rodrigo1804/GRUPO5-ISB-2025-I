@@ -4,17 +4,17 @@
 
 ### 1. Desde el entorno virtual de Python
 ![FIG1 - Señal EMG](./Imágenes%20en%20el%20Anexo/FIG1.png)
-1. Abre el terminal (cmd) y ubica la ruta donde guardarás tu entorno virtual.
+1. Abrir el terminal (cmd) y ubica la ruta donde guardarás tu entorno virtual.
 2. Este comando nos permite crear un entorno virtual: `python -m venv Nombre`
-3. Activa el entorno virtual con: `Nombre\Scripts\activate`
-4. Verifica las librerías instaladas con:  `pip list`
+3. Activar el entorno virtual con: `Nombre\Scripts\activate`
+4. Verificar las librerías instaladas con:  `pip list`
 5. Para poder instalar las librerias necesarias para el laboratorio en el entorno virtual se usa el siguiente comando: `pip install neurokit2 matplotlib numpy pandas`
 
 ### 2. Desde anaconda??
 
 
 ## Ploteo de señales ECG y EMG
-Todos los códigos se ejecutaron desde el terminal CMD con el siguiente comando: python nombre.py
+Todos los códigos se ejecutaron desde el terminal CMD con el siguiente comando: `python nombre.py`
 ## 1. ECG
 ### Ploteo de la señal ECG en el dominio del tiempo
 - Código en python:
