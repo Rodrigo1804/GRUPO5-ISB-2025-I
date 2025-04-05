@@ -10,6 +10,13 @@
 #### 4. Con "pip list" se puede verificar las librerias en el entorno.
 #### 5. Para poder instalar las librerias necesarias para el laboratorio en el entorno virtual se usa el siguiente comando: pip install Lib1 Lib2 Lib3.
 
+### Desde anaconda??
+
+
+## Ploteo de señales EMG y ECG
+
+
+
 
 
 
