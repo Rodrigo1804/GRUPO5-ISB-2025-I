@@ -11,14 +11,7 @@
  ## 3. Materiales y metodología:
  ## 4. Resultados y limitaciones:
 
-### Bíceps:
-![Bíceps](./Imágenes%20en%20el%20anexo/Biceps.png)
 
-### Tríceps:
-![Tríceps](./Imágenes%20en%20el%20anexo/Triceps.png)
-
-### Hombro:
-![Hombro](./Imágenes%20en%20el%20anexo/Hombro.png)
 
  
  ## 5. Referencias:
