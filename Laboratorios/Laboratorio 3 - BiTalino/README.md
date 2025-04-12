@@ -30,7 +30,7 @@ El propósito de esta práctica es adquirir señales de EMG utilizando el kit BI
 
 #### Triceps
 
-![F1](./Imágenes%20en%20el%20anexo/F1.png)
+![F1](./Imágenes%20en%20el%20anexo/CONEXIONES%20EN%20EL%20HOMBRO.png)
 
  EXPLICAR CONEXIONES, ELECTRODO DE REFERENCIA Y ESO}
  
