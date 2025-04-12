@@ -34,9 +34,13 @@ El propósito de esta práctica es adquirir señales de EMG utilizando el kit BI
 
 **- Negro → Electrodo de tierra (GND):** Este no mide señal, pero es fundamental para estabilizar el sistema y eliminar interferencias eléctricas. Se coloca sobre una zona eléctricamente neutra (por ejemplo, una parte ósea o alejada del músculo principal). 
 
+#### Bíceps
+![F1](./Imágenes%20en%20el%20anexo/CONEXIONES%20EN%20EL%20BÍCEPS.png)
+
+
 #### Triceps
 
-![F1](./Imágenes%20en%20el%20anexo/CONEXIONES%20EN%20EL%20HOMBRO.png)
+![F2](./Imágenes%20en%20el%20anexo/CONEXIONES%20EN%20EL%20TRÍCEPS.png)
 
 Colocamos los electrodos siguiendo el protocolo de electromiografía de superficie (sEMG) para captar la actividad muscular con presición. Se han ubicado dos electrodos, uno activo (rojo) y uno de referencia (blanco) sobre el vientre muscular, alineados con las fibras del tríceps braquial, para maximizar la captación de potenciales eléctricos durante el reposo y la contracción. El electrodo de tierra se ha colocado en una zona ósea, en este caso el codo.
  
