@@ -27,26 +27,26 @@ El propósito de esta práctica es adquirir señales de EMG utilizando el kit BI
 
 1. Encender la placa BITalino y emparejarla vía Bluetooth (PIN: 1234).
 2. Colocar electrodos sobre los músculos (bíceps, tríceps, deltoides).
-#### Tipos de electrodos usados: 
+#### Tipos de electrodos usados: [1]
 **- Rojo → Electrodo activo (+):** Se coloca sobre el vientre del músculo que se desea medir, justo donde se quiere recibir la actividad eléctrica. Es el que detecta los cambios de voltaje cuando el músculo se activa. 
 
 **- Blanco → Electrodo de referencia (-):** Este también se coloca sobre el músculo, pero un poco más alejado del rojo, a lo largo de las fibras musculares. Trabaja en conjunto con el rojo para captar la diferencia de potencial eléctrico entre ambos puntos.
 
-**- Negro → Electrodo de tierra (GND):** Este no mide señal, pero es fundamental para estabilizar el sistema y eliminar interferencias eléctricas. Se coloca sobre una zona eléctricamente neutra (por ejemplo, una parte ósea o alejada del músculo principal). [1]
+**- Negro → Electrodo de tierra (GND):** Este no mide señal, pero es fundamental para estabilizar el sistema y eliminar interferencias eléctricas. Se coloca sobre una zona eléctricamente neutra (por ejemplo, una parte ósea o alejada del músculo principal). 
 
 #### Triceps
 
 ![F1](./Imágenes%20en%20el%20anexo/CONEXIONES%20EN%20EL%20HOMBRO.png)
 
-Colocamos los electrodos siguiendo el protocolo de electromiografía de superficie (sEMG) para captar la actividad muscular con presición. Se han ubicado dos electrodos, uno activo (rojo) y uno de referencia (blanco) sobre el vientre muscular, alineados con las fibras del tríceps braquial, para maximizar la captación de potenciales eléctricos durante el reposo y la contracción. El electrodo de tierra se ha colocado en una zona ósea o eléctricamente neutra para reducir el ruido de la señal.
+Colocamos los electrodos siguiendo el protocolo de electromiografía de superficie (sEMG) para captar la actividad muscular con presición. Se han ubicado dos electrodos, uno activo (rojo) y uno de referencia (blanco) sobre el vientre muscular, alineados con las fibras del tríceps braquial, para maximizar la captación de potenciales eléctricos durante el reposo y la contracción. El electrodo de tierra se ha colocado en una zona ósea, en este caso el codo.
  
-4. Registrar señales bajo estas condiciones (1 min cada una): 
+3. Registrar señales bajo estas condiciones (1 min cada una): 
    - Reposo
    - Contracción leve (sin carga)
    - Contracción con carga (~2-3 kg)
 
-5. Repetir 3 veces cada condición para mitigar ruido.
-6. Guardar los datos y grabar video con señal + gesto.
+4. Repetir 3 veces cada condición para mitigar ruido.
+5. Guardar los datos y grabar video con señal + gesto.
 
 ```python
 import numpy as np
