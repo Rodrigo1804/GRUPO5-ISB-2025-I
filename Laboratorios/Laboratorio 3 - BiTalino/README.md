@@ -244,9 +244,13 @@ En cuanto al dominio de la frecuencia, se vio que hay una mayor magnitud entre l
  
  ## 5. Referencias: <a name="referencias"></a> 
 [1] Manual del usuario del sensor de electromiografía (EMG) biosignalsplux [Internet]. Manuals+. 2021 [citado el 12 de abril de 2025]. Disponible en: https://manuals.plus/es/biosignalsplux/electromyography-emg-sensor-manual 
+
 [2] Latfi MAK, Nordin NHD, Jasni F. Identification of active human upper limb muscle for intention detection activity. PERINTIS eJournal. 2024;14(1):67–78.
+
 [3] Ebied A. Biceps brachii muscle fatigue assessment through EMG median frequency analysis. Int Conf Electr Eng. 2014 May. DOI: 10.21608/iceeng.2014.30468
+
 [4] Aguirre R, Castillo S, Rojas E, Giraldo E. Acquisition and processing of EMG signals from BITalino for hand movement classification. Rev Fac Ing Univ Antioquia. 2020;(96):11–9. doi:10.17533/udea.redin.20200256
+
 [i] Romero Mirete, C. (2023). Análisis de fatiga muscular usando HD-EMG y herramientas de procesamiento de señales. Universidad de Alicante.
 [ii] González, J. A., & García, M. L. (2023). Análisis tiempo-frecuencia de parámetros de fatiga en la señal de electromiografía de superficie. Universidad Politécnica de Valencia.
 
