@@ -29,7 +29,9 @@ El propósito de esta práctica es adquirir señales de EMG utilizando el kit BI
 2. Colocar electrodos sobre los músculos (bíceps, tríceps, deltoides).
 #### Tipos de electrodos usados: 
 **- Rojo → Electrodo activo (+):** Se coloca sobre el vientre del músculo que se desea medir, justo donde se quiere recibir la actividad eléctrica. Es el que detecta los cambios de voltaje cuando el músculo se activa. 
+
 **- Blanco → Electrodo de referencia (-):** Este también se coloca sobre el músculo, pero un poco más alejado del rojo, a lo largo de las fibras musculares. Trabaja en conjunto con el rojo para captar la diferencia de potencial eléctrico entre ambos puntos.
+
 **- Negro → Electrodo de tierra (GND):** Este no mide señal, pero es fundamental para estabilizar el sistema y eliminar interferencias eléctricas. Se coloca sobre una zona eléctricamente neutra (por ejemplo, una parte ósea o alejada del músculo principal). [1]
 
 #### Triceps
