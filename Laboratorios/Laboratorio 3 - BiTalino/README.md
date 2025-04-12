@@ -45,6 +45,11 @@ Colocamos los electrodos siguiendo el protocolo de electromiografía de superfic
 ![F2](./Imágenes%20en%20el%20anexo/CONEXIONES%20EN%20EL%20TRÍCEPS.png)
 
 
+#### Triceps
+
+![F3](./Imágenes%20en%20el%20anexo/CONEXIONES%20EN%20EL%20HOMBRO.png)
+
+
 3. Registrar señales bajo estas condiciones (1 min cada una): 
    - Reposo
    - Contracción leve (sin carga)
