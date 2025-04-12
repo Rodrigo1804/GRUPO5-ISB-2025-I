@@ -86,9 +86,9 @@ plt.show()
 
 <div align="center">
 
-|  **Dedo en reposo**  | **Dedo sin oposición** | **Dedo con oposición** |
+|  **Medición del Bíceps**  | **Medición del Tríceps** | **Medición del Hombro** |
 |:------------:|:---------------:|:------------:|
-|<video src="https://user-images.githubusercontent.com/62686249/231337697-050966ab-cd84-454a-b6eb-9ab720da62cd.mp4"></video>|<video src="https://user-images.githubusercontent.com/62686249/231337782-f487bdb1-d614-4010-8caa-26c267cba7f6.mp4"></video>|<video src= "https://user-images.githubusercontent.com/62686249/231337918-3db1b3f2-4e32-4e3c-bb6f-f8fb607a03d2.mp4"></video>|
+|<video src="https://user-images.githubusercontent.com/62686249/231337697-050966ab-cd84-454a-b6eb-9ab720da62cd.mp4"></video>|<video src="https://user-images.githubusercontent.com/62686249/231337782-f487bdb1-d614-4010-8caa-26c267cba7f6.mp4"></video>|<video src= "https://files.catbox.moe/rlumto.mp4"></video>|
 </div>
 
 ---
