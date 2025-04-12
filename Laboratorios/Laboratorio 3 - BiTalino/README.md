@@ -9,10 +9,10 @@
  ## 1. Introducción: <a name="introducción"></a>
 La electromiografía (EMG) es una técnica diagnóstica utilizada para evaluar la salud de los músculos y los nervios que los controlan. Esta prueba detecta la actividad eléctrica producida por las fibras musculares en respuesta a la estimulación nerviosa, lo cual permite identificar disfunciones musculares, trastornos neuromusculares o problemas de comunicación entre nervios y músculos. En contextos educativos y de investigación, la EMG también es clave para el análisis del esfuerzo físico, el diseño de interfaces mioeléctricas y la rehabilitación neuromuscular [1].
 Para registrar estas señales de manera práctica y accesible, se utilizan plataformas como BITalino, un sistema portátil de adquisición de biopotenciales que incluye sensores de EMG y permite el análisis en tiempo real a través de herramientas como OpenSignals.
- ## 2. Propósito de la práctica:
+ ## 2. Propósito de la práctica: <a name="propósito-de-la-práctica"></a>
 El propósito de esta práctica es adquirir señales de EMG utilizando el kit BITalino, evaluando su comportamiento bajo tres condiciones fisiológicas: reposo, contracción leve y contracción con carga. Además, se busca comprender el uso del software OpenSignals para la visualización de biopotenciales y realizar un análisis básico de las señales obtenidas.
 
- ## 3. Materiales y metodología:
+ ## 3. Materiales y metodología: <a name="materiales-y-metodología"></a>
  ### Materiales:
  | Cantidad | Descripción                         |
 |----------|-------------------------------------|
@@ -34,7 +34,7 @@ El propósito de esta práctica es adquirir señales de EMG utilizando el kit BI
 
  EXPLICAR CONEXIONES, ELECTRODO DE REFERENCIA Y ESO}
  
-4. Registrar señales bajo estas condiciones (1 min cada una):
+4. Registrar señales bajo estas condiciones (1 min cada una): 
    - Reposo
    - Contracción leve (sin carga)
    - Contracción con carga (~2-3 kg)
@@ -71,7 +71,7 @@ plt.show()
 Aca poner videos
 
 ---
- ## 4. Resultados y limitaciones:
+ ## 4. Resultados y limitaciones: <a name="resultados-y-limitaciones"></a> 
  interpretar basado en evidencia
 
 ### Bíceps:
@@ -84,6 +84,6 @@ Aca poner videos
 ![Hombro](./Imágenes%20en%20el%20anexo/Hombro.png)
 
  
- ## 5. Referencias:
+ ## 5. Referencias: <a name="referencias"></a> 
 [1] Johns Hopkins Medicine, “Electromyography (EMG),” [En línea]. Disponible en: https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/electromyography-emg
  
