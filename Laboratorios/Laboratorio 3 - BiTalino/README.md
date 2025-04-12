@@ -45,7 +45,7 @@ Colocamos los electrodos siguiendo el protocolo de electromiografía de superfic
 ![F2](./Imágenes%20en%20el%20anexo/CONEXIONES%20EN%20EL%20TRÍCEPS.png)
 
 
-#### Triceps
+#### Deltoides
 
 ![F3](./Imágenes%20en%20el%20anexo/CONEXIONES%20EN%20EL%20HOMBRO.png)
 
@@ -86,7 +86,7 @@ plt.show()
 
 <div align="center">
 
-|  **Mediciones del Bíceps**  | **Mediciones del Tríceps** | **Mediciones del Hombro** |
+|  **Mediciones del Bíceps**  | **Mediciones del Tríceps** | **Mediciones del Deltoides** |
 |:------------:|:---------------:|:------------:|
 |<div align="center">[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://youtube.com/shorts/0aj-eqk9wSc)</div>|<div align="center">[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://youtube.com/shorts/nDC6Fyjp32k)</div>|<div align="center">[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://youtube.com/shorts/0aj-eqk9wSc)</div>|
 </div>
