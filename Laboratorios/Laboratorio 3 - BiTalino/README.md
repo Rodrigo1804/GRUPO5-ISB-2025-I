@@ -112,11 +112,21 @@ Se realizaron las mediciones de forma continua, es decir, mientras el músculo e
 ### Deltoides:
 ![Hombro](./Imágenes%20en%20el%20anexo/Señal_Hombro.png)
 
+A partir de la señal EMG filtrada, podemos establecer las 3 condiciones de la persona durante la toma de datos. De igual manera, podemos interpretar cada tramo acorde a lo encontrado en la bibliografía:
+ 
+a. Condición de reposo (0 a 20 s aprox.): aquí se puede ver que la señal no tiene amplitudes con variabilidad significativa sino más bien la amplitud es muy pequeña, casi cercana a cero. Este resultado es carcterístico de un músculo en estado de reposo ya que las unidades motoras no están realizando ningún tipo de contracción sino que están relajadas. La baja señal registrada puede darse debido a la presencia de artefactos o hasta de actividad mínima involuntaria de la persona [i].
+
+b. Condición de contracción leve sin carga (20 a 40 s aprox.): se visualiza una amplitud significativa de la señal. Esta señal obtenida indica que hay unidades motoras activas para mantener una contracción leve. Además, debido a que no existe una carga aplicada al movimiento del músculo y solo se está moviendo lateralmente el brazo, tanto la amplitud de la actividad como su duración no son tan grandes por lo que tampoco se evidenciará fatiga muscular [ii]. 
+
+c. Condición de contracción con carga (45 a 85 s aprox.): en este tramo de tiempo, se visualiza un aumento significativo en la amplitud de la señal con presencia de picos más frecuentes. Esto es el resultado de una mayor cantidad de unidades motoras activas puesto que se está realizando la respuesta a una carga externa aplicada (en este caso es una carga de entre 2 a 3 kg) [i]. En este tipo de condiciones, es en donde suele iniciarse la fatiga muscular la cual puede llegar a dañar el músculo si se mantiene dicha carga de forma repetitiva y sin realizar pausas [ii].
+
+En cuanto al dominio de la frecuencia, se vio que hay una mayor magnitud entre los 50 a 200 Hz aproximadamente y después hay una disminución en la misma. De acuerdo a la información encontrada, esto es un resultado típico en músculos superficiales sanos como lo es, en este caso, Deltoides [ii].
  
  ## 5. Referencias: <a name="referencias"></a> 
 [1] Manual del usuario del sensor de electromiografía (EMG) biosignalsplux [Internet]. Manuals+. 2021 [citado el 12 de abril de 2025]. Disponible en: https://manuals.plus/es/biosignalsplux/electromyography-emg-sensor-manual 
 
-[2]
+[i] Romero Mirete, C. (2023). Análisis de fatiga muscular usando HD-EMG y herramientas de procesamiento de señales. Universidad de Alicante.
+[ii] González, J. A., & García, M. L. (2023). Análisis tiempo-frecuencia de parámetros de fatiga en la señal de electromiografía de superficie. Universidad Politécnica de Valencia.
 
 [1] Johns Hopkins Medicine, “Electromyography (EMG),” [En línea]. Disponible en: https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/electromyography-emg
  
