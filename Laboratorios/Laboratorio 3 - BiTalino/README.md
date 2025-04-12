@@ -96,7 +96,7 @@ Videos de las señales obtenidas en tiempo real de los músculos de interés:
 
 |  **Señal - Bíceps**  | **Señal - Tríceps** | **Señal - Deltoides** |
 |:------------:|:---------------:|:------------:|
-|<div align="center">[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://youtube.com/shorts/wer5MB5YBvE)</div>|<div align="center">[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://youtube.com/shorts/nDC6Fyjp32k)</div>|<div align="center">[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://youtube.com/shorts/0aj-eqk9wSc)</div>|
+|<div align="center">[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://youtube.com/shorts/b1Xp7OAcqYE)</div>|<div align="center">[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://youtube.com/shorts/z6KlnRIPieA)</div>|<div align="center">[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://youtube.com/shorts/0aj-eqk9wSc)</div>|
 
 
 ---
