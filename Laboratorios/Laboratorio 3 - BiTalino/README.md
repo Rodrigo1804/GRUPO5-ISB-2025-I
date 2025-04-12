@@ -218,13 +218,13 @@ Se realizaron las mediciones de forma continua, es decir, mientras el músculo e
 
 A partir de la señal registrada EMG para el bíceps braquial podemos interpretar para cada tramo y respecto con la bibliografía:
 
-a. Condición de reposo (30 a 60 s aprox.): En este tramo se puede obervar que la señal tiene una amplitud muy baja, correspondiente al estado de reposo del músculo. Esto nos indica que en ausencia de la contracción o extensión activa del biceps braquial no se registra una actividad significativa [a]. En cuanto a la señal filtrada, podemos observar una señal más limpia pero sigue teniendo cierto ruido que podria provenir de ruido de interferencia, artefactos de interferencias y ruido de la piel-electrodo [b].
+a. Condición de reposo (30 a 60 s aprox.): En este tramo se puede obervar que la señal tiene una amplitud muy baja, correspondiente al estado de reposo del músculo. Esto nos indica que en ausencia de la contracción o extensión activa del biceps braquial no se registra una actividad significativa [2]. En cuanto a la señal filtrada, podemos observar una señal más limpia pero sigue teniendo cierto ruido que podria provenir de ruido de interferencia, artefactos de interferencias y ruido de la piel-electrodo [3].
 
-b. Condición de contracción leve sin carga (80 a 120 s aprox.): En este tramo se evidencia un aumento en la amplitud de la señal EMG, lo que indica la activación del bíceps durante el movimiento de contracción. Asimismo, la corta duración del movimiento y la falta de carga no genera una fatiga en el músculo [a].
+b. Condición de contracción leve sin carga (80 a 120 s aprox.): En este tramo se evidencia un aumento en la amplitud de la señal EMG, lo que indica la activación del bíceps durante el movimiento de contracción. Asimismo, la corta duración del movimiento y la falta de carga no genera una fatiga en el músculo [2].
 
-c. Condición de contracción con carga (120 a 175 s aprox.): En este tramo muestra un incremento considerable en amplitud de la señal. Esto nos indica en un mayor reclutamiento de unidades motoras para vencer la carga [a]. Comparando la contracción con carga y sin carga se puede notar que mientras va transcurriendo el tiempo la amplitud de la señal va disminuyendo, lo cual podría indicar fatíga; sin embargo, la carga usada no es constante lo que podria resultar en variación de la amplitud de la señal. 
+c. Condición de contracción con carga (120 a 175 s aprox.): En este tramo muestra un incremento considerable en amplitud de la señal. Esto nos indica en un mayor reclutamiento de unidades motoras para vencer la carga [2]. Comparando la contracción con carga y sin carga se puede notar que mientras va transcurriendo el tiempo la amplitud de la señal va disminuyendo, lo cual podría indicar fatíga; sin embargo, la carga usada no es constante lo que podria resultar en variación de la amplitud de la señal. 
 
-Con respecto al dominio de la frecuencia corresponiente al biceps braquial, se puede observar que la mayor magnitud entre 60 y 120 Hz. Este rango es típico de contracciones musculares activas [c]. Esta característica nos puede indicar si hubo fatiga en el movimiento con carga; por los tanto, en caso de fatiga, la mayor amplitud del espectro EMG deberia concentrarse en zonas por debajo del rango típico. Con esta información, se puede resaltar la ausencia de fatiga en las 3 mediciones realizadas [c].
+Con respecto al dominio de la frecuencia corresponiente al biceps braquial, se puede observar que la mayor magnitud entre 60 y 120 Hz. Este rango es típico de contracciones musculares activas [4]. Esta característica nos puede indicar si hubo fatiga en el movimiento con carga; por los tanto, en caso de fatiga, la mayor amplitud del espectro EMG deberia concentrarse en zonas por debajo del rango típico. Con esta información, se puede resaltar la ausencia de fatiga en las 3 mediciones realizadas.
 
 ### Tríceps:
 ![Tríceps](./Imágenes%20en%20el%20anexo/Señal_Triceps.png)
@@ -244,7 +244,9 @@ En cuanto al dominio de la frecuencia, se vio que hay una mayor magnitud entre l
  
  ## 5. Referencias: <a name="referencias"></a> 
 [1] Manual del usuario del sensor de electromiografía (EMG) biosignalsplux [Internet]. Manuals+. 2021 [citado el 12 de abril de 2025]. Disponible en: https://manuals.plus/es/biosignalsplux/electromyography-emg-sensor-manual 
-
+[2] Latfi MAK, Nordin NHD, Jasni F. Identification of active human upper limb muscle for intention detection activity. PERINTIS eJournal. 2024;14(1):67–78.
+[3] Ebied A. Biceps brachii muscle fatigue assessment through EMG median frequency analysis. Int Conf Electr Eng. 2014 May. DOI: 10.21608/iceeng.2014.30468
+[4] Aguirre R, Castillo S, Rojas E, Giraldo E. Acquisition and processing of EMG signals from BITalino for hand movement classification. Rev Fac Ing Univ Antioquia. 2020;(96):11–9. doi:10.17533/udea.redin.20200256
 [i] Romero Mirete, C. (2023). Análisis de fatiga muscular usando HD-EMG y herramientas de procesamiento de señales. Universidad de Alicante.
 [ii] González, J. A., & García, M. L. (2023). Análisis tiempo-frecuencia de parámetros de fatiga en la señal de electromiografía de superficie. Universidad Politécnica de Valencia.
 
