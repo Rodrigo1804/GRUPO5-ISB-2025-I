@@ -56,7 +56,8 @@ Colocamos los electrodos siguiendo el protocolo de electromiografía de superfic
    - Contracción con carga (~2-3 kg)
 
 4. Repetir 3 veces cada condición para mitigar ruido.
-5. Guardar los datos y grabar video con señal + gesto.
+5. Grabar video de cada gesto mientras se visualiza la señal en OpenSignals, para luego contrastar el gesto con la actividad EMG.
+6. Exportar los arhivos txt desde OpenSignals.
 
 
 ## Procesamiento de la señal EMG con Python
