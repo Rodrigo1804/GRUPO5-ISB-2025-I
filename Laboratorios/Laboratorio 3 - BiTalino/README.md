@@ -93,16 +93,16 @@ plt.show()
 
 ---
  ## 4. Resultados y limitaciones: <a name="resultados-y-limitaciones"></a> 
- interpretar basado en evidencia
+Se realizaron las mediciones de forma continua, es decir, mientras el músculo estaba en reposo, en contracción leve y una contracción moderada (con carga). Por ello, se muestran las señales de los músculos evaluados, tanto la señal original, filtrada y junto a su representación en el dominio de la frecuecia (FFT):
 
 ### Bíceps:
-![Bíceps](./Imágenes%20en%20el%20anexo/Biceps.png)
+![Bíceps](./Imágenes%20en%20el%20anexo/Señal_Biceps.png)
 
 ### Tríceps:
-![Tríceps](./Imágenes%20en%20el%20anexo/Triceps.png)
+![Tríceps](./Imágenes%20en%20el%20anexo/Señal_Triceps.png)
 
 ### Hombro:
-![Hombro](./Imágenes%20en%20el%20anexo/Hombro.png)
+![Hombro](./Imágenes%20en%20el%20anexo/Señal_Hombro.png)
 
  
  ## 5. Referencias: <a name="referencias"></a> 
