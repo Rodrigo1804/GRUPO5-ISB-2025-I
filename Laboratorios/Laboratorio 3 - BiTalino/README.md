@@ -28,6 +28,10 @@ El propósito de esta práctica es adquirir señales de EMG utilizando el kit BI
 1. Encender la placa BITalino y emparejarla vía Bluetooth (PIN: 1234).
 2. Colocar electrodos sobre los músculos (bíceps, tríceps, deltoides).
 
+#### Triceps
+
+![F1](./Imágenes%20en%20el%20anexo/F1.png)
+
  EXPLICAR CONEXIONES, ELECTRODO DE REFERENCIA Y ESO}
  
 4. Registrar señales bajo estas condiciones (1 min cada una):
