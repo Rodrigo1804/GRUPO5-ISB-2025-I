@@ -12,7 +12,7 @@ Para registrar estas señales de manera práctica y accesible, se utilizan plata
  ## 2. Propósito de la práctica: <a name="propósito-de-la-práctica"></a>
 El propósito de esta práctica es adquirir señales de EMG utilizando el kit BITalino, evaluando su comportamiento bajo tres condiciones fisiológicas: reposo, contracción leve y contracción con carga. Además, se busca comprender el uso del software OpenSignals para la visualización de biopotenciales y realizar un análisis básico de las señales obtenidas.
 
- ## 3. Materiales y metodología: <a name="materiales-y-metodología"></a>
+ ## 3. Materiales y metodología: <a name="materiales-y-metodología"></a> 
  ### Materiales:
  | Cantidad | Descripción                         |
 |----------|-------------------------------------|
@@ -39,6 +39,15 @@ Colocamos los electrodos siguiendo el protocolo de electromiografía de superfic
 #### Bíceps
 ![F1](./Imágenes%20en%20el%20anexo/CONEXIONES%20EN%20EL%20BÍCEPS.png)
 
+A partir de la señal registrada EMG para el bíceps braquial podemos interpretar para cada tramo y respecto con la bibliografía:
+
+a. Condición de reposo (30 a 60 s aprox.): En este tramo se puede obervar que la señal tiene una amplitud muy baja, correspondiente al estado de reposo del músculo. Esto nos indica que en ausencia de la contracción o extensión activa del biceps braquial no se registra una actividad significativa [a]. En cuanto a la señal filtrada, podemos observar una señal más limpia pero sigue teniendo cierto ruido que podria provenir de ruido de interferencia, artefactos de interferencias y ruido de la piel-electrodo [b].
+
+b. Condición de contracción leve sin carga (80 a 120 s aprox.): En este tramo se evidencia un aumento en la amplitud de la señal EMG, lo que indica la activación del bíceps durante el movimiento de contracción. Asimismo, la corta duración del movimiento y la falta de carga no genera una fatiga en el músculo [a].
+
+c. Condición de contracción con carga (120 a 175 s aprox.): En este tramo muestra un incremento considerable en amplitud de la señal. Esto nos indica en un mayor reclutamiento de unidades motoras para vencer la carga [a]. Comparando la contracción con carga y sin carga se puede notar que mientras va transcurriendo el tiempo la amplitud de la señal va disminuyendo, lo cual podría indicar fatíga; sin embargo, la carga usada no es constante lo que podria resultar en variación de la amplitud de la señal. 
+
+Con respecto al dominio de la frecuencia corresponiente al biceps braquial, se puede observar que la mayor magnitud entre 60 y 120 Hz. Este rango es típico de contracciones musculares activas [c]. Esta característica nos puede indicar si hubo fatiga en el movimiento con carga; por los tanto, en caso de fatiga, la mayor amplitud del espectro EMG deberia concentrarse en zonas por debajo del rango típico. Con esta información, se puede resaltar la ausencia de fatiga en las 3 mediciones realizadas [c].
 
 #### Triceps
 
