@@ -86,6 +86,15 @@ plt.show()
 
 <div align="center">
 
+Videos de la colocación y distribución de los electrodos en el músculo de interés:
+|  **Mediciones del Bíceps**  | **Mediciones del Tríceps** | **Mediciones del Deltoides** |
+|:------------:|:---------------:|:------------:|
+|<div align="center">[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://youtube.com/shorts/5TDMhRSWPMc)</div>|<div align="center">[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://youtube.com/shorts/nDC6Fyjp32k)</div>|<div align="center">[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://youtube.com/shorts/0aj-eqk9wSc)</div>|
+</div>
+
+Videos de las señales obtenidas en tiempo real de los músculos de interés:
+<div align="center">
+ 
 |  **Mediciones del Bíceps**  | **Mediciones del Tríceps** | **Mediciones del Deltoides** |
 |:------------:|:---------------:|:------------:|
 |<div align="center">[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://youtube.com/shorts/5TDMhRSWPMc)</div>|<div align="center">[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://youtube.com/shorts/nDC6Fyjp32k)</div>|<div align="center">[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://youtube.com/shorts/0aj-eqk9wSc)</div>|
