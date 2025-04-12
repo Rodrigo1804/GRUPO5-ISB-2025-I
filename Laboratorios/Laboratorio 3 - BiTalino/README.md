@@ -88,7 +88,7 @@ plt.show()
 
 |  **Dedo en reposo**  | **Dedo sin oposición** | **Dedo con oposición** |
 |:------------:|:---------------:|:------------:|
-|[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://youtube.com/shorts/0aj-eqk9wSc)|<video src="https://user-images.githubusercontent.com/62686249/231337782-f487bdb1-d614-4010-8caa-26c267cba7f6.mp4"></video>|<video src= "https://user-images.githubusercontent.com/62686249/231337918-3db1b3f2-4e32-4e3c-bb6f-f8fb607a03d2.mp4"></video>|
+|<div align="center">[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://youtube.com/shorts/0aj-eqk9wSc)</div>|<div align="center">[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://youtube.com/shorts/0aj-eqk9wSc)</div>|<div align="center">[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://youtube.com/shorts/0aj-eqk9wSc)</div>|
 </div>
 
 ---
