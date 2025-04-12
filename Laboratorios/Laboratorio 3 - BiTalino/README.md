@@ -90,10 +90,8 @@ Aca poner videos
  
  ## 5. Referencias: <a name="referencias"></a> 
 [1] Manual del usuario del sensor de electromiografía (EMG) biosignalsplux [Internet]. Manuals+. 2021 [citado el 12 de abril de 2025]. Disponible en: https://manuals.plus/es/biosignalsplux/electromyography-emg-sensor-manual 
+
 [2]
-[3]
-[4]
-[5]
-[6]
+
 [1] Johns Hopkins Medicine, “Electromyography (EMG),” [En línea]. Disponible en: https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/electromyography-emg
  
