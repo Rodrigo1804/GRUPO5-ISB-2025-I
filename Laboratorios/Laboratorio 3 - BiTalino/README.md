@@ -101,7 +101,7 @@ Se realizaron las mediciones de forma continua, es decir, mientras el músculo e
 ### Tríceps:
 ![Tríceps](./Imágenes%20en%20el%20anexo/Señal_Triceps.png)
 
-### Hombro:
+### Deltoides:
 ![Hombro](./Imágenes%20en%20el%20anexo/Señal_Hombro.png)
 
  
