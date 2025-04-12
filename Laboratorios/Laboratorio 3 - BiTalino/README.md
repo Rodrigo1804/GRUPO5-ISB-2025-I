@@ -58,28 +58,137 @@ Colocamos los electrodos siguiendo el protocolo de electromiografía de superfic
 4. Repetir 3 veces cada condición para mitigar ruido.
 5. Guardar los datos y grabar video con señal + gesto.
 
+
+## Procesamiento de la señal EMG con Python
+Los archivos exportados desde OpenSignals en formato .txt contienen encabezados con metadatos y una tabla de muestras, un orden y una forma de registrar los datos clásicos de BiTalino con OpenSignals. Para poder trabajar con esa data y analizarla adecuadamente, primero debemos procesarla. A continuación, se presenta el código completo utilizado para transformar estos datos en gráficas procesadas.
+
+### 1. Importamos las librerías que utilizaremos
+Estas librerías permiten manejar arrays numéricos, leer archivos, graficar resultados y aplicar filtros digitales.
+
 ```python
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
+import json
+from scipy.signal import butter, filtfilt, lfilter, iirnotch
+```
+### 2. Definimos los archivos a procesar
+En este paso se define un diccionario que asocia cada músculo con su archivo .txt correspondiente, previamente cortamos los archivos para evitar tener medidas vacias de cuando se estuvo moviendo los electrodos.
+```python
+archivos = {
+    "Bíceps": "EMG_Bicep.txt",
+    "Tríceps": "EMG_Triceps.txt",
+    "Hombro": "EMG_Hombro.txt"
+}
+```
+### 3. Leemos los archivos exportados desde OpenSignals
+Esta función se encarga de extraer la frecuencia de muestreo desde el encabezado JSON y cargar la señal registrada.
+```python
+def leer_senal_opensignals(archivo):
+    with open(archivo, 'r') as f:
+        lineas = f.readlines()
 
-# Cargar señal desde archivo
-emg = np.loadtxt('../datos/biceps_raw.txt')
+    for linea in lineas:
+        if linea.startswith('# {'):
+            json_data = json.loads(linea[2:])
+            break
 
-# Frecuencia de muestreo (Hz)
-fs = 1000  
-t = np.arange(0, len(emg)) / fs
+    device_key = list(json_data.keys())[0]
+    fs = json_data[device_key]["sampling rate"]
+    titulo = json_data[device_key]["label"]
 
-# Graficar señal EMG cruda
-plt.figure(figsize=(10, 4))
-plt.plot(t, emg, label='EMG cruda')
-plt.title('Señal EMG cruda – Bíceps')
-plt.xlabel('Tiempo (s)')
-plt.ylabel('Amplitud (mV)')
-plt.grid(True)
-plt.legend()
-plt.tight_layout()
-plt.savefig('../figuras/biceps_raw_plot.png')
-plt.show()
+    for i, linea in enumerate(lineas):
+        if 'EndOfHeader' in linea:
+            inicio_datos = i + 1
+            break
+
+    data = pd.read_csv(archivo, delimiter='\t', skiprows=inicio_datos, header=None)
+    tiempo = np.arange(len(data)) / fs
+    senal = data.iloc[:, -1]
+
+    return tiempo, senal, fs, titulo
+```
+
+### 4. Convertimos los valores ADC a milivoltios
+Esta función transforma los valores crudos del ADC a una escala de milivoltios, centrando la señal en 0.
+
+```python
+def ADCtomV(ADC, n=10, VCC=3.3):
+    volts = (((ADC / (2**n)) - 0.5) * VCC) / 1009
+    return volts * 1000
+```
+### 5. Definimos y aplicamos el filtro pasa banda
+Se utilizan dos funciones: una para generar el filtro y otra para aplicarlo sobre la señal. El rango seleccionado (100–300 Hz) abarca las componentes más significativas del EMG.
+```python
+def butter_bandpass(lowcut, highcut, fs, order=5):
+    nyq = 0.5 * fs
+    low = lowcut / nyq
+    high = highcut / nyq
+    return butter(order, [low, high], btype='band')
+
+def butter_bandpass_filter(data, lowcut, highcut, fs, order=5):
+    b, a = butter_bandpass(lowcut, highcut, fs, order=order)
+    return lfilter(b, a, data)
+```
+
+### 6. Visualizamos la señal procesada
+Esta función convierte la señal a mV, aplica los filtros, calcula la FFT, y muestra los tres resultados: señal cruda, filtrada y su espectro.
+
+```python
+def graficar_senal(tiempo, senal, fs, titulo):
+    signalmV = ADCtomV(senal)
+    pre_pro_signal = signalmV - np.mean(signalmV)
+
+    low_cutoff = 100.0
+    high_cutoff = 300.0
+    smooth_signal = butter_bandpass_filter(pre_pro_signal, low_cutoff, high_cutoff, fs)
+
+    b_notch, a_notch = iirnotch(60.0, 30.0, fs)
+    smooth_signal = filtfilt(b_notch, a_notch, smooth_signal)
+
+    plt.figure(figsize=(12, 8))
+
+    plt.subplot(3, 1, 1)
+    plt.plot(tiempo, signalmV, label='Señal original')
+    plt.title(f'Señal EMG - {titulo}')
+    plt.xlabel('Tiempo (s)')
+    plt.ylabel('Amplitud (mV)')
+    plt.grid(True)
+    plt.legend()
+
+    plt.subplot(3, 1, 2)
+    plt.plot(tiempo, smooth_signal, label='Señal filtrada', color='red')
+    plt.xlabel('Tiempo (s)')
+    plt.ylabel('Amplitud filtrada (mV)')
+    plt.grid(True)
+    plt.legend()
+
+    n = len(smooth_signal)
+    fft = np.fft.fft(smooth_signal)
+    fft_magnitud = np.abs(fft)[:n//2]
+    freqs = np.fft.fftfreq(n, 1/fs)[:n//2]
+    fft_db = 20 * np.log10(fft_magnitud + 1e-6)
+
+    plt.subplot(3, 1, 3)
+    plt.plot(freqs, fft_db, label='FFT', color='black')
+    plt.title("FFT de la Señal Filtrada")
+    plt.xlabel("Frecuencia (Hz)")
+    plt.ylabel("Magnitud (dB)")
+    plt.grid(True)
+    plt.legend()
+
+    plt.tight_layout()
+    plt.show()
+```
+
+### 7. Procesamiento automático de los tres músculos
+Finalmente, se recorre automáticamente cada archivo para generar sus respectivas gráficas de forma secuencial.
+
+```python
+for etiqueta, archivo in archivos.items():
+    try:
+        tiempo, senal, fs, titulo = leer_senal_opensignals(archivo)
+        graficar_senal(tiempo, senal, fs, titulo)
 ```
 
 ### Registro audiovisual:
