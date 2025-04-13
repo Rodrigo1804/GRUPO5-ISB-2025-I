@@ -17,7 +17,7 @@ El propósito de esta práctica es adquirir señales de EMG utilizando el kit BI
  | Cantidad | Descripción                         |
 |----------|-------------------------------------|
 | 1        | KIT BITalino (r)evolution           |
-| 1        | Laptop con Bluetooth                |
+| 1        | Laptop/celular con Bluetooth                |
 | 1        | Software OpenSignals (r)evolution   |
 | 5        | Electrodos de superficie            |
 | 1        | Cable de 3 conductores (para EMG)   |
