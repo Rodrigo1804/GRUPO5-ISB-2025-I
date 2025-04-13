@@ -52,6 +52,19 @@ Colocamos los electrodos siguiendo el protocolo de electromiografía de superfic
 
 **- Negro → Electrodo de tierra (GND):** Este no mide señal, pero es fundamental para estabilizar el sistema y eliminar interferencias eléctricas. Se coloca sobre una zona eléctricamente neutra (por ejemplo, una parte ósea o alejada del músculo principal). 
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="./Imágenes en el anexo/pos1.png" alt="pos1" width="200"/>
+      <br>Colocación del electrodo GND-biceps
+    </td>
+    <td align="center">
+      <img src="./Imágenes en el anexo/pos2.png" alt="pos2" width="200"/>
+      <br>Colocación del electrodo positivo-biceps
+    </td>
+  </tr>
+</table>
+
 #### Bíceps
 ![F1](./Imágenes%20en%20el%20anexo/CONEXIONES%20EN%20EL%20BÍCEPS.png)
 
