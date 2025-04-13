@@ -258,6 +258,18 @@ Con respecto al dominio de la frecuencia corresponiente al biceps braquial, se p
 ### Tríceps:
 ![Tríceps](./Imágenes%20en%20el%20anexo/Señal_Triceps.png)
 
+a. Condición de reposo (0 a 45 s aprox.):
+En este primer tramo, tanto la señal original como la filtrada presentan muy baja amplitud, característica de una fase de reposo muscular. Este comportamiento es coherente con la bibliografía, donde se indica que en ausencia de contracción activa no hay una activación significativa de unidades motoras en el músculo [2]. La señal filtrada muestra menos interferencia, aunque aún se pueden notar leves artefactos, posiblemente provenientes del acoplamiento piel-electrodo o interferencias ambientales [3].
+
+b. Condición de contracción leve sin carga (45 a 80 s aprox.):
+Aquí se observa un aumento moderado en la amplitud de la señal EMG, indicando que el tríceps está siendo activado pero sin una carga significativa. La duración relativamente corta y la amplitud estable indican una contracción voluntaria controlada, sin signos evidentes de fatiga muscular [2].
+
+c. Condición de contracción con carga (80 a 115 s aprox.):
+En este segmento se aprecia una señal de mayor amplitud y más prolongada, lo cual representa una contracción más intensa. La necesidad de generar más fuerza para vencer la carga implica un mayor reclutamiento de unidades motoras, tal como se describe en la literatura [2]. Al igual que en el caso del bíceps, se aprecia que hacia el final de este tramo la amplitud tiende a disminuir ligeramente, pero debido a la variación en la carga utilizada no se puede afirmar de forma concluyente que haya fatiga muscular.
+
+Dominio de la frecuencia (FFT):
+El análisis espectral de la señal EMG filtrada muestra que la mayor energía se concentra entre los 60 y 120 Hz, lo cual es típico de contracciones musculares activas [4]. No se aprecia un corrimiento de frecuencia hacia zonas más bajas, lo que apoya la hipótesis de ausencia de fatiga significativa durante la contracción con carga. Además, la forma del espectro en este rango indica un buen reclutamiento de fibras musculares sin indicios de degradación por sobreuso.
+
 ### Deltoides:
 ![Hombro](./Imágenes%20en%20el%20anexo/Señal_Hombro.png)
 
