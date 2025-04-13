@@ -55,11 +55,11 @@ Colocamos los electrodos siguiendo el protocolo de electromiografía de superfic
 <table>
   <tr>
     <td align="center">
-      <img src="./Imágenes en el anexo/pos1.png" alt="pos1" width="200"/>
+      <img src="./Imágenes en el anexo/pos2.png" alt="pos2" width="200"/>
       <br>Colocación del electrodo GND-biceps
     </td>
     <td align="center">
-      <img src="./Imágenes en el anexo/pos2.png" alt="pos2" width="200"/>
+      <img src="./Imágenes en el anexo/pos1.png" alt="pos1" width="200"/>
       <br>Colocación del electrodo positivo-biceps
     </td>
   </tr>
