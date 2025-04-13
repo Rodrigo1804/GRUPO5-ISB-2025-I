@@ -26,7 +26,7 @@ El propósito de esta práctica es adquirir señales de EMG utilizando el kit BI
 ### Procedimiento:
 
 1. Encender la placa BITalino y emparejarla vía Bluetooth (PIN: 1234).
-| ![bit1](./Imágenes%20en%20el%20anexo/bit1.png) | ![app](./Imágenes%20en%20el%20anexo/app.png) |
+| ![BIT1](./Imágenes%20en%20el%20anexo/BIT1.png) | ![APP](./Imágenes%20en%20el%20anexo/APP.png) |
 |:--:|:--:|
 | Bitalino encendido | App en emparejamiento |
 
