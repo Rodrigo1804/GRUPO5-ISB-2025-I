@@ -268,20 +268,20 @@ c. Condición de contracción con carga (80 a 115 s aprox.):
 En este segmento se aprecia una señal de mayor amplitud y más prolongada, lo cual representa una contracción más intensa. La necesidad de generar más fuerza para vencer la carga implica un mayor reclutamiento de unidades motoras, tal como se describe en la literatura [1]. Al igual que en el caso del bíceps, se aprecia que hacia el final de este tramo la amplitud tiende a disminuir ligeramente, pero debido a la variación en la carga utilizada no se puede afirmar de forma concluyente que haya fatiga muscular.
 
 Dominio de la frecuencia (FFT):
-El análisis espectral de la señal EMG filtrada muestra que la mayor energía se concentra entre los 60 y 120 Hz, lo cual es típico de contracciones musculares activas [4]. No se aprecia un corrimiento de frecuencia hacia zonas más bajas, lo que apoya la hipótesis de ausencia de fatiga significativa durante la contracción con carga. Además, la forma del espectro en este rango indica un buen reclutamiento de fibras musculares sin indicios de degradación por sobreuso.
+El análisis espectral de la señal EMG filtrada muestra que la mayor energía se concentra entre los 100 y 200 Hz aproximadamente, lo cual está dentro de del rango de contracciones musculares activas. No se aprecia un corrimiento de frecuencia hacia zonas más bajas, lo que apoya la hipótesis de ausencia de fatiga significativa durante la contracción con carga. Además, la forma del espectro en este rango indica un buen reclutamiento de fibras musculares sin indicios de degradación por sobreuso.
 
 ### Deltoides:
 ![Hombro](./Imágenes%20en%20el%20anexo/Señal_Hombro.png)
 
 A partir de la señal EMG filtrada, podemos establecer las 3 condiciones de la persona durante la toma de datos. De igual manera, podemos interpretar cada tramo acorde a lo encontrado en la bibliografía:
  
-a. Condición de reposo (0 a 20 s aprox.): aquí se puede ver que la señal no tiene amplitudes con variabilidad significativa sino más bien la amplitud es muy pequeña, casi cercana a cero. Este resultado es carcterístico de un músculo en estado de reposo ya que las unidades motoras no están realizando ningún tipo de contracción sino que están relajadas. La baja señal registrada puede darse debido a la presencia de artefactos o hasta de actividad mínima involuntaria de la persona [i].
+a. Condición de reposo (0 a 20 s aprox.): aquí se puede ver que la señal no tiene amplitudes con variabilidad significativa sino más bien la amplitud es muy pequeña, casi cercana a cero. Este resultado es carcterístico de un músculo en estado de reposo ya que las unidades motoras no están realizando ningún tipo de contracción sino que están relajadas. La baja señal registrada puede darse debido a la presencia de artefactos o hasta de actividad mínima involuntaria de la persona [6].
 
-b. Condición de contracción leve sin carga (20 a 40 s aprox.): se visualiza una amplitud significativa de la señal. Esta señal obtenida indica que hay unidades motoras activas para mantener una contracción leve. Además, debido a que no existe una carga aplicada al movimiento del músculo y solo se está moviendo lateralmente el brazo, tanto la amplitud de la actividad como su duración no son tan grandes por lo que tampoco se evidenciará fatiga muscular [ii]. 
+b. Condición de contracción leve sin carga (20 a 40 s aprox.): se visualiza una amplitud significativa de la señal. Esta señal obtenida indica que hay unidades motoras activas para mantener una contracción leve. Además, debido a que no existe una carga aplicada al movimiento del músculo y solo se está moviendo lateralmente el brazo, tanto la amplitud de la actividad como su duración no son tan grandes por lo que tampoco se evidenciará fatiga muscular [7]. 
 
-c. Condición de contracción con carga (45 a 85 s aprox.): en este tramo de tiempo, se visualiza un aumento significativo en la amplitud de la señal con presencia de picos más frecuentes. Esto es el resultado de una mayor cantidad de unidades motoras activas puesto que se está realizando la respuesta a una carga externa aplicada (en este caso es una carga de entre 2 a 3 kg) [i]. En este tipo de condiciones, es en donde suele iniciarse la fatiga muscular la cual puede llegar a dañar el músculo si se mantiene dicha carga de forma repetitiva y sin realizar pausas [ii].
+c. Condición de contracción con carga (45 a 85 s aprox.): en este tramo de tiempo, se visualiza un aumento significativo en la amplitud de la señal con presencia de picos más frecuentes. Esto es el resultado de una mayor cantidad de unidades motoras activas puesto que se está realizando la respuesta a una carga externa aplicada (en este caso es una carga de entre 2 a 3 kg) [6]. En este tipo de condiciones, es en donde suele iniciarse la fatiga muscular la cual puede llegar a dañar el músculo si se mantiene dicha carga de forma repetitiva y sin realizar pausas [8].
 
-En cuanto al dominio de la frecuencia, se vio que hay una mayor magnitud entre los 50 a 200 Hz aproximadamente y después hay una disminución en la misma. De acuerdo a la información encontrada, esto es un resultado típico en músculos superficiales sanos como lo es, en este caso, Deltoides [ii].
+En cuanto al dominio de la frecuencia, se vio que hay una mayor magnitud entre los 50 a 200 Hz aproximadamente y después hay una disminución en la misma. De acuerdo a la información encontrada, esto es un resultado típico en músculos superficiales sanos como lo es, en este caso, Deltoides [7].
  
  ## 5. Referencias: <a name="referencias"></a> 
 [1] Manual del usuario del sensor de electromiografía (EMG) biosignalsplux [Internet]. Manuals+. 2021 [citado el 12 de abril de 2025]. Disponible en: https://manuals.plus/es/biosignalsplux/electromyography-emg-sensor-manual 
@@ -293,8 +293,8 @@ En cuanto al dominio de la frecuencia, se vio que hay una mayor magnitud entre l
 [4] Aguirre R, Castillo S, Rojas E, Giraldo E. Acquisition and processing of EMG signals from BITalino for hand movement classification. Rev Fac Ing Univ Antioquia. 2020;(96):11–9. doi:10.17533/udea.redin.20200256
 [5]Torres Edgar Adrián, Ballesteros Luis Ernesto, Forero Pedro Luis. Biometría del Musculo Tríceps Braquial y de sus Puntos Motores. Un Estudio Anatómico Directo en una Muestra de Población Colombiana. Int. J. Morphol.  [Internet]. 2018  Sep [citado  2025  Abr  13] ;  36( 3 ): 948-954. Disponible en: http://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0717-95022018000300948&lng=es.  http://dx.doi.org/10.4067/S0717-95022018000300948.
 
-[i] Romero Mirete, C. (2023). Análisis de fatiga muscular usando HD-EMG y herramientas de procesamiento de señales. Universidad de Alicante.
-[ii] González, J. A., & García, M. L. (2023). Análisis tiempo-frecuencia de parámetros de fatiga en la señal de electromiografía de superficie. Universidad Politécnica de Valencia.
+[6] Romero Mirete, C. (2023). Análisis de fatiga muscular usando HD-EMG y herramientas de procesamiento de señales. Universidad de Alicante.
+[7] González, J. A., & García, M. L. (2023). Análisis tiempo-frecuencia de parámetros de fatiga en la señal de electromiografía de superficie. Universidad Politécnica de Valencia.
 
-[1] Johns Hopkins Medicine, “Electromyography (EMG),” [En línea]. Disponible en: https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/electromyography-emg
+[8] Johns Hopkins Medicine, “Electromyography (EMG),” [En línea]. Disponible en: https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/electromyography-emg
  
