@@ -28,6 +28,10 @@ Las señales captadas muestran un patrón característico de ondas: **P, Q, R, S
   
 ![F1](./Imágenes%20en%20el%20anexo/Figura1_OndasECG.jpg)
 
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/Figura1_OndasECG.jpg" alt="Ondas del ECG" width="60%">
+  <p><strong>Figura 1:</strong> Ondas del Electrocardiograma</p>
+</div>
 Los electrocardiógrafos trabajan con **12 derivaciones**: 6 periféricas y 6 precordiales (V1-V6), las cuales se colocan en zonas específicas del cuerpo para capturar la actividad eléctrica desde diferentes ángulos [1].
 
 *insertar imagennnn de las 12 derivaciones
