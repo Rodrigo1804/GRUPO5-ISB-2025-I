@@ -25,8 +25,6 @@ Las señales captadas muestran un patrón característico de ondas: **P, Q, R, S
 - **Onda P**: Activación de las aurículas.
 - **Complejo QRS**: Despolarización de los ventrículos.
 - **Onda T**: Repolarización ventricular.
-  
-![F1](./Imágenes%20en%20el%20anexo/Figura1_OndasECG.jpg)
 
 <div align="center">
   <img src="./Imágenes%20en%20el%20anexo/Figura1_OndasECG.jpg" alt="Ondas del ECG" width="60%">
