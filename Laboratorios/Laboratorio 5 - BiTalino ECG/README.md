@@ -29,12 +29,12 @@ Para realizar un ECG clínico completo, se colocan **10 electrodos** en el cuerp
 
 <div align="center">
   <img src="./Imágenes%20en%20el%20anexo/Figura2_DerivacionesPrecordiales.png" alt="Derivaciones precordiales" width="60%">
-  <p><strong>Figura 2:</strong> Ubicación de las derivaciones precordiales V1 a V6 sobre el tórax.</p>
+  <p><strong>Figura 2:</strong> Ubicación de las derivaciones precordiales V1 a V6 sobre el tórax [2].</p>
 </div>
 
 <div align="center">
   <img src="./Imágenes%20en%20el%20anexo/Figura3_ElectrodosExtremidades.png" alt="Electrodos de extremidades" width="50%">
-  <p><strong>Figura 3:</strong> Posición de los electrodos en extremidades para derivaciones RA, LA, RL y LL.</p>
+  <p><strong>Figura 3:</strong> Posición de los electrodos en extremidades para derivaciones RA, LA, RL y LL [2].</p>
 </div>
 
 Aunque se colocan 10 electrodos, el sistema de registro genera **12 derivaciones** en total. Esto es posible gracias a que las derivaciones no corresponden a los electrodos como tal, sino a las **diferencias de potencial (direcciones de observación)** entre pares específicos de electrodos[1][2]:
@@ -225,7 +225,12 @@ A partir de la señal ECG filtrada, podemos...
 
 
 ## 5. Referencias: <a name="referencias"></a> 
-Referencias
-[1] Mayo Clinic. “Electrocardiograma (ECG)”. Disponible en: https://www.mayoclinic.org/es/tests-procedures/ekg/about/pac-20384983
-[2] H. E. Inkley, Introduction to Biomedical Engineering, 4th ed., Elsevier, 2020
-[3] BITalino documentation. https://bitalino.com/en/software
+
+## 5. Referencias <a name="referencias"></a>
+
+[1] Mayo Clinic, “Electrocardiograma (ECG)”. [En línea]. Disponible en: https://www.mayoclinic.org/es/tests-procedures/ekg/about/pac-20384983. [Accedido: 24-abr-2025].
+
+[2] “12 Lead ECG Placement Guide with Illustrations,” *Cables & Sensors*. [En línea]. Disponible en: https://www.cablesandsensors.eu/pages/12-lead-ecg-placement-guide-with-illustrations. [Accedido: 24-abr-2025].
+
+[3] H. E. Inkley, Introduction to Biomedical Engineering, 4th ed., Elsevier, 2020
+[4] BITalino documentation. https://bitalino.com/en/software
