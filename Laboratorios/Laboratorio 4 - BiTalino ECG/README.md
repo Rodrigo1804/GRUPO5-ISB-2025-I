@@ -25,6 +25,8 @@ Las señales captadas muestran un patrón característico de ondas: **P, Q, R, S
 - **Onda P**: Activación de las aurículas.
 - **Complejo QRS**: Despolarización de los ventrículos.
 - **Onda T**: Repolarización ventricular.
+  
+![F1](./Imágenes%20en%20el%20anexo/Figura1_OndasECG.jpg)
 
 Los electrocardiógrafos trabajan con **12 derivaciones**: 6 periféricas y 6 precordiales (V1-V6), las cuales se colocan en zonas específicas del cuerpo para capturar la actividad eléctrica desde diferentes ángulos [1].
 
