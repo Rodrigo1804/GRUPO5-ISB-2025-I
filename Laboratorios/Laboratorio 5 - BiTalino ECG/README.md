@@ -7,32 +7,48 @@
 4. [Resultados y limitaciones](#resultados-y-limitaciones)  
 5. [Referencias](#referencias)
 
-   
 ## 1. Introducción <a name="introducción"></a>
 
-Un **electrocardiograma (ECG)** es un procedimiento indoloro y no invasivo que permite registrar la actividad eléctrica del corazón. Es útil para diagnosticar diversas condiciones como:
+El **electrocardiograma (ECG)** es una herramienta diagnóstica fundamental que permite registrar la actividad eléctrica del corazón de forma no invasiva, rápida y precisa. Es ampliamente utilizado para detectar alteraciones en el ritmo cardíaco, identificar infartos, evaluar el estado del sistema de conducción del corazón y diagnosticar diversas enfermedades cardiovasculares.
 
-- Arritmias  
-- Infarto agudo de miocardio  
-- Enfermedad de las arterias coronarias  
-- Cardiomiopatías  
-- Insuficiencia cardíaca  
-- Defectos congénitos del corazón
-
-Las señales captadas muestran un patrón característico de ondas: **P, Q, R, S, T y U**, que corresponden a los distintos eventos eléctricos del ciclo cardíaco.
-
-### ¿Qué se observa en un ECG?
-- **Onda P**: Activación de las aurículas.
-- **Complejo QRS**: Despolarización de los ventrículos.
-- **Onda T**: Repolarización ventricular.
+Durante cada latido, el corazón genera impulsos eléctricos que se propagan por sus estructuras. Estos impulsos pueden ser detectados desde la superficie del cuerpo mediante **electrodos** adhesivos conectados a un dispositivo de registro. Las señales obtenidas muestran una serie de ondas, conocidas como **onda P, complejo QRS, onda T y onda U**, que reflejan la secuencia de despolarización y repolarización del tejido cardíaco.
 
 <div align="center">
   <img src="./Imágenes%20en%20el%20anexo/Figura1_OndasECG.jpg" alt="Ondas del ECG" width="60%">
-  <p><strong>Figura 1:</strong> Ondas del Electrocardiograma</p>
+  <p><strong>Figura 1:</strong> Ondas del Electrocardiograma.</p>
 </div>
-Los electrocardiógrafos trabajan con **12 derivaciones**: 6 periféricas y 6 precordiales (V1-V6), las cuales se colocan en zonas específicas del cuerpo para capturar la actividad eléctrica desde diferentes ángulos [1].
 
-*insertar imagennnn de las 12 derivaciones
+- **Onda P**: Activación de las aurículas.
+- **Complejo QRS**: Despolarización de los ventrículos.
+- **Onda T**: Repolarización ventricular.
+  
+Para realizar un ECG clínico completo, se colocan **10 electrodos** en el cuerpo del paciente, distribuidos de la siguiente forma:
+
+- **6 electrodos precordiales**: colocados en el pecho (V1 a V6), captan la actividad eléctrica desde planos horizontales.
+- **4 electrodos de extremidades**: ubicados en ambos brazos y piernas (RA, LA, RL, LL), captan la actividad desde planos frontales.
+
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/Figura2_DerivacionesPrecordiales.png" alt="Derivaciones precordiales" width="60%">
+  <p><strong>Figura 2:</strong> Ubicación de las derivaciones precordiales V1 a V6 sobre el tórax.</p>
+</div>
+
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/Figura3_ElectrodosExtremidades.png" alt="Electrodos de extremidades" width="50%">
+  <p><strong>Figura 3:</strong> Posición de los electrodos en extremidades para derivaciones RA, LA, RL y LL.</p>
+</div>
+
+Aunque se colocan 10 electrodos, el sistema de registro genera **12 derivaciones** en total. Esto es posible gracias a que las derivaciones no corresponden a los electrodos como tal, sino a las **diferencias de potencial (direcciones de observación)** entre pares específicos de electrodos[1][2]:
+
+- **6 derivaciones de miembros (plano frontal):**
+  - **Bipolares:** DI (RA-LA), DII (RA-LL), DIII (LA-LL)
+  - **Unipolares aumentadas:** aVR, aVL, aVF
+
+- **6 derivaciones precordiales (plano horizontal):**
+  - V1, V2, V3, V4, V5, V6 (cada una mide respecto a un electrodo virtual de referencia)
+
+Estas derivaciones permiten observar la actividad eléctrica del corazón desde distintos ángulos, proporcionando una visión completa en 3D de la función cardíaca. Gracias a esto, el ECG es capaz de localizar con precisión el origen de una arritmia o la zona afectada en un infarto.
+
+En esta práctica, se trabajará con una configuración simplificada utilizando un sistema de tres electrodos y el dispositivo **BITalino**, captando una señal equivalente a una derivación (generalmente Lead I) y analizando su comportamiento en distintas condiciones fisiológicas.
 
  ## 2. Propósito de la práctica: <a name="propósito-de-la-práctica"></a>
 El propósito de esta práctica es adquirir señales ECG utilizando el kit BITalino, evaluando su comportamiento bajo distintas condiciones fisiológicas: reposo, apnea y post-ejercicio. Asimismo, se busca familiarizarse con el uso del software *OpenSignals* para visualizar biopotenciales y realizar un análisis básico en Python en el dominio del tiempo y la frecuencia.
