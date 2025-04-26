@@ -81,7 +81,10 @@ El propósito de esta práctica es adquirir señales ECG utilizando el kit BITal
    - **Negro (GND):** costado del torso o zona neutra.
    - Verificar que la señal se estabilice en OpenSignals.
   
-     📸 *Agregar aquí una imagen clara de cómo colocaste los electrodos sobre el cuerpo*  
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/Figura4_PosicionElectrodos.png" alt="Posición de los electrodos" width="50%">
+  <p><strong>Figura 3:</strong> Posición de los electrodos.</p>
+</div>     
 
 3. **Condiciones evaluadas**
    - **Reposo basal:** sujeto sentado, relajado.
