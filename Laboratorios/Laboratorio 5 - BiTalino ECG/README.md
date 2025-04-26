@@ -158,30 +158,30 @@ plt.grid()
 plt.show()
 ```
 
- <img src="./Imágenes%20en%20el%20anexo/Screenshot_5.jpg" alt="Posición de electrodos" width="50%">
- <img src="./Imágenes%20en%20el%20anexo/Screenshot_6.jpg" alt="Posición de electrodos" width="50%">
- <img src="./Imágenes%20en%20el%20anexo/Screenshot_7.jpg" alt="Posición de electrodos" width="50%">
- <img src="./Imágenes%20en%20el%20anexo/Screenshot_8.jpg" alt="Posición de electrodos" width="50%">
- <img src="./Imágenes%20en%20el%20anexo/Screenshot_9.jpg" alt="Posición de electrodos" width="50%">
- <img src="./Imágenes%20en%20el%20anexo/Screenshot_10.jpg" alt="Posición de electrodos" width="50%">
- <img src="./Imágenes%20en%20el%20anexo/Screenshot_11.jpg" alt="Posición de electrodos" width="50%">
- <img src="./Imágenes%20en%20el%20anexo/Screenshot_12.jpg" alt="Posición de electrodos" width="50%">
- <img src="./Imágenes%20en%20el%20anexo/Screenshot_13.jpg" alt="Posición de electrodos" width="50%">
- <img src="./Imágenes%20en%20el%20anexo/Screenshot_14.jpg" alt="Posición de electrodos" width="50%">
- <img src="./Imágenes%20en%20el%20anexo/Screenshot_15.jpg" alt="Posición de electrodos" width="50%">
- <img src="./Imágenes%20en%20el%20anexo/Screenshot_16.jpg" alt="Posición de electrodos" width="50%">
- <img src="./Imágenes%20en%20el%20anexo/Screenshot_17.jpg" alt="Posición de electrodos" width="50%">
- <img src="./Imágenes%20en%20el%20anexo/Screenshot_18.jpg" alt="Posición de electrodos" width="50%">
- <img src="./Imágenes%20en%20el%20anexo/Screenshot_19.jpg" alt="Posición de electrodos" width="50%">
- <img src="./Imágenes%20en%20el%20anexo/Screenshot_20.jpg" alt="Posición de electrodos" width="50%">
- <img src="./Imágenes%20en%20el%20anexo/Screenshot_21.jpg" alt="Posición de electrodos" width="50%">
- <img src="./Imágenes%20en%20el%20anexo/Screenshot_22.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_23.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_24.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_25.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_26.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_27.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_28.jpg" alt="Posición de electrodos" width="50%">
+ <img src="./Imágenes%20en%20el%20anexo/Screenshot_11.jpg" alt="Posición de electrodos" width="50%">
+ <img src="./Imágenes%20en%20el%20anexo/Screenshot_12.jpg" alt="Posición de electrodos" width="50%">
+ <img src="./Imágenes%20en%20el%20anexo/Screenshot_13.jpg" alt="Posición de electrodos" width="50%">
+ <img src="./Imágenes%20en%20el%20anexo/Screenshot_14.jpg" alt="Posición de electrodos" width="50%">
+ <img src="./Imágenes%20en%20el%20anexo/Screenshot_15.jpg" alt="Posición de electrodos" width="50%">
+ <img src="./Imágenes%20en%20el%20anexo/Screenshot_16.jpg" alt="Posición de electrodos" width="50%">
+ <img src="./Imágenes%20en%20el%20anexo/Screenshot_5.jpg" alt="Posición de electrodos" width="50%">
+ <img src="./Imágenes%20en%20el%20anexo/Screenshot_6.jpg" alt="Posición de electrodos" width="50%">
+ <img src="./Imágenes%20en%20el%20anexo/Screenshot_7.jpg" alt="Posición de electrodos" width="50%">
+ <img src="./Imágenes%20en%20el%20anexo/Screenshot_8.jpg" alt="Posición de electrodos" width="50%">
+ <img src="./Imágenes%20en%20el%20anexo/Screenshot_9.jpg" alt="Posición de electrodos" width="50%">
+ <img src="./Imágenes%20en%20el%20anexo/Screenshot_10.jpg" alt="Posición de electrodos" width="50%">
+ <img src="./Imágenes%20en%20el%20anexo/Screenshot_17.jpg" alt="Posición de electrodos" width="50%">
+ <img src="./Imágenes%20en%20el%20anexo/Screenshot_18.jpg" alt="Posición de electrodos" width="50%">
+ <img src="./Imágenes%20en%20el%20anexo/Screenshot_19.jpg" alt="Posición de electrodos" width="50%">
+ <img src="./Imágenes%20en%20el%20anexo/Screenshot_20.jpg" alt="Posición de electrodos" width="50%">
+ <img src="./Imágenes%20en%20el%20anexo/Screenshot_21.jpg" alt="Posición de electrodos" width="50%">
+ <img src="./Imágenes%20en%20el%20anexo/Screenshot_22.jpg" alt="Posición de electrodos" width="50%">
 
 
 ### 📐 Simulación con ProSim 4
