@@ -95,7 +95,7 @@ El propósito de esta práctica es adquirir señales ECG utilizando el kit BITal
    - **Post-esfuerzo:** luego de 5 minutos de actividad física leve.
    - *(Opcional)* simulación ECG con ProSim.
 
-[Ver video aquí](https://youtube.com/shorts/KNphvw5y52I?feature=share)
+[Video realizando actividad física](https://youtube.com/shorts/KNphvw5y52I?feature=share)
 
 4. **Registro audiovisual del procedimiento**
 
