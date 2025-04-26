@@ -159,7 +159,7 @@ plt.show()
 ```
 
 📊 [Agregar aquí imágenes de resultados en tiempo y frecuencia]
-
+ <img src="./Imágenes%20en%20el%20anexo/Figura4_PosicionElectrodos.jpg" alt="Posición de electrodos" width="50%">
 
 ### 📐 Simulación con ProSim 4
 
