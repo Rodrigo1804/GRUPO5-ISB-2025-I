@@ -96,8 +96,6 @@ El propósito de esta práctica es adquirir señales ECG utilizando el kit BITal
    - *(Opcional)* simulación ECG con ProSim.
 
 <video src="./Imágenes%20en%20el%20anexo/ActividadFisica.mp4" controls width="600">
-  Tu navegador no soporta videos HTML5.
-</video>
 
 
 4. **Registro audiovisual del procedimiento**
