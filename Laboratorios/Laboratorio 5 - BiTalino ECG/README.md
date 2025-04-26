@@ -205,22 +205,6 @@ Las gráficas muestran una frecuencia de aparición del complejo QRS proporciona
 Incluir aquí capturas de pantalla de OpenSignals]
 Incluir gráficos generados con Python
 
-Se realizaron las mediciones de forma continua, es decir, mientras el músculo estaba en reposo, en contracción leve y una contracción moderada (con carga). Por ello, se muestran las señales de los músculos evaluados, tanto la señal original, filtrada y junto a su representación en el dominio de la frecuecia (FFT):
-
-### Bíceps:
-![Bíceps](./Imágenes%20en%20el%20anexo/Señal_Biceps.png)
-
-A partir de la señal registrada EMG para el bíceps braquial podemos interpretar para cada tramo y respecto con la bibliografía
-
-### Tríceps:
-![Tríceps](./Imágenes%20en%20el%20anexo/Señal_Triceps.png)
-
-
-### Deltoides:
-![Hombro](./Imágenes%20en%20el%20anexo/Señal_Hombro.png)
-
-A partir de la señal ECG filtrada, podemos...
-
  ### Limitaciones
 
 - Ruido por movimiento y mala adherencia de electrodos en la prueba post-ejercicio.
