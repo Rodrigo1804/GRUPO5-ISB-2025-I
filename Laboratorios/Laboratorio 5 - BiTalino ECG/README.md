@@ -130,33 +130,73 @@ El propósito de esta práctica es adquirir señales ECG utilizando el kit BITal
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
-from scipy.fft import fft, fftfreq
 import numpy as np
+import os
+from scipy.fft import fft, fftfreq
+from google.colab import drive
 
-df = pd.read_csv("ECG_signal.csv")
-signal = df["ECG"].values
-fs = 1000
+drive.mount('/content/drive')
 
-plt.figure()
-plt.plot(signal[:1000])
-plt.title("ECG - Dominio del tiempo")
-plt.xlabel("Muestras")
-plt.ylabel("Voltaje (mV)")
-plt.grid()
-plt.show()
+# Ruta donde están tus señales
+folder_path = '/content/drive/MyDrive/ECG_señales'
 
-N = len(signal)
-yf = fft(signal)
-xf = fftfreq(N, 1/fs)
+# Lista de todos los archivos .txt en la carpeta
+file_list = [f for f in os.listdir(folder_path) if f.endswith('.txt')]
 
-plt.figure()
-plt.plot(xf[:N//2], np.abs(yf[:N//2]))
-plt.title("ECG - Dominio de la frecuencia")
-plt.xlabel("Frecuencia (Hz)")
-plt.ylabel("Magnitud")
-plt.grid()
-plt.show()
+# Definir frecuencia de muestreo
+fs = 1000  # Hz
+
+# Iterar sobre cada archivo
+for file_name in file_list:
+    file_path = os.path.join(folder_path, file_name)
+    
+    # Cargar el archivo
+    data = pd.read_csv(file_path, comment='#', sep='\t', header=None)
+    data.columns = ['nSeq', 'I1', 'I2', 'O1', 'O2', 'A1', 'A2']
+    
+    # Extraer la señal (A1 o A2)
+    senal = data['A1']
+    
+    # Crear vector de tiempo
+    t = np.arange(len(senal)) / fs
+    
+    # ------------------------
+    # Gráfica en dominio del TIEMPO
+    # ------------------------
+    plt.figure(figsize=(12,5))
+    plt.plot(t, senal)
+    plt.title(f'Señal en el dominio del tiempo: {file_name}')
+    plt.xlabel('Tiempo (s)')
+    plt.ylabel('Amplitud')
+    plt.xlim(0, 20)  
+    plt.grid(True)
+    plt.show()
+
+    # ------------------------
+    # Gráfica en dominio de la FRECUENCIA (dB)
+    # ------------------------
+
+    # Aplicar FFT
+    N = len(senal)
+    yf = fft(senal)
+    xf = fftfreq(N, 1/fs)[:N//2]
+
+    # Magnitud
+    magnitud = np.abs(yf[0:N//2])
+
+    # Magnitud en decibelios
+    magnitud_db = 20 * np.log10(magnitud + 1e-12)  # le sumamos 1e-12 para evitar log(0)
+
+    # Gráfica
+    plt.figure(figsize=(12,5))
+    plt.plot(xf, magnitud_db)
+    plt.title(f'Señal en el dominio de la frecuencia (dB): {file_name}')
+    plt.xlabel('Frecuencia (Hz)')
+    plt.ylabel('Magnitud (dB)')
+    plt.grid(True)
+    plt.show()
 ```
+##REPOSO:
 
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_23.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_24.jpg" alt="Posición de electrodos" width="50%">
@@ -164,18 +204,26 @@ plt.show()
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_26.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_27.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_28.jpg" alt="Posición de electrodos" width="50%">
+ 
+ ##INHALACIÓN 1:
+ 
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_11.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_12.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_13.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_14.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_15.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_16.jpg" alt="Posición de electrodos" width="50%">
+
+ ##ACTIVIDAD FÍSICA:
+ 
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_5.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_6.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_7.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_8.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_9.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_10.jpg" alt="Posición de electrodos" width="50%">
+
+ ##INHALACIÓN 2:
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_17.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_18.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_19.jpg" alt="Posición de electrodos" width="50%">
