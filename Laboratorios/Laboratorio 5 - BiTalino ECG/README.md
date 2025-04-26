@@ -72,8 +72,6 @@ El propósito de esta práctica es adquirir señales ECG utilizando el kit BITal
    - Encender el dispositivo BITalino.
    - Emparejar vía Bluetooth con la laptop (PIN: 1234).
    - Abrir OpenSignals y seleccionar el canal ECG.
-  
-📸 *Agregar imagen de cómo se conectaron los cables al BITalino*
 
 2. **Colocación de electrodos**
    - **Rojo (activo +):** debajo del pectoral derecho.
@@ -83,8 +81,13 @@ El propósito de esta práctica es adquirir señales ECG utilizando el kit BITal
   
 <div align="center">
   <img src="./Imágenes%20en%20el%20anexo/Figura4_PosicionElectrodos.jpg" alt="Posición de electrodos" width="50%">
-  <p><strong>Figura 3:</strong> Posición de los electrodos.</p>
-</div>     
+  <p><strong>Figura 4:</strong> Posición de los electrodos.</p>
+</div>   
+
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/Figura5_ConexionBitalino.png" alt="Posición de electrodos" width="50%">
+  <p><strong>Figura 5:</strong> Conexión con el Bitalino.</p>
+</div>  
 
 3. **Condiciones evaluadas**
    - **Reposo basal:** sujeto sentado, relajado.
@@ -101,13 +104,9 @@ El propósito de esta práctica es adquirir señales ECG utilizando el kit BITal
 | Post-ejercicio | [🎥 Ver video](https://link-a-tu-video.com) |
 | Conexión y colocación de electrodos | [🎥 Ver video](https://link-a-tu-video.com) |
 
-
-4. **Registro audiovisual**
-   - Fotos de la colocación de electrodos.
-   - Videos de la señal visualizada durante cada condición.
-
-5. **Exportación de datos**
+4. **Exportación de datos**
    - Exportar archivos .txt desde OpenSignals para análisis posterior en Python.
+   - 
 
 ## 4. Resultados y limitaciones <a name="resultados-y-limitaciones"></a>
 
