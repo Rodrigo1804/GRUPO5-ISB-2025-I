@@ -196,7 +196,7 @@ for file_name in file_list:
     plt.grid(True)
     plt.show()
 ```
-  ##REPOSO:
+  ## REPOSO:
 
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_23.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_24.jpg" alt="Posición de electrodos" width="50%">
@@ -205,7 +205,7 @@ for file_name in file_list:
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_27.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_28.jpg" alt="Posición de electrodos" width="50%">
  
-   ##INHALACIÓN 1:
+   ## INHALACIÓN 1:
    
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_11.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_12.jpg" alt="Posición de electrodos" width="50%">
@@ -214,7 +214,7 @@ for file_name in file_list:
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_15.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_16.jpg" alt="Posición de electrodos" width="50%">
 
-   ##ACTIVIDAD FÍSICA:
+   ## ACTIVIDAD FÍSICA:
  
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_5.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_6.jpg" alt="Posición de electrodos" width="50%">
@@ -223,7 +223,7 @@ for file_name in file_list:
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_9.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_10.jpg" alt="Posición de electrodos" width="50%">
 
-   ##INHALACIÓN 2:
+   ## INHALACIÓN 2:
  
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_17.jpg" alt="Posición de electrodos" width="50%">
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_18.jpg" alt="Posición de electrodos" width="50%">
