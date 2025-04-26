@@ -82,7 +82,7 @@ El propósito de esta práctica es adquirir señales ECG utilizando el kit BITal
    - Verificar que la señal se estabilice en OpenSignals.
   
 <div align="center">
-  <img src="./Imágenes%20en%20el%20anexo/Figura4_PosicionElectrodos.png" alt="Posición de los electrodos" width="50%">
+  <img src="./Imágenes%20en%20el%20anexo/Figura4_PosicionElectrodos.png" alt="Posición de electrodos" width="50%">
   <p><strong>Figura 3:</strong> Posición de los electrodos.</p>
 </div>     
 
