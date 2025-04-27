@@ -237,7 +237,7 @@ Incluir gráficos generados con Python
 #### Reposo
 
 <div align="center">
-  <img src="./Imágenes%20en%20el%20anexo/ReposoProcesado1raDeriv.jpg" alt="Posición de electrodos" width="80%">
+  <img src="./Imágenes%20en%20el%20anexo/ReposoProcesado1raDeriv.jpg" alt="Posición de electrodos" width="60%">
   <p><strong>Figura 6:</strong> Datos del estado de reposo procesado (I derivada).</p>
 </div>
 <div align="center">
@@ -251,7 +251,7 @@ Incluir gráficos generados con Python
 
 #### Inhalación 1
 <div align="center">
-  <img src="./Imágenes%20en%20el%20anexo/InhalacionProcesada1raDeriv.jpg" alt="Posición de electrodos" width="80%">
+  <img src="./Imágenes%20en%20el%20anexo/InhalacionProcesada1raDeriv.jpg" alt="Posición de electrodos" width="60%">
   <p><strong>Figura 9:</strong> Datos del estado de primera inhalación procesado (I derivada).</p>
 </div>
 <div align="center">
@@ -265,7 +265,7 @@ Incluir gráficos generados con Python
 
 #### Actividad física
 <div align="center">
-  <img src="./Imágenes%20en%20el%20anexo/ActividadFisicaProcesada1raDeriv.jpg" alt="Posición de electrodos" width="80%">
+  <img src="./Imágenes%20en%20el%20anexo/ActividadFisicaProcesada1raDeriv.jpg" alt="Posición de electrodos" width="60%">
   <p><strong>Figura 12:</strong> Datos del estado de reposo procesado (I derivada).</p>
 </div>
 <div align="center">
@@ -279,7 +279,7 @@ Incluir gráficos generados con Python
 
 #### Post- actividad física
 <div align="center">
-  <img src="./Imágenes%20en%20el%20anexo/Inhalacion2Procesada1raDeriv.jpg" alt="Posición de electrodos" width="80%">
+  <img src="./Imágenes%20en%20el%20anexo/Inhalacion2Procesada1raDeriv.jpg" alt="Posición de electrodos" width="60%">
   <p><strong>Figura 15:</strong> Datos del estado post-actividad física procesado (I derivada).</p>
 </div>
 <div align="center">
