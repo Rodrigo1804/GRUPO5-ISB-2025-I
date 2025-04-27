@@ -111,19 +111,6 @@ El propósito de esta práctica es adquirir señales ECG utilizando el kit BITal
 
 ## 4. Resultados y limitaciones <a name="resultados-y-limitaciones"></a>
 
-### Resultados fisiológicos
-
-#### 📊 Señal en reposo (OpenSignals)
-![reposo](./imagenes/ecg_reposo.png)
-
-#### 📊 Señal en apnea
-![apnea](./imagenes/ecg_apnea.png)
-
-#### 📊 Señal post-ejercicio
-![ejercicio](./imagenes/ecg_ejercicio.png)
-
----
-
 ### 🔬 Análisis en Python
 
 ```python
@@ -196,13 +183,11 @@ for file_name in file_list:
     plt.show()
 ```
   ## REPOSO:
+| Señal | Primera derivada | Segunda derivada |Tercera derivada |
+|-----------|------------------|------------------|-----------------|
+| Dominio del tiempo | <img src="./Imágenes%20en%20el%20anexo/Screenshot_23.jpg" alt="Posición de electrodos" width="50%"> | <img src="./Imágenes%20en%20el%20anexo/Screenshot_25.jpg" alt="Posición de electrodos" width="50%"> | <img src="./Imágenes%20en%20el%20anexo/Screenshot_27.jpg" alt="Posición de electrodos" width="50%"> |
+| Dominio de la frecuencia |  <img src="./Imágenes%20en%20el%20anexo/Screenshot_24.jpg" alt="Posición de electrodos" width="50%"> | <img src="./Imágenes%20en%20el%20anexo/Screenshot_26.jpg" alt="Posición de electrodos" width="50%"> |<img src="./Imágenes%20en%20el%20anexo/Screenshot_28.jpg" alt="Posición de electrodos" width="50%"> |
 
- <img src="./Imágenes%20en%20el%20anexo/Screenshot_23.jpg" alt="Posición de electrodos" width="50%">
- <img src="./Imágenes%20en%20el%20anexo/Screenshot_24.jpg" alt="Posición de electrodos" width="50%">
- <img src="./Imágenes%20en%20el%20anexo/Screenshot_25.jpg" alt="Posición de electrodos" width="50%">
- <img src="./Imágenes%20en%20el%20anexo/Screenshot_26.jpg" alt="Posición de electrodos" width="50%">
- <img src="./Imágenes%20en%20el%20anexo/Screenshot_27.jpg" alt="Posición de electrodos" width="50%">
- <img src="./Imágenes%20en%20el%20anexo/Screenshot_28.jpg" alt="Posición de electrodos" width="50%">
  
    ## INHALACIÓN 1:
    
@@ -232,7 +217,7 @@ for file_name in file_list:
  <img src="./Imágenes%20en%20el%20anexo/Screenshot_22.jpg" alt="Posición de electrodos" width="50%">
 
 
-### 📐 Simulación con ProSim 4
+### 📐 Actividad Adicional
 
 Como parte complementaria de esta práctica, se utilizó un **simulador ProSim 4** para generar señales cardíacas artificiales con diferentes frecuencias, evaluando la capacidad del sistema BITalino para registrar y representar estas señales de forma precisa.
 
