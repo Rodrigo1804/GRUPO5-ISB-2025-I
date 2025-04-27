@@ -212,6 +212,22 @@ for file_name in file_list:
 | Dominio de la frecuencia |  <img src="./Imágenes%20en%20el%20anexo/Screenshot_18.jpg" alt="Posición de electrodos" width="80%"> | <img src="./Imágenes%20en%20el%20anexo/Screenshot_20.jpg" alt="Posición de electrodos" width="80%">| <img src="./Imágenes%20en%20el%20anexo/Screenshot_22.jpg" alt="Posición de electrodos" width="80%">| 
  
 
+ #### Análisis de resultados
+
+
+- La señal basal mostró un ritmo sinusal regular, con ondas P, QRS y T identificables.
+- Durante la apnea, la frecuencia se redujo levemente y hubo un cambio en la amplitud.
+- En el estado post-ejercicio, la frecuencia cardíaca aumentó significativamente.
+- El análisis de frecuencia mostró un pico dominante cercano a 1 Hz (60 bpm), coherente con el ritmo en reposo.
+
+Incluir aquí capturas de pantalla de OpenSignals]
+Incluir gráficos generados con Python
+
+ #### Limitaciones
+
+- Ruido por movimiento y mala adherencia de electrodos en la prueba post-ejercicio.
+- Frecuencia de muestreo fija limitó el análisis detallado de intervalos cortos.
+- No se pudo realizar la prueba con ProSim por falta de acceso al simulador.
 
 ## 📐 Actividad Adicional
 
@@ -245,25 +261,6 @@ Validar el funcionamiento del módulo ECG del BITalino con señales simuladas de
 Las gráficas muestran una frecuencia de aparición del complejo QRS proporcional a la frecuencia establecida por el simulador. Esto valida que el módulo ECG de BITalino puede registrar correctamente señales artificiales con buena fidelidad. Además, la visualización en OpenSignals resultó estable y sin pérdidas significativas de señal durante toda la simulación.
 
 > 📌 *Nota: si el simulador ProSim no estuvo disponible, se debe registrar esta sección como no realizada en las limitaciones.*
-
- ## 4. Resultados y limitaciones: <a name="resultados-y-limitaciones"></a> 
-
-
-- La señal basal mostró un ritmo sinusal regular, con ondas P, QRS y T identificables.
-- Durante la apnea, la frecuencia se redujo levemente y hubo un cambio en la amplitud.
-- En el estado post-ejercicio, la frecuencia cardíaca aumentó significativamente.
-- El análisis de frecuencia mostró un pico dominante cercano a 1 Hz (60 bpm), coherente con el ritmo en reposo.
-
-Incluir aquí capturas de pantalla de OpenSignals]
-Incluir gráficos generados con Python
-
- ### Limitaciones
-
-- Ruido por movimiento y mala adherencia de electrodos en la prueba post-ejercicio.
-- Frecuencia de muestreo fija limitó el análisis detallado de intervalos cortos.
-- No se pudo realizar la prueba con ProSim por falta de acceso al simulador.
-
-
 ## 5. Referencias: <a name="referencias"></a> 
 
 ## 5. Referencias <a name="referencias"></a>
