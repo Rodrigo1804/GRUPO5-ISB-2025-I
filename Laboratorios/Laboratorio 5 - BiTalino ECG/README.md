@@ -231,23 +231,18 @@ Incluir gráficos generados con Python
 
 ## 📐 Actividad Adicional
 
-Como parte complementaria de esta práctica, se utilizó un **simulador ProSim 4** para generar señales cardíacas artificiales con diferentes frecuencias, evaluando la capacidad del sistema BITalino para registrar y representar estas señales de forma precisa.
-
-#### Objetivo
-Validar el funcionamiento del módulo ECG del BITalino con señales simuladas de ritmo cardíaco conocido, y comparar su comportamiento con las señales fisiológicas reales adquiridas.
-
-#### Configuración
-- Derivaciones conectadas al ProSim de forma equivalente a la configuración del paciente real.
-- El BITalino se emparejó por Bluetooth con OpenSignals.
-- Cada frecuencia fue mantenida durante ~1 minuto para su registro.
-
-#### Frecuencias simuladas:
-- 🟢 **60 lpm** → Estado basal
-- 🔵 **90 lpm** → Recuperación
-- 🟠 **120 lpm** → Actividad física moderada
-- 🔴 **150 lpm** → Actividad intensa
+1. Como parte complementaria de esta práctica, se procesó la data obtenida utilizando la función ecg_process() de la librería neurokit2. La función ecg_process() nos brindará una señal filtrada y también nos permitirá identificar los picos (P, Q, S y T) más la frecuencia cardiaca.
 
 #### Registros obtenidos
+
+| Frecuencia simulada | Video | Gráfica de señal |
+|---------------------|--------|------------------|
+| **60 lpm**          | [🎥 Ver video](https://example.com/video60) | ![Simulación 60](./simulacion/sim_60.png) |
+| **90 lpm**          | [🎥 Ver video](https://example.com/video90) | ![Simulación 90](./simulacion/sim_90.png) |
+| **120 lpm**         | [🎥 Ver video](https://example.com/video120) | ![Simulación 120](./simulacion/sim_120.png) |
+| **150 lpm**         | [🎥 Ver video](https://example.com/video150) | ![Simulación 150](./simulacion/sim_150.png) |
+
+2. Ploteo de señales en un electrocardiograma utilizando la librería https://pypi.org/project/ecg-plot/
 
 | Frecuencia simulada | Video | Gráfica de señal |
 |---------------------|--------|------------------|
@@ -261,7 +256,6 @@ Validar el funcionamiento del módulo ECG del BITalino con señales simuladas de
 Las gráficas muestran una frecuencia de aparición del complejo QRS proporcional a la frecuencia establecida por el simulador. Esto valida que el módulo ECG de BITalino puede registrar correctamente señales artificiales con buena fidelidad. Además, la visualización en OpenSignals resultó estable y sin pérdidas significativas de señal durante toda la simulación.
 
 > 📌 *Nota: si el simulador ProSim no estuvo disponible, se debe registrar esta sección como no realizada en las limitaciones.*
-## 5. Referencias: <a name="referencias"></a> 
 
 ## 5. Referencias <a name="referencias"></a>
 
