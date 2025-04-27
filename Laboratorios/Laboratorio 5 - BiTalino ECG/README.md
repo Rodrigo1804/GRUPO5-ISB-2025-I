@@ -233,8 +233,8 @@ Incluir gráficos generados con Python
 
 1. Como parte complementaria de esta práctica, se procesó la data obtenida utilizando la función ecg_process() de la librería neurokit2. La función ecg_process() nos brindará una señal filtrada y también nos permitirá identificar los picos (P, Q, S y T) más la frecuencia cardiaca.
 
-### Señales procesadas
-#### Reposo
+  ### Señales procesadas
+  #### Reposo
 
 <div align="center">
   <img src="./Imágenes%20en%20el%20anexo/ReposoProcesado1raDeriv.jpg" alt="Posición de electrodos" width="60%">
@@ -249,7 +249,7 @@ Incluir gráficos generados con Python
   <p><strong>Figura 8:</strong> Datos del estado de reposo procesado (III derivada).</p>
 </div>
 
-#### Inhalación 1
+  #### Inhalación 1
 <div align="center">
   <img src="./Imágenes%20en%20el%20anexo/InhalacionProcesada1raDeriv.jpg" alt="Posición de electrodos" width="60%">
   <p><strong>Figura 9:</strong> Datos del estado de primera inhalación procesado (I derivada).</p>
@@ -263,7 +263,7 @@ Incluir gráficos generados con Python
   <p><strong>Figura 11:</strong> Datos del estado de primera inhalación procesado (III derivada).</p>
 </div>
 
-#### Actividad física
+  #### Actividad física
 <div align="center">
   <img src="./Imágenes%20en%20el%20anexo/ActividadFisicaProcesada1raDeriv.jpg" alt="Posición de electrodos" width="60%">
   <p><strong>Figura 12:</strong> Datos del estado de reposo procesado (I derivada).</p>
@@ -277,7 +277,7 @@ Incluir gráficos generados con Python
   <p><strong>Figura 14:</strong> Datos del estado de reposo procesado (III derivada).</p>
 </div>
 
-#### Post- actividad física
+  #### Post- actividad física
 <div align="center">
   <img src="./Imágenes%20en%20el%20anexo/Inhalacion2Procesada1raDeriv.jpg" alt="Posición de electrodos" width="60%">
   <p><strong>Figura 15:</strong> Datos del estado post-actividad física procesado (I derivada).</p>
@@ -293,18 +293,11 @@ Incluir gráficos generados con Python
 
 2. Ploteo de señales en un electrocardiograma utilizando la librería https://pypi.org/project/ecg-plot/
 
-| Frecuencia simulada | Video | Gráfica de señal |
-|---------------------|--------|------------------|
-| **60 lpm**          | [🎥 Ver video](https://example.com/video60) | ![Simulación 60](./simulacion/sim_60.png) |
-| **90 lpm**          | [🎥 Ver video](https://example.com/video90) | ![Simulación 90](./simulacion/sim_90.png) |
-| **120 lpm**         | [🎥 Ver video](https://example.com/video120) | ![Simulación 120](./simulacion/sim_120.png) |
-| **150 lpm**         | [🎥 Ver video](https://example.com/video150) | ![Simulación 150](./simulacion/sim_150.png) |
 
-#### Análisis
 
-Las gráficas muestran una frecuencia de aparición del complejo QRS proporcional a la frecuencia establecida por el simulador. Esto valida que el módulo ECG de BITalino puede registrar correctamente señales artificiales con buena fidelidad. Además, la visualización en OpenSignals resultó estable y sin pérdidas significativas de señal durante toda la simulación.
+#### Análisis de las gráficas obtenidas
 
-> 📌 *Nota: si el simulador ProSim no estuvo disponible, se debe registrar esta sección como no realizada en las limitaciones.*
+
 
 ## 5. Referencias <a name="referencias"></a>
 
