@@ -233,14 +233,12 @@ Incluir gráficos generados con Python
 
 1. Como parte complementaria de esta práctica, se procesó la data obtenida utilizando la función ecg_process() de la librería neurokit2. La función ecg_process() nos brindará una señal filtrada y también nos permitirá identificar los picos (P, Q, S y T) más la frecuencia cardiaca.
 
-#### Registros obtenidos
-
-| Frecuencia simulada | Video | Gráfica de señal |
-|---------------------|--------|------------------|
-| **60 lpm**          | [🎥 Ver video](https://example.com/video60) | ![Simulación 60](./simulacion/sim_60.png) |
-| **90 lpm**          | [🎥 Ver video](https://example.com/video90) | ![Simulación 90](./simulacion/sim_90.png) |
-| **120 lpm**         | [🎥 Ver video](https://example.com/video120) | ![Simulación 120](./simulacion/sim_120.png) |
-| **150 lpm**         | [🎥 Ver video](https://example.com/video150) | ![Simulación 150](./simulacion/sim_150.png) |
+### Señales procesadas
+#### Reposo
+  <img src="./Imágenes%20en%20el%20anexo/" alt="Posición de electrodos" width="80%">
+#### Inhalación 1
+#### Actividad física
+#### Post- actividad física
 
 2. Ploteo de señales en un electrocardiograma utilizando la librería https://pypi.org/project/ecg-plot/
 
