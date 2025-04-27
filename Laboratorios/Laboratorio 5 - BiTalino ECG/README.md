@@ -99,12 +99,11 @@ El propósito de esta práctica es adquirir señales ECG utilizando el kit BITal
 
 4. **Registro audiovisual del procedimiento**
 
-| Condición | Video |
-|----------|-------|
-| Estado basal | [🎥 Ver video](https://link-a-tu-video.com) |
-| Apnea (10s) | [🎥 Ver video](https://link-a-tu-video.com) |
-| Post-ejercicio | [🎥 Ver video](https://link-a-tu-video.com) |
-| Conexión y colocación de electrodos | [🎥 Ver video](https://link-a-tu-video.com) |
+| Condición | Primera derivada | Segunda derivada |Tercera derivada |
+|-----------|------------------|------------------|-----------------|
+| Estado basal | [🎥 Ver video](https://youtube.com/shorts/vVY88n9KfAk?feature=share) |[🎥 Ver video](https://youtube.com/shorts/2bLt-sYCtmI?feature=share)|[🎥 Ver video](https://youtube.com/shorts/s4G-Rlms8AA?feature=share)|
+| Apnea (10s) | [🎥 Ver video](https://youtube.com/shorts/9ByDjbO6oqQ?feature=share) |[🎥 Ver video](https://youtube.com/shorts/9BmTBhu1jpA?feature=share)|[🎥 Ver video](https://youtube.com/shorts/hejaDptHt4U?feature=share)|
+| Post-ejercicio | [🎥 Ver video](https://youtube.com/shorts/hDtf_SdD4dA?feature=share) |[🎥 Ver video](https://youtube.com/shorts/B9SYISAgSFM?feature=share)|[🎥 Ver video](https://youtube.com/shorts/dsOA6KDlBD4?feature=share) |
 
 4. **Exportación de datos**
    - Exportar archivos .txt desde OpenSignals para análisis posterior en Python.
