@@ -235,10 +235,61 @@ Incluir gráficos generados con Python
 
 ### Señales procesadas
 #### Reposo
-  <img src="./Imágenes%20en%20el%20anexo/" alt="Posición de electrodos" width="80%">
+
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/ReposoProcesado1raDeriv.jpg" alt="Posición de electrodos" width="80%">
+  <p><strong>Figura 6:</strong> Datos del estado de reposo procesado (I derivada).</p>
+</div>
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/ReposoProcesado2daDeriv.jpg" alt="Derivaciones precordiales" width="60%">
+  <p><strong>Figura 7:</strong> Datos del estado de reposo procesado (II derivada).</p>
+</div>
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/ReposoProcesado3raDeriv.jpg" alt="Derivaciones precordiales" width="60%">
+  <p><strong>Figura 8:</strong> Datos del estado de reposo procesado (III derivada).</p>
+</div>
+
 #### Inhalación 1
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/InhalacionProcesada1raDeriv.jpg" alt="Posición de electrodos" width="80%">
+  <p><strong>Figura 9:</strong> Datos del estado de primera inhalación procesado (I derivada).</p>
+</div>
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/InhalacionProcesada2daDeriv.jpg" alt="Derivaciones precordiales" width="60%">
+  <p><strong>Figura 10:</strong> Datos del estado de primera inhalación procesado (II derivada).</p>
+</div>
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/InhalacionProcesada3raDeriv.jpg" alt="Derivaciones precordiales" width="60%">
+  <p><strong>Figura 11:</strong> Datos del estado de primera inhalación procesado (III derivada).</p>
+</div>
+
 #### Actividad física
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/ActividadFisicaProcesada1raDeriv.jpg" alt="Posición de electrodos" width="80%">
+  <p><strong>Figura 12:</strong> Datos del estado de reposo procesado (I derivada).</p>
+</div>
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/ActividadFisicaProcesada2daDeriv.jpg" alt="Derivaciones precordiales" width="60%">
+  <p><strong>Figura 13:</strong> Datos del estado de reposo procesado (II derivada).</p>
+</div>
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/ActividadFisicaProcesada3raDeriv.jpg" alt="Derivaciones precordiales" width="60%">
+  <p><strong>Figura 14:</strong> Datos del estado de reposo procesado (III derivada).</p>
+</div>
+
 #### Post- actividad física
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/Inhalacion2Procesada1raDeriv.jpg" alt="Posición de electrodos" width="80%">
+  <p><strong>Figura 15:</strong> Datos del estado post-actividad física procesado (I derivada).</p>
+</div>
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/Inhalacion2Procesada2daDeriv.jpg" alt="Derivaciones precordiales" width="60%">
+  <p><strong>Figura 16:</strong> Datos del estado post-actividad física (II derivada).</p>
+</div>
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/Inhalacion2Procesada3raDeriv.jpg" alt="Derivaciones precordiales" width="60%">
+  <p><strong>Figura 17:</strong> Datos del estado post-actividad física (III derivada).</p>
+</div>
 
 2. Ploteo de señales en un electrocardiograma utilizando la librería https://pypi.org/project/ecg-plot/
 
