@@ -111,7 +111,7 @@ El propósito de esta práctica es adquirir señales ECG utilizando el kit BITal
 
 ## 4. Resultados y limitaciones <a name="resultados-y-limitaciones"></a>
 
-### 🔬 Análisis en Python
+###  Análisis en Python
 
 ```python
 import pandas as pd
@@ -215,21 +215,10 @@ for file_name in file_list:
  #### Análisis de resultados
 
 
-- La señal basal mostró un ritmo sinusal regular, con ondas P, QRS y T identificables.
-- Durante la apnea, la frecuencia se redujo levemente y hubo un cambio en la amplitud.
-- En el estado post-ejercicio, la frecuencia cardíaca aumentó significativamente.
-- El análisis de frecuencia mostró un pico dominante cercano a 1 Hz (60 bpm), coherente con el ritmo en reposo.
-
-Incluir aquí capturas de pantalla de OpenSignals]
-Incluir gráficos generados con Python
-
  #### Limitaciones
 
-- Ruido por movimiento y mala adherencia de electrodos en la prueba post-ejercicio.
-- Frecuencia de muestreo fija limitó el análisis detallado de intervalos cortos.
-- No se pudo realizar la prueba con ProSim por falta de acceso al simulador.
 
-## 📐 Actividad Adicional
+##  Actividad Adicional
 
 1. Como parte complementaria de esta práctica, se procesó la data obtenida utilizando la función ecg_process() de la librería neurokit2. La función ecg_process() nos brindará una señal filtrada y también nos permitirá identificar los picos (P, Q, S y T) más la frecuencia cardiaca.
 
