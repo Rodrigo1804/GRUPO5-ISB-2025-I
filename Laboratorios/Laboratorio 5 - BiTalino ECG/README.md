@@ -293,9 +293,64 @@ Incluir gráficos generados con Python
 
 2. Ploteo de señales en un electrocardiograma utilizando la librería https://pypi.org/project/ecg-plot/
 
+  #### Reposo
 
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/ReposoECG1raDeriv.jpg" alt="Posición de electrodos" width="60%">
+  <p><strong>Figura 18:</strong> Ploteo de señal de reposo en Electrocardiograma (I derivada).</p>
+</div>
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/ReposoECG2daDeriv.jpg" alt="Derivaciones precordiales" width="60%">
+  <p><strong>Figura 19:</strong>  Ploteo de señal de reposo en Electrocardiograma (II derivada).</p>
+</div>
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/ReposoECG3raDeriv.jpg" alt="Derivaciones precordiales" width="60%">
+  <p><strong>Figura 20:</strong>  Ploteo de señal de reposo en Electrocardiograma (III derivada).</p>
+</div>
 
-#### Análisis de las gráficas obtenidas
+  #### Inhalación 1
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/InhalacionECG1raDeriv.jpg" alt="Posición de electrodos" width="60%">
+  <p><strong>Figura 21:</strong> Ploteo de señal de primera inhalación en Electrocardiograma  (I derivada).</p>
+</div>
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/InhalacionECG2daDeriv.jpg" alt="Derivaciones precordiales" width="60%">
+  <p><strong>Figura 22:</strong> Ploteo de señal de primera inhalación en Electrocardiograma (II derivada).</p>
+</div>
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/InhalacionECG3raDeriv.jpg" alt="Derivaciones precordiales" width="60%">
+  <p><strong>Figura 23:</strong> Ploteo de señal de primera inhalación en Electrocardiograma (III derivada).</p>
+</div>
+
+  #### Actividad física
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/ActividadFisicaECG1raDeriv.jpg" alt="Posición de electrodos" width="60%">
+  <p><strong>Figura 24:</strong> Ploteo de señal de actividad física en Electrocardiograma (I derivada).</p>
+</div>
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/ActividadFisicaECG2daDeriv.jpg" alt="Derivaciones precordiales" width="60%">
+  <p><strong>Figura 25:</strong> Ploteo de señal de actividad física en Electrocardiograma (II derivada).</p>
+</div>
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/ActividadFisicaECG3raDeriv.jpg" alt="Derivaciones precordiales" width="60%">
+  <p><strong>Figura 26:</strong> Ploteo de señal de actividad física en Electrocardiograma (III derivada).</p>
+</div>
+
+  #### Post- actividad física
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/Inhalacion2ECG1raDeriv.jpg" alt="Posición de electrodos" width="60%">
+  <p><strong>Figura 27:</strong> Ploteo de señal post-actividad física en Electrocardiograma (I derivada).</p>
+</div>
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/Inhalacion2ECG2daDeriv.jpg" alt="Derivaciones precordiales" width="60%">
+  <p><strong>Figura 28:</strong> Ploteo de señal post-actividad física en Electrocardiograma (II derivada).</p>
+</div>
+<div align="center">
+  <img src="./Imágenes%20en%20el%20anexo/Inhalacion2ECG3raDeriv.jpg" alt="Derivaciones precordiales" width="60%">
+  <p><strong>Figura 29:</strong> Ploteo de señal post-actividad física en Electrocardiograma (III derivada).</p>
+</div>
+
+  #### Análisis de las gráficas obtenidas
 
 
 
