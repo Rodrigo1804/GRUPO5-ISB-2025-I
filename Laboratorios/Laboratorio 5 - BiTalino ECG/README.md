@@ -203,7 +203,7 @@ En el análisis en el dominio de la frecuencia, se observa que la mayor concentr
 
 #### Análisis de resultados
 Durante la condición de inhalación , en el dominio del tiempo, las tres derivadas reflejan una actividad cardíaca rítmica. Se puede notar que la frecuencia en ciertas zonas aumenta y entras disminuye y esto se debe a que ocurre un fenómeno fisiológico llamado arritmia sinusal respiratoria, donde la frecuencia cardiaca aumenta levemente al inhalar y disminuye al exhalar [4]. Asimismo, la segunda derivada continúa mostrando la señal más limpia y los BPM calculados están dentro del rango normal (60–100 BPM), considerando que no se ha realizado la activada física[a]. 
-.
+
 Respecto al análisis en el dominio de la frecuencia, se identifica nuevamente que la mayor concentración de energía se encuentra en el rango de 0.5 a 30 Hz, manteniéndose un pico máximo cercano a 1 Hz, similar al observado en reposo. Este comportamiento sigue siendo consistente con las frecuencias cardíacas fisiológicas típicas [5]. La atenuación progresiva de la energía a partir de 40 Hz también se conserva, indicando que no hay una contaminación significativa de artefactos de alta frecuencia en la señal capturada.
 
    ### ACTIVIDAD FÍSICA:
