@@ -289,7 +289,8 @@ for file_name in file_list:
   <img src="./Imágenes%20en%20el%20anexo/Inhalacion2Procesada3raDeriv.jpg" alt="Derivaciones precordiales" width="60%">
   <p><strong>Figura 17:</strong> Datos del estado post-actividad física (III derivada).</p>
 </div>
-
+ #### Análisis de las gráficas
+ Se puede observar que los BMP durante esl transcurso del tiempo para reposo e inhalación se encuentras dentro de rango normal entre 60-100 BPM y para actividad física mayor a 100 BPM
 2. Ploteo de señales en un electrocardiograma utilizando la librería https://pypi.org/project/ecg-plot/
 
   #### Reposo
@@ -348,10 +349,6 @@ for file_name in file_list:
   <img src="./Imágenes%20en%20el%20anexo/Inhalacion2ECG3raDeriv.jpg" alt="Derivaciones precordiales" width="60%">
   <p><strong>Figura 29:</strong> Ploteo de señal post-actividad física en Electrocardiograma (III derivada).</p>
 </div>
-
-  #### Análisis de las gráficas obtenidas
-
-
 
 ## 5. Referencias <a name="referencias"></a>
 
