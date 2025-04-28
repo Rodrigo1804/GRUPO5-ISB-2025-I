@@ -187,13 +187,6 @@ for file_name in file_list:
 |-----------|------------------|------------------|-----------------|
 | Dominio del tiempo | <img src="./Imágenes%20en%20el%20anexo/Screenshot_23.jpg" alt="Posición de electrodos" width="80%"> | <img src="./Imágenes%20en%20el%20anexo/Screenshot_25.jpg" alt="Posición de electrodos" width="80%"> | <img src="./Imágenes%20en%20el%20anexo/Screenshot_27.jpg" alt="Posición de electrodos" width="80%"> |
 | Dominio de la frecuencia |  <img src="./Imágenes%20en%20el%20anexo/Screenshot_24.jpg" alt="Posición de electrodos" width="80%"> | <img src="./Imágenes%20en%20el%20anexo/Screenshot_26.jpg" alt="Posición de electrodos" width="80%"> |<img src="./Imágenes%20en%20el%20anexo/Screenshot_28.jpg" alt="Posición de electrodos" width="80%"> |
-
-#### Análisis de resultados
-Durante la condición de reposo, en el domino del tiempo, reflejan una actividad cardíaca regular y se puede identificar los latidos como picos definidos. La segunda derivada presentan una señal más limpia, con menor cantidad de ruido y una mejor delimitación de los complejos cardíacos. Asimismo, los BPM calculados están entre 78 y 87 BPM, que están dentro del rango normal en reposo (60–100 BPM) [a]. 
-
-En el análisis en el dominio de la frecuencia, se observa que la mayor concentración de energía se encuentra en el rango de 0.5 a 30 Hz, con un claro pico máximo cerca de 1 Hz. Este comportamiento es consistente con las frecuencias cardíacas fisiológicas, ya que el ECG humano típico concentra su energía entre 0.5 Hz y 40 Hz [b]. Además, la atenuación progresiva de la magnitud a partir de 40 Hz refuerza la calidad de la adquisición, dado que el rango por encima de esta frecuencia suele ser más afectado por artefactos eléctricos o musculares [c].
-
-
  
    ## INHALACIÓN 1:
 | Señal | Primera derivada | Segunda derivada |Tercera derivada |
@@ -201,35 +194,32 @@ En el análisis en el dominio de la frecuencia, se observa que la mayor concentr
 | Dominio del tiempo |<img src="./Imágenes%20en%20el%20anexo/Screenshot_11.jpg" alt="Posición de electrodos" width="80%"> | <img src="./Imágenes%20en%20el%20anexo/Screenshot_13.jpg" alt="Posición de electrodos" width="80%"> |  <img src="./Imágenes%20en%20el%20anexo/Screenshot_15.jpg" alt="Posición de electrodos" width="80%">|
 | Dominio de la frecuencia | <img src="./Imágenes%20en%20el%20anexo/Screenshot_12.jpg" alt="Posición de electrodos" width="80%"> |  <img src="./Imágenes%20en%20el%20anexo/Screenshot_14.jpg" alt="Posición de electrodos" width="80%"> | <img src="./Imágenes%20en%20el%20anexo/Screenshot_16.jpg" alt="Posición de electrodos" width="80%"> |
 
-#### Análisis de resultados
-Durante la condición de inhalación , en el dominio del tiempo, las tres derivadas reflejan una actividad cardíaca rítmica. Se puede notar que la frecuencia en ciertas zonas aumenta y entras disminuye y esto se debe a que ocurre un fenómeno fisiológico llamado arritmia sinusal respiratoria, donde la frecuencia cardiaca aumenta levemente al inhalar y disminuye al exhalar [4]. Asimismo, la segunda derivada continúa mostrando la señal más limpia y los BPM calculados están dentro del rango normal (60–100 BPM), considerando que no se ha realizado la activada física[a]. 
-
-Respecto al análisis en el dominio de la frecuencia, se identifica nuevamente que la mayor concentración de energía se encuentra en el rango de 0.5 a 30 Hz, manteniéndose un pico máximo cercano a 1 Hz, similar al observado en reposo. Este comportamiento sigue siendo consistente con las frecuencias cardíacas fisiológicas típicas [5]. La atenuación progresiva de la energía a partir de 40 Hz también se conserva, indicando que no hay una contaminación significativa de artefactos de alta frecuencia en la señal capturada.
-
    ### ACTIVIDAD FÍSICA:
 
 | Señal | Primera derivada | Segunda derivada |Tercera derivada |
 |-----------|------------------|------------------|-----------------|
 | Dominio del tiempo |<img src="./Imágenes%20en%20el%20anexo/Screenshot_5.jpg" alt="Posición de electrodos" width="80%"> |  <img src="./Imágenes%20en%20el%20anexo/Screenshot_7.jpg" alt="Posición de electrodos" width="80%">|   <img src="./Imágenes%20en%20el%20anexo/Screenshot_9.jpg" alt="Posición de electrodos" width="80%">|
 | Dominio de la frecuencia | <img src="./Imágenes%20en%20el%20anexo/Screenshot_6.jpg" alt="Posición de electrodos" width="80%"> | <img src="./Imágenes%20en%20el%20anexo/Screenshot_8.jpg" alt="Posición de electrodos" width="80%">| <img src="./Imágenes%20en%20el%20anexo/Screenshot_10.jpg" alt="Posición de electrodos" width="80%"> |
-
-Durante la condición  de actividad física, las señales de ECG registradas muestran un aumento evidente en la frecuencia de los latidos cardiacos. Este incremento corresponde a la respuesta fisiológica normal del sistema simpático ante el esfuerzo físico, que provoca taquicardia para satisfacer la demanda metabólica aumentada [7]. La segunda y tercera derivada manteniendo una mejor definición de los complejos QRS y los BPM calculados son mayores a 100 y se considera normal porque se realizó una actividad física. Asimismo, se puede notar que para la tercera derivada el BPM se reduce (102 BPM) y esto se debe a que para obtener los datos de la tercera derivada hubo un tiempo de reposo mientras se obtenía las gráficas de la primera y segunda derivada.
-
-En el análisis del dominio de la frecuencia, se observa que la energía sigue concentrándose mayoritariamente en el rango de 0.5 a 30 Hz. El pico principal de frecuencia se mantiene alrededor de 1 Hz, correspondiente a la elevación de la frecuencia cardiaca. Asimismo, la atenuación progresiva de la energía más allá de 70 Hz indica que la señal capturada sigue sin contaminación significativa de artefactos de alta frecuencia.
  
-
    ### POST ACTIVIDAD FÍSICA:
  | Señal | Primera derivada | Segunda derivada |Tercera derivada |
 |-----------|------------------|------------------|-----------------|
 | Dominio del tiempo |<img src="./Imágenes%20en%20el%20anexo/Screenshot_17.jpg" alt="Posición de electrodos" width="80%">|  <img src="./Imágenes%20en%20el%20anexo/Screenshot_19.jpg" alt="Posición de electrodos" width="80%"> |  <img src="./Imágenes%20en%20el%20anexo/Screenshot_21.jpg" alt="Posición de electrodos" width="80%">|
 | Dominio de la frecuencia |  <img src="./Imágenes%20en%20el%20anexo/Screenshot_18.jpg" alt="Posición de electrodos" width="80%"> | <img src="./Imágenes%20en%20el%20anexo/Screenshot_20.jpg" alt="Posición de electrodos" width="80%">| <img src="./Imágenes%20en%20el%20anexo/Screenshot_22.jpg" alt="Posición de electrodos" width="80%">| 
  
+#### Análisis en el dominio del tiempo
 
- #### Análisis de resultados
+Durante la condición de reposo, reflejan una actividad cardíaca regular y se puede identificar los latidos como picos definidos. Asimismo, los BPM calculados  están dentro del rango normal en reposo (60–100 BPM) [1]. 
 
+Durante la condición de inhalación , se puede notar que la frecuencia en ciertas zonas aumenta y entras disminuye y esto se debe a que ocurre un fenómeno fisiológico llamado arritmia sinusal respiratoria, donde la frecuencia cardiaca aumenta levemente al inhalar y disminuye al exhalar [6]. Asimismo, los BPM calculados están dentro del rango normal (60–100 BPM), considerando que no se ha realizado la activada física. 
+ 
+Durante la condición de actividad física, las señales de ECG registradas muestran un aumento evidente en la frecuencia de los latidos cardiacos. Este incremento corresponde a la respuesta fisiológica normal del sistema simpático ante el esfuerzo físico, que provoca taquicardia para satisfacer la demanda metabólica aumentada [8]. Asimismo, los BPM calculados son mayores a 100 y se considera normal porque se realizó una actividad física. 
 
- #### Limitaciones
+Durante la condición de inhalación después de las mediciones en la condición de actividad física, los BPM siguen siendo valores mayores a 100 lo que nos indica que la persona aún se esta recuperando de la actividad física y como en la primera medición de inhalación se puede observar el fenómeno arritmia sinusal respiratoria.
 
+#### Análisis en el dominio de la frecuencia 
+
+En el análisis en el dominio de la frecuencia, se mantiene la concentración principal de energía entre 0.5 y 30 Hz, observándose un pico dominante cerca de 1 Hz, como se espera en condiciones fisiológicas normales. La atenuación progresiva de la energía a partir de 40 Hz refuerza la calidad de la adquisición de las señales, minimizando la interferencia de ruidos de alta frecuencia [7].
 
 ##  Actividad Adicional
 
@@ -268,15 +258,15 @@ En el análisis del dominio de la frecuencia, se observa que la energía sigue c
   #### Actividad física
 <div align="center">
   <img src="./Imágenes%20en%20el%20anexo/ActividadFisicaProcesada1raDeriv.jpg" alt="Posición de electrodos" width="60%">
-  <p><strong>Figura 12:</strong> Datos del estado de reposo procesado (I derivada).</p>
+  <p><strong>Figura 12:</strong> Datos del estado de actividad física procesado (I derivada).</p>
 </div>
 <div align="center">
   <img src="./Imágenes%20en%20el%20anexo/ActividadFisicaProcesada2daDeriv.jpg" alt="Derivaciones precordiales" width="60%">
-  <p><strong>Figura 13:</strong> Datos del estado de reposo procesado (II derivada).</p>
+  <p><strong>Figura 13:</strong> Datos del estado de actividad física procesado (II derivada).</p>
 </div>
 <div align="center">
   <img src="./Imágenes%20en%20el%20anexo/ActividadFisicaProcesada3raDeriv.jpg" alt="Derivaciones precordiales" width="60%">
-  <p><strong>Figura 14:</strong> Datos del estado de reposo procesado (III derivada).</p>
+  <p><strong>Figura 14:</strong> Datos del estado de actividad física procesado (III derivada).</p>
 </div>
 
   #### Post- actividad física
@@ -363,4 +353,13 @@ En el análisis del dominio de la frecuencia, se observa que la energía sigue c
 [2] “12 Lead ECG Placement Guide with Illustrations,” *Cables & Sensors*. [En línea]. Disponible en: https://www.cablesandsensors.eu/pages/12-lead-ecg-placement-guide-with-illustrations. [Accedido: 24-abr-2025].
 
 [3] H. E. Inkley, Introduction to Biomedical Engineering, 4th ed., Elsevier, 2020
+
 [4] BITalino documentation. https://bitalino.com/en/software
+
+[5] Mayo Clinic, "Heart rate: What's normal?", Mayo Clinic, 2021. [Online]. Available: https://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979
+
+[6] F. Shaffer, R. McCraty, and C. L. Zerr, "A healthy heart is not a metronome: An integrative review of the heart’s anatomy and heart rate variability," Frontiers in Public Health, vol. 9, p. 779956, 2021, doi: 10.3389/fpubh.2021.779956.
+
+[7] M. González Aguilar, Diseño de un electrocardiógrafo para el estudio de señales ECG, Tesis de Grado, Universidad de Málaga, 2021.
+
+[8] J. Naranjo-Orellana et al., "Cardiovascular response to exercise: Integrative physiology insights," Frontiers in Physiology, vol. 12, p. 667116, 2021, doi: 10.3389/fphys.2021.667116.
