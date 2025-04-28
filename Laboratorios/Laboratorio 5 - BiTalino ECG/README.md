@@ -219,13 +219,13 @@ for file_name in file_list:
 
 #### Análisis en el dominio de la frecuencia 
 
-- Entre las principales limitaciones del presente experimento se encuentran la susceptibilidad a artefactos de movimiento y la posible contaminación por interferencia de red eléctrica. Además, la corta duración de las mediciones podría no capturar completamente fenómenos de variabilidad cardíaca de baja frecuencia.
-
-- La colocación simplificada de electrodos también limita la representatividad espacial del ECG respecto a un estudio clínico completo, y la fatiga residual post-ejercicio puede afectar los resultados de recuperación.
+En el análisis en el dominio de la frecuencia, se mantiene la concentración principal de energía entre 0.5 y 30 Hz, observándose un pico dominante cerca de 1 Hz, como se espera en condiciones fisiológicas normales. La atenuación progresiva de la energía a partir de 40 Hz refuerza la calidad de la adquisición de las señales, minimizando la interferencia de ruidos de alta frecuencia [7].
 
 ### Limitaciones
 
-- En la actividad se trabajó con colocaciones simplificadas para adquirir DI, DII y DIII.
+- Entre las principales limitaciones del presente experimento se encuentran la susceptibilidad a artefactos de movimiento y la posible contaminación por interferencia de red eléctrica. Además, la corta duración de las mediciones podría no capturar completamente fenómenos de variabilidad cardíaca de baja frecuencia.
+
+- La colocación simplificada de electrodos también limita la representatividad espacial del ECG respecto a un estudio clínico completo, y la fatiga residual post-ejercicio puede afectar los resultados de recuperación.
 
 
 ##  Actividad Adicional
