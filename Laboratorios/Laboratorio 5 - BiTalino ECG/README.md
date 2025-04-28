@@ -211,6 +211,11 @@ Respecto al análisis en el dominio de la frecuencia, se identifica nuevamente q
 | Señal | Primera derivada | Segunda derivada |Tercera derivada |
 |-----------|------------------|------------------|-----------------|
 | Dominio del tiempo |<img src="./Imágenes%20en%20el%20anexo/Screenshot_5.jpg" alt="Posición de electrodos" width="80%"> |  <img src="./Imágenes%20en%20el%20anexo/Screenshot_7.jpg" alt="Posición de electrodos" width="80%">|   <img src="./Imágenes%20en%20el%20anexo/Screenshot_9.jpg" alt="Posición de electrodos" width="80%">|
+
+Durante la condición  de actividad física, las señales de ECG registradas muestran un aumento evidente en la frecuencia de los latidos cardiacos. Este incremento corresponde a la respuesta fisiológica normal del sistema simpático ante el esfuerzo físico, que provoca taquicardia para satisfacer la demanda metabólica aumentada [7]. La segunda y tercera derivada manteniendo una mejor definición de los complejos QRS y los BPM calculados son mayores a 100 y se considera normal porque se realizó una actividad física. Asimismo, se puede notar que para la tercera derivada el BPM se reduce (102 BPM) y esto se debe a que para obtener los datos de la tercera derivada hubo un tiempo de reposo mientras se obtenía las gráficas de la primera y segunda derivada.
+
+En el análisis del dominio de la frecuencia, se observa que la energía sigue concentrándose mayoritariamente en el rango de 0.5 a 30 Hz. El pico principal de frecuencia se mantiene alrededor de 1 Hz, correspondiente a la elevación de la frecuencia cardiaca. Asimismo, la atenuación progresiva de la energía más allá de 70 Hz indica que la señal capturada sigue sin contaminación significativa de artefactos de alta frecuencia.
+
 | Dominio de la frecuencia | <img src="./Imágenes%20en%20el%20anexo/Screenshot_6.jpg" alt="Posición de electrodos" width="80%"> | <img src="./Imágenes%20en%20el%20anexo/Screenshot_8.jpg" alt="Posición de electrodos" width="80%">| <img src="./Imágenes%20en%20el%20anexo/Screenshot_10.jpg" alt="Posición de electrodos" width="80%"> |
  
 
