@@ -219,7 +219,7 @@ for file_name in file_list:
 
 #### Análisis en el dominio de la frecuencia 
 
-En el análisis en el dominio de la frecuencia, se mantiene la concentración principal de energía entre 0.5 y 30 Hz, observándose un pico dominante cerca de 1 Hz, como se espera en condiciones fisiológicas normales. La atenuación progresiva de la energía a partir de 40 Hz refuerza la calidad de la adquisición de las señales, minimizando la interferencia de ruidos de alta frecuencia [7].
+- En el análisis en el dominio de la frecuencia, se mantiene la concentración principal de energía entre 0.5 y 30 Hz, observándose un pico dominante cerca de 1 Hz, como se espera en condiciones fisiológicas normales. La atenuación progresiva de la energía a partir de 40 Hz refuerza la calidad de la adquisición de las señales, minimizando la interferencia de ruidos de alta frecuencia [7].
 
 ### Limitaciones
 
