@@ -188,7 +188,7 @@ for file_name in file_list:
 | Dominio del tiempo | <img src="./Imágenes%20en%20el%20anexo/Screenshot_23.jpg" alt="Posición de electrodos" width="80%"> | <img src="./Imágenes%20en%20el%20anexo/Screenshot_25.jpg" alt="Posición de electrodos" width="80%"> | <img src="./Imágenes%20en%20el%20anexo/Screenshot_27.jpg" alt="Posición de electrodos" width="80%"> |
 | Dominio de la frecuencia |  <img src="./Imágenes%20en%20el%20anexo/Screenshot_24.jpg" alt="Posición de electrodos" width="80%"> | <img src="./Imágenes%20en%20el%20anexo/Screenshot_26.jpg" alt="Posición de electrodos" width="80%"> |<img src="./Imágenes%20en%20el%20anexo/Screenshot_28.jpg" alt="Posición de electrodos" width="80%"> |
  
-   ## INHALACIÓN 1:
+  ### INHALACIÓN 1:
 | Señal | Primera derivada | Segunda derivada |Tercera derivada |
 |-----------|------------------|------------------|-----------------|
 | Dominio del tiempo |<img src="./Imágenes%20en%20el%20anexo/Screenshot_11.jpg" alt="Posición de electrodos" width="80%"> | <img src="./Imágenes%20en%20el%20anexo/Screenshot_13.jpg" alt="Posición de electrodos" width="80%"> |  <img src="./Imágenes%20en%20el%20anexo/Screenshot_15.jpg" alt="Posición de electrodos" width="80%">|
@@ -206,20 +206,27 @@ for file_name in file_list:
 |-----------|------------------|------------------|-----------------|
 | Dominio del tiempo |<img src="./Imágenes%20en%20el%20anexo/Screenshot_17.jpg" alt="Posición de electrodos" width="80%">|  <img src="./Imágenes%20en%20el%20anexo/Screenshot_19.jpg" alt="Posición de electrodos" width="80%"> |  <img src="./Imágenes%20en%20el%20anexo/Screenshot_21.jpg" alt="Posición de electrodos" width="80%">|
 | Dominio de la frecuencia |  <img src="./Imágenes%20en%20el%20anexo/Screenshot_18.jpg" alt="Posición de electrodos" width="80%"> | <img src="./Imágenes%20en%20el%20anexo/Screenshot_20.jpg" alt="Posición de electrodos" width="80%">| <img src="./Imágenes%20en%20el%20anexo/Screenshot_22.jpg" alt="Posición de electrodos" width="80%">| 
- 
+
 #### Análisis en el dominio del tiempo
 
-Durante la condición de reposo, reflejan una actividad cardíaca regular y se puede identificar los latidos como picos definidos. Asimismo, los BPM calculados  están dentro del rango normal en reposo (60–100 BPM) [1]. 
+- Durante la condición de reposo, reflejan una actividad cardíaca regular y se puede identificar los latidos como picos definidos. Asimismo, los BPM calculados  están dentro del rango normal en reposo (60–100 BPM) [1]. 
 
-Durante la condición de inhalación , se puede notar que la frecuencia en ciertas zonas aumenta y entras disminuye y esto se debe a que ocurre un fenómeno fisiológico llamado arritmia sinusal respiratoria, donde la frecuencia cardiaca aumenta levemente al inhalar y disminuye al exhalar [6]. Asimismo, los BPM calculados están dentro del rango normal (60–100 BPM), considerando que no se ha realizado la activada física. 
+- Durante la condición de inhalación , se puede notar que la frecuencia en ciertas zonas aumenta y entras disminuye y esto se debe a que ocurre un fenómeno fisiológico llamado arritmia sinusal respiratoria, donde la frecuencia cardiaca aumenta levemente al inhalar y disminuye al exhalar [6]. Asimismo, los BPM calculados están dentro del rango normal (60–100 BPM), considerando que no se ha realizado la activada física. 
  
-Durante la condición de actividad física, las señales de ECG registradas muestran un aumento evidente en la frecuencia de los latidos cardiacos. Este incremento corresponde a la respuesta fisiológica normal del sistema simpático ante el esfuerzo físico, que provoca taquicardia para satisfacer la demanda metabólica aumentada [8]. Asimismo, los BPM calculados son mayores a 100 y se considera normal porque se realizó una actividad física. 
+- Durante la condición de actividad física, las señales de ECG registradas muestran un aumento evidente en la frecuencia de los latidos cardiacos. Este incremento corresponde a la respuesta fisiológica normal del sistema simpático ante el esfuerzo físico, que provoca taquicardia para satisfacer la demanda metabólica aumentada [8]. Asimismo, los BPM calculados son mayores a 100 y se considera normal porque se realizó una actividad física. 
 
-Durante la condición de inhalación después de las mediciones en la condición de actividad física, los BPM siguen siendo valores mayores a 100 lo que nos indica que la persona aún se esta recuperando de la actividad física y como en la primera medición de inhalación se puede observar el fenómeno arritmia sinusal respiratoria.
+- Durante la condición de inhalación después de las mediciones en la condición de actividad física, los BPM siguen siendo valores mayores a 100 lo que nos indica que la persona aún se esta recuperando de la actividad física y como en la primera medición de inhalación se puede observar el fenómeno arritmia sinusal respiratoria.
 
 #### Análisis en el dominio de la frecuencia 
 
-En el análisis en el dominio de la frecuencia, se mantiene la concentración principal de energía entre 0.5 y 30 Hz, observándose un pico dominante cerca de 1 Hz, como se espera en condiciones fisiológicas normales. La atenuación progresiva de la energía a partir de 40 Hz refuerza la calidad de la adquisición de las señales, minimizando la interferencia de ruidos de alta frecuencia [7].
+- Entre las principales limitaciones del presente experimento se encuentran la susceptibilidad a artefactos de movimiento y la posible contaminación por interferencia de red eléctrica. Además, la corta duración de las mediciones podría no capturar completamente fenómenos de variabilidad cardíaca de baja frecuencia.
+
+- La colocación simplificada de electrodos también limita la representatividad espacial del ECG respecto a un estudio clínico completo, y la fatiga residual post-ejercicio puede afectar los resultados de recuperación.
+
+### Limitaciones
+
+- En la actividad se trabajó con colocaciones simplificadas para adquirir DI, DII y DIII.
+
 
 ##  Actividad Adicional
 
