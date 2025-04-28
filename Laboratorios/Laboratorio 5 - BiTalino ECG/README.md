@@ -189,6 +189,10 @@ for file_name in file_list:
 | Dominio de la frecuencia |  <img src="./Imágenes%20en%20el%20anexo/Screenshot_24.jpg" alt="Posición de electrodos" width="80%"> | <img src="./Imágenes%20en%20el%20anexo/Screenshot_26.jpg" alt="Posición de electrodos" width="80%"> |<img src="./Imágenes%20en%20el%20anexo/Screenshot_28.jpg" alt="Posición de electrodos" width="80%"> |
 
 #### Análisis de resultados
+Durante la condición de reposo, las señales de ECG registradas muestran unas amplitudes relativamente constantes. Todas las graficas, en el domino del tiempo, reflejan una actividad cardíaca regular, donde se identifican los latidos como picos definidos. La segunda derivada presentan una señal más limpia, con menor cantidad de ruido y una mejor delimitación de los complejos cardíacos. Asimismo, los BPM calculados están entre 78 y 87 BPM, que están dentro del rango normal en reposo (60–100 BPM) [a]. 
+
+En el análisis en el dominio de la frecuencia, se observa que la mayor concentración de energía se encuentra en el rango de 0.5 a 30 Hz, con un claro pico máximo cerca de 1 Hz. Este comportamiento es consistente con las frecuencias cardíacas fisiológicas, ya que el ECG humano típico concentra su energía entre 0.5 Hz y 40 Hz [b]. Además, la atenuación progresiva de la magnitud a partir de 40 Hz refuerza la calidad de la adquisición, dado que el rango por encima de esta frecuencia suele ser más afectado por artefactos eléctricos o musculares [c].
+
 
  
    ## INHALACIÓN 1:
