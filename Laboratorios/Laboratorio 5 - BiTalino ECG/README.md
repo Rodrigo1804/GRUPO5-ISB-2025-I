@@ -107,8 +107,7 @@ El propósito de esta práctica es adquirir señales ECG utilizando el kit BITal
 
 4. **Exportación de datos**
    - Exportar archivos .txt desde OpenSignals para análisis posterior en Python.
-   - 
-
+  
 ## 4. Resultados y limitaciones <a name="resultados-y-limitaciones"></a>
 
 ###  Análisis en Python
