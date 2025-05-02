@@ -31,7 +31,7 @@ La electroencefalografía (EEG) es una técnica no invasiva que permite registra
 </div>
 
 Una forma estandarizada de ubicar los electrodos en el cráneo humano es el sistema internacional **10-20**, que distribuye las posiciones según porcentajes del tamaño del cráneo y usa letras para identificar las regiones corticales:
-- **F (Frontal)**: funciones ejecutivas y atención (por ejemplo: FP1, FP2)
+- **F (Frontal)**: funciones ejecutivas y atención (por ejemplo: F1, F2)
 - **C (Central)**: área motora (por ejemplo: C3, C4)
 - **P (Parietal)**: integración sensorial (por ejemplo: P3, P4)
 - **O (Occipital)**: procesamiento visual (por ejemplo: O1, O2)
