@@ -46,7 +46,7 @@ La señal EEG puede adquirirse de forma monopolar (un electrodo activo respecto 
 
 
 ## 2. Propósito de la práctica: <a name="propósito-de-la-práctica"></a>
-El propósito de esta práctica es adquirir señales EEG utilizando el kit BITalino (r)evolution, registrando la actividad cerebral en condiciones de reposo (ojos abiertos/cerrados), durante una tarea cognitiva y bajo artefactos controlados.
+El propósito de esta práctica es adquirir señales EEG utilizando el kit BITalino (r)evolution, registrando la actividad cerebral desde las posiciones Fp1, Fp2 y O2 del sistema 10-20. Se evaluará la señal en condiciones de reposo (ojos abiertos/cerrados), durante una tarea cognitiva y ante artefactos controlados.
 
  ## 3. Materiales y metodología: <a name="materiales-y-metodología"></a> 
 
