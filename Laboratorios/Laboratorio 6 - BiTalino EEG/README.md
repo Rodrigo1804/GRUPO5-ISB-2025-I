@@ -10,7 +10,7 @@
 ## 1. Introducción <a name="introducción"></a>
 La electroencefalografía (EEG) es una técnica no invasiva que permite registrar la actividad eléctrica del cerebro mediante electrodos colocados sobre el cuero cabelludo. Esta actividad refleja principalmente los potenciales postsinápticos generados por neuronas piramidales de la corteza cerebral, organizadas de manera paralela, lo que permite detectar oscilaciones neuronales a través de diferentes bandas de frecuencia (delta, theta, alfa, beta y gamma)【1】.
 <div align="center">
-  <img src="./Imágenes%20en%20el%20anexo/IMAGE1.jpg" alt="EEG" width="60%">
+  <img src="./Imágenes%20en%20el%20anexo/IMAGE1.PNG" alt="EEG" width="60%">
   <p><strong>Figura 1:</strong> EEG.</p>
 </div>
 
