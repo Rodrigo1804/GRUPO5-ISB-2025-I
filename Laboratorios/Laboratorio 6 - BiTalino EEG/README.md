@@ -25,10 +25,7 @@ La electroencefalografía (EEG) es una técnica no invasiva que permite registra
 | **Beta**            | 13 – 30    | Concentración, actividad mental y motora               | Incrementa con estrés o tareas cognitivas. Alta en regiones frontales【5】.                 |
 | **Gamma**           | > 30       | Atención, percepción multisensorial, conciencia        | Baja amplitud. Asociada con procesos cognitivos complejos【6】.                             |
 
-<div align="center">
-  <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/IMAGE2.png?raw=true" alt="Ilustración de bandas EEG" width="600"/>
-  <p><em>Figura 2. Representación visual de las bandas de frecuencia en una señal EEG</em></p>
-</div>
+
 
 
 
