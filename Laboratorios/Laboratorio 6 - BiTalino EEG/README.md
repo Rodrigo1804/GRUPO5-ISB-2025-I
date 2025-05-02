@@ -30,7 +30,8 @@ La electroencefalografía (EEG) es una técnica no invasiva que permite registra
   <p><em>Figura 2. Representación visual de las bandas de frecuencia en una señal EEG</em></p>
 </div>
 
-Una forma estandarizada de ubicar los electrodos en el cráneo humano es el sistema internacional **10-20**, que distribuye las posiciones según porcentajes del tamaño del cráneo y usa letras para identificar las regiones corticales:
+### Tipos de medición y ubicación de los electrodos
+La señal EEG puede adquirirse de forma monopolar (un electrodo activo respecto a una referencia común) o bipolar, que mide la diferencia entre dos electrodos activos más una referencia (El BITalino utiliza esta última). Por otro lado, una forma estandarizada de ubicar los electrodos en el cráneo humano es el sistema internacional **10-20**, que distribuye las posiciones según porcentajes del tamaño del cráneo y usa letras para identificar las regiones corticales:
 - **F (Frontal)**: funciones ejecutivas y atención (por ejemplo: F1, F2)
 - **C (Central)**: área motora (por ejemplo: C3, C4)
 - **P (Parietal)**: integración sensorial (por ejemplo: P3, P4)
