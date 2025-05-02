@@ -49,6 +49,34 @@ La señal EEG puede adquirirse de forma monopolar (un electrodo activo respecto 
 El propósito de esta práctica es adquirir señales EEG utilizando el kit BITalino (r)evolution, registrando la actividad cerebral desde las posiciones Fp1, Fp2 y O2 del sistema 10-20. Se evaluará la señal en condiciones de reposo (ojos abiertos/cerrados), durante una tarea cognitiva y ante artefactos controlados.
 
  ## 3. Materiales y metodología: <a name="materiales-y-metodología"></a> 
+ ### Materiales:
+| Cantidad | Descripción                         |
+|----------|-------------------------------------|
+| 1        | KIT BITalino (r)evolution con módulos ECG           |
+| 1        | Laptop/celular con Bluetooth                |
+| 1        | Software OpenSignals (r)evolution   |
+| 3        | Electrodos Ag/AgCl desechables (gel)            |
+| 1        | Cable de 3 conductores (para ECG)   |
+| 1        | Batería LiPo 3.7V                   |
+| Rotativo (demo)        | Ultracortex Mark IV (dry-electrode headset)            |
+
+
+
+### Metodología
+1. **Montaje de electrodos**
+   - Limpiar Fp1, Fp2 y mastoide derecha.
+   - Conectar Electrodo1 → Fp1, GND → Fp2, Electrodo2 → mastoide (referencia).
+   - Comprobar impedancia en OpenSignals (< 20 kΩ).
+    
+2. **Secuencia de Registro**
+| Minuto     | Condición           | Detalle |
+|------------|-----------------|-----------------|
+| 0-1        | Basal 1         | Ojos abiertos, fijar punto
+| 1-2        | Basal 2         | Ojos cerrados
+| 2-4        | Tarea Cognitiva | Restar 7 desde 100 en silencio o ejercicios punto 4.4 
+| 4-6        | Artefactos      | Parpadear cada 2 s y masticar 
+| 6-12       | Libre           | Diseño del grupo (música, respe)
+
 
    
 ## 4. Resultados y limitaciones <a name="resultados-y-limitaciones"></a>
