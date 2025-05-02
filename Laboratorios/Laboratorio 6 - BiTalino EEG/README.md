@@ -8,22 +8,22 @@
 5. [Referencias](#referencias)
 
 ## 1. Introducción <a name="introducción"></a>
-La electroencefalografía (EEG) es una técnica no invasiva que permite registrar la actividad eléctrica del cerebro mediante electrodos colocados sobre el cuero cabelludo. Esta actividad refleja principalmente los potenciales postsinápticos generados por neuronas piramidales de la corteza cerebral, organizadas de manera paralela, lo que permite detectar oscilaciones neuronales a través de diferentes bandas de frecuencia (delta, theta, alfa, beta y gamma)【1】.
+La electroencefalografía (EEG) es una técnica no invasiva que permite registrar la actividad eléctrica del cerebro mediante electrodos colocados sobre el cuero cabelludo. Esta actividad refleja principalmente los potenciales postsinápticos generados por neuronas piramidales de la corteza cerebral, organizadas de manera paralela, lo que permite detectar oscilaciones neuronales a través de diferentes bandas de frecuencia (delta, theta, alfa, beta y gamma) [1].
 <div align="center">
   <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/IMAGE1.png?raw=true" alt="Ilustración de bandas EEG" width="600"/>
   <p><em>Figura 1. Actividad cerebral</em></p>
 </div>
 
 
-### Bandas de frecuencia del EEG
+## Bandas de frecuencia EEG
 
-| Banda de frecuencia | Rango (Hz) | Estado asociado                                        | Observaciones principales                                                                 |
-|---------------------|------------|---------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| **Delta**           | 0.5 – 4    | Sueño profundo (NREM), estados inconscientes           | Alta amplitud. Su presencia en vigilia puede indicar daño cortical【2】.                    |
-| **Theta**           | 4 – 8      | Somnolencia, meditación, codificación de memoria       | Elevada en niños y en tareas de creatividad. Aumentos en vigilia se asocian al TDAH【3】.   |
-| **Alfa**            | 8 – 13     | Reposo con ojos cerrados, relajación                   | Prominente en región occipital. Suprime con apertura ocular o atención【4】.               |
-| **Beta**            | 13 – 30    | Concentración, actividad mental y motora               | Incrementa con estrés o tareas cognitivas. Alta en regiones frontales【5】.                 |
-| **Gamma**           | > 30       | Atención, percepción multisensorial, conciencia        | Baja amplitud. Asociada con procesos cognitivos complejos【6】.                             |
+| Banda   | Rango (Hz) | Estado asociado                        | Ejemplos de tareas/estudios                    |
+|---------|------------|----------------------------------------|------------------------------------------------|
+| **Delta** | 0–4        | Sueño profundo, fases de descanso     | Estudios del sueño                             |
+| **Theta** | 4–8        | Somnolencia, navegación espacial      | Prueba N-back, tareas de memoria espacial      |
+| **Alpha** | 8–12       | Relajación con ojos cerrados          | Meditación, entrenamiento con biofeedback      |
+| **Beta**  | 12–25      | Pensamiento activo, control motor     | Tareas de concentración, respuesta motora      |
+| **Gamma** | >25        | Procesamiento visual, micro-movimientos | Estudios de microsacadas, resolución de problemas |
 
 <div align="center">
   <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/IMAGE2.png?raw=true" alt="Ilustración de bandas EEG" width="600"/>
@@ -31,7 +31,7 @@ La electroencefalografía (EEG) es una técnica no invasiva que permite registra
 </div>
 
 ### Tipos de medición y ubicación de los electrodos
-La señal EEG puede adquirirse de forma monopolar (un electrodo activo respecto a una referencia común) o bipolar, que mide la diferencia entre dos electrodos activos más una referencia (El BITalino utiliza esta última). Por otro lado, una forma estandarizada de ubicar los electrodos en el cráneo humano es el sistema internacional **10-20**, que distribuye las posiciones según porcentajes del tamaño del cráneo y usa letras para identificar las regiones corticales:
+La señal EEG puede adquirirse de forma monopolar (un electrodo activo respecto a una referencia común) o bipolar, que mide la diferencia entre dos electrodos activos más una referencia (El BITalino utiliza esta última). Por otro lado, una forma estandarizada de ubicar los electrodos en el cráneo humano es el sistema internacional **10-20**, que distribuye las posiciones según porcentajes del tamaño del cráneo y usa letras para identificar las regiones corticales [1]:
 - **F (Frontal)**: funciones ejecutivas y atención (por ejemplo: F1, F2)
 - **C (Central)**: área motora (por ejemplo: C3, C4)
 - **P (Parietal)**: integración sensorial (por ejemplo: P3, P4)
