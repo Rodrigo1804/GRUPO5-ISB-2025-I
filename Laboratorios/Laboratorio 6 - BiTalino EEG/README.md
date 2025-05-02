@@ -38,6 +38,10 @@ Una forma estandarizada de ubicar los electrodos en el cráneo humano es el sist
 - **T (Temporal)**: audición, memoria y lenguaje (por ejemplo: T3, T4)
 - **Z (Zero)**: línea media (por ejemplo: Fz, Cz, Pz)
 
+<div align="center">
+  <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/IMAGE3.png?raw=true" alt="Ilustración de bandas EEG" width="600"/>
+  <p><em>Figura 2. Vista superior de un cabezal con posicionamiento de electrodos según el sistema internacional 10-20.</em></p>
+</div>
 
 
 ## 2. Propósito de la práctica: <a name="propósito-de-la-práctica"></a>
