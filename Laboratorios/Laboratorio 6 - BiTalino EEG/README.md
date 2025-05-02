@@ -57,5 +57,6 @@ La señal EEG puede adquirirse de forma monopolar (un electrodo activo respecto 
 
 ## 5. Referencias <a name="referencias"></a>
 [1] Mayo Clinic. Electroencefalograma (EEG) [Internet]. Mayo Clinic; 2023 [citado 2 mayo 2025]. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875
+
 [2] Proença M, Mrotzeck K. BITalino Home Guide #3 – Electroencephalography (EEG). Lisbon: PLUX – Wireless Biosignals S.A.; 2021. Disponible en: https://bitalino.com
 
