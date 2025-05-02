@@ -41,7 +41,7 @@ La señal EEG puede adquirirse de forma monopolar (un electrodo activo respecto 
 
 <div align="center">
   <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/IMAGE3.png?raw=true" alt="Ilustración de bandas EEG" width="600"/>
-  <p><em>Figura 2. Vista superior de un cabezal con posicionamiento de electrodos según el sistema internacional 10-20.</em></p>
+  <p><em>Figura 3. Vista superior de un cabezal con posicionamiento de electrodos según el sistema internacional 10-20.</em></p>
 </div>
 
 
@@ -56,3 +56,7 @@ La señal EEG puede adquirirse de forma monopolar (un electrodo activo respecto 
 
 
 ## 5. Referencias <a name="referencias"></a>
+[1]
+[2]
+[3] Proença M, Mrotzeck K. BITalino Home Guide #3 – Electroencephalography (EEG). Lisbon: PLUX – Wireless Biosignals S.A.; 2021. Disponible en: https://bitalino.com
+[4]
