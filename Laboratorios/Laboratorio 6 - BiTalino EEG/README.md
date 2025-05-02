@@ -69,13 +69,14 @@ El propósito de esta práctica es adquirir señales EEG utilizando el kit BITal
    - Comprobar impedancia en OpenSignals (< 20 kΩ).
     
 2. **Secuencia de Registro**
-| Minuto     | Condición           | Detalle |
+   
+| Minuto     | Condición        | Detalle |
 |------------|-----------------|-----------------|
 | 0-1        | Basal 1         | Ojos abiertos, fijar punto |
 | 1-2        | Basal 2         | Ojos cerrados| 
 | 2-4        | Tarea Cognitiva | Restar 7 desde 100 en silencio o ejercicios punto 4.4 |
 | 4-6        | Artefactos      | Parpadear cada 2 s y masticar |
-| 6-12       | Libre           | Diseño del grupo (música, respe)|
+| 6-12       | Libre           | Diseño del grupo (música, respiración,etc.)|
 
 
    
