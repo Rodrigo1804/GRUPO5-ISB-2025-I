@@ -1,4 +1,4 @@
-# Laboratorio 5: Adquisición de señal ECG con BITalino
+# Laboratorio 6: Adquisición de señal EEG con BITalino
 
 ## Contenido:
 1. [Introducción](#introducción)
