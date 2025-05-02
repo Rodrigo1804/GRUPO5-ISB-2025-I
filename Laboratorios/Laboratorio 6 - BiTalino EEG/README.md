@@ -17,12 +17,12 @@ La electroencefalografía (EEG) es una técnica no invasiva que permite registra
 
 ## Bandas de frecuencia EEG
 
-| Banda   | Rango (Hz) | Estado asociado                        | Ejemplos de tareas/estudios                    |
-|---------|------------|----------------------------------------|------------------------------------------------|
-| **Delta** | 0–4        | Sueño profundo, fases de descanso     | Estudios del sueño                             |
-| **Theta** | 4–8        | Somnolencia, navegación espacial      | Prueba N-back, tareas de memoria espacial      |
-| **Alpha** | 8–12       | Relajación con ojos cerrados          | Meditación, entrenamiento con biofeedback      |
-| **Beta**  | 12–25      | Pensamiento activo, control motor     | Tareas de concentración, respuesta motora      |
+| Banda     | Ran-go (Hz)| Estado asociado                         | Ejemplos de tareas/estudios                    |
+|-----------|------------|-----------------------------------------|------------------------------------------------|
+| **Delta** | 0–4        | Sueño profundo, fases de descanso       | Estudios del sueño                             |
+| **Theta** | 4–8        | Somnolencia, navegación espacial        | Prueba N-back, tareas de memoria espacial      |
+| **Alpha** | 8–12       | Relajación con ojos cerrados            | Meditación, entrenamiento con biofeedback      |
+| **Beta**  | 12–25      | Pensamiento activo, control motor       | Tareas de concentración, respuesta motora      |
 | **Gamma** | >25        | Procesamiento visual, micro-movimientos | Estudios de microsacadas, resolución de problemas |
 
 <div align="center">
