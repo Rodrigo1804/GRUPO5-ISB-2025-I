@@ -27,11 +27,11 @@ La electroencefalografía (EEG) es una técnica no invasiva que permite registra
 
 <div align="center">
   <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/IMAGE2.png?raw=true" alt="Ilustración de bandas EEG" width="600"/>
-  <p><em>Figura 2. Representación visual de las bandas de frecuencia en una señal EEG</em></p>
+  <p><em>Figura 2. Representación visual de las bandas de frecuencia en una señal EEG [2].</em></p>
 </div>
 
 ### Tipos de medición y ubicación de los electrodos
-La señal EEG puede adquirirse de forma monopolar (un electrodo activo respecto a una referencia común) o bipolar, que mide la diferencia entre dos electrodos activos más una referencia (El BITalino utiliza esta última). Por otro lado, una forma estandarizada de ubicar los electrodos en el cráneo humano es el sistema internacional **10-20**, que distribuye las posiciones según porcentajes del tamaño del cráneo y usa letras para identificar las regiones corticales [1]:
+La señal EEG puede adquirirse de forma monopolar (un electrodo activo respecto a una referencia común) o bipolar, que mide la diferencia entre dos electrodos activos más una referencia (El BITalino utiliza esta última). Por otro lado, una forma estandarizada de ubicar los electrodos en el cráneo humano es el sistema internacional **10-20**, que distribuye las posiciones según porcentajes del tamaño del cráneo y usa letras para identificar las regiones corticales [2]:
 - **F (Frontal)**: funciones ejecutivas y atención (por ejemplo: F1, F2)
 - **C (Central)**: área motora (por ejemplo: C3, C4)
 - **P (Parietal)**: integración sensorial (por ejemplo: P3, P4)
@@ -41,7 +41,7 @@ La señal EEG puede adquirirse de forma monopolar (un electrodo activo respecto 
 
 <div align="center">
   <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/IMAGE3.png?raw=true" alt="Ilustración de bandas EEG" width="600"/>
-  <p><em>Figura 3. Vista superior de un cabezal con posicionamiento de electrodos según el sistema internacional 10-20.</em></p>
+  <p><em>Figura 3. Vista superior de un cabezal con posicionamiento de electrodos según el sistema internacional 10-20 [2].</em></p>
 </div>
 
 
@@ -56,7 +56,6 @@ La señal EEG puede adquirirse de forma monopolar (un electrodo activo respecto 
 
 
 ## 5. Referencias <a name="referencias"></a>
-[1]
-[2]
-[3] Proença M, Mrotzeck K. BITalino Home Guide #3 – Electroencephalography (EEG). Lisbon: PLUX – Wireless Biosignals S.A.; 2021. Disponible en: https://bitalino.com
-[4]
+[1] Mayo Clinic. Electroencefalograma (EEG) [Internet]. Mayo Clinic; 2023 [citado 2 mayo 2025]. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875
+[2] Proença M, Mrotzeck K. BITalino Home Guide #3 – Electroencephalography (EEG). Lisbon: PLUX – Wireless Biosignals S.A.; 2021. Disponible en: https://bitalino.com
+
