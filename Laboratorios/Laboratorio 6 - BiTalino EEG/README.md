@@ -168,6 +168,15 @@ El propósito de esta práctica es adquirir señales EEG utilizando el kit BITal
    <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/5a172f81-df4a-441f-8cc3-75f66b949b03.jpeg?raw=true" alt="Basal 1 VS tarea cognitiva" width="600"/>
   <p><em>Figura 13.  Detección de artefactos de parpadeo </em></p>
 </div>
+
+- **Preguntas adicionales para discusión**
+  * ¿Qué banda de frecuencia predomina al cerrar los ojos?
+  * ¿Qué filtro es imprescindible para EEG y por qué?
+  * ¿Puedes modular conscientemente tu señal EEG? Da un ejemplo.
+  * ¿Se observan diferencias entre Fp1 y Fp2? ¿Por qué podrían ocurrir?
+
+
+
  
 ## 5. Referencias <a name="referencias"></a>
 [1] Mayo Clinic. Electroencefalograma (EEG) [Internet]. Mayo Clinic; 2023 [citado 2 mayo 2025]. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875
