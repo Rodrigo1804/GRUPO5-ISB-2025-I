@@ -116,7 +116,7 @@ El propósito de esta práctica es adquirir señales EEG utilizando el kit BITal
 - **Resultados obtenidos en Python**
 | Condición |RAW               |Señal Filtrada    |
 |-----------|------------------|------------------|
-| Basal 1 |   <img src="./Imágenes%20en%20el%20anexo/EEGRawBasal1.jpg" alt="Raw Basal 1" width="80%">| <img src="./Imágenes%20en%20el%20anexo/EEGFiltradaBasal1.jpg" alt="Filtrado Basal 1" width="80%">|
+| Basal 1 | <img src="./Imágenes%20en%20el%20anexo/EEGRawBasal1.jpg" alt="Raw Basal 1" width="80%">| <img src="./Imágenes%20en%20el%20anexo/EEGFiltradaBasal1.jpg" alt="Filtrado Basal 1" width="80%">|
 | Basal 2 |<img src="./Imágenes%20en%20el%20anexo/EEGRawBasal2.jpg" alt="Raw Basal 2" width="80%">| <img src="./Imágenes%20en%20el%20anexo/EEGFiltradaBasal2.jpg" alt="Filtrado Basal 2" width="80%">|
 | Tarea cognitiva|<img src="./Imágenes%20en%20el%20anexo/EEGRawTareaCognitiva.jpg" alt="Raw Tarea Cognitiva" width="80%">| <img src="./Imágenes%20en%20el%20anexo/EEGFiltradaTareaCognitiva.jpg" alt="Filtrado Tarea Cognitiva" width="80%">|
 | Artefactos|<img src="./Imágenes%20en%20el%20anexo/EEGRawArtefactos.jpg" alt="Raw Artefactos" width="80%">| <img src="./Imágenes%20en%20el%20anexo/EEGFiltradaArtefactos.jpg" alt="Filtrado Artefactos" width="80%">|
