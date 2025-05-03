@@ -159,7 +159,7 @@ El propósito de esta práctica es adquirir señales EEG utilizando el kit BITal
 
 <div align="center">
   <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/Basal1VSTareaCognitiva.jpg?raw=true" alt="Basal 1 VS tarea cognitiva" width="600"/>
-  <p><em>Figura 12.  Basal 2 vs Tarea Cognitiva (Música) </em></p>
+  <p><em>Figura 12.  Basal 2 vs Tarea Cognitiva </em></p>
 </div>
 
 - **Detectar artefactos de parpadeo (> 80 μV) y contabilización (FALTA)**
