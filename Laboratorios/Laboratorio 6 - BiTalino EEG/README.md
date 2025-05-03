@@ -91,18 +91,36 @@ El propósito de esta práctica es adquirir señales EEG utilizando el kit BITal
 | 6-12       | Libre           | Diseño del grupo (música, respiración,etc.)|
 
 
-3. **Preguntas para la tarea cognitiva**
+3. **Preguntas realizadas en la tarea cognitiva**
+   
     | Categoría  | Ejemplo         | Respuesta |
     |------------|-----------------|-----------------|
     | Simple     | Hay 3 aves en un árbol, llegan 7 más. ¿Cuántas aves hay en total? | 11 aves |
     | Simple     | Jonas tiene 5 manzanas y María tiene 4. ¿Cuántas manzanas tienen en total?| 9 manzanas| 
     | Simple     | Hanna tiene 9 dólares pero se ha gastado 4. ¿Cuántos dólares le quedan? | 5 dólares |
-    | Complejo   | Juan anotó 45 puntos para su equipo; 10 más que José. Marie anotó 13 puntos más que Juan y José juntos. ¿Cuántos puntos anotaron en total?      | 173 |
+    | Complejo   | Juan anotó 45 puntos para su equipo; 10 más que José. Marie anotó 13 puntos más que Juan y José juntos. ¿Cuántos puntos anotaron en total?      | 173 puntos|
     | Complejo   | El grupo A tiene 24 alumnos; 13 menos que el grupo B. El grupo C tiene 12 alumnos más que los grupos A y B juntos. ¿Cuál es el número total de alumnos?           | 134 alumnos|
    | Complejo     | Una tienda vendió 21 refrescos por la mañana, 13 más que por la tarde. Por la noche vendió 10 más que por la mañana y por la tarde juntas. ¿Cuántos refrescos se vendieron en total?| 68 refrescos |
    
 ## 4. Resultados y limitaciones <a name="resultados-y-limitaciones"></a>
+- **Resultados obtenidos en OpenSignals**
+  
+| Condición |Resultados|
+|-----------|------------------|
+| Basal 1 | [🎥 Ver video](https://youtu.be/dD4qEfKLl80) |
+| Basal 2 | [🎥 Ver video](https://youtu.be/deVhpbaQNz4) |
+| Tarea cognitiva| [🎥 Ver video](https://youtu.be/uEgXcAsAyZM)|
+| Artefactos| [🎥 Ver video](https://youtu.be/2Y8fNCgnL4w)|
+| Actividad libre: escuchar distintos tipos de música| [🎥 Ver video](https://youtu.be/SW1TGJtgqhQ)|
 
+- **Resultados obtenidos en Python**
+| Condición |RAW               |Señal Filtrada    |
+|-----------|------------------|------------------|
+| Basal 1 |   <img src="./Imágenes%20en%20el%20anexo/EEGRawBasal1.jpg" alt="Raw Basal 1" width="80%">| <img src="./Imágenes%20en%20el%20anexo/EEGFiltradaBasal1.jpg" alt="Filtrado Basal 1" width="80%">|
+| Basal 2 |<img src="./Imágenes%20en%20el%20anexo/EEGRawBasal2.jpg" alt="Raw Basal 2" width="80%">| <img src="./Imágenes%20en%20el%20anexo/EEGFiltradaBasal2.jpg" alt="Filtrado Basal 2" width="80%">|
+| Tarea cognitiva|<img src="./Imágenes%20en%20el%20anexo/EEGRawTareaCognitiva.jpg" alt="Raw Tarea Cognitiva" width="80%">| <img src="./Imágenes%20en%20el%20anexo/EEGFiltradaTareaCognitiva.jpg" alt="Filtrado Tarea Cognitiva" width="80%">|
+| Artefactos|<img src="./Imágenes%20en%20el%20anexo/EEGRawArtefactos.jpg" alt="Raw Artefactos" width="80%">| <img src="./Imágenes%20en%20el%20anexo/EEGFiltradaArtefactos.jpg" alt="Filtrado Artefactos" width="80%">|
+| Actividad libre: escuchar distintos tipos de música|<img src="./Imágenes%20en%20el%20anexo/EEGRawActividadLibre.jpg" alt="Raw Actividad Libre" width="80%">| <img src="./Imágenes%20en%20el%20anexo/EEGFiltradaActividadLibre.jpg" alt="Filtrado Actividad Libre" width="80%">|
 
 ## 5. Referencias <a name="referencias"></a>
 [1] Mayo Clinic. Electroencefalograma (EEG) [Internet]. Mayo Clinic; 2023 [citado 2 mayo 2025]. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875
