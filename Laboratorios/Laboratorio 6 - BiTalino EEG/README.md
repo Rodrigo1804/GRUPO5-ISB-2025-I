@@ -125,7 +125,31 @@ El propósito de esta práctica es adquirir señales EEG utilizando el kit BITal
 
 
 - **Potencia α en ojos abiertos vs. cerrados**
-  
+  <div align="center">
+  <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/PSDBasal1.jpg?raw=true" alt="PSD Basal 1" width="600"/>
+  <p><em>Figura 6. PSD Basal 1</em></p>
+</div>
+
+<div align="center">
+  <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/PSDBasal2.jpg?raw=true" alt="PSD Basal 2" width="600"/>
+  <p><em>Figura 7. PSD Basal 2</em></p>
+</div>
+
+<div align="center">
+  <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/PSDTareaCognitiva.jpg?raw=true" alt="PSD Tarea Cognitiva" width="600"/>
+  <p><em>Figura 8. PSD Tarea Cognitiva</em></p>
+</div>
+
+<div align="center">
+  <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/PSDArtefactos?raw=true" alt="PSD Artefactos" width="600"/>
+  <p><em>Figura 9. PSD Artefactos </em></p>
+</div>
+
+<div align="center">
+  <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/PSDActividadLibre.jpg?raw=true" alt="PSD Actividad Libre" width="600"/>
+  <p><em>Figura 10. PSD Actividad Libre (Música) </em></p>
+</div>
+
 - **Incremento de β durante la tarea cognitiva (t‑test pareado)**
 - **Detectar artefactos de parpadeo (> 80 μV) y contabilización (FALTA)**
  
