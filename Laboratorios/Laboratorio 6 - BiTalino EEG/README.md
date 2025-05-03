@@ -70,12 +70,12 @@ El propósito de esta práctica es adquirir señales EEG utilizando el kit BITal
    - Comprobar impedancia en OpenSignals (< 20 kΩ).
      
 <div align="center">
-  <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/ColocacionElectrodosII.jpg?raw=true" alt="Colocación de electrodos" width="600"/>
+  <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/ColocacionElectrodosI.jpg?raw=true" alt="Colocación de electrodos" width="600"/>
   <p><em>Figura 4. Colocación del electrodo de referencia.</em></p>
 </div>
 
 <div align="center">
-  <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/ColocacionElectrodosI.jpg?raw=true" alt="Colocación de electrodos" width="600"/>
+  <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/ColocacionElectrodosII.jpg?raw=true" alt="Colocación de electrodos" width="600"/>
   <p><em>Figura 5. Colocación de electrodos en la frente (FP1-derecha y FP2-izquierda).</em></p>
 </div>
 
