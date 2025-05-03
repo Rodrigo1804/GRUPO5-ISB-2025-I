@@ -114,6 +114,7 @@ El propósito de esta práctica es adquirir señales EEG utilizando el kit BITal
 | Actividad libre: escuchar distintos tipos de música| [🎥 Ver video](https://youtu.be/SW1TGJtgqhQ)|
 
 - **Resultados obtenidos en Python**
+  
 | Condición |RAW               |Señal Filtrada    |
 |-----------|------------------|------------------|
 | Basal 1 | <img src="./Imágenes%20en%20el%20anexo/EEGRawBasal1.jpg" alt="Raw Basal 1" width="80%">| <img src="./Imágenes%20en%20el%20anexo/EEGFiltradaBasal1.jpg" alt="Filtrado Basal 1" width="80%">|
