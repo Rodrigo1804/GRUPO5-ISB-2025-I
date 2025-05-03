@@ -17,7 +17,7 @@ La electroencefalografía (EEG) es una técnica no invasiva que permite registra
 
 ## Bandas de frecuencia EEG
 
-| Banda     | Ran-go (Hz)| Estado asociado                         | Ejemplos de tareas/estudios                    |
+| Banda     | Rango (Hz)| Estado asociado                         | Ejemplos de tareas/estudios                    |
 |-----------|------------|-----------------------------------------|------------------------------------------------|
 | **Delta** | 0–4        | Sueño profundo, fases de descanso       | Estudios del sueño                             |
 | **Theta** | 4–8        | Somnolencia, navegación espacial        | Prueba N-back, tareas de memoria espacial      |
@@ -123,6 +123,12 @@ El propósito de esta práctica es adquirir señales EEG utilizando el kit BITal
 | Artefactos|<img src="./Imágenes%20en%20el%20anexo/EEGRawArtefactos.jpg" alt="Raw Artefactos" width="80%">| <img src="./Imágenes%20en%20el%20anexo/EEGFiltradaArtefactos.jpg" alt="Filtrado Artefactos" width="80%">|
 | Actividad libre: escuchar distintos tipos de música|<img src="./Imágenes%20en%20el%20anexo/EEGRawActividadLibre.jpg" alt="Raw Actividad Libre" width="80%">| <img src="./Imágenes%20en%20el%20anexo/EEGFiltradaActividadLibre.jpg" alt="Filtrado Actividad Libre" width="80%">|
 
+
+- **Potencia α en ojos abiertos vs. cerrados**
+  
+- **Incremento de β durante la tarea cognitiva (t‑test pareado)**
+- **Detectar artefactos de parpadeo (> 80 μV) y contabilización (FALTA)**
+ 
 ## 5. Referencias <a name="referencias"></a>
 [1] Mayo Clinic. Electroencefalograma (EEG) [Internet]. Mayo Clinic; 2023 [citado 2 mayo 2025]. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875
 
