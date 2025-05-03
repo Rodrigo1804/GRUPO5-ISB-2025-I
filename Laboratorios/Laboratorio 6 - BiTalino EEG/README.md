@@ -164,6 +164,7 @@ El propósito de esta práctica es adquirir señales EEG utilizando el kit BITal
 
 - **Detectar artefactos de parpadeo (> 80 μV) y contabilización (FALTA)**
 
+<div align="center">
    <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/5a172f81-df4a-441f-8cc3-75f66b949b03.jpeg?raw=true" alt="Basal 1 VS tarea cognitiva" width="600"/>
   <p><em>Figura 13.  Detección de artefactos de parpadeo </em></p>
 </div>
