@@ -141,7 +141,7 @@ El propósito de esta práctica es adquirir señales EEG utilizando el kit BITal
 </div>
 
 <div align="center">
-  <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/PSDArtefactos?raw=true" alt="PSD Artefactos" width="600"/>
+  <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/PSDArtefactos.jpg?raw=true" alt="PSD Artefactos" width="600"/>
   <p><em>Figura 9. PSD Artefactos </em></p>
 </div>
 
