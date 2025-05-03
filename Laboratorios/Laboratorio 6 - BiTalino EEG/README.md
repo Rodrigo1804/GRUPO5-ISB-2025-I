@@ -45,6 +45,7 @@ La señal EEG puede adquirirse de forma monopolar (un electrodo activo respecto 
 </div>
 
 
+
 ## 2. Propósito de la práctica: <a name="propósito-de-la-práctica"></a>
 El propósito de esta práctica es adquirir señales EEG utilizando el kit BITalino (r)evolution, registrando la actividad cerebral desde las posiciones Fp1, Fp2 y O2 del sistema 10-20. Se evaluará la señal en condiciones de reposo (ojos abiertos/cerrados), durante una tarea cognitiva y ante artefactos controlados.
 
@@ -78,6 +79,7 @@ El propósito de esta práctica es adquirir señales EEG utilizando el kit BITal
   <p><em>Figura 5. Colocación de electrodos en la frente (FP1-derecha y FP2-izquierda).</em></p>
 </div>
 
+
 2. **Secuencia de Registro**
    
 | Minuto     | Condición        | Detalle |
@@ -89,6 +91,15 @@ El propósito de esta práctica es adquirir señales EEG utilizando el kit BITal
 | 6-12       | Libre           | Diseño del grupo (música, respiración,etc.)|
 
 
+3. **Preguntas para la tarea cognitiva**
+    | Categoría  | Ejemplo         | Respuesta |
+    |------------|-----------------|-----------------|
+    | Simple     | Hay 3 aves en un árbol, llegan 7 más. ¿Cuántas aves hay en total? | 11 aves |
+    | Simple     | Jonas tiene 5 manzanas y María tiene 4. ¿Cuántas manzanas tienen en total?| 9 manzanas| 
+    | Simple     | Hanna tiene 9 dólares pero se ha gastado 4. ¿Cuántos dólares le quedan? | 5 dólares |
+    | Complejo   | Juan anotó 45 puntos para su equipo; 10 más que José. Marie anotó 13 puntos más que Juan y José juntos. ¿Cuántos puntos anotaron en total?      | 173 |
+    | Complejo   | El grupo A tiene 24 alumnos; 13 menos que el grupo B. El grupo C tiene 12 alumnos más que los grupos A y B juntos. ¿Cuál es el número total de alumnos?           | 134 alumnos|
+   | Complejo     | Una tienda vendió 21 refrescos por la mañana, 13 más que por la tarde. Por la noche vendió 10 más que por la mañana y por la tarde juntas. ¿Cuántos refrescos se vendieron en total?| 68 refrescos |
    
 ## 4. Resultados y limitaciones <a name="resultados-y-limitaciones"></a>
 
