@@ -163,6 +163,20 @@ El propósito de esta práctica es adquirir señales EEG utilizando el kit BITal
 </div>
 
 - **Detectar artefactos de parpadeo (> 80 μV) y contabilización (FALTA)**
+<div align="center">
+   <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/88bbd241-ae4c-4e8a-a7e6-a33b7eb98b00.jpeg?raw=true" alt="Basal 1 VS tarea cognitiva" width="600"/>
+  <p><em>Figura 13.  Detección de artefactos de parpadeo </em></p>
+</div>
+
+<div align="center">
+   <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/4ce8c5fd-6350-41cb-aa8f-1ddc5aed8271.jpeg?raw=true" alt="Basal 1 VS tarea cognitiva" width="600"/>
+  <p><em>Figura 13.  Detección de artefactos de parpadeo </em></p>
+</div>
+
+<div align="center">
+   <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/01c265f2-b4dd-481d-a353-feb048993aa3.jpeg?raw=true" alt="Basal 1 VS tarea cognitiva" width="600"/>
+  <p><em>Figura 13.  Detección de artefactos de parpadeo </em></p>
+</div>
 
 <div align="center">
    <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/5a172f81-df4a-441f-8cc3-75f66b949b03.jpeg?raw=true" alt="Basal 1 VS tarea cognitiva" width="600"/>
