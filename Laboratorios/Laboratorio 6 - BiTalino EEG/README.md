@@ -214,17 +214,21 @@ El propósito de esta práctica es adquirir señales EEG utilizando el kit BITal
 
 - **Preguntas adicionales para discusión**
   * ¿Qué banda de frecuencia predomina al cerrar los ojos?
+    
     Se concluyó en diversos estudios que la banda de frecuencia que predomina se encuentra desde 0 a 10 y 12 Hz, además se enfatiza su predominancia en la banda 
     alfa, de 8 a 12 Hz. Esto se debe a la ausencia de actividad cerebral de la región occipital que regula los procesos visuales activos, incluso cuando no hay 
     estimulación visual directa, que en este caso sería al cerrar los ojos.[3][4]
     
   * ¿Qué filtro es imprescindible para EEG y por qué?
+    
      El filtro imprescindible para un EEG es el pasabanda, ya que hay diferentes componentes de la señal repartidos que requieren ser eliminados, tanto en 
      frecuencias bajas como altas. Debido a que la señal es muy débil, de orden bajo, se requiere eliminar interferencias como movimientos lentos, sudoración o 
      respiración y masticación, que son frecuencias bajas, y asimismo interferencias artefactos musculares de la cabeza, ruido eléctrico o mecánico del ambiente 
      perteneciente a frecuencias altas.[5]
     
   * ¿Puedes modular conscientemente tu señal EEG? Da un ejemplo.
+ 
+    Estudios recientes afirman la posibilidad de modular a voluntad las señales de un EEG. Esto se consigue a través de técnicas de entranamiento cerebral de regiones específicas del mismo para potenciarlas, entre las más populares se encuentra el neurofeedback.[6] Este consiste en un autoentrenamiento no invasivo de la actividad cerebral en tiempo real. Se puede usar para tratar diferentes afecciones como mejorar la concentración en niños con TDAH.[7]
      
   * ¿Se observan diferencias entre Fp1 y Fp2? ¿Por qué podrían ocurrir?
 
@@ -240,10 +244,10 @@ El propósito de esta práctica es adquirir señales EEG utilizando el kit BITal
 
 [4]Zibrandtsen, I. C., Kidmose, P., & Kjaer, T. W. (2022). Electroencephalographic Assessment of Eye Closure in Resting State: A Large-Scale Clinical EEG Study. Brain Sciences, 12(1), 85. https://pubmed.ncbi.nlm.nih.gov/35075196/
 
-[5] J. Huang, M. Y. Wang, C. Jin, y H. Wu, “Detection of Depression in Children and Adolescents Based on EEG Using an Interpretable Deep Learning Framework,” Discover Artificial Intelligence, vol. 4, no. 1, Art. no. 15, 2024. [En línea]. Disponible en: https://www.sciencedirect.com/science/article/pii/S2666720724001152
+[5] J. Huang, M. Y. Wang, C. Jin, y H. Wu, “Detection of Depression in Children and Adolescents Based on EEG Using an Interpretable Deep Learning Framework,” Discover Artificial Intelligence, vol. 4, no. 1, Art. no. 15, 2024. Disponible en: https://www.sciencedirect.com/science/article/pii/S2666720724001152
 
-[6]
+[6]M. J. Ros, B. Gonçalves, N. Sato, y M. A. Sitaram, “Neurofeedback training of default mode network connectivity in major depressive disorder: A randomized controlled trial,” NeuroImage, vol. 275, Art. no. 120216, 2023. Disponible en: https://www.sciencedirect.com/science/article/pii/S1053811923004718
 
-[7]
+[7]Neuros Center, “¿Qué es el neurofeedback?,” Neuros Center, 2024. Disponible en: https://neuroscenter.com/neurofeedback/que-es/
 
 [8]
