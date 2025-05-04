@@ -231,6 +231,7 @@ El propósito de esta práctica es adquirir señales EEG utilizando el kit BITal
     Estudios recientes afirman la posibilidad de modular a voluntad las señales de un EEG. Esto se consigue a través de técnicas de entranamiento cerebral de regiones específicas del mismo para potenciarlas, entre las más populares se encuentra el neurofeedback.[6] Este consiste en un autoentrenamiento no invasivo de la actividad cerebral en tiempo real. Se puede usar para tratar diferentes afecciones como mejorar la concentración en niños con TDAH.[7]
      
   * ¿Se observan diferencias entre Fp1 y Fp2? ¿Por qué podrían ocurrir?
+    
     Sí se encuentran diferencias entre Fp1 y Fp2 principalmente porque se encuentran en hemisferios diferentes y son activos en procesos diferentes distinguibles 
     en el EEG y como mencionamos anteriormente, notables por ejemplo a través del entrenamiento con neurofeedback.[8]  Por ejemplo, Fp1 está involucrado en mecanismos de lenguaje, lógica e incluso en la influencia emocional positiva, mientras que Fp2 está relacionado a mecanismos del sistema simpático, que nos mantiene alertas, atentos, e igualmente en emociones negativas.[8][9]
 
