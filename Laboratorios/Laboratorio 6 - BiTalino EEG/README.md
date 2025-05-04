@@ -123,6 +123,30 @@ El propósito de esta práctica es adquirir señales EEG utilizando el kit BITal
 | Artefactos|<img src="./Imágenes%20en%20el%20anexo/EEGRawArtefactos.jpg" alt="Raw Artefactos" width="80%">| <img src="./Imágenes%20en%20el%20anexo/EEGFiltradaArtefactos.jpg" alt="Filtrado Artefactos" width="80%">|
 | Actividad libre: escuchar distintos tipos de música|<img src="./Imágenes%20en%20el%20anexo/EEGRawActividadLibre.jpg" alt="Raw Actividad Libre" width="80%">| <img src="./Imágenes%20en%20el%20anexo/EEGFiltradaActividadLibre.jpg" alt="Filtrado Actividad Libre" width="80%">|
 
+  <div align="center">
+  <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/basal1-freq.jpeg?raw=true" alt="PSD Basal 1" width="600"/>
+  <p><em>Figura 6. PSD Basal 1</em></p>
+</div>
+
+  <div align="center">
+  <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/basal2-freq.jpeg?raw=true" alt="PSD Basal 1" width="600"/>
+  <p><em>Figura 6. PSD Basal 1</em></p>
+</div>
+
+  <div align="center">
+  <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/tareacog-freq.jpeg?raw=true" alt="PSD Basal 1" width="600"/>
+  <p><em>Figura 6. PSD Basal 1</em></p>
+</div>
+
+  <div align="center">
+  <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/artefact-freq.jpeg?raw=true" alt="PSD Basal 1" width="600"/>
+  <p><em>Figura 6. PSD Basal 1</em></p>
+</div>
+
+  <div align="center">
+  <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/libre-freq.jpeg?raw=true" alt="PSD Basal 1" width="600"/>
+  <p><em>Figura 6. PSD Basal 1</em></p>
+</div>
 
 - **Potencia α en ojos abiertos vs. cerrados**
   <div align="center">
@@ -165,27 +189,27 @@ El propósito de esta práctica es adquirir señales EEG utilizando el kit BITal
 - **Detectar artefactos de parpadeo (> 80 μV) y contabilización (FALTA)**
 <div align="center">
    <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/01c265f2-b4dd-481d-a353-feb048993aa3.jpeg?raw=true" alt="Basal 1 VS tarea cognitiva" width="600"/>
-  <p><em>Figura 13.  Detección de artefactos de parpadeo </em></p>
+  <p><em>Figura 13.  Detección de parpadeo en BASAL 1 </em></p>
 </div>
 
 <div align="center">
    <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/88bbd241-ae4c-4e8a-a7e6-a33b7eb98b00.jpeg?raw=true" alt="Basal 1 VS tarea cognitiva" width="600"/>
-  <p><em>Figura 13.  Detección de artefactos de parpadeo </em></p>
+  <p><em>Figura 13.  Detección de parpadeo en BASAL 2 </em></p>
 </div>
 
 <div align="center">
    <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/ee9aeb5e-9c38-4284-8a6f-b2154e77010a.jpeg?raw=true" alt="Basal 1 VS tarea cognitiva" width="600"/>
-  <p><em>Figura 13.  Detección de artefactos de parpadeo </em></p>
+  <p><em>Figura 13.  Detección de parpadeo en TAREA COGNITIVA </em></p>
 </div>
 
 <div align="center">
    <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/5a172f81-df4a-441f-8cc3-75f66b949b03.jpeg?raw=true" alt="Basal 1 VS tarea cognitiva" width="600"/>
-  <p><em>Figura 13.  Detección de artefactos de parpadeo </em></p>
+  <p><em>Figura 13.  Detección de parpadeo en ARTEFACTOS </em></p>
 </div>
 
 <div align="center">
    <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/4ce8c5fd-6350-41cb-aa8f-1ddc5aed8271.jpeg?raw=true" alt="Basal 1 VS tarea cognitiva" width="600"/>
-  <p><em>Figura 13.  Detección de artefactos de parpadeo </em></p>
+  <p><em>Figura 13.  Detección de parpadeo en ACTIVIDAD LIBRE </em></p>
 </div>
 
 - **Preguntas adicionales para discusión**
