@@ -125,33 +125,33 @@ El propósito de esta práctica es adquirir señales EEG utilizando el kit BITal
 
   <div align="center">
   <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/basal1-freq.jpeg?raw=true" alt="PSD Basal 1" width="600"/>
-  <p><em>Figura 6. PSD Basal 1</em></p>
+  <p><em>Figura 6. FFT de la EEG filtrada de BASAL 1</em></p>
 </div>
 
   <div align="center">
   <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/basal2-freq.jpeg?raw=true" alt="PSD Basal 1" width="600"/>
-  <p><em>Figura 6. PSD Basal 1</em></p>
+  <p><em>Figura 7. FFT de la EEG filtrada de BASAL 2</em></p>
 </div>
 
   <div align="center">
   <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/tareacog-freq.jpeg?raw=true" alt="PSD Basal 1" width="600"/>
-  <p><em>Figura 6. PSD Basal 1</em></p>
+  <p><em>Figura 8. FFT de la EEG filtrada de TAREA COGNITIVA</em></p>
 </div>
 
   <div align="center">
   <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/artefact-freq.jpeg?raw=true" alt="PSD Basal 1" width="600"/>
-  <p><em>Figura 6. PSD Basal 1</em></p>
+  <p><em>Figura 9. FFT de la EEG filtrada de ARTEFACTOS</em></p>
 </div>
 
   <div align="center">
   <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/libre-freq.jpeg?raw=true" alt="PSD Basal 1" width="600"/>
-  <p><em>Figura 6. PSD Basal 1</em></p>
+  <p><em>Figura 10. FFT de la EEG filtrada de ACTIVIDAD LIBRE</em></p>
 </div>
 
 - **Potencia α en ojos abiertos vs. cerrados**
   <div align="center">
   <img src="https://github.com/Rodrigo1804/GRUPO5-ISB-2025-I/blob/main/Laboratorios/Laboratorio%206%20-%20BiTalino%20EEG/Im%C3%A1genes%20en%20el%20anexo/PSDBasal1.jpg?raw=true" alt="PSD Basal 1" width="600"/>
-  <p><em>Figura 6. PSD Basal 1</em></p>
+  <p><em>Figura 11. PSD Basal 1</em></p>
 </div>
 
 <div align="center">
