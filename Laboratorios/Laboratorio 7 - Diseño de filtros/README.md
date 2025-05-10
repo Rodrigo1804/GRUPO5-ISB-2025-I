@@ -14,6 +14,14 @@
 ## 2. Propósito de la práctica <a name="propósito-de-la-práctica"></a>
 ## 3. Filtrado de señal ECG <a name="filtrado-de-señal-ecg"></a>
 ## 4. Filtrado de señal EMG <a name="filtrado-de-señal-emg"></a>
+
+### Diseño de filtro IIR:
+![IIR](./Imágenes%20en%20el%20anexo/IIR.png)
+
+### Diseño de filtro FIR:
+![FIR](./Imágenes%20en%20el%20anexo/FIR.png)
+
+
 ## 5. Introducción <a name="introducción"></a>
 ## 6. Introducción <a name="introducción"></a>
 ## 7. Introducción <a name="introducción"></a>
