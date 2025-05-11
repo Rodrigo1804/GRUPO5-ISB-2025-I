@@ -36,6 +36,14 @@ Los filtros digitales son algoritmos que operan sobre señales discretas, repres
 
 ![TricepsR](./Imágenes%20en%20el%20anexo/TricepsR.png)
 
+#### Biceps
+
+![BicepsR](./Imágenes%20en%20el%20anexo/BicepsR.png)
+
+#### Hombro 
+
+#### ![TricepsR](./Imágenes%20en%20el%20anexo/TricepsR.png)
+
 ### Diseño de filtro FIR:
 ![FIR](./Imágenes%20en%20el%20anexo/FIR.png)
 
