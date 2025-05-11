@@ -80,17 +80,20 @@ En el diseño de los filtros FIR pasa banda, sse consideró el uso de dos tipos 
 
 # Tabla resumen para filtros FIR
 
-| Tipo de Filtro        | Descanso           | Contracción leve   | Contracción fuerte  |
+# Tabla para filtros FIR (Hamming y Blackman) - Señales EMG de Tríceps, Hombro y Bíceps
+
+| Tipo de señal         | Descanso           | Contracción leve   | Contracción fuerte  |
 |-----------------------|--------------------|--------------------|---------------------|
-| **Señal Cruda (Tríceps)** |  |  |   |
-| **Filtro Hamming**  |   |   |   |
-| **Filtro Blackman** |  |  |  
-| **Señal Cruda (Bíceps)** |  |  |   |
-| **Filtro Hamming**  |   |   |   |
-| **Filtro Blackman** |  |  |  |
-| **Señal Cruda (Hombro)** |  |  |   |
-| **Filtro Hamming**  |   |   |   |
-| **Filtro Blackman** |  |  |  |
+| **Señal Cruda (Tríceps)** | (0 a 40 s aprox)  | (40 a 60 s aprox) | (70 a 120 s aprox) |
+| **Filtro Hamming** | La señal es **más suave**, con **menos picos de ruido** en comparación con la señal cruda. La **frecuencia de 150 Hz** se atenúa, pero se mantiene **la información** relevante de la actividad muscular. | En la **contracción leve**, la señal muestra una buena representación de la **actividad muscular**, sin demasiadas **distorsiones**. La **transición suave** entre frecuencias es evidente. | La señal **filtrada** mantiene la **respuesta de contracción fuerte** sin pérdidas importantes de la **actividad muscular**. El **ruido de alta frecuencia** es atenuado correctamente. |
+| **Filtro Blackman** | Similar al filtro Hamming, pero con una **mejor atenuación** del **ruido de alta frecuencia**, aunque la **transición** entre bandas es más **ancha**. | La **contracción leve** muestra un filtrado eficaz, con **menos artefactos** comparado con el filtro Hamming. La señal sigue siendo representativa de la **actividad muscular**. | El **filtro Blackman** preserva muy bien la **actividad muscular** de la **contracción fuerte**, con **mejor rechazo del ruido**. Sin embargo, su **ancha transición** puede hacer que se pierdan algunos detalles de la señal en ciertas zonas. |
+| **Señal Cruda (Bíceps)** | (0 a 75 s aprox) | (75 a 115 s aprox.) | (115 a 175 s aprox.)  |
+| **Filtro Hamming** | La señal se suaviza, pero la **actividad muscular** se conserva bien, aunque con una ligera **pérdida de detalles** en los picos más rápidos. | El filtro preserva bien la **respuesta muscular**, especialmente en contracciones de **baja intensidad**. Los **detalles finos** de la señal se mantienen, pero con **algo de suavización**. | En la **contracción fuerte**, la **actividad muscular** se conserva y el filtro Hamming hace un **buen trabajo** eliminando el **ruido de alta frecuencia** sin causar grandes pérdidas en la amplitud. |
+| **Filtro Blackman** | Mejor **reducido el ruido** en comparación con Hamming, con una **mayor atenuación de artefactos** en la señal de **descanso**. | La **respuesta muscular** en la **contracción leve** sigue presente, pero se observan **transiciones más suaves**. Los artefactos son eliminados de manera efectiva, pero el **filtro Blackman** puede hacer que algunos **picos pequeños** sean menos evidentes. | La **contracción fuerte** es bien representada, pero la **transición ancha** de la **ventana Blackman** puede **suavizar los picos más altos**. Sin embargo, el filtro hace un buen trabajo atenuando el **ruido de alta frecuencia**. |
+| **Señal Cruda (Hombro)** | (0 a 20 s aprox) | (20 a 50 s aprox)  | (50 a 85 s aprox) |
+| **Filtro Hamming** | El filtro **Hamming** atenúa el **ruido de baja frecuencia** sin perder demasiada **información de la señal** en el **descanso**. La **señal filtrada** es **más limpia** que la cruda. | La **contracción leve** muestra la **actividad muscular** con **buena resolución**, mientras que el filtro **reduce el ruido** sin alterar mucho la **forma** de la señal. | El **filtro Hamming** **preserva bien la contracción fuerte**, eliminando **frecuencias no deseadas** y mostrando una **señal más limpia** sin perder detalles importantes. |
+| **Filtro Blackman** | Similar al filtro Hamming, pero con **mejor rechazo de ruido** y **mayor atenuación** en las frecuencias no deseadas. Sin embargo, la **señal de descanso** es más suave, con menos picos de **ruido**. | En la **contracción leve**, el **filtro Blackman** hace un trabajo más eficiente para eliminar artefactos. La **actividad muscular** sigue siendo clara, pero con una **transición más amplia**. | En la **contracción fuerte**, el **filtro Blackman** ofrece una **mejor atenuación** de frecuencias fuera del rango de interés, pero podría afectar ligeramente los **picos de alta amplitud** debido a la **ancha transición** de la ventana. |
+
 
 
 ## 5. Introducción <a name="introducción"></a>
