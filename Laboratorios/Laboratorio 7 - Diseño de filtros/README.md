@@ -29,20 +29,20 @@ Los filtros digitales son algoritmos que operan sobre señales discretas, repres
 ## 3. Filtrado de señal ECG <a name="filtrado-de-señal-ecg"></a>
 ## 4. Filtrado de señal EMG <a name="filtrado-de-señal-emg"></a>
 
-### Diseño de filtro IIR:
+## Diseño de filtro IIR:
 ![IIR](./Imágenes%20en%20el%20anexo/IIR.png)
 
-#### Triceps
+### Triceps
 
 ![TricepsR](./Imágenes%20en%20el%20anexo/TricepsR.png)
 
-#### Biceps
+### Biceps
 
 ![BicepsR](./Imágenes%20en%20el%20anexo/BicepsR.png)
 
-#### Hombro 
+### Hombro 
 
-#### ![TricepsR](./Imágenes%20en%20el%20anexo/TricepsR.png)
+![HombroR](./Imágenes%20en%20el%20anexo/HombroR.png)
 
 ### Diseño de filtro FIR:
 ![FIR](./Imágenes%20en%20el%20anexo/FIR.png)
