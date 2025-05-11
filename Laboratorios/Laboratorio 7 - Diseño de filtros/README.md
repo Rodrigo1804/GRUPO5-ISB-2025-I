@@ -44,6 +44,15 @@ Los filtros digitales son algoritmos que operan sobre señales discretas, repres
 
 ![HombroR](./Imágenes%20en%20el%20anexo/HombroR.png)
 
+### Tabla resumen para filtros IIR
+
+| Campo de Actividad    | Señal Cruda (Tríceps) | Filtro Butterworth (Tríceps) | Filtro Chebyshev (Tríceps) | Señal Cruda (Bíceps) | Filtro Butterworth (Bíceps) | Filtro Chebyshev (Bíceps) | Señal Cruda (Hombro) | Filtro Butterworth (Hombro) | Filtro Chebyshev (Hombro) |
+|-----------------------|-----------------------|-----------------------------|----------------------------|----------------------|----------------------------|---------------------------|----------------------|----------------------------|---------------------------|
+| **Descanso**          | [Enlace señal cruda](#)   | [Enlace filtro Butter](#)   | [Enlace filtro Cheby](#)   | [Enlace señal cruda](#)   | [Enlace filtro Butter](#)   | [Enlace filtro Cheby](#)   | [Enlace señal cruda](#)   | [Enlace filtro Butter](#)   | [Enlace filtro Cheby](#)   |
+| **Contracción leve**  | [Enlace señal cruda](#)   | [Enlace filtro Butter](#)   | [Enlace filtro Cheby](#)   | [Enlace señal cruda](#)   | [Enlace filtro Butter](#)   | [Enlace filtro Cheby](#)   | [Enlace señal cruda](#)   | [Enlace filtro Butter](#)   | [Enlace filtro Cheby](#)   |
+| **Contracción fuerte**| [Enlace señal cruda](#)   | [Enlace filtro Butter](#)   | [Enlace filtro Cheby](#)   | [Enlace señal cruda](#)   | [Enlace filtro Butter](#)   | [Enlace filtro Cheby](#)   | [Enlace señal cruda](#)   | [Enlace filtro Butter](#)   | [Enlace filtro Cheby](#)   |
+
+
 ### Diseño de filtro FIR:
 ![FIR](./Imágenes%20en%20el%20anexo/FIR.png)
 
@@ -58,6 +67,15 @@ Los filtros digitales son algoritmos que operan sobre señales discretas, repres
 ### Hombro 
 
 ![HombroF](./Imágenes%20en%20el%20anexo/HombroF.png)
+
+# Tabla resumen para filtros FIR
+
+| Campo de Actividad    | Señal Cruda (Tríceps) | Filtro Hamming (Tríceps) | Filtro Blackman (Tríceps) | Señal Cruda (Bíceps) | Filtro Hamming (Bíceps) | Filtro Blackman (Bíceps) | Señal Cruda (Hombro) | Filtro Hamming (Hombro) | Filtro Blackman (Hombro) |
+|-----------------------|-----------------------|--------------------------|---------------------------|----------------------|-------------------------|--------------------------|----------------------|-------------------------|--------------------------|
+| **Descanso**          | [Enlace señal cruda](#)   | [Enlace filtro Hamming](#)    | [Enlace filtro Blackman](#)   | [Enlace señal cruda](#)   | [Enlace filtro Hamming](#)    | [Enlace filtro Blackman](#)   | [Enlace señal cruda](#)   | [Enlace filtro Hamming](#)    | [Enlace filtro Blackman](#)   |
+| **Contracción leve**  | [Enlace señal cruda](#)   | [Enlace filtro Hamming](#)    | [Enlace filtro Blackman](#)   | [Enlace señal cruda](#)   | [Enlace filtro Hamming](#)    | [Enlace filtro Blackman](#)   | [Enlace señal cruda](#)   | [Enlace filtro Hamming](#)    | [Enlace filtro Blackman](#)   |
+| **Contracción fuerte**| [Enlace señal cruda](#)   | [Enlace filtro Hamming](#)    | [Enlace filtro Blackman](#)   | [Enlace señal cruda](#)   | [Enlace filtro Hamming](#)    | [Enlace filtro Blackman](#)   | [Enlace señal cruda](#)   | [Enlace filtro Hamming](#)    | [Enlace filtro Blackman](#)   |
+
 
 ## 5. Introducción <a name="introducción"></a>
 ## 6. Introducción <a name="introducción"></a>
