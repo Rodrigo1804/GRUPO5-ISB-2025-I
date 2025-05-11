@@ -6,8 +6,7 @@
 3. [Filtrado de señal ECG](#filtrado-de-señal-ecg) 
 4. [Filtrado de señal EMG](#filtrado-de-señal-emg)
 5. [Filtrado de señal EEG](#filtrado-de-señal-eeg) 
-6. [Resultados y limitaciones](#resultados-y-limitaciones)  
-7. [Referencias](#referencias)
+6. [Referencias](#referencias)
 
 
 ## 1. Introducción <a name="introducción"></a>
@@ -30,6 +29,8 @@ Los filtros digitales son algoritmos que operan sobre señales discretas, repres
 ## 4. Filtrado de señal EMG <a name="filtrado-de-señal-emg"></a>
 
 ## Diseño de filtro IIR:
+En el diseño de los filtros IIR se consideró el uso de dos tipos de filtros pasa banda: Butterworth y Chebyshev, ambos adecuados para filtrar las señales EMG dentro de un rango de frecuencias de interés (40-150 Hz). Se utilizó una frecuencia de muestreo de 1000 Hz y ambos filtros estan diseñados con un orden de 10.
+
 ![IIR](./Imágenes%20en%20el%20anexo/IIR.png)
 
 ### Triceps
@@ -48,19 +49,21 @@ Los filtros digitales son algoritmos que operan sobre señales discretas, repres
 
 | Tipo de señal       | Descanso           | Contracción leve   | Contracción fuerte  |
 |-----------------------|--------------------|--------------------|---------------------|
-| **Señal Cruda (Tríceps)** |   |  |   |
+| **Señal Cruda (Tríceps)** | (0 a 45 s aprox)  | (45 a 80 s aprox) |  (80 a 115 s aprox) |
 | **Filtro Butterworth** | |  |  |
 | **Filtro Chebyshev**  |  |   |   |
-| **Señal Cruda (Biceps)** |  |  |   |
+| **Señal Cruda (Biceps)** | (30 a 60 s aprox) | (80 a 120 s aprox.) | (120 a 175 s aprox.)  |
 | **Filtro Butterworth** |  | |  |
 | **Filtro Chebyshev**  |  |  |  |
-| **Señal Cruda (Hombro)** |  |   |  |
+| **Señal Cruda (Hombro)** | (0 a 20 s aprox) | (20 a 40 s aprox)  |  (45 a 85 s aprox) |
 | **Filtro Butterworth** |  |  |  |
 | **Filtro Chebyshev**  |  |   |  |
 
 
 
 ### Diseño de filtro FIR:
+En el diseño de los filtros FIR pasa banda, sse consideró el uso de dos tipos de ventanas: Hamming y Blackman, ambos utilizados para filtrar las señales EMG en el rango de 40-150 Hz. Se utilizó una frecuencia de muestreo de 1000 Hz y ambos filtros estan diseñados con un orden de 101 coeficientes.
+
 ![FIR](./Imágenes%20en%20el%20anexo/FIR.png)
 
 ### Triceps
@@ -92,4 +95,4 @@ Los filtros digitales son algoritmos que operan sobre señales discretas, repres
 
 ## 5. Introducción <a name="introducción"></a>
 ## 6. Introducción <a name="introducción"></a>
-## 7. Introducción <a name="introducción"></a>
+
