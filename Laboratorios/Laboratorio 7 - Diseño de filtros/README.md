@@ -48,17 +48,17 @@ Los filtros digitales son algoritmos que operan sobre señales discretas, repres
 
 # Tabla para filtros IIR (Butterworth y Chebyshev)
 
-| Tipo de Filtro        | Descanso           | Contracción leve   | Contracción fuerte  |
+| Tipo de señal       | Descanso           | Contracción leve   | Contracción fuerte  |
 |-----------------------|--------------------|--------------------|---------------------|
-| **Señal Cruda (Tríceps)** | [Enlace señal cruda](#)  | [Enlace señal cruda](#)  | [Enlace señal cruda](#)  |
-| **Filtro Butterworth (IIR)** | [Enlace filtro Butterworth](#) | [Enlace filtro Butterworth](#) | [Enlace filtro Butterworth](#) |
-| **Filtro Chebyshev (IIR)**  | [Enlace filtro Chebyshev](#)  | [Enlace filtro Chebyshev](#)  | [Enlace filtro Chebyshev](#)  |
-| **Señal Cruda (Biceps)** | [Enlace señal cruda](#)  | [Enlace señal cruda](#)  | [Enlace señal cruda](#)  |
-| **Filtro Butterworth (IIR)** | [Enlace filtro Butterworth](#) | [Enlace filtro Butterworth](#) | [Enlace filtro Butterworth](#) |
-| **Filtro Chebyshev (IIR)**  | [Enlace filtro Chebyshev](#)  | [Enlace filtro Chebyshev](#)  | [Enlace filtro Chebyshev](#)  |
-| **Señal Cruda (Hombro)** | [Enlace señal cruda](#)  | [Enlace señal cruda](#)  | [Enlace señal cruda](#)  |
-| **Filtro Butterworth (IIR)** | [Enlace filtro Butterworth](#) | [Enlace filtro Butterworth](#) | [Enlace filtro Butterworth](#) |
-| **Filtro Chebyshev (IIR)**  | [Enlace filtro Chebyshev](#)  | [Enlace filtro Chebyshev](#)  | [Enlace filtro Chebyshev](#)  |
+| **Señal Cruda (Tríceps)** |   |  |   |
+| **Filtro Butterworth (IIR)** | |  |  |
+| **Filtro Chebyshev (IIR)**  |  |   |   |
+| **Señal Cruda (Biceps)** |  |  |   |
+| **Filtro Butterworth (IIR)** |  | |  |
+| **Filtro Chebyshev (IIR)**  |  |  |  |
+| **Señal Cruda (Hombro)** |  |   |  |
+| **Filtro Butterworth (IIR)** |  |  |  |
+| **Filtro Chebyshev (IIR)**  |  |   |  |
 
 
 
