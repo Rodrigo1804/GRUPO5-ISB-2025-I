@@ -32,6 +32,10 @@ Los filtros digitales son algoritmos que operan sobre señales discretas, repres
 ### Diseño de filtro IIR:
 ![IIR](./Imágenes%20en%20el%20anexo/IIR.png)
 
+#### Triceps
+
+![TricepsR](./Imágenes%20en%20el%20anexo/TricepsR.png)
+
 ### Diseño de filtro FIR:
 ![FIR](./Imágenes%20en%20el%20anexo/FIR.png)
 
