@@ -49,13 +49,13 @@ En el diseño de los filtros IIR se consideró el uso de dos tipos de filtros pa
 
 | Tipo de señal       | Descanso           | Contracción leve   | Contracción fuerte  |
 |-----------------------|--------------------|--------------------|---------------------|
-| **Señal Cruda (Tríceps)** | (0 a 45 s aprox)  | (45 a 80 s aprox) |  (80 a 115 s aprox) |
-| **Filtro Butterworth** | |  |  |
-| **Filtro Chebyshev**  |  |   |   |
-| **Señal Cruda (Biceps)** | (30 a 60 s aprox) | (80 a 120 s aprox.) | (120 a 175 s aprox.)  |
+| **Señal Cruda (Tríceps)** | (0 a 40 s aprox)  | (40 a 60 s aprox) |  (70 a 120 s aprox) |
+| **Filtro Butterworth** |Se observa una amplitud alta y ruido bajo para el rango de 40–150 Hz, con atenuación de frecuencias fuera de este rango. La señal filtrada mantiene una transición suave en el rango de frecuencia deseado. | Se mantiene la respuesta muscular con picos amplificados, lo que refleja una contracción leve. El ruido se reduce pero la señal sigue mostrando actividad importante. | La señal filtrada muestra una buena representación de la contracción fuerte al reducir el ruido de alta frecuencia. Se preserva la actividad muscular relevante mientras que se elimina la mayor parte del ruido de movimiento. |
+| **Filtro Chebyshev**  | La transición es más rápida en comparación con el filtro Butterworth, permitiendo que las frecuencias fuera de rango se atenúen más rápidamente. Sin embargo, puede haber algunos ripples en la banda de paso, lo que podría alterar ligeramente la forma de la señal en zonas específicas de descanso. |  Menos distorsión de la señal comparado con Butterworth, pero algunos ripples podrían estar presentes en las frecuencias de la señal filtrada. Sin embargo, la señal de contracción leve se preserva sin grandes alteraciones. |  La contracción fuerte se conserva muy bien en términos de amplitud. El filtro Chebyshev elimina artefactos de alta frecuencia rápidamente, pero la presencia de ripples en la banda de paso podría hacer que algunos picos sean ligeramente más amplificados que con el filtro Butterworth. |
+| **Señal Cruda (Biceps)** | (0 a 75 s aprox) | (75 a 115 s aprox.) | (115 a 175 s aprox.)  |
 | **Filtro Butterworth** |  | |  |
 | **Filtro Chebyshev**  |  |  |  |
-| **Señal Cruda (Hombro)** | (0 a 20 s aprox) | (20 a 40 s aprox)  |  (45 a 85 s aprox) |
+| **Señal Cruda (Hombro)** | (0 a 20 s aprox) | (20 a 50 s aprox)  |  (50 a 85 s aprox) |
 | **Filtro Butterworth** |  |  |  |
 | **Filtro Chebyshev**  |  |   |  |
 
