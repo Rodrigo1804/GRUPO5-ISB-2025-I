@@ -78,9 +78,7 @@ En el diseño de los filtros FIR pasa banda, sse consideró el uso de dos tipos 
 
 ![HombroF](./Imágenes%20en%20el%20anexo/HombroF.png)
 
-# Tabla resumen para filtros FIR
-
-# Tabla para filtros FIR (Hamming y Blackman) - Señales EMG de Tríceps, Hombro y Bíceps
+### Tabla resumen para filtros FIR
 
 | Tipo de señal         | Descanso           | Contracción leve   | Contracción fuerte  |
 |-----------------------|--------------------|--------------------|---------------------|
