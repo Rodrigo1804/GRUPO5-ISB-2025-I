@@ -46,19 +46,17 @@ Los filtros digitales son algoritmos que operan sobre señales discretas, repres
 
 ### Tabla resumen para filtros IIR
 
-# Tabla para filtros IIR (Butterworth y Chebyshev)
-
 | Tipo de señal       | Descanso           | Contracción leve   | Contracción fuerte  |
 |-----------------------|--------------------|--------------------|---------------------|
 | **Señal Cruda (Tríceps)** |   |  |   |
-| **Filtro Butterworth (IIR)** | |  |  |
-| **Filtro Chebyshev (IIR)**  |  |   |   |
+| **Filtro Butterworth** | |  |  |
+| **Filtro Chebyshev**  |  |   |   |
 | **Señal Cruda (Biceps)** |  |  |   |
-| **Filtro Butterworth (IIR)** |  | |  |
-| **Filtro Chebyshev (IIR)**  |  |  |  |
+| **Filtro Butterworth** |  | |  |
+| **Filtro Chebyshev**  |  |  |  |
 | **Señal Cruda (Hombro)** |  |   |  |
-| **Filtro Butterworth (IIR)** |  |  |  |
-| **Filtro Chebyshev (IIR)**  |  |   |  |
+| **Filtro Butterworth** |  |  |  |
+| **Filtro Chebyshev**  |  |   |  |
 
 
 
@@ -79,6 +77,17 @@ Los filtros digitales son algoritmos que operan sobre señales discretas, repres
 
 # Tabla resumen para filtros FIR
 
+| Tipo de Filtro        | Descanso           | Contracción leve   | Contracción fuerte  |
+|-----------------------|--------------------|--------------------|---------------------|
+| **Señal Cruda (Tríceps)** |  |  |   |
+| **Filtro Hamming**  |   |   |   |
+| **Filtro Blackman** |  |  |  
+| **Señal Cruda (Bíceps)** |  |  |   |
+| **Filtro Hamming**  |   |   |   |
+| **Filtro Blackman** |  |  |  |
+| **Señal Cruda (Hombro)** |  |  |   |
+| **Filtro Hamming**  |   |   |   |
+| **Filtro Blackman** |  |  |  |
 
 
 ## 5. Introducción <a name="introducción"></a>
