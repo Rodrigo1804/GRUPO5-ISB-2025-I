@@ -25,9 +25,11 @@ Los filtros digitales son algoritmos que operan sobre señales discretas, repres
 	•	Filtros FIR: Son filtros no recursivos que solo dependen de las entradas pasadas, lo que los hace más estables, pero suelen requerir más coeficientes para lograr un rendimiento similar al de los filtros IIR [3].
  
 **Importancia de los Filtros Digitales en el Procesamiento de Señales Biomédicas**
-El procesamiento digital de señales biomédicas es esencial para la eliminación de ruidos y artefactos que pueden interferir con la interpretación clínica. Por ejemplo, en el caso del ECG, es común la presencia de interferencias como el ruido de la línea eléctrica (50/60 Hz), artefactos por movimiento y ruido muscular. La aplicación de filtros digitales adecuados permite mitigar estos ruidos sin distorsionar las características importantes de la señal, como el complejo QRS.
-Además, en señales EEG, los filtros digitales son fundamentales para aislar las diferentes bandas de frecuencia (delta, theta, alfa, beta y gamma), lo que facilita el análisis de los estados cognitivos y la detección de anomalías neurológicas.
-El uso de filtros digitales también permite la implementación de técnicas avanzadas como la Transformada Wavelet y la Descomposición Empírica de Modos (EMD), que han demostrado ser eficaces en la mejora de la calidad de las señales biomédicas y en la extracción de características relevantes para el diagnóstico.
+El procesamiento digital de señales biomédicas es esencial para la eliminación de ruidos y artefactos que pueden interferir con la interpretación clínica. Por ejemplo, en el caso del ECG, es común la presencia de interferencias como el ruido de la línea eléctrica (50/60 Hz), artefactos por movimiento y ruido muscular. La aplicación de filtros digitales adecuados permite mitigar estos ruidos sin distorsionar las características importantes de la señal, como el complejo QRS. [4]
+
+Además, en señales EEG, los filtros digitales son fundamentales para aislar las diferentes bandas de frecuencia (delta, theta, alfa, beta y gamma), lo que facilita el análisis de los estados cognitivos y la detección de anomalías neurológicas. [5]
+
+El uso de filtros digitales también permite la implementación de técnicas avanzadas como la Transformada Wavelet y la Descomposición Empírica de Modos (EMD), que han demostrado ser eficaces en la mejora de la calidad de las señales biomédicas y en la extracción de características relevantes para el diagnóstico. [6]
 
 ## 2. Propósito de la práctica <a name="propósito-de-la-práctica"></a>
 Aplicar conocimientos teóricos para el diseño e implementación de filtros digitales FIR e IIR que puedan ser implementados para el procesamiento de señales biomédicas como ECG, EEG y EMG. Además, se busca comparar los efectos de los distintos tipos de filtros y evaluar el impacto de los mismos en la calidad de las señales. Estos filtros se diseñarán haciendo uso de herramientas como Google Collab.
@@ -71,7 +73,7 @@ Evaluamos a partir de los resultados obtenidos cuál de los filtros para cada ca
 ## 4. Filtrado de señal EMG <a name="filtrado-de-señal-emg"></a>
 
 ## Diseño de filtro IIR:
-En el diseño de los filtros IIR se consideró el uso de dos tipos de filtros pasa banda: Butterworth y Chebyshev, ambos adecuados para filtrar las señales EMG dentro de un rango de frecuencias de interés (40-150 Hz) [4]. Se utilizó una frecuencia de muestreo de 1000 Hz y ambos filtros estan diseñados con un orden de 10.
+En el diseño de los filtros IIR se consideró el uso de dos tipos de filtros pasa banda: Butterworth y Chebyshev, ambos adecuados para filtrar las señales EMG dentro de un rango de frecuencias de interés (40-150 Hz) [7]. Se utilizó una frecuencia de muestreo de 1000 Hz y ambos filtros estan diseñados con un orden de 10.
 
 ![IIR](./Imágenes%20en%20el%20anexo/IIR.png)
 
@@ -163,5 +165,11 @@ En el diseño de los filtros FIR pasa banda, sse consideró el uso de dos tipos 
 
 [3] Dohare, A. K., Kumar, V., & Kumar, R. (2014). An efficient new method for the detection of QRS in electrocardiogram. Computers & Electrical Engineering: An International Journal, 40(5), 1717–1730. https://doi.org/10.1016/j.compeleceng.2013.11.004
 
-[4] Zhao, Y., Jia, L., Liu, Z., & Lu, H. (2022). A Wearable, Multi-Frequency Device to Measure Muscle Activity Combining Simultaneous Electromyography and Electrical Impedance Myography. Sensors, 22(5), 1941. https://doi.org/10.3390/s22051941 
+[4] Chatterjee, S., Thakur, R. S., Yadav, R. N., Gupta, L., & Raghuvanshi, D. K. (2020). Review of noise removal techniques in ECG signals. IET Signal Processing, 14(9), 569–590. doi:10.1049/iet-spr.2020.0104
+
+[5] Dvorak, D., Shang, A., Abdel-Baki, S., Suzuki, W., & Fenton, A. A. (2018). Cognitive behavior classification from scalp EEG signals. IEEE Transactions on Neural Systems and Rehabilitation Engineering: A Publication of the IEEE Engineering in Medicine and Biology Society, 26(4), 729–739. doi:10.1109/TNSRE.2018.2797547
+
+[6] Kaleem, M., Guergachi, A., & Krishnan, S. (2021). Comparison of empirical mode decomposition, wavelets, and different machine learning approaches for patient-specific seizure detection using signal-derived empirical dictionary approach. Frontiers in Digital Health, 3, 738996. doi:10.3389/fdgth.2021.738996
+
+[7] Zhao, Y., Jia, L., Liu, Z., & Lu, H. (2022). A Wearable, Multi-Frequency Device to Measure Muscle Activity Combining Simultaneous Electromyography and Electrical Impedance Myography. Sensors, 22(5), 1941. https://doi.org/10.3390/s22051941 
 
