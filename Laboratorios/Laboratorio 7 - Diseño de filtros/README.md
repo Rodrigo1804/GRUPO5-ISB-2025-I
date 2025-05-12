@@ -28,7 +28,7 @@ Los filtros digitales son algoritmos que operan sobre señales discretas, repres
 
 ## 3. Filtrado de señal ECG <a name="filtrado-de-señal-ecg"></a>
 
-###Primera Derivada
+### Primera Derivada
 | Campo                 | RAW                | Filtros FIR        | Filtros IIR          |
 |-----------------------|--------------------|--------------------|----------------------|
 |Reposo                 | ![Raw 1](./Imágenes%20en%20el%20anexo/Reposo1raDerivRaw.jpg)| ![FIR](./Imágenes%20en%20el%20anexo/Reposo1raDerivFiltradaFIR.jpg) | ![IIR](./Imágenes%20en%20el%20anexo/Reposo1raDerivFiltradaIIR.jpg) |
@@ -39,7 +39,8 @@ Los filtros digitales son algoritmos que operan sobre señales discretas, repres
 
 * Conclusión Filtros IIR:
   
-###Segunda Derivada
+### Segunda Derivada
+
 | Campo                 | RAW                | Filtros FIR        | Filtros IIR          |
 |-----------------------|--------------------|--------------------|----------------------|
 |Reposo                 | ![Raw 1](./Imágenes%20en%20el%20anexo/Reposo2daDerivRaw.jpg)| ![FIR](./Imágenes%20en%20el%20anexo/Reposo2daDerivFiltradaFIR.jpg) | ![IIR](./Imágenes%20en%20el%20anexo/Reposo2daDerivFiltradaIIR.jpg) |
@@ -50,7 +51,8 @@ Los filtros digitales son algoritmos que operan sobre señales discretas, repres
 
 * Conclusión Filtros IIR:
   
-###Tercera Derivada
+### Tercera Derivada
+
 | Campo                 | RAW                | Filtros FIR        | Filtros IIR          |
 |-----------------------|--------------------|--------------------|----------------------|
 |Reposo                 | ![Raw 1](./Imágenes%20en%20el%20anexo/Reposo3raDerivRaw.jpg)| ![FIR](./Imágenes%20en%20el%20anexo/Reposo3raDerivFiltradaFIR.jpg) | ![IIR](./Imágenes%20en%20el%20anexo/Reposo3raDerivFiltradaIIR.jpg) |
