@@ -133,13 +133,17 @@ En el diseño de los filtros FIR pasa banda, sse consideró el uso de dos tipos 
 ## 5. Filtrado de señal EEG <a name="filtrado-de-señal-eeg"></a>
 
 ### Primera Derivada
-| Campo                 | RAW                |	Filtro FIR - Hamming     |   Filtro FIR - Bartlett   |  Filtro IIR - Butterworth  |   Filtro IIR - Chebyshev    |
-|-----------------------|--------------------|---------------------------|---------------------------|----------------------------| ----------------------------|
+| Campo                 |            RAW            |	Filtro FIR - Hamming    |   Filtro FIR - Bartlett   |  Filtro IIR - Butterworth  |   Filtro IIR - Chebyshev   |
+|-----------------------|---------------------------|---------------------------|---------------------------|----------------------------|----------------------------|
 |Basal 1                | ![Basal 1 RAW](./Imágenes%20en%20el%20anexo/BASAL_1_RAW_SIGNAL.png)| ![Basal_1_FIR_Hamming](./Imágenes%20en%20el%20anexo/BASAL_1_RAW_SIGNAL.png) | ![Basal_1_FIR_Bartlett](./Imágenes%20en%20el%20anexo/BASAL_1_RAW_SIGNAL.png) | ![Basal_1_IIR_Butterworth](./Imágenes%20en%20el%20anexo/BASAL_1_RAW_SIGNAL.png) | ![Basal_1_IIR_Chebyshev](./Imágenes%20en%20el%20anexo/BASAL_1_RAW_SIGNAL.png)|
-|Basal 2       |![Raw 2](./Imágenes%20en%20el%20anexo/ActividadFisicaRaw1raDeriv.jpg)|![FIR](./Imágenes%20en%20el%20anexo/ActividadFisica1raDerivFiltradaFIR.jpg)|![IIR](./Imágenes%20en%20el%20anexo/ActividadFisica1raDerivFiltradaIIR.jpg)|
-|Tarea Cognitiva  |![Raw 3](./Imágenes%20en%20el%20anexo/PostActividad1raDerivRaw.jpg)|![FIR](./Imágenes%20en%20el%20anexo/PostActividad1raDerivFiltradaFIR.jpg)|![IIR](./Imágenes%20en%20el%20anexo/PostActividad1raDerivFiltradaIIR.jpg)|
-|Artefactos  |![Raw 3](./Imágenes%20en%20el%20anexo/PostActividad1raDerivRaw.jpg)|![FIR](./Imágenes%20en%20el%20anexo/PostActividad1raDerivFiltradaFIR.jpg)|![IIR](./Imágenes%20en%20el%20anexo/PostActividad1raDerivFiltradaIIR.jpg)|
-|Actividad Libre  |![Raw 3](./Imágenes%20en%20el%20anexo/PostActividad1raDerivRaw.jpg)|![FIR](./Imágenes%20en%20el%20anexo/PostActividad1raDerivFiltradaFIR.jpg)|![IIR](./Imágenes%20en%20el%20anexo/PostActividad1raDerivFiltradaIIR.jpg)|
+
+|Basal 2       | ![Basal 2 RAW](./Imágenes%20en%20el%20anexo/BASAL_2_RAW_SIGNAL.png)| ![Basal_2_FIR_Hamming](./Imágenes%20en%20el%20anexo/BASAL_1_RAW_SIGNAL.png) | ![Basal_2_FIR_Bartlett](./Imágenes%20en%20el%20anexo/BASAL_1_RAW_SIGNAL.png) | ![Basal_2_IIR_Butterworth](./Imágenes%20en%20el%20anexo/BASAL_1_RAW_SIGNAL.png) | ![Basal_2_IIR_Chebyshev](./Imágenes%20en%20el%20anexo/BASAL_1_RAW_SIGNAL.png)|
+
+|Tarea Cognitiva  | ![Tarea_Cognitiva RAW](./Imágenes%20en%20el%20anexo/TAREA_COGNITIVA_RAW_SIGNAL.png)| ![Tarea_Cognitiva FIR_Hamming](./Imágenes%20en%20el%20anexo/TAREA_COGNITIVA_RAW_SIGNAL.png) | ![Tarea_Cognitiva FIR_Bartlett](./Imágenes%20en%20el%20anexo/TAREA_COGNITIVA_RAW_SIGNAL.png) | ![Tarea_Cognitiva IIR_Butterworth](./Imágenes%20en%20el%20anexo/BASAL_1_RAW_SIGNAL.png) | ![Tarea_Cognitiva IIR_Chebyshev](./Imágenes%20en%20el%20anexo/BASAL_1_RAW_SIGNAL.png)|
+
+|Artefactos  | ![Artefactos_RAW](./Imágenes%20en%20el%20anexo/ARTEFACTOS_RAW_SIGNAL.png)| ![Artefactos_FIR_Hamming](./Imágenes%20en%20el%20anexo/BASAL_1_RAW_SIGNAL.png) | ![Artefactos_FIR_Bartlett](./Imágenes%20en%20el%20anexo/BASAL_1_RAW_SIGNAL.png) | ![Artefactos_IIR_Butterworth](./Imágenes%20en%20el%20anexo/BASAL_1_RAW_SIGNAL.png) | ![Artefactos_IIR_Chebyshev](./Imágenes%20en%20el%20anexo/BASAL_1_RAW_SIGNAL.png)|
+
+|Actividad Libre  | ![Actividad_Libre_RAW](./Imágenes%20en%20el%20anexo/ACTIVIDAD_LIBRE_RAW_SIGNAL.png)| ![Actividad_Libre_FIR_Hamming](./Imágenes%20en%20el%20anexo/BASAL_1_RAW_SIGNAL.png) | ![Actividad_Libre_FIR_Bartlett](./Imágenes%20en%20el%20anexo/BASAL_1_RAW_SIGNAL.png) | ![Actividad_Libre_IIR_Butterworth](./Imágenes%20en%20el%20anexo/BASAL_1_RAW_SIGNAL.png) | ![Actividad_Libre_IIR_Chebyshev](./Imágenes%20en%20el%20anexo/BASAL_1_RAW_SIGNAL.png)|
 
 ## 6. Referencias <a name="referencias"></a>
 [1]
