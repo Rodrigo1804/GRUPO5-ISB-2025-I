@@ -141,6 +141,17 @@ En el diseño de los filtros FIR pasa banda, sse consideró el uso de dos tipos 
 |Artefactos  | ![Artefactos_RAW](./Imágenes%20en%20el%20anexo/ARTEFACTOS_RAW_SIGNAL.png)| ![Artefactos_FIR_Hamming](./Imágenes%20en%20el%20anexo/ARTEFACTOS_FIR_HAMMING.jpg) | ![Artefactos_FIR_Bartlett](./Imágenes%20en%20el%20anexo/ARTEFACTOS_FIR_BARTLETT.png) | ![Artefactos_IIR_Butterworth](./Imágenes%20en%20el%20anexo/ARTEFACTOS_IIR_BUTTERWORTH.png) | ![Artefactos_IIR_Chebyshev](./Imágenes%20en%20el%20anexo/ARTEFACTOS_IIR_CHEBYSHEV.png)|
 |Actividad Libre  | ![Actividad_Libre_RAW](./Imágenes%20en%20el%20anexo/ACTIVIDAD_LIBRE_RAW_SIGNAL.png)| ![Actividad_Libre_FIR_Hamming](./Imágenes%20en%20el%20anexo/ACTIVIDAD_LIBRE_FIR_HAMMING.png) | ![Actividad_Libre_FIR_Bartlett](./Imágenes%20en%20el%20anexo/ACTIVIDAD_LIBRE_FIR_BARTLETT.png) | ![Actividad_Libre_IIR_Butterworth](./Imágenes%20en%20el%20anexo/ACTIVIDAD_LIBRE_IIR_BUTTERWORTH.png) | ![Actividad_Libre_IIR_Chebyshev](./Imágenes%20en%20el%20anexo/ACTIVIDAD_LIBRE_IIR_CHEBYSHEV.png)|
 
+### Tabla de Conclusiones para el filtrado de señales EEG
+
+| Tipo de señal         | Basal 1            | Basal 2            | Tarea Cognitiva     |     Artefactos      |	  Actividad Libre   |
+|-----------------------|--------------------|--------------------|---------------------|---------------------|---------------------|
+| **Raw Signal** | (0 a 40 s aprox)  | (40 a 60 s aprox) |  (70 a 120 s aprox) |
+| **Filtro FIR - Hamming** |Se observa una amplitud considerable y ruido bajo, con atenuación de frecuencias fuera de este rango.| El ruido se reduce pero la señal sigue mostrando actividad importante. | Se preserva la actividad muscular relevante mientras que se elimina la mayor parte del ruido de movimiento. |
+| **Filtro FIR - Bartlett**  | A pesar de que la transición sea más rápida que el de Butterworth y una posible distorsión de la señal por la presencia de ripples, no se puede observar una diferencia significativa. |  Se mantiene la respuesta muscular, lo que indica una contracción leve. Sin embargo, no se observar una diferencia significativa. |  La contracción fuerte se conserva muy bien. Se puede notar ligeramente cierta diferencia en la forma de la señal en algunas zonas y se puede deber a la presencia de ripples en la banda de paso. |
+| **Filtro IIR - Butterworth** | La señal presenta una amplitud menor comparada con la cruda, con una transición más suave en las frecuencias. | La contracción leve muestra un buen filtrado, eliminando las frecuencias fuera del rango establecido y se puede notar la presencia de la respuesta muscular. |  Se puede observar que el filtro permite una buena preservación de la contracción fuerte, aunque las frecuencias fuera de rango se atenúan progresivamente. |
+| **Filtro IIR - Chebyshev**  | Se redujo el ruido pero no se puede apreciar una diferencia notable con el Butterworth | Se mantiene la respuesta muscular, lo que indica una contracción leve. Sin embargo, no se observa una diferencia significativa con el Butterworth. | Se conserva la amplitud de la contracción fuerte , aunque los ripples en la banda de paso están afectando algunos picos altos en la señal. |
+
+
 ## 6. Referencias <a name="referencias"></a>
 [1]
 [2] Y. Zigel, D. Litvak, and A. Cohen, "A new method for detection of peaks in ECG signals," IEEE Eng. Med. Biol. Mag., vol. 21, no. 1, pp. 119–123, Jan.-Feb. 2002, doi: 10.1109/51.993193.
