@@ -25,7 +25,41 @@ Los filtros digitales son algoritmos que operan sobre señales discretas, repres
 	•	Filtros FIR: Son filtros no recursivos que solo dependen de las entradas pasadas, lo que los hace más estables, pero suelen requerir más coeficientes para lograr un rendimiento similar al de los filtros IIR [3].
 
 ## 2. Propósito de la práctica <a name="propósito-de-la-práctica"></a>
+
 ## 3. Filtrado de señal ECG <a name="filtrado-de-señal-ecg"></a>
+
+###Primera Derivada
+| Campo                 | RAW                | Filtros FIR        | Filtros IIR          |
+|-----------------------|--------------------|--------------------|----------------------|
+|Reposo                 | (0 a 40 s aprox)  | (40 a 60 s aprox) |  (70 a 120 s aprox) |
+|Actividad Física       ||||
+|Post Actividad Física  ||||
+
+* Conclusión Filtros FIR:
+
+* Conclusión Filtros IIR:
+###Segunda Derivada
+| Campo                 | RAW                | Filtros FIR        | Filtros IIR          |
+|-----------------------|--------------------|--------------------|----------------------|
+|Reposo                 | ![Raw 1](./Imágenes%20en%20el%20anexo/Reposo1raDerivRaw.jpg)| ![FIR](./Imágenes%20en%20el%20anexo/Reposo1raDerivFiltradaFIR.jpg) |   ![IIR](./Imágenes%20en%20el%20anexo/Reposo1raDerivFiltradaIIR.jpg) |
+|Actividad Física       |![Raw 2](./Imágenes%20en%20el%20anexo/ActividadFisicaRaw1raDeriv.jpg)|![FIR](./Imágenes%20en%20el%20anexo/ActividadFisica1raDerivFiltradaFIR.jpg)|![FIR](./Imágenes%20en%20el%20anexo/ActividadFisica1raDerivFiltradaIIR.jpg)|
+|Post Actividad Física  |![Raw 3](./Imágenes%20en%20el%20anexo/PostActividad1raDerivRaw.jpg)|![FIR](./Imágenes%20en%20el%20anexo/PostActividad1raDerivFiltradaFIR.jpg)|![FIR](./Imágenes%20en%20el%20anexo/PostActividad1raDerivFiltradaIIR.jpg)|
+
+* Conclusión Filtros FIR:
+
+* Conclusión Filtros IIR:
+  
+###Tercera Derivada
+| Campo                 | RAW                | Filtros FIR        | Filtros IIR          |
+|-----------------------|--------------------|--------------------|----------------------|
+|Reposo                 | (0 a 40 s aprox)  | (40 a 60 s aprox) |  (70 a 120 s aprox) |
+|Actividad Física       ||||
+|Post Actividad Física  ||||
+
+* Conclusión Filtros FIR:
+
+* Conclusión Filtros IIR:
+  
 ## 4. Filtrado de señal EMG <a name="filtrado-de-señal-emg"></a>
 
 ## Diseño de filtro IIR:
