@@ -23,6 +23,11 @@ Los filtros digitales son algoritmos que operan sobre señales discretas, repres
 
 	•	Filtros IIR: Son filtros recursivos que utilizan tanto las entradas actuales como las pasadas, así como las salidas pasadas. Estos filtros son efectivos y requieren menos coeficientes en comparación con los FIR, pero pueden introducir no linealidades en la fase [2].
 	•	Filtros FIR: Son filtros no recursivos que solo dependen de las entradas pasadas, lo que los hace más estables, pero suelen requerir más coeficientes para lograr un rendimiento similar al de los filtros IIR [3].
+ 
+**Importancia de los Filtros Digitales en el Procesamiento de Señales Biomédicas**
+El procesamiento digital de señales biomédicas es esencial para la eliminación de ruidos y artefactos que pueden interferir con la interpretación clínica. Por ejemplo, en el caso del ECG, es común la presencia de interferencias como el ruido de la línea eléctrica (50/60 Hz), artefactos por movimiento y ruido muscular. La aplicación de filtros digitales adecuados permite mitigar estos ruidos sin distorsionar las características importantes de la señal, como el complejo QRS.
+Además, en señales EEG, los filtros digitales son fundamentales para aislar las diferentes bandas de frecuencia (delta, theta, alfa, beta y gamma), lo que facilita el análisis de los estados cognitivos y la detección de anomalías neurológicas.
+El uso de filtros digitales también permite la implementación de técnicas avanzadas como la Transformada Wavelet y la Descomposición Empírica de Modos (EMD), que han demostrado ser eficaces en la mejora de la calidad de las señales biomédicas y en la extracción de características relevantes para el diagnóstico.
 
 ## 2. Propósito de la práctica <a name="propósito-de-la-práctica"></a>
 Aplicar conocimientos teóricos para el diseño e implementación de filtros digitales FIR e IIR que puedan ser implementados para el procesamiento de señales biomédicas como ECG, EEG y EMG. Además, se busca comparar los efectos de los distintos tipos de filtros y evaluar el impacto de los mismos en la calidad de las señales. Estos filtros se diseñarán haciendo uso de herramientas como Google Collab.
@@ -153,7 +158,10 @@ En el diseño de los filtros FIR pasa banda, sse consideró el uso de dos tipos 
 
 ## 6. Referencias <a name="referencias"></a>
 [1] (S/f-b). Sciencedirect.com. Recuperado el 12 de mayo de 2025, de https://www.sciencedirect.com/topics/engineering/analog-filter
+
 [2]  Y. Zigel, D. Litvak, and A. Cohen, "A new method for detection of peaks in ECG signals," IEEE Eng. Med. Biol. Mag., vol. 21, no. 1, pp. 119–123, Jan.-Feb. 2002, doi: 10.1109/51.993193. 
+
 [3] Dohare, A. K., Kumar, V., & Kumar, R. (2014). An efficient new method for the detection of QRS in electrocardiogram. Computers & Electrical Engineering: An International Journal, 40(5), 1717–1730. https://doi.org/10.1016/j.compeleceng.2013.11.004
+
 [4] Zhao, Y., Jia, L., Liu, Z., & Lu, H. (2022). A Wearable, Multi-Frequency Device to Measure Muscle Activity Combining Simultaneous Electromyography and Electrical Impedance Myography. Sensors, 22(5), 1941. https://doi.org/10.3390/s22051941 
 
