@@ -132,6 +132,15 @@ En el diseño de los filtros FIR pasa banda, sse consideró el uso de dos tipos 
 
 ## 5. Filtrado de señal EEG <a name="filtrado-de-señal-eeg"></a>
 
+### Primera Derivada
+| Campo                 | RAW                | Filtros FIR        | Filtros IIR          |
+|-----------------------|--------------------|--------------------|----------------------|
+|Basal 1                | ![Raw 1](./Imágenes%20en%20el%20anexo/BASAL_1_RAW_SIGNAL.png)| ![FIR](./Imágenes%20en%20el%20anexo/Reposo1raDerivFiltradaFIR.jpg) | ![IIR](./Imágenes%20en%20el%20anexo/Reposo1raDerivFiltradaIIR.jpg) |
+|Basal 2       |![Raw 2](./Imágenes%20en%20el%20anexo/ActividadFisicaRaw1raDeriv.jpg)|![FIR](./Imágenes%20en%20el%20anexo/ActividadFisica1raDerivFiltradaFIR.jpg)|![IIR](./Imágenes%20en%20el%20anexo/ActividadFisica1raDerivFiltradaIIR.jpg)|
+|Tarea Cognitiva  |![Raw 3](./Imágenes%20en%20el%20anexo/PostActividad1raDerivRaw.jpg)|![FIR](./Imágenes%20en%20el%20anexo/PostActividad1raDerivFiltradaFIR.jpg)|![IIR](./Imágenes%20en%20el%20anexo/PostActividad1raDerivFiltradaIIR.jpg)|
+|Artefactos  |![Raw 3](./Imágenes%20en%20el%20anexo/PostActividad1raDerivRaw.jpg)|![FIR](./Imágenes%20en%20el%20anexo/PostActividad1raDerivFiltradaFIR.jpg)|![IIR](./Imágenes%20en%20el%20anexo/PostActividad1raDerivFiltradaIIR.jpg)|
+|Actividad Libre  |![Raw 3](./Imágenes%20en%20el%20anexo/PostActividad1raDerivRaw.jpg)|![FIR](./Imágenes%20en%20el%20anexo/PostActividad1raDerivFiltradaFIR.jpg)|![IIR](./Imágenes%20en%20el%20anexo/PostActividad1raDerivFiltradaIIR.jpg)|
+
 ## 6. Referencias <a name="referencias"></a>
 [1]
 [2] Y. Zigel, D. Litvak, and A. Cohen, "A new method for detection of peaks in ECG signals," IEEE Eng. Med. Biol. Mag., vol. 21, no. 1, pp. 119–123, Jan.-Feb. 2002, doi: 10.1109/51.993193.
