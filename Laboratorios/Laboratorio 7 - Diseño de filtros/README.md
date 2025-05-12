@@ -25,6 +25,7 @@ Los filtros digitales son algoritmos que operan sobre señales discretas, repres
 	•	Filtros FIR: Son filtros no recursivos que solo dependen de las entradas pasadas, lo que los hace más estables, pero suelen requerir más coeficientes para lograr un rendimiento similar al de los filtros IIR [3].
 
 ## 2. Propósito de la práctica <a name="propósito-de-la-práctica"></a>
+Aplicar conocimientos teóricos para el diseño e implementación de filtros digitales FIR e IIR que puedan ser implementados para el procesamiento de señales biomédicas como ECG, EEG y EMG. Además, se busca comparar los efectos de los distintos tipos de filtros y evaluar el impacto de los mismos en la calidad de las señales. Estos filtros se diseñarán haciendo uso de herramientas como Google Collab.
 
 ## 3. Filtrado de señal ECG <a name="filtrado-de-señal-ecg"></a>
 
