@@ -130,8 +130,9 @@ En el diseño de los filtros FIR pasa banda, sse consideró el uso de dos tipos 
 | **Filtro Blackman** | Similar al filtro Hamming.|  La actividad muscular sigue siendo clara. | En la contracción fuerte se puede notar la actividad muscular pero no se puede apreciar una diferencia con el filtro hamming. |
 
 
+## 5. Filtrado de señal EEG <a name="filtrado-de-señal-eeg"></a>
 
-## 5. Referencias <a name="Referencias"></a>
+## 6. Referencias <a name="Referencias"></a>
 [1]
 [2] Y. Zigel, D. Litvak, and A. Cohen, "A new method for detection of peaks in ECG signals," IEEE Eng. Med. Biol. Mag., vol. 21, no. 1, pp. 119–123, Jan.-Feb. 2002, doi: 10.1109/51.993193.
 [3] S. Patidar and R. Pachori, "An efficient method for detection of QRS complexes in electrocardiogram signal based on adaptive windowing," IEEE Sensors J., vol. 16, no. 20, pp. 7553–7561, 2016, doi: 10.1109/JSEN.2016.2599834.
