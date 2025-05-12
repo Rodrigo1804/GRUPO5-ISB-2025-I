@@ -38,8 +38,13 @@ Los filtros digitales son algoritmos que operan sobre señales discretas, repres
 * Conclusión Filtros FIR:
 
 * Conclusión Filtros IIR:
+  
 ###Segunda Derivada
-
+| Campo                 | RAW                | Filtros FIR        | Filtros IIR          |
+|-----------------------|--------------------|--------------------|----------------------|
+|Reposo                 | ![Raw 1](./Imágenes%20en%20el%20anexo/Reposo2daDerivRaw.jpg)| ![FIR](./Imágenes%20en%20el%20anexo/Reposo2daDerivFiltradaFIR.jpg) | ![IIR](./Imágenes%20en%20el%20anexo/Reposo2daDerivFiltradaIIR.jpg) |
+|Actividad Física       |![Raw 2](./Imágenes%20en%20el%20anexo/ActividadFisicaRaw2daDeriv.jpg)|![FIR](./Imágenes%20en%20el%20anexo/ActividadFisica2daDerivFiltradaFIR.jpg)|![FIR](./Imágenes%20en%20el%20anexo/ActividadFisica2daDerivFiltradaIIR.jpg)|
+|Post Actividad Física  |![Raw 3](./Imágenes%20en%20el%20anexo/PostActividad2daDerivRaw.jpg)|![FIR](./Imágenes%20en%20el%20anexo/PostActividad2daDerivFiltradaFIR.jpg)|![FIR](./Imágenes%20en%20el%20anexo/PostActividad2daDerivFiltradaIIR.jpg)|
 
 * Conclusión Filtros FIR:
 
