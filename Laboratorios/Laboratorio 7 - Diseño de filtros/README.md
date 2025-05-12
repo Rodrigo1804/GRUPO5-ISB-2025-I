@@ -28,6 +28,9 @@ Los filtros digitales son algoritmos que operan sobre señales discretas, repres
 Aplicar conocimientos teóricos para el diseño e implementación de filtros digitales FIR e IIR que puedan ser implementados para el procesamiento de señales biomédicas como ECG, EEG y EMG. Además, se busca comparar los efectos de los distintos tipos de filtros y evaluar el impacto de los mismos en la calidad de las señales. Estos filtros se diseñarán haciendo uso de herramientas como Google Collab.
 
 ## 3. Filtrado de señal ECG <a name="filtrado-de-señal-ecg"></a>
+Para el diseño de los **filtros FIR** se utilizaron ventanas de Hamming y Bartlett. La ventana de Hamming brinda buen equilibrio entre el atenuando en la banda de detención y el ripple de la de paso. Por otro lado, la ventana de Bartlett tiene una menor atenuación fuera de banda [2]. 
+
+En el diseño de los **filtros IIR** se utilizaron Butterworth y Chebyshev Tipo I por la eficiencia en función del orden del filtro requerido para una respuesta adecuada. Butterworth tiene una respuesta de magnitud decreciente, sin rizado en la banda de detención y de paso lo que lo hace ideal para preservar la forma de la señal. Por otro lado, Chebyshev tipo I introduce un rizado en la banda de paso, pero a pesar de ello permite una transición más abrupta con orden menor haciéndolo una opción útil [3].
 
 ### Primera Derivada
 | Campo                 | RAW                | Filtros FIR        | Filtros IIR          |
@@ -36,9 +39,6 @@ Aplicar conocimientos teóricos para el diseño e implementación de filtros dig
 |Actividad Física       |![Raw 2](./Imágenes%20en%20el%20anexo/ActividadFisicaRaw1raDeriv.jpg)|![FIR](./Imágenes%20en%20el%20anexo/ActividadFisica1raDerivFiltradaFIR.jpg)|![IIR](./Imágenes%20en%20el%20anexo/ActividadFisica1raDerivFiltradaIIR.jpg)|
 |Post Actividad Física  |![Raw 3](./Imágenes%20en%20el%20anexo/PostActividad1raDerivRaw.jpg)|![FIR](./Imágenes%20en%20el%20anexo/PostActividad1raDerivFiltradaFIR.jpg)|![IIR](./Imágenes%20en%20el%20anexo/PostActividad1raDerivFiltradaIIR.jpg)|
 
-* Conclusión Filtros FIR:
-
-* Conclusión Filtros IIR:
   
 ### Segunda Derivada
 
@@ -48,10 +48,7 @@ Aplicar conocimientos teóricos para el diseño e implementación de filtros dig
 |Actividad Física       |![Raw 2](./Imágenes%20en%20el%20anexo/ActividadFisicaRaw2daDeriv.jpg)|![FIR](./Imágenes%20en%20el%20anexo/ActividadFisica2daDerivFiltradaFIR.jpg)|![IIR](./Imágenes%20en%20el%20anexo/ActividadFisica2daDerivFiltradaIIR.jpg)|
 |Post Actividad Física  |![Raw 3](./Imágenes%20en%20el%20anexo/PostActividad2daDerivRaw.jpg)|![FIR](./Imágenes%20en%20el%20anexo/PostActividad2daDerivFiltradaFIR.jpg)|![IIR](./Imágenes%20en%20el%20anexo/PostActividad2daDerivFiltradaIIR.jpg)|
 
-* Conclusión Filtros FIR:
 
-* Conclusión Filtros IIR:
-  
 ### Tercera Derivada
 
 | Campo                 | RAW                | Filtros FIR        | Filtros IIR          |
@@ -60,15 +57,16 @@ Aplicar conocimientos teóricos para el diseño e implementación de filtros dig
 |Actividad Física       |![Raw 2](./Imágenes%20en%20el%20anexo/ActividadFisicaRaw3raDeriv.jpg)|![FIR](./Imágenes%20en%20el%20anexo/ActividadFisica3raDerivFiltradaFIR.jpg)|![IIR](./Imágenes%20en%20el%20anexo/ActividadFisica3raDerivFiltradaIIR.jpg)|
 |Post Actividad Física  |![Raw 3](./Imágenes%20en%20el%20anexo/PostActividad3raDerivRaw.jpg)|![FIR](./Imágenes%20en%20el%20anexo/PostActividad3raDerivFiltradaFIR.jpg)|![IIR](./Imágenes%20en%20el%20anexo/PostActividad3raDerivFiltradaIIR.jpg)|
 
+Evaluamos a partir de los resultados obtenidos cuál de los filtros para cada caso (FIR e IIR) nos dio una señal más limpia como resultado, es decir, la que mejor preserva la forma de la señal y suaviza el ruido de alta frecuencia sin afectar componentes importantes.
 
-* Conclusión Filtros FIR:
+* Conclusión Filtros FIR: el filtro con ventana de Hamming nos dio una mejor calidad de filtrado. Para las señales obtenidas vemos que la ventana de Hamming nos da señales más suaves y preserva de mejor manera la forma de QRS sin ruidos en las regiones interlatido. Por otro lado, Bartlett muestra oscilaciones, aunque son muy pequeñas, pero ello puede interpretarse como la retención de ruido residual. 
 
-* Conclusión Filtros IIR:
+* Conclusión Filtros IIR: aquí a diferencia de los filtros FIR, hay diferencias más notorias. Vemos que el filtro Butterworth ofrece una mejor calidad de filtrado en las señales ya que preserva de mejor manera el complejo QRS y tiene una linea base más estable. Por otro lado, Chebyshev nos da más variaciones de amplitud y un rizado que es notorio a simple vista.
   
 ## 4. Filtrado de señal EMG <a name="filtrado-de-señal-emg"></a>
 
 ## Diseño de filtro IIR:
-En el diseño de los filtros IIR se consideró el uso de dos tipos de filtros pasa banda: Butterworth y Chebyshev, ambos adecuados para filtrar las señales EMG dentro de un rango de frecuencias de interés (40-150 Hz). Se utilizó una frecuencia de muestreo de 1000 Hz y ambos filtros estan diseñados con un orden de 10.
+En el diseño de los filtros IIR se consideró el uso de dos tipos de filtros pasa banda: Butterworth y Chebyshev, ambos adecuados para filtrar las señales EMG dentro de un rango de frecuencias de interés (40-150 Hz) [4]. Se utilizó una frecuencia de muestreo de 1000 Hz y ambos filtros estan diseñados con un orden de 10.
 
 ![IIR](./Imágenes%20en%20el%20anexo/IIR.png)
 
@@ -133,6 +131,9 @@ En el diseño de los filtros FIR pasa banda, sse consideró el uso de dos tipos 
 
 
 
-## 5. Introducción <a name="introducción"></a>
-## 6. Introducción <a name="introducción"></a>
+## 5. Referencias <a name="Referencias"></a>
+[1]
+[2] Y. Zigel, D. Litvak, and A. Cohen, "A new method for detection of peaks in ECG signals," IEEE Eng. Med. Biol. Mag., vol. 21, no. 1, pp. 119–123, Jan.-Feb. 2002, doi: 10.1109/51.993193.
+[3] S. Patidar and R. Pachori, "An efficient method for detection of QRS complexes in electrocardiogram signal based on adaptive windowing," IEEE Sensors J., vol. 16, no. 20, pp. 7553–7561, 2016, doi: 10.1109/JSEN.2016.2599834.
+[4] Zhao, Y., Jia, L., Liu, Z., & Lu, H. (2022). A Wearable, Multi-Frequency Device to Measure Muscle Activity Combining Simultaneous Electromyography and Electrical Impedance Myography. Sensors, 22(5), 1941. https://doi.org/10.3390/s22051941 
 
