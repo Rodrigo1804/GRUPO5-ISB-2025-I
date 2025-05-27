@@ -19,13 +19,15 @@ Las señales biomédicas como el electrocardiograma (ECG), electromiograma (EMG)
 
 La transformada wavelet se ha convertido en una herramienta clave para el análisis de estas señales, gracias a su capacidad de proporcionar una representación multiresolución que conserva información tanto temporal como frecuencial [2][4]. A diferencia de la transformada de Fourier, que ofrece una descomposición global en frecuencia sin retener la localización temporal, la transformada wavelet adapta su resolución dependiendo de la escala, ofreciendo alta resolución temporal para componentes de alta frecuencia y alta resolución frecuencial para componentes de baja frecuencia [4][5]. Esto la hace especialmente efectiva para detectar eventos transitorios como los complejos QRS en ECG, activaciones musculares en EMG o patrones corticales en EEG.
 
-Fundamentos matemáticos
+### Fundamentos matemáticos
 
-Formalmente, la transformada wavelet continua (CWT) de una señal f(t) \in L^2(\mathbb{R}) está dada por la integral
+Formalmente, la transformada wavelet continua (CWT) de una señal \( f(t) \in L^2(\mathbb{R}) \) está dada por la integral
 
+$$
 W_f(a,b) = \frac{1}{\sqrt{|a|}} \int_{-\infty}^\infty f(t) \, \psi\left(\frac{t - b}{a}\right) dt,
+$$
 
-donde \psi(t) es la función madre wavelet, a \in \mathbb{R}^+ es el parámetro de escala (dilatación o compresión), y b \in \mathbb{R} es el parámetro de traslación en el tiempo [1]. La función wavelet debe cumplir ciertas condiciones de admissibilidad, incluyendo tener media cero, para garantizar la reconstrucción de la señal original a partir de su transformada.
+donde $\psi(t)$ es la función madre wavelet, $a \in \mathbb{R}^+$ es el parámetro de escala (dilatación o compresión), y $b \in \mathbb{R}$ es el parámetro de traslación en el tiempo [1]. La función wavelet debe cumplir ciertas condiciones de admissibilidad, incluyendo tener media cero, para garantizar la reconstrucción de la señal original a partir de su transformada.
 
 La descomposición permite analizar la señal en diferentes escalas y posiciones temporales, lo cual es clave para capturar características no estacionarias y transitorias. La transformada wavelet discreta (DWT) se basa en la discretización de a y b, típicamente en potencias de dos, lo que permite una implementación computacional eficiente mediante bancos de filtros pasa bajos y pasa altos [1][2].
 
