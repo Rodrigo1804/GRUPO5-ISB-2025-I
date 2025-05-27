@@ -15,11 +15,23 @@
 
 ## 1. Introducción <a name="introducción"></a>
 
-En la ingeniería biomédica, el análisis y procesamiento de señales como el electrocardiograma (ECG), electromiograma (EMG) y electroencefalograma (EEG) es fundamental para el diagnóstico y monitoreo clínico. Estas señales son inherentemente no estacionarias y suelen contener ruido y artefactos que dificultan su interpretación directa.
+Las señales biomédicas como el electrocardiograma (ECG), electromiograma (EMG) y electroencefalograma (EEG) son esenciales para diagnóstico e investigación clínica, pero presentan desafíos importantes debido a su naturaleza no estacionaria y la presencia frecuente de ruido y artefactos [2][3]. Por ello, técnicas avanzadas de procesamiento son necesarias para extraer información útil y confiable.
 
-La transformada wavelet ha surgido como una herramienta matemática eficaz para el procesamiento de señales biomédicas, permitiendo una representación multiresolución que conserva la información temporal y frecuencial simultáneamente. A diferencia de la transformada de Fourier, que ofrece sólo información global de frecuencia, la transformada wavelet adapta su resolución en función de la escala, proporcionando alta resolución temporal para frecuencias altas y alta resolución en frecuencia para componentes de baja frecuencia. Esta característica la hace especialmente útil para detectar eventos transitorios relevantes en señales biomédicas, como complejos QRS en ECG, artefactos de movimiento en EMG y ondas anómalas en EEG.
+La transformada wavelet se ha convertido en una herramienta clave para el análisis de estas señales, gracias a su capacidad de proporcionar una representación multiresolución que conserva información tanto temporal como frecuencial [2][4]. A diferencia de la transformada de Fourier, que ofrece una descomposición global en frecuencia sin retener la localización temporal, la transformada wavelet adapta su resolución dependiendo de la escala, ofreciendo alta resolución temporal para componentes de alta frecuencia y alta resolución frecuencial para componentes de baja frecuencia [4][5]. Esto la hace especialmente efectiva para detectar eventos transitorios como los complejos QRS en ECG, activaciones musculares en EMG o patrones corticales en EEG.
 
-Existen principalmente dos tipos de transformadas wavelet: continua (CWT) y discreta (DWT). La DWT es la más utilizada en sistemas digitales debido a su eficiencia computacional y capacidad para descomponer señales mediante filtros pasaaltos y pasabajos en niveles jerárquicos de detalle y aproximación. Además, la elección de la familia wavelet (por ejemplo, Haar, Daubechies, Symlets, Coiflets, Biorthogonales) influye en la calidad del filtrado y reconstrucción.
+Fundamentos matemáticos
+
+Formalmente, la transformada wavelet continua (CWT) de una señal f(t) \in L^2(\mathbb{R}) está dada por la integral
+
+W_f(a,b) = \frac{1}{\sqrt{|a|}} \int_{-\infty}^\infty f(t) \, \psi\left(\frac{t - b}{a}\right) dt,
+
+donde \psi(t) es la función madre wavelet, a \in \mathbb{R}^+ es el parámetro de escala (dilatación o compresión), y b \in \mathbb{R} es el parámetro de traslación en el tiempo [1]. La función wavelet debe cumplir ciertas condiciones de admissibilidad, incluyendo tener media cero, para garantizar la reconstrucción de la señal original a partir de su transformada.
+
+La descomposición permite analizar la señal en diferentes escalas y posiciones temporales, lo cual es clave para capturar características no estacionarias y transitorias. La transformada wavelet discreta (DWT) se basa en la discretización de a y b, típicamente en potencias de dos, lo que permite una implementación computacional eficiente mediante bancos de filtros pasa bajos y pasa altos [1][2].
+
+En el procesamiento biomédico, esta capacidad multiresolución es aprovechada para filtrar ruido y detectar características fisiológicas relevantes en señales complejas [3][5].
+
+Diversas variantes y optimizaciones de la transformada wavelet, como la transformada wavelet estacionaria (SWT) y la transformada wavelet empírica (EWT), han sido propuestas para mejorar la calidad del filtrado y adaptarse mejor a señales biomédicas específicas [3][6].
 
 ---
 
@@ -33,7 +45,7 @@ Implementar y comparar técnicas de filtrado basadas en la transformada wavelet 
 **Materiales y equipos:**  
 - Computadora con Python 3.12 instalado  
 - Librerías Python: pywt (PyWavelets), numpy, matplotlib, scipy, neurokit2  
-- Señales biomédicas adquiridas en prácticas previas (archivos .csv o formatos compatibles)  
+- Señales biomédicas adquiridas en prácticas previa (EMG, ECG y EEG)
 
 **Metodología:**  
 
@@ -78,6 +90,14 @@ En particular, los filtros basados en Coiflet y Biorthogonal demostraron superio
 
 ## 6. Referencias <a name="referencias"></a>
 
-[1] xd
-[2] Tx
-[3] P. Z
+[1] S. Mallat, A Wavelet Tour of Signal Processing, 3rd ed., Academic Press, San Diego, 2009. Disponible en: https://rafat.github.io/sites/wavebook/intro/fb2.html
+
+[2] C. Li, H. Deng, S. Yin et al., “sEMG signal filtering study using synchrosqueezing wavelet transform with differential evolution optimized threshold,” Results in Engineering, vol. 18, 101150, 2023. https://doi.org/10.1016/j.rineng.2023.101150
+
+[3] A. Phinyomark, C. Limsakul, P. Phukpattaranont, “Application of Wavelet Analysis in EMG Feature Extraction for Pattern Classification,” Measurement Science Review, vol. 11, no. 2, pp. 70-83, 2011. [https://doi.org/10.2478/v10048-011-0009-y](https://www.researchgate.net/publication/241475036_Application_of_Wavelet_Analysis_in_EMG_Feature_Extraction_for_Pattern_Classification)
+
+[4] P. Zandiyeh et al., “Wavelet analysis reveals differential lower limb muscle activity patterns long after anterior cruciate ligament reconstruction,” Journal of Biomechanics, vol. 133, p. 110957, 2022. https://doi.org/10.1016/j.jbiomech.2022.110957
+
+[5] S. Elouaham et al., “Empirical Wavelet Transform Based ECG Signal Filtering Method,” Journal of Electrical and Computer Engineering, vol. 2024, Article ID 9050909, 2024. https://doi.org/10.1155/2024/9050909
+
+[6] G. Cornelia y R. Romulus, “ECG Signals Processing Using Wavelets,” University of Oradea, Electronics Department, Faculty of Electrical Engineering and Information Technology, Oradea, Rumania. Disponible en: https://www.sciencedirect.com/science/article/pii/S2590123023002773
