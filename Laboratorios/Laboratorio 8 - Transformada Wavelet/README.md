@@ -4,12 +4,12 @@
 1. [Introducción](#introducción)  
 2. [Propósito de la práctica](#propósito-de-la-práctica)  
 3. [Materiales y metodología](#materiales-y-metodología)  
-4. [Resultados y Discusión]
+4. [Resultados y Discusión](#resultados-y-discusion)  
  4.1 [Filtrado de señal ECG](#filtrado-de-señal-ecg)  
  4.2 [Filtrado de señal EMG](#filtrado-de-señal-emg)  
  4.3 [Filtrado de señal EEG](#filtrado-de-señal-eeg)  
-5. [Conclusiones](#conclusiones)  
-6. [Referencias](#referencias)  
+6. [Conclusiones](#conclusiones)  
+7. [Referencias](#referencias)  
 
 ---
 
@@ -51,7 +51,7 @@ Implementar y comparar técnicas de filtrado basadas en la transformada wavelet 
 5. **Comparación y análisis:** Se compararon señales originales y filtradas visualmente y con métricas cuantitativas (si se disponen), para evaluar la efectividad del filtrado.
 ---
 
-## 4. Resultados y Discusión
+## 4. Resultados y Discusión <a name="resultados-y-discusion"></a>
 
 ### 4.1 Filtrado de señal ECG <a name="filtrado-de-señal-ecg"></a>
 
