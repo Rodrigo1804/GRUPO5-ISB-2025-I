@@ -1,4 +1,4 @@
-# Laboratorio 7: diseño de filtros
+# Laboratorio 8: Transformada Wavelet
 
 ## Contenido:
 1. [Introducción](#introducción)
