@@ -73,9 +73,9 @@ Las señales ECG mostraron ruido característico debido a interferencias electro
 
 ### 4.2 Filtrado de señal EMG <a name="filtrado-de-señal-emg"></a>
 
-| Familia de funciones Wavelet| Nivel | Threshold utilizado | Tipo de Threshold |Coeficiente de Aproximación | Coeficientes de Detalle | 
-|-----------------------------|-------|---------------------|-------------------|----------------------------|-----------------------------|
-|Symlet 4 (csym4)     | 10     |sqtwolog (universal threshold)   |  Soft Thresholding |  A10 | D1, D2, D3, D4, D5, D6, D7, D8, D9, D10 (cada uno umbralizado coN Soft)  | 
+| Familia de funciones Wavelet | Nivel | Threshold utilizado                         | Tipo de Threshold           | Coeficiente de Aproximación | Coeficientes de Detalle                                                       |
+|------------------------------|--------|----------------------------------------------|------------------------------|------------------------------|--------------------------------------------------------------------------------|
+| Symlet 4 (`sym4`)            | 10     | Umbral adaptativo por nivel (`λ_j`)          | Función mejorada (Ecuación 8) | A10                         | D1, D2, D3, D4, D5, D6, D7, D8, D9, D10 (cada uno umbralizado con `f_i(x, λ_j)`) |
 
 
 | Músculo                 | RAW                | Señal Filtrada       | 
