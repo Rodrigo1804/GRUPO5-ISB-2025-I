@@ -79,7 +79,9 @@ Las señales ECG mostraron ruido característico debido a interferencias electro
 
 Para filtrar nuestras señales EMG, utilizamos los parámetros y metodología propuestos en la literatura encontrada [y].  
 Específicamente, se aplicó una descomposición por wavelet discreta (DWT) utilizando la función madre **Symlet 4 (`sym4`)**, con un nivel de descomposición de **10**.  
-A cada conjunto de coeficientes de detalle se le aplicó un **umbral adaptativo por nivel** \\( \lambda_j \\) (ver *Ecuación 7*), seguido de una **función de umbralización mejorada** basada en la *Ecuación 8*, la cual incorpora los parámetros de ajuste \\( \mu = 0.91 \\) y \\( \delta = 0.01 \\). 
+A cada conjunto de coeficientes de detalle se le aplicó un **umbral adaptativo por nivel (lambda_j)** (ver *Ecuación 7*), seguido de una **función de umbralización mejorada** basada en la *Ecuación 8*, la cual incorpora los parámetros de ajuste **mu = 0.91** y **delta = 0.01**.  
+
+
 
 
 | Músculo   | RAW | Señal Filtrada |
