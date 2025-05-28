@@ -77,8 +77,8 @@ En señales EMG, el filtrado wavelet fue efectivo para eliminar artefactos de mo
 
 ### 4.3 Filtrado de señal EEG <a name="filtrado-de-señal-eeg"></a>
 
-| Familia de funciones Wavelet| Threshold utilizado | Tipo de Threshold |Coeficiente de Aproximación | Coeficiente de Aproximación | Coeficientes de Detalle |
-|-----------------------------|---------------------|-------------------|----------------------------|-----------------------------|-------------------------|
+| Familia de funciones Wavelet| Threshold utilizado | Tipo de Threshold |Coeficiente de Aproximación | Coeficientes de Detalle | 
+|-----------------------------|---------------------|-------------------|----------------------------|-----------------------------|
 | Coiflet 5 (coif5)           | SURE (Stain's Unbiased Risk Estimate)   |  Soft Thresholding |  A5 | D1, D2, D3, D4, D5 (cada uno umbralizado con SURE y Soft)  | 
 
 
