@@ -80,9 +80,9 @@ Las señales ECG mostraron ruido característico debido a interferencias electro
 
 | Músculo                 | RAW                | Señal Filtrada       | 
 |-----------------------|--------------------|--------------------|
-| Biceps                 | | | 
-| Triceps      |   |  |
-| Hombro      |  | |
+| Biceps                 | ![Raw 1](./Imágenes%20en%20el%20anexo/BicepsRaw.png) | ![DWT1](./Imágenes%20en%20el%20anexo/BicepsFiltrada.png)| 
+| Triceps      |  ![Raw 2](./Imágenes%20en%20el%20anexo/TricepsRaw.png) | ![DWT2](./Imágenes%20en%20el%20anexo/TricepsFiltrada.png) |
+| Hombro      | ![Raw 3](./Imágenes%20en%20el%20anexo/HombroRaw.png) | ![DWT3](./Imágenes%20en%20el%20anexo/HombroFiltrada.png)|
 
 
 ### 4.3 Filtrado de señal EEG <a name="filtrado-de-señal-eeg"></a>
