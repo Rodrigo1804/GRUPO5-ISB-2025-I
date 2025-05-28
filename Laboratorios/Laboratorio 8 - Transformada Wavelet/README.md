@@ -80,9 +80,9 @@ Las señales ECG mostraron ruido característico debido a interferencias electro
 
 | Músculo   | RAW | Señal Filtrada |
 |----------|-----|----------------|
-| **Bíceps**   | <img src="./Imágenes en el anexo/BicepsRaw.png" width="600"/>   | <img src="./Imágenes en el anexo/BicepsFiltrada.png" width="600"/> |
-| **Tríceps**  | <img src="./Imágenes en el anexo/TricepsRaw.png" width="600"/>  | <img src="./Imágenes en el anexo/TricepsFiltrada.png" width="600"/> |
-| **Hombro**   | <img src="./Imágenes en el anexo/HombroRaw.png" width="600"/>   | <img src="./Imágenes en el anexo/HombroFiltrada.png" width="600"/> |
+| **Bíceps**   | <img src="./Imágenes en el anexo/BicepsRaw.png" width="800"/>   | <img src="./Imágenes en el anexo/BicepsFiltrada.png" width="800"/> |
+| **Tríceps**  | <img src="./Imágenes en el anexo/TricepsRaw.png" width="800"/>  | <img src="./Imágenes en el anexo/TricepsFiltrada.png" width="800"/> |
+| **Hombro**   | <img src="./Imágenes en el anexo/HombroRaw.png" width="800"/>   | <img src="./Imágenes en el anexo/HombroFiltrada.png" width="800"/> |
 
 
 
