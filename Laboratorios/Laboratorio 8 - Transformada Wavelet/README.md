@@ -73,13 +73,23 @@ Las señales ECG mostraron ruido característico debido a interferencias electro
 
 ### 4.2 Filtrado de señal EMG <a name="filtrado-de-señal-emg"></a>
 
-En señales EMG, el filtrado wavelet fue efectivo para eliminar artefactos de movimiento y ruido muscular. Se observó que la elección adecuada de la familia wavelet y el nivel de descomposición son cruciales para preservar la información fisiológica relevante, como la actividad muscular en contracciones leves y fuertes.
+| Familia de funciones Wavelet| Nivel | Threshold utilizado | Tipo de Threshold |Coeficiente de Aproximación | Coeficientes de Detalle | 
+|-----------------------------|-------|---------------------|-------------------|----------------------------|-----------------------------|
+| Symlet 4 (csym4)           | 10     |SURE (Stain's Unbiased Risk Estimate)   |  Soft Thresholding |  A5 | D1, D2, D3, D4, D5, D6 (cada uno umbralizado con SURE y Soft)  | 
+
+
+| Músculo                 | RAW                | Señal Filtrada       | 
+|-----------------------|--------------------|--------------------|
+| Biceps                 | | | 
+| Triceps      |   |  |
+| Hombro      |  | |
+
 
 ### 4.3 Filtrado de señal EEG <a name="filtrado-de-señal-eeg"></a>
 
 | Familia de funciones Wavelet| Nivel | Threshold utilizado | Tipo de Threshold |Coeficiente de Aproximación | Coeficientes de Detalle | 
 |-----------------------------|-------|---------------------|-------------------|----------------------------|-----------------------------|
-| Coiflet 5 (coif5)           | 6     |SURE (Stain's Unbiased Risk Estimate)   |  Soft Thresholding |  A5 | D1, D2, D3, D4, D5, D6 (cada uno umbralizado con SURE y Soft)  | 
+| Coiflet 5 (coif5)           | 6     |sqtwolog (universal threshold)   |  Soft Thresholding |  A10 | D1, D2, D3, D4, D5, D6, D7, D8, D9, D10 (cada uno umbralizado coN Soft)  | 
 
 
 | Estado                 | RAW                | Señal Filtrada       | 
