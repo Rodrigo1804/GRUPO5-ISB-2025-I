@@ -83,8 +83,8 @@ Para las señales EEG se utilizó un filtro DWT basado en wavelet Biorthogonal 2
 |-----------------------|--------------------|--------------------|
 |Basal                 | ![Raw 1](./Imágenes%20en%20el%20anexo/BasalRaw.png)| ![FIR](./Imágenes%20en%20el%20anexo/BasalFiltrada.png) | 
 |Tarea Cognitiva      |![Raw 2](./Imágenes%20en%20el%20anexo/TareaCognitivaRaw.png)|![FIR](./Imágenes%20en%20el%20anexo/TareaCognitiva.png)|
-|Artefactos      |![Raw 2](./Imágenes%20en%20el%20anexo/ArtefactosRaw.png)|![FIR](./Imágenes%20en%20el%20anexo/ArtefactosFiltrada)|
-|Actividad Libre  |![Raw 3](./Imágenes%20en%20el%20anexo/ActividadLibre.png)|![FIR](./Imágenes%20en%20el%20anexo/ActividadLibre.png)|
+|Artefactos      |![Raw 2](./Imágenes%20en%20el%20anexo/ArtefactosRaw.png)|![FIR](./Imágenes%20en%20el%20anexo/ArtefactosFiltrada.png)|
+|Actividad Libre  |![Raw 3](./Imágenes%20en%20el%20anexo/ActividadLibre.png)|![FIR](./Imágenes%20en%20el%20anexo/ActividadLibreFiltrada.png)|
 
 ---
 
