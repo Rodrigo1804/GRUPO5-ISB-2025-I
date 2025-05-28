@@ -78,11 +78,12 @@ Las señales ECG mostraron ruido característico debido a interferencias electro
 | Symlet 4 (`sym4`)            | 10     | Umbral adaptativo por nivel (`λ_j`)          | Función mejorada (Ecuación 8) | A10                         | D1, D2, D3, D4, D5, D6, D7, D8, D9, D10 (cada uno umbralizado con `f_i(x, λ_j)`) |
 
 
-| Músculo                 | RAW                | Señal Filtrada       | 
-|-----------------------|--------------------|--------------------|
-| Biceps                 | ![Raw 1](./Imágenes%20en%20el%20anexo/BicepsRaw.png) | ![DWT1](./Imágenes%20en%20el%20anexo/BicepsFiltrada.png)| 
-| Triceps      |  ![Raw 2](./Imágenes%20en%20el%20anexo/TricepsRaw.png) | ![DWT2](./Imágenes%20en%20el%20anexo/TricepsFiltrada.png) |
-| Hombro      | ![Raw 3](./Imágenes%20en%20el%20anexo/HombroRaw.png) | ![DWT3](./Imágenes%20en%20el%20anexo/HombroFiltrada.png)|
+| Músculo   | RAW | Señal Filtrada |
+|----------|-----|----------------|
+| **Bíceps**   | <img src="./Imágenes en el anexo/BicepsRaw.png" width="400"/>   | <img src="./Imágenes en el anexo/BicepsFiltrada.png" width="400"/> |
+| **Tríceps**  | <img src="./Imágenes en el anexo/TricepsRaw.png" width="400"/>  | <img src="./Imágenes en el anexo/TricepsFiltrada.png" width="400"/> |
+| **Hombro**   | <img src="./Imágenes en el anexo/HombroRaw.png" width="400"/>   | <img src="./Imágenes en el anexo/HombroFiltrada.png" width="400"/> |
+
 
 
 ### 4.3 Filtrado de señal EEG <a name="filtrado-de-señal-eeg"></a>
