@@ -74,8 +74,7 @@ Las señales ECG mostraron ruido característico debido a interferencias electro
 ### 4.2 Filtrado de señal EMG <a name="filtrado-de-señal-emg"></a>
 
 | Familia de funciones Wavelet| Nivel | Threshold utilizado | Tipo de Threshold |Coeficiente de Aproximación | Coeficientes de Detalle | 
-|-----------------------------|-------|---------------------|-------------------|----------------------------|-----------------------------|
-| Coiflet 5 (coif5)           | 6     |sqtwolog (universal threshold)   |  Soft Thresholding |  A10 | D1, D2, D3, D4, D5, D6, D7, D8, D9, D10 (cada uno umbralizado coN Soft)  | 
+|Symlet 4 (csym4)     | 10     |sqtwolog (universal threshold)   |  Soft Thresholding |  A10 | D1, D2, D3, D4, D5, D6, D7, D8, D9, D10 (cada uno umbralizado coN Soft)  | 
 
 
 | Músculo                 | RAW                | Señal Filtrada       | 
@@ -89,7 +88,7 @@ Las señales ECG mostraron ruido característico debido a interferencias electro
 
 | Familia de funciones Wavelet| Nivel | Threshold utilizado | Tipo de Threshold |Coeficiente de Aproximación | Coeficientes de Detalle | 
 |-----------------------------|-------|---------------------|-------------------|----------------------------|-----------------------------|
-| Symlet 4 (csym4)           | 10     |SURE (Stain's Unbiased Risk Estimate)   |  Soft Thresholding |  A5 | D1, D2, D3, D4, D5, D6 (cada uno umbralizado con SURE y Soft)  | 
+| Coiflet 5 (coif5)          | 6    |SURE (Stain's Unbiased Risk Estimate)   |  Soft Thresholding |  A5 | D1, D2, D3, D4, D5, D6 (cada uno umbralizado con SURE y Soft)  | 
 
 
 | Estado                 | RAW                | Señal Filtrada       | 
