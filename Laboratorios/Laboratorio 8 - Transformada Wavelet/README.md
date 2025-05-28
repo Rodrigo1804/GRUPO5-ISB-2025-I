@@ -83,7 +83,7 @@ Para las señales EEG se utilizó un filtro DWT basado en wavelet Biorthogonal 2
 
 ## 5. Conclusiones <a name="conclusiones"></a>
 
-ESTO ES FLORO DE CHAT!!!!
+ESTO FALTA CORREGIR!!!!
 La transformada wavelet discreta es una herramienta poderosa y versátil para el procesamiento y filtrado de señales biomédicas, permitiendo la reducción de ruido y preservación de características morfológicas clave en ECG, EMG y EEG. La elección de la familia wavelet, el nivel de descomposición y la estrategia de umbralización son determinantes para el éxito del filtrado.
 
 En particular, los filtros basados en Coiflet y Biorthogonal demostraron superioridad en condiciones de ruido variable, adaptándose bien a las necesidades específicas de cada tipo de señal biomédica. Por lo tanto, la transformada wavelet es recomendada para aplicaciones clínicas y de investigación que demandan análisis robustos y confiables de señales biomédicas no estacionarias.
