@@ -56,7 +56,7 @@ Implementar y comparar técnicas de filtrado basadas en la transformada wavelet 
 2. **Visualización inicial:** Se graficaron las señales crudas para evaluar la presencia y características del ruido y artefactos.
 
 3. **Aplicación de la transformada wavelet discreta (DWT):**  
- - Se seleccionaron familias wavelet específicas según el tipo de señal (por ejemplo, Symlet 4 y Coiflet 3 para ECG; Biorthogonal para EEG).  
+ - Se seleccionaron familias wavelet específicas según el tipo de señal (por ejemplo, Symlet 4 y Coiflet 3 para ECG; Coiflet 5 para EEG).  
  - Se definió un nivel óptimo de descomposición.  
  - Se aplicó umbralización suave (*soft thresholding*) sobre los coeficientes para atenuar el ruido, usando umbrales fijos o adaptativos según la literatura y ajustes experimentales.
 
