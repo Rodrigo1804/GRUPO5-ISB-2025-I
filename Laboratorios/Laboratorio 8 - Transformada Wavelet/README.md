@@ -77,14 +77,17 @@ En señales EMG, el filtrado wavelet fue efectivo para eliminar artefactos de mo
 
 ### 4.3 Filtrado de señal EEG <a name="filtrado-de-señal-eeg"></a>
 
-Para las señales EEG se utilizó un filtro DWT basado en wavelet Biorthogonal 2.6 a nivel 5, que mostró alta capacidad para separar componentes de baja y alta frecuencia, reduciendo el ruido sin pérdida significativa de información cerebral. Esta configuración es recomendada para estudios neurológicos que requieren alta fidelidad en la señal.
+| Familia de funciones Wavelet| Threshold utilizado | Tipo de Threshold |Coeficiente de Aproximación | Coeficiente de Aproximación | Coeficientes de Detalle |
+|-----------------------------|---------------------|-------------------|----------------------------|-----------------------------|-------------------------|
+| Coiflet 5 (coif5)           | SURE (Stain's Unbiased Risk Estimate)   |  Soft Thresholding |  A5 | D1, D2, D3, D4, D5 (cada uno umbralizado con SURE y Soft)  | 
+
 
 | Estado                 | RAW                | Señal Filtrada       | 
 |-----------------------|--------------------|--------------------|
-|Basal                 | ![Raw 1](./Imágenes%20en%20el%20anexo/BasalRaw.png)| ![FIR](./Imágenes%20en%20el%20anexo/BasalFiltrada.png) | 
-|Tarea Cognitiva      |![Raw 2](./Imágenes%20en%20el%20anexo/TareaCognitivaRaw.png)|![FIR](./Imágenes%20en%20el%20anexo/TareaCognitiva.png)|
-|Artefactos      |![Raw 2](./Imágenes%20en%20el%20anexo/ArtefactosRaw.png)|![FIR](./Imágenes%20en%20el%20anexo/ArtefactosFiltrada.png)|
-|Actividad Libre  |![Raw 3](./Imágenes%20en%20el%20anexo/ActividadLibre.png)|![FIR](./Imágenes%20en%20el%20anexo/ActividadLibreFiltrada.png)|
+| Basal                 | ![Raw 1](./Imágenes%20en%20el%20anexo/BasalRaw.png)| ![DWT1](./Imágenes%20en%20el%20anexo/BasalFiltrada.png) | 
+| Tarea Cognitiva      |![Raw 2](./Imágenes%20en%20el%20anexo/TareaCognitivaRaw.png)|![DWT2](./Imágenes%20en%20el%20anexo/TareaCognitivaFiltrada.png)|
+| Artefactos      |![Raw 3](./Imágenes%20en%20el%20anexo/ArtefactosRaw.png)|![DWT3](./Imágenes%20en%20el%20anexo/ArtefactosFiltrada.png)|
+| Actividad Libre  |![Raw 4](./Imágenes%20en%20el%20anexo/ActividadLibreRaw.png)|![DWT4](./Imágenes%20en%20el%20anexo/ActividadLibreFiltrada.png)|
 
 ---
 
