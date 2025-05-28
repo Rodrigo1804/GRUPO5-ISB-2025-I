@@ -91,6 +91,9 @@ Las señales ECG mostraron ruido característico debido a interferencias electro
 |-----------------------------|-------|---------------------|-------------------|----------------------------|-----------------------------|
 | Coiflet 5 (coif5)          | 6    |SURE (Stain's Unbiased Risk Estimate)   |  Soft Thresholding |  A5 | D1, D2, D3, D4, D5, D6 (cada uno umbralizado con SURE y Soft)  | 
 
+Para filtrar nuestras señales EEG, nos basamos en los parámetros utilizados en la literatura encontrada [i]. Se utilizó Coiflet 5 debido a la buena resolución en tiempo y frecuencia, su preservación de la onda original y la reducción de la dispersión temporal de los coeficientes, esto último facilita localizar de manera efectiva los artefactos de la señal cruda. 
+
+En cuanto al umbral, se utilizó el método de umbralización adaptativo, en este caso SURE, el cual calcula el umbral óptimo para cada conjunto de coeficientes minimizando el error cuadrático medio estimado (MSE) y es robusto ante los diferentes tipos de ruido como los artefactos musculares y oculares.
 
 | Estado                 | RAW                | Señal Filtrada       | 
 |-----------------------|--------------------|--------------------|
@@ -123,3 +126,5 @@ En particular, los filtros basados en Coiflet y Biorthogonal demostraron superio
 [5] S. Elouaham et al., “Empirical Wavelet Transform Based ECG Signal Filtering Method,” Journal of Electrical and Computer Engineering, vol. 2024, Article ID 9050909, 2024. https://doi.org/10.1155/2024/9050909
 
 [6] G. Cornelia y R. Romulus, “ECG Signals Processing Using Wavelets,” University of Oradea, Electronics Department, Faculty of Electrical Engineering and Information Technology, Oradea, Rumania. Disponible en: https://www.sciencedirect.com/science/article/pii/S2590123023002773
+
+[i] A. K. Bhoi and A. K. Mallick, "EEG De-noising using SURE Thresholding based on Wavelet Transform," International Journal of Computer Applications, vol. 24, no. 6, pp. 6–10, June 2011.
