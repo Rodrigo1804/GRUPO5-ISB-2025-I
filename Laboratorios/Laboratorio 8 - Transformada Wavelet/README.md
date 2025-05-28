@@ -81,10 +81,10 @@ Para las señales EEG se utilizó un filtro DWT basado en wavelet Biorthogonal 2
 
 | Estado                 | RAW                | Señal Filtrada       | 
 |-----------------------|--------------------|--------------------|
-|Basal                 | ![Raw 1](./Imágenes%20en%20el%20anexo/Basal.png)| ![FIR](./Imágenes%20en%20el%20anexo/Reposo2daDerivFiltradaFIR.jpg) | 
-|Tarea Cognitiva      |![Raw 2](./Imágenes%20en%20el%20anexo/ActividadFisicaRaw2daDeriv.jpg)|![FIR](./Imágenes%20en%20el%20anexo/ActividadFisica2daDerivFiltradaFIR.jpg)|
-|Artefactos      |![Raw 2](./Imágenes%20en%20el%20anexo/ActividadFisicaRaw2daDeriv.jpg)|![FIR](./Imágenes%20en%20el%20anexo/ActividadFisica2daDerivFiltradaFIR.jpg)|
-|Actividad Libre  |![Raw 3](./Imágenes%20en%20el%20anexo/PostActividad2daDerivRaw.jpg)|![FIR](./Imágenes%20en%20el%20anexo/PostActividad2daDerivFiltradaFIR.jpg)|
+|Basal                 | ![Raw 1](./Imágenes%20en%20el%20anexo/BasalRaw.png)| ![FIR](./Imágenes%20en%20el%20anexo/BasalFiltrada.png) | 
+|Tarea Cognitiva      |![Raw 2](./Imágenes%20en%20el%20anexo/TareaCognitivaRaw.png)|![FIR](./Imágenes%20en%20el%20anexo/TareaCognitiva.png)|
+|Artefactos      |![Raw 2](./Imágenes%20en%20el%20anexo/ArtefactosRaw.png)|![FIR](./Imágenes%20en%20el%20anexo/ArtefactosFiltrada)|
+|Actividad Libre  |![Raw 3](./Imágenes%20en%20el%20anexo/ActividadLibre.png)|![FIR](./Imágenes%20en%20el%20anexo/ActividadLibre.png)|
 
 ---
 
