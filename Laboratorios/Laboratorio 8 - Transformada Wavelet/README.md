@@ -93,7 +93,7 @@ Las señales ECG mostraron ruido característico debido a interferencias electro
 
 Para filtrar nuestras señales EEG, nos basamos en los parámetros utilizados en la literatura encontrada [i]. Se utilizó Coiflet 5 debido a la buena resolución en tiempo y frecuencia, su preservación de la onda original y la reducción de la dispersión temporal de los coeficientes, esto último facilita localizar de manera efectiva los artefactos de la señal cruda. 
 
-En cuanto al umbral, se utilizó el método de umbralización adaptativo, en este caso SURE, el cual calcula el umbral óptimo para cada conjunto de coeficientes minimizando el error cuadrático medio estimado (MSE) y es robusto ante los diferentes tipos de ruido como los artefactos musculares y oculares.
+En cuanto al umbral, se utilizó el método de umbralización adaptativo, en este caso SURE, el cual calcula el umbral óptimo para cada conjunto de coeficientes minimizando el error cuadrático medio estimado (MSE) y es robusto ante los diferentes tipos de ruido como los artefactos musculares y oculares. 
 
 | Estado                 | RAW                | Señal Filtrada       | 
 |-----------------------|--------------------|--------------------|
