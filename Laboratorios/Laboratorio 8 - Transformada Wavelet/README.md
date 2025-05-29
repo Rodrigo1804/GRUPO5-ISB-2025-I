@@ -127,6 +127,26 @@ donde 𝜎 es la desviación estándar estimada de los coeficientes de detalle, 
 ### 5.1 Conclusiones ECG <a name="conclusiones-ecg"></a>
 
 ### 5.2 Conclusiones EMG <a name="conclusiones-emg"></a>
+El propósito de filtrar nuestra señal EMG con DWT fue mejorar la calidad de las señales de cada uno de los músculos evaluados, eliminando ruido sin comprometer los componentes fisiológicamente relevantes mediante el uso de umbral mejorado basada en wavelets. Los intervalos importantes a considerar para nuestro análisis son:
+- Descanso: 0s - 40s
+- Contracción leve: 40s - 60s
+- Contracción fuerte: 70s - 120s
+
+**Señal de Bíceps:**
+  - Periodo de descanso: La señal "raw" presentaba una base levemente oscilante, con actividad probablemente inducida por el ruido de baja frecuencia o artefactos de movimiento, luego del filtrado, se estabilizó casi por completo. El umbral adaptativo aplicado a cada nivel de descomposición wavelet logró eliminar casi todo el ruido basal sin introducir distorsiones de borde ni "efectos de corte" típicos del hard thresholding [y].
+    
+  - Contracción leve: Aquí la señal mostraba una actividad muscular con amplitud moderada que a pesar de su bajo nivel de energía, la función de umbral mejorado con los parámetros que seleccionamos (μ = 0.91 y δ = 0.01) permitió conservar esta región. Esto se debe a que el algoritmo atenúa los coeficientes solo cuando son similares al umbral, evitando sobre-filtrado. [y]
+    
+  - Contracción fuerte: Luego de filtrar la señal vemos una mejora significativa ya que los picos altos se preservan con claridad, y la estructura general de la contracción se mantiene. Esto nos indica que el método no elimina componentes de alta energía relevantes.
+
+Por lo tanto, esta señal nos muestra que el algoritmo respetó la morfología muscular durante contracción, sin comprometer los picos fisiológicos. El uso de Symlet 4 como base wavelet fue ideal para este tipo de señales que combinan secciones suaves con otras abruptas. [y]
+
+**Señal de Tríceps:**
+  - Periodo de descanso: La señal "raw" presentaba una base levemente oscilante, con actividad probablemente inducida por el ruido de baja frecuencia o artefactos de movimiento, luego del filtrado, se estabilizó casi por completo. El umbral adaptativo aplicado a cada nivel de descomposición wavelet logró eliminar casi todo el ruido basal sin introducir distorsiones de borde ni "efectos de corte" típicos del hard thresholding [y].
+    
+  - Contracción leve: Aquí la señal mostraba una actividad muscular con amplitud moderada que a pesar de su bajo nivel de energía, la función de umbral mejorado con los parámetros que seleccionamos (μ = 0.91 y δ = 0.01) permitió conservar esta región. Esto se debe a que el algoritmo atenúa los coeficientes solo cuando son similares al umbral, evitando sobre-filtrado. [y]
+    
+  - Contracción fuerte: Luego de filtrar la señal vemos una mejora significativa ya que los picos altos se preservan con claridad, y la estructura general de la contracción se mantiene. Esto nos indica que el método no elimina componentes de alta energía relevantes.
 
 ### 5.3 Conclusiones EEG <a name="conclusiones-eeg"></a>
 Luego de realizar el filtrado mediante la Transformada de Wavelet Discreta (DWT) con la función madre Coiflet 5 y la umbralización adaptativa SURE combinada con soft thresholding, vemos que en nuestras señales de actividad basal y tarea cognitiva se mantienen oscilaciones coherentes con EEG ya que nuestra señal, a pesar de haber recibido el filtrado, no ha perdido su la forma característica de este tipo de datos. Esto nos indica que no se ha eliminado información útil de nuestra señal lo que es esperado del método de soft thresholding adaptativo utilizado.
