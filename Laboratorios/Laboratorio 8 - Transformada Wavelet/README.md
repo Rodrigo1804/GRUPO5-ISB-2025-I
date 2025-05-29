@@ -9,9 +9,9 @@
  4.2 [Filtrado de señal EMG](#filtrado-de-señal-emg)  
  4.3 [Filtrado de señal EEG](#filtrado-de-señal-eeg)  
 5. [Conclusiones](#conclusiones)
-   5.1 [Conclusiones ECG](#conclusiones-ecg)
-   5.2 [Conclusiones EMG](#conclusiones-emg)
-   5.3 [Conclusiones EEG](#conclusiones-eeg)
+ 5.1 [Conclusiones ECG](#conclusiones-ecg)
+ 5.2 [Conclusiones EMG](#conclusiones-emg)
+ 5.3 [Conclusiones EEG](#conclusiones-eeg)
 7. [Referencias](#referencias)  
 
 ---
