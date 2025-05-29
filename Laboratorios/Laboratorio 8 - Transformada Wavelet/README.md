@@ -144,8 +144,8 @@ Por lo tanto, esta señal nos muestra que el algoritmo respetó la morfología m
 **Señal de Tríceps:**
   - Periodo de descanso: Se evidenció (al principio) un mayor nivel de ruido, incluso con artefactos "impulsivos". La aplicación del método que escogimos logró limpiar eficazmente el ruido sin afectar la señal útil. Este resultado que obtuvimos valida que el umbral por nivel adapta su "agresividad" según el contexto espectral del detalle. [y]
     
-    - Contracción leve y fuerte: Ambas fases de la señal se mantuvieron prácticamente intactas luego del filtrado. Lo "destacable" aquí es que el algoritmo suavizó los bordes transitorios sin eliminar los eventos fisiológicos. A diferencia de los métodos tradicionales que producen el fenómeno tipo Gibbs en los bordes, la función mejorada introduce continuidad en el filtrado, como también se evidenció en las simulaciones del artículo que usamos de base. [y]
-   
+  - Contracción leve y fuerte: Ambas fases de la señal se mantuvieron prácticamente intactas luego del filtrado. Lo "destacable" aquí es que el algoritmo suavizó los bordes transitorios sin eliminar los eventos fisiológicos. A diferencia de los métodos tradicionales que producen el fenómeno tipo Gibbs en los bordes, la función mejorada introduce continuidad en el filtrado, como también se evidenció en las simulaciones del artículo que usamos de base. [y]
+
 El filtrado de esta señal del Tríceps sirve como un buen ejemplo de cómo es que el filtrado wavelet adaptativo no solo "limpia", sino que respeta la naturaleza no estacionaria y multicomponente de la señal EMG.
 
 **Señal de Hombro:**
