@@ -104,8 +104,9 @@ $$
 $$
 
 $$
-\text{SURE}(\lambda) = n \cdot \sigma^2 + \sum_{i=1}^{n} \min(d_i^2, \lambda^2) - 2 \cdot \sigma^2 \cdot \left| \left\{ i : |d_i| < \lambda \right\} \right| ... (2)
+\text{SURE}(\lambda) = n \cdot \sigma^2 + \sum_{i=1}^{n} \min(d_i^2, \lambda^2) - 2 \cdot \sigma^2 \cdot \vert \{ i : |d_i| < \lambda \} \vert  ...(2)
 $$
+
 
 
 | Estado                 | RAW                | Señal Filtrada       | 
