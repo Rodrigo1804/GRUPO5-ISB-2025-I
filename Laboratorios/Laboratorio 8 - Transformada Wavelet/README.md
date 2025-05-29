@@ -77,9 +77,9 @@ Las señales ECG mostraron ruido característico debido a interferencias electro
 |------------------------------|--------|----------------------------------------------|------------------------------|------------------------------|--------------------------------------------------------------------------------|
 | Symlet 4 (`sym4`)            | 10     | Umbral adaptativo por nivel (`λ_j`)          | Función mejorada  | A10                         | D1, D2, D3, D4, D5, D6, D7, D8, D9, D10 (cada uno umbralizado con `f_i(x, λ_j)`) |
 
-Para filtrar nuestras señales EMG, utilizamos los parámetros y metodología propuestos en la literatura encontrada [y].  
+Para filtrar nuestras señales EMG, utilizamos los parámetros y metodología propuestos en la literatura encontrada para mejorar la relación entre eliminación de ruido y preservación de señal útil [y].  
 Específicamente, se aplicó una descomposición por wavelet discreta (DWT) utilizando la función madre Symlet 4 (`sym4`), con un nivel de descomposición de 10.  
-A cada conjunto de coeficientes de detalle se le aplicó un umbral adaptativo por nivel (λⱼ), seguido de una función de umbralización mejorada basada en la Ecuación 8, la cual incorpora los parámetros de ajuste μ = 0.91 y δ = 0.01.  
+A cada conjunto de coeficientes de detalle se le aplicó un umbral adaptativo por nivel (λⱼ), seguido de una función de umbralización mejorada, la cual incorpora los parámetros de ajuste μ = 0.91 y δ = 0.01.  
 
 | Músculo   | RAW | Señal Filtrada |
 |----------|-----|----------------|
