@@ -8,7 +8,10 @@
  4.1 [Filtrado de señal ECG](#filtrado-de-señal-ecg)  
  4.2 [Filtrado de señal EMG](#filtrado-de-señal-emg)  
  4.3 [Filtrado de señal EEG](#filtrado-de-señal-eeg)  
-6. [Conclusiones](#conclusiones)  
+5. [Conclusiones](#conclusiones)
+   5.1 [Conclusiones ECG](#conclusiones-ecg)
+   5.2 [Conclusiones EMG](#conclusiones-emg)
+   5.3 [Conclusiones EEG](#conclusiones-eeg)
 7. [Referencias](#referencias)  
 
 ---
@@ -121,10 +124,9 @@ donde 𝜎 es la desviación estándar estimada de los coeficientes de detalle, 
 
 ## 5. Conclusiones <a name="conclusiones"></a>
 
-ESTO FALTA CORREGIR!!!!
-La transformada wavelet discreta es una herramienta poderosa y versátil para el procesamiento y filtrado de señales biomédicas, permitiendo la reducción de ruido y preservación de características morfológicas clave en ECG, EMG y EEG. La elección de la familia wavelet, el nivel de descomposición y la estrategia de umbralización son determinantes para el éxito del filtrado.
-
-En particular, los filtros basados en Coiflet y Biorthogonal demostraron superioridad en condiciones de ruido variable, adaptándose bien a las necesidades específicas de cada tipo de señal biomédica. Por lo tanto, la transformada wavelet es recomendada para aplicaciones clínicas y de investigación que demandan análisis robustos y confiables de señales biomédicas no estacionarias.
+### 5.1 Conclusiones ECG <a name="conclusiones-ecg"></a>
+### 5.2 Conclusiones EMG <a name="conclusiones-emg"></a>
+### 5.3 Conclusiones EEG <a name="conclusiones-eeg"></a>
 
 ---
 
