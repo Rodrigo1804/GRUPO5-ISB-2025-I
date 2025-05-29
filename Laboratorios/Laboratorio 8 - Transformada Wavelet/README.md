@@ -97,7 +97,7 @@ Específicamente, se aplicó una descomposición por wavelet discreta (DWT) util
 
 Para filtrar nuestras señales EEG, nos basamos en los parámetros utilizados en la literatura encontrada [i]. Se utilizó Coiflet 5 debido a la buena resolución en tiempo y frecuencia, su preservación de la onda original y la reducción de la dispersión temporal de los coeficientes, esto último facilita localizar de manera efectiva los artefactos de la señal cruda. 
 
-En cuanto al umbral, se utilizó el método de umbralización adaptativo, en este caso SURE, el cual minimiza el error cuadrático medio estimado (MSE) y es robusto ante los diferentes tipos de ruido como los artefactos musculares y oculares. En el artículo no se menciona de manera explícita la fórmula utilizada puesto que existen dos la general (1) y la simplificada (2); sin embargo, dentro de las referencias del mismo encontramos un artículo donde se utilizan las reglas de Donoho y Johnstone para el SURE thresholding. Dicha versión corresponde a la versión simplificada en donde se calcula, para cada nivel de detalle, un umbral óptimo. Para poder minimizar el MSE, se aplica el SURE mediante _soft thresholding_ a los coeficientes transformados para la cual se utiliza la fórmula simplificada (2).
+En cuanto al umbral, se utilizó el método de umbralización adaptativo, en este caso SURE, el cual minimiza el error cuadrático medio estimado (MSE) y es robusto ante los diferentes tipos de ruido como los artefactos musculares y oculares. En el artículo no se menciona de manera explícita la fórmula utilizada puesto que existen dos la general (1) y la simplificada (2); sin embargo, dentro de las referencias del mismo encontramos un artículo donde se utilizan las reglas de Donoho y Johnstone [ii] para el SURE thresholding. Dicha versión corresponde a la versión simplificada en donde se calcula, para cada nivel de detalle, un umbral óptimo. Para poder minimizar el MSE, se aplica el SURE mediante _soft thresholding_ a los coeficientes transformados para la cual se utiliza la fórmula simplificada (2).
 
 $$
 \text{SURE}(h) = \|\theta\|^2 + \|h(x)\|^2 + 2\sigma^2 \sum_{i=1}^{n} \frac{\partial h_i}{\partial x_i} - 2 \sum_{i=1}^{n} x_i h_i(x) ... (1)
@@ -107,7 +107,7 @@ $$
 \text{SURE}(\lambda) = n \cdot \sigma^2 + \sum_{i=1}^{n} \min(d_i^2, \lambda^2) - 2 \cdot \sigma^2 \cdot \vert \{ i : |d_i| < \lambda \} \vert  ...(2)
 $$
 
-donde 𝜎 es la desviación estándar estimada de los coeficientes de detalle, y λ es el valor de umbral buscado numéricamente para minimizar la expresión.
+donde 𝜎 es la desviación estándar estimada de los coeficientes de detalle, y λ es el valor de umbral buscado numéricamente para minimizar la expresión. Esta última es la expresión utilizada para el thresholding de nuestras señales.
 
 
 | Estado                 | RAW                | Señal Filtrada       | 
@@ -145,3 +145,4 @@ En particular, los filtros basados en Coiflet y Biorthogonal demostraron superio
 [y]  Y. Ouyang, Z. Deng, Y. Yin, X. Wu, y Z. Chen, "An improved wavelet threshold denoising approach for surface electromyography signal," EURASIP Journal on Advances in Signal Processing, vol. 2023, no. 1, p. 10, Jan. 2023. https://doi.org/10.1186/s13634-023-01066-3
 
 [i] A. K. Bhoi and A. K. Mallick, "EEG De-noising using SURE Thresholding based on Wavelet Transform," International Journal of Computer Applications, vol. 24, no. 6, pp. 6–10, June 2011.
+[ii] R. R. Coifman and D. L. Donoho, “Translation-Invariant Denoising,” in Wavelets and Statistics, A. Antoniadis, Ed., New York: Springer, 1995, pp. 125–150.
