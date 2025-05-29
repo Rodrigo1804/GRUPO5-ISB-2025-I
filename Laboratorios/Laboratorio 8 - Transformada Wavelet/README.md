@@ -100,14 +100,12 @@ Para filtrar nuestras señales EEG, nos basamos en los parámetros utilizados en
 En cuanto al umbral, se utilizó el método de umbralización adaptativo, en este caso SURE, el cual minimiza el error cuadrático medio estimado (MSE) y es robusto ante los diferentes tipos de ruido como los artefactos musculares y oculares. En el artículo no se menciona de manera explícita la fórmula utilizada puesto que existen dos la general (1) y la simplificada (2); sin embargo, dentro de las referencias del mismo encontramos un artículo donde se utilizan las reglas de Donoho y Johnstone para el SURE thresholding. Dicha versión corresponde a la versión simplificada en donde se calcula, para cada nivel de detalle, un umbral óptimo. Para poder minimizar el MSE, se aplica el SURE mediante _soft thresholding_ a los coeficientes transformados para la cual se utiliza la fórmula simplificada (2).
 
 $$
-\text{SURE}(h) = \|\theta\|^2 + \|h(x)\|^2 + 2\sigma^2 \sum_{i=1}^{n} \frac{\partial h_i}{\partial x_i} - 2 \sum_{i=1}^{n} x_i h_i(x)  (1)
+\text{SURE}(h) = \|\theta\|^2 + \|h(x)\|^2 + 2\sigma^2 \sum_{i=1}^{n} \frac{\partial h_i}{\partial x_i} - 2 \sum_{i=1}^{n} x_i h_i(x) ... (1)
 $$
 
 $$
-\text{SURE}(\lambda) = n \cdot \sigma^2 + \sum_{i=1}^{n} \min(d_i^2, \lambda^2) - 2 \cdot \sigma^2 \cdot \#\{ i : |d_i| < \lambda \}  (2)
+\text{SURE}(\lambda) = n \cdot \sigma^2 + \sum_{i=1}^{n} \min(d_i^2, \lambda^2) - 2 \cdot \sigma^2 \cdot \left| \left\{ i : |d_i| < \lambda \right\} \right| ... (2)
 $$
-
-
 
 
 | Estado                 | RAW                | Señal Filtrada       | 
