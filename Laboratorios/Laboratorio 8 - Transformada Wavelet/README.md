@@ -145,4 +145,5 @@ En particular, los filtros basados en Coiflet y Biorthogonal demostraron superio
 [y]  Y. Ouyang, Z. Deng, Y. Yin, X. Wu, y Z. Chen, "An improved wavelet threshold denoising approach for surface electromyography signal," EURASIP Journal on Advances in Signal Processing, vol. 2023, no. 1, p. 10, Jan. 2023. https://doi.org/10.1186/s13634-023-01066-3
 
 [i] A. K. Bhoi and A. K. Mallick, "EEG De-noising using SURE Thresholding based on Wavelet Transform," International Journal of Computer Applications, vol. 24, no. 6, pp. 6–10, June 2011.
+
 [ii] R. R. Coifman and D. L. Donoho, “Translation-Invariant Denoising,” in Wavelets and Statistics, A. Antoniadis, Ed., New York: Springer, 1995, pp. 125–150.
