@@ -110,7 +110,7 @@ $$
 \text{SURE}(\lambda) = n \cdot \sigma^2 + \sum_{i=1}^{n} \min(d_i^2, \lambda^2) - 2 \cdot \sigma^2 \cdot \vert \{ i : |d_i| < \lambda \} \vert  ...(2)
 $$
 
-donde 𝜎 es la desviación estándar estimada de los coeficientes de detalle, y λ es el valor de umbral buscado numéricamente para minimizar la expresión. Esta última es la expresión utilizada para el thresholding de nuestras señales.
+donde 𝜎 es la desviación estándar estimada de los coeficientes de detalle, y λ es el valor de umbral buscado numéricamente para minimizar la expresión. Esta última ecuación es la que  utilizamos para el thresholding en nuestras señales.
 
 
 | Estado                 | RAW                | Señal Filtrada       | 
@@ -125,8 +125,15 @@ donde 𝜎 es la desviación estándar estimada de los coeficientes de detalle, 
 ## 5. Conclusiones <a name="conclusiones"></a>
 
 ### 5.1 Conclusiones ECG <a name="conclusiones-ecg"></a>
+
 ### 5.2 Conclusiones EMG <a name="conclusiones-emg"></a>
+
 ### 5.3 Conclusiones EEG <a name="conclusiones-eeg"></a>
+Luego de realizar el filtrado mediante la Transformada de Wavelet Discreta (DWT) con la función madre Coiflet 5 y la umbralización adaptativa SURE combinada con soft thresholding, vemos que en nuestras señales de actividad basal y tarea cognitiva se mantienen oscilaciones coherentes con EEG ya que nuestra señal, a pesar de haber recibido el filtrado, no ha perdido su la forma característica de este tipo de datos. Esto nos indica que no se ha eliminado información útil de nuestra señal lo que es esperado del método de soft thresholding adaptativo utilizado.
+
+En el estado de Artefactos, al momento de tomar las señales, se había considerado como artefacto al movimiento ocular (parpadear) y masticar, que son los artefactos mencionados también en nuestro artículo de referencia [i]. En esta señal, luego de filtrarla, podemos verificar una notoria diferencia puesto que hay picos que han reducido notoriamente y aún así ha mantenido conservada a nuestra señal. Esto nos indica que el SURE threshold utilizado ha eliminado los componentes de ruido sin eliminar data significativa.
+
+Finalmente, en el estado de Actividad Libre, tenemos una mezcla de estímulos de la persona de quien se tomó las medidas debido a los diferentes tipos de música que escuchó, el filtrado conserva la señal y puede observarse que ha eliminado pequeñas perturbaciones que puedan haberse dado durante la toma de datos. Aquí comprobamos que el método SURE se adapta al contenido de la señal en cada nivel de detalle.
 
 ---
 
