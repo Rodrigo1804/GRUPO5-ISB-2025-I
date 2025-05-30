@@ -131,13 +131,10 @@ Para filtrar nuestras señales ECG, nos basamos en los parámetros utilizados en
 Sobre el umbral, se utilizó el método de umbralización adaptativo, en este caso SURE, el cual minimiza el error cuadrático medio estimado (MSE) y es robusto ante los diferentes tipos de ruido como los artefactos musculares y oculares. En el artículo no se menciona de manera explícita la fórmula utilizada puesto que existen dos la general (1) y la simplificada (2); sin embargo, dentro de las referencias del mismo encontramos un artículo donde se utilizan las reglas de Donoho y Johnstone [ii] para el SURE thresholding. Dicha versión corresponde a la versión simplificada en donde se calcula, para cada nivel de detalle, un umbral óptimo. Para poder minimizar el MSE, se aplica el SURE mediante _soft thresholding_ a los coeficientes transformados para la cual se utiliza la fórmula simplificada (2).
 
 $$
-Tj = C · (σ_dj(n) / σ_nV(n))
-
-donde: C = 5
+\Tj = C · (σ_dj(n) / σ_nV(n)), donde: C = 5
 $$
 
 
-donde 𝜎 es la desviación estándar estimada de los coeficientes de detalle, y λ es el valor de umbral buscado numéricamente para minimizar la expresión. Esta última ecuación es la que  utilizamos para el thresholding en nuestras señales.
 
 
 | Estado                 | RAW                | Señal Filtrada       | 
