@@ -124,7 +124,7 @@ donde 𝜎 es la desviación estándar estimada de los coeficientes de detalle, 
 
 | Familia de funciones Wavelet| Nivel | Threshold utilizado | Tipo de Threshold |Coeficiente de Aproximación | Coeficientes de Detalle | 
 |-----------------------------|-------|---------------------|-------------------|----------------------------|-----------------------------|
-| Daubechies 4 (Db4)          | 5    | \[T_j = C \cdot \frac{\sigma_{dj}(n)}{\sigma_{nV}(n)}\] |  Soft Thresholding | No se umbraliza | d1, d2, d3, d4, d5 (cada uno con umbral óptimo para PRD mínimo) | 
+| Daubechies 4 (Db4)          | 5    | \( T_j = C \cdot \frac{\sigma_{dj}(n)}{\sigma_{nV}(n)}, \quad C = 5 \) |  Soft Thresholding | No se umbraliza | d1, d2, d3, d4, d5 (cada uno con umbral óptimo para PRD mínimo) | 
 
 Para filtrar nuestras señales ECG, nos basamos en los parámetros utilizados en la literatura encontrada [ii]. Se utilizó Coiflet 5 debido a la buena resolución en tiempo y frecuencia, su preservación de la onda original y la reducción de la dispersión temporal de los coeficientes, esto último facilita localizar de manera efectiva los artefactos de la señal cruda. 
 
