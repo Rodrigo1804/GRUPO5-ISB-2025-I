@@ -124,9 +124,9 @@ donde 𝜎 es la desviación estándar estimada de los coeficientes de detalle, 
 
 | Familia de funciones Wavelet| Nivel | Threshold utilizado | Tipo de Threshold |Coeficiente de Aproximación | Coeficientes de Detalle | 
 |-----------------------------|-------|---------------------|-------------------|----------------------------|-----------------------------|
-| Daubechies 4 (Db4)          | 5    | \( T_j = C \cdot \frac{\sigma_{dj}(n)}{\sigma_{nV}(n)}, \quad C = 5 \) |  Soft Thresholding | No se umbraliza | d1, d2, d3, d4, d5 (cada uno con umbral óptimo para PRD mínimo) | 
+| Daubechies 4 (Db4)          | 5    | \( T_j = C \cdot \frac{\sigma_{dj}(n)}{\sigma_{nV}(n)} \)|  Soft Thresholding | No se umbraliza | d1, d2, d3, d4, d5 (cada uno con umbral óptimo para PRD mínimo) | 
 
-Para filtrar nuestras señales ECG, nos basamos en los parámetros utilizados en la literatura encontrada [ii]. Se utilizó Coiflet 5 debido a la buena resolución en tiempo y frecuencia, su preservación de la onda original y la reducción de la dispersión temporal de los coeficientes, esto último facilita localizar de manera efectiva los artefactos de la señal cruda. 
+Para filtrar nuestras señales ECG, nos basamos en los parámetros utilizados en la literatura encontrada [ii]. Se utilizó Daubechies 4 debido a la preservación de la resolución tanto  en tiempo y frecuencia y la reducción de la dispersión temporal de los coeficientes,
 
 En cuanto al umbral, se utilizó el método de umbralización adaptativo, en este caso SURE, el cual minimiza el error cuadrático medio estimado (MSE) y es robusto ante los diferentes tipos de ruido como los artefactos musculares y oculares. En el artículo no se menciona de manera explícita la fórmula utilizada puesto que existen dos la general (1) y la simplificada (2); sin embargo, dentro de las referencias del mismo encontramos un artículo donde se utilizan las reglas de Donoho y Johnstone [ii] para el SURE thresholding. Dicha versión corresponde a la versión simplificada en donde se calcula, para cada nivel de detalle, un umbral óptimo. Para poder minimizar el MSE, se aplica el SURE mediante _soft thresholding_ a los coeficientes transformados para la cual se utiliza la fórmula simplificada (2).
 
