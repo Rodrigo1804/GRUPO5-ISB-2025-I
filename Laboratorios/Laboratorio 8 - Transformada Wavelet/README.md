@@ -128,21 +128,14 @@ donde 𝜎 es la desviación estándar estimada de los coeficientes de detalle, 
 
 Para filtrar nuestras señales ECG, nos basamos en los parámetros utilizados en la literatura encontrada [ii]. Se utilizó Daubechies 4 debido a la preservación de la resolución tanto  en tiempo y frecuencia y por su uso clásico como filtro adaptativo para preservar ondas clave P,QRS y T.
 
-Sobre el umbral, se utilizó el método de umbralización adaptativo, en este caso SURE, el cual minimiza el error cuadrático medio estimado (MSE) y es robusto ante los diferentes tipos de ruido como los artefactos musculares y oculares. En el artículo no se menciona de manera explícita la fórmula utilizada puesto que existen dos la general (1) y la simplificada (2); sin embargo, dentro de las referencias del mismo encontramos un artículo donde se utilizan las reglas de Donoho y Johnstone [ii] para el SURE thresholding. Dicha versión corresponde a la versión simplificada en donde se calcula, para cada nivel de detalle, un umbral óptimo. Para poder minimizar el MSE, se aplica el SURE mediante _soft thresholding_ a los coeficientes transformados para la cual se utiliza la fórmula simplificada (2).
-
-$$
-\Tj = C · (σ_dj(n) / σ_nV(n)), donde: C = 5
-$$
-
-
-
+Sobre el umbral, se utilizó el método de umbralización adaptativo, en este caso Tj = C · (σ_dj(n) / σ_nV(n)) , el cual minimiza el error de Porcentaje de diferencia cuadrática media (PRD). Por otro lado, en el paper se explica la decisión de no aplicar umbralización a los coeficientes de aproximación ya que estos contienen las componentes de baja frecuencia de la señal, donde residen las ondas P y T del ECG, que son suaves y fácilmente distorsionables, por lo que al filtrarlos se perdería información sútil pero importante, en este caso para analizar la morfología de la señal.
 
 | Estado                 | RAW                | Señal Filtrada       | 
 |-----------------------|--------------------|--------------------|
-| Reposo               | ![Raw 1](./Imágenes%20en%20el%20anexo/BasalRaw.png)| ![DWT1](./Imágenes%20en%20el%20anexo/BasalFiltrada.png) | 
-| Inhalación 1     |![Raw 2](./Imágenes%20en%20el%20anexo/TareaCognitivaRaw.png)|![DWT2](./Imágenes%20en%20el%20anexo/TareaCognitivaFiltrada.png)|
-| Actividad Física     |![Raw 3](./Imágenes%20en%20el%20anexo/ArtefactosRaw.png)|![DWT3](./Imágenes%20en%20el%20anexo/ArtefactosFiltrada.png)|
-| Inhalación 2 |![Raw 4](./Imágenes%20en%20el%20anexo/ActividadLibreRaw.png)|![DWT4](./Imágenes%20en%20el%20anexo/ActividadLibreFiltrada.png)|
+| Reposo               | ![Raw 1](./Imágenes%20en%20el%20anexo/r-og.jpg)| ![DWT1](./Imágenes%20en%20el%20anexo/f-reposo.jpg) | 
+| Inhalación 1     |![Raw 2](./Imágenes%20en%20el%20anexo/in1-og.jpg)|![DWT2](./Imágenes%20en%20el%20anexo/f-in1.jpg)|
+| Actividad Física     |![Raw 3](./Imágenes%20en%20el%20anexo/og-af.jpg)|![DWT3](./Imágenes%20en%20el%20anexo/f-af.jpg)|
+| Inhalación 2 |![Raw 4](./Imágenes%20en%20el%20anexo/in2-og.jpg)|![DWT4](./Imágenes%20en%20el%20anexo/in2-f.jpg)|
 
 ## 5. Conclusiones <a name="conclusiones"></a>
 
