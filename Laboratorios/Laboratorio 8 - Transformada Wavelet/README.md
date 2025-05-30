@@ -122,6 +122,39 @@ donde 𝜎 es la desviación estándar estimada de los coeficientes de detalle, 
 
 ---
 
+| Familia de funciones Wavelet| Nivel | Threshold utilizado | Tipo de Threshold |Coeficiente de Aproximación | Coeficientes de Detalle | 
+|-----------------------------|-------|---------------------|-------------------|----------------------------|-----------------------------|
+| Daubechies 4 (Db4)          | 5    |  T_j = C \cdot \frac{\sigma_{dj}(n)}{\sigma_{nV}(n)}
+\]
+
+donde:
+
+- \( C = 5 \) es una constante empírica,
+- \( \sigma_{dj}(n) \) es la desviación estándar de los coeficientes de detalle en el nivel \( j \),
+- \( \sigma_{nV}(n) \) es la desviación estándar del ruido estimado a partir del nivel más alto. |  Soft Thresholding | No se umbraliza | d1, d2, d3, d4, d5 (cada uno con umbral óptimo para PRD mínimo) | 
+
+Para filtrar nuestras señales ECG, nos basamos en los parámetros utilizados en la literatura encontrada [ii]. Se utilizó Coiflet 5 debido a la buena resolución en tiempo y frecuencia, su preservación de la onda original y la reducción de la dispersión temporal de los coeficientes, esto último facilita localizar de manera efectiva los artefactos de la señal cruda. 
+
+En cuanto al umbral, se utilizó el método de umbralización adaptativo, en este caso SURE, el cual minimiza el error cuadrático medio estimado (MSE) y es robusto ante los diferentes tipos de ruido como los artefactos musculares y oculares. En el artículo no se menciona de manera explícita la fórmula utilizada puesto que existen dos la general (1) y la simplificada (2); sin embargo, dentro de las referencias del mismo encontramos un artículo donde se utilizan las reglas de Donoho y Johnstone [ii] para el SURE thresholding. Dicha versión corresponde a la versión simplificada en donde se calcula, para cada nivel de detalle, un umbral óptimo. Para poder minimizar el MSE, se aplica el SURE mediante _soft thresholding_ a los coeficientes transformados para la cual se utiliza la fórmula simplificada (2).
+
+$$
+\text{SURE}(h) = \|\theta\|^2 + \|h(x)\|^2 + 2\sigma^2 \sum_{i=1}^{n} \frac{\partial h_i}{\partial x_i} - 2 \sum_{i=1}^{n} x_i h_i(x) ... (1)
+$$
+
+$$
+\text{SURE}(\lambda) = n \cdot \sigma^2 + \sum_{i=1}^{n} \min(d_i^2, \lambda^2) - 2 \cdot \sigma^2 \cdot \vert \{ i : |d_i| < \lambda \} \vert  ...(2)
+$$
+
+donde 𝜎 es la desviación estándar estimada de los coeficientes de detalle, y λ es el valor de umbral buscado numéricamente para minimizar la expresión. Esta última ecuación es la que  utilizamos para el thresholding en nuestras señales.
+
+
+| Estado                 | RAW                | Señal Filtrada       | 
+|-----------------------|--------------------|--------------------|
+| Reposo               | ![Raw 1](./Imágenes%20en%20el%20anexo/BasalRaw.png)| ![DWT1](./Imágenes%20en%20el%20anexo/BasalFiltrada.png) | 
+| Inhalación 1     |![Raw 2](./Imágenes%20en%20el%20anexo/TareaCognitivaRaw.png)|![DWT2](./Imágenes%20en%20el%20anexo/TareaCognitivaFiltrada.png)|
+| Actividad Física     |![Raw 3](./Imágenes%20en%20el%20anexo/ArtefactosRaw.png)|![DWT3](./Imágenes%20en%20el%20anexo/ArtefactosFiltrada.png)|
+| Inhalación 2 |![Raw 4](./Imágenes%20en%20el%20anexo/ActividadLibreRaw.png)|![DWT4](./Imágenes%20en%20el%20anexo/ActividadLibreFiltrada.png)|
+
 ## 5. Conclusiones <a name="conclusiones"></a>
 
 ### 5.1 Conclusiones ECG <a name="conclusiones-ecg"></a>
