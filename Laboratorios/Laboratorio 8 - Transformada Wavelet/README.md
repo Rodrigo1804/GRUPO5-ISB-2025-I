@@ -126,7 +126,7 @@ donde 𝜎 es la desviación estándar estimada de los coeficientes de detalle, 
 |-----------------------------|-------|---------------------|-------------------|----------------------------|-----------------------------|
 | Daubechies 4 (Db4)          | 5    | Tj = C · (σ_dj(n) / σ_nV(n))|  Soft Thresholding | No se umbraliza | d1, d2, d3, d4, d5 (cada uno con umbral óptimo para PRD mínimo) | 
 
-Para filtrar nuestras señales ECG, nos basamos en los parámetros utilizados en la literatura encontrada [ii]. Se utilizó Daubechies 4 debido a la preservación de la resolución tanto  en tiempo y frecuencia y por su uso clásico como filtro adaptativo para preservar ondas clave P,QRS y T.
+Para filtrar nuestras señales ECG, nos basamos en los parámetros utilizados en la literatura encontrada [iii]. Se utilizó Daubechies 4 debido a la preservación de la resolución tanto  en tiempo y frecuencia y por su uso clásico como filtro adaptativo para preservar ondas clave P,QRS y T.
 
 Sobre el umbral, se utilizó el método de umbralización adaptativo, en este caso Tj = C · (σ_dj(n) / σ_nV(n)) , el cual minimiza el error de Porcentaje de diferencia cuadrática media (PRD). Por otro lado, en el paper se explica la decisión de no aplicar umbralización a los coeficientes de aproximación ya que estos contienen las componentes de baja frecuencia de la señal, donde residen las ondas P y T del ECG, que son suaves y fácilmente distorsionables, por lo que al filtrarlos se perdería información sútil pero importante, en este caso para analizar la morfología de la señal.
 
@@ -202,3 +202,4 @@ Finalmente, en el estado de Actividad Libre, tenemos una mezcla de estímulos de
 [i] A. K. Bhoi and A. K. Mallick, "EEG De-noising using SURE Thresholding based on Wavelet Transform," International Journal of Computer Applications, vol. 24, no. 6, pp. 6–10, June 2011.
 
 [ii] R. R. Coifman and D. L. Donoho, “Translation-Invariant Denoising,” in Wavelets and Statistics, A. Antoniadis, Ed., New York: Springer, 1995, pp. 125–150.
+[iii]M. Alfaouri and K. Daqrouq, "ECG Signal Denoising by Wavelet Transform Thresholding," American Journal of Applied Sciences, vol. 5, no. 3, pp. 276–281, 2008.
