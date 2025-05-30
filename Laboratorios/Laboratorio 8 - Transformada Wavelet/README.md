@@ -72,7 +72,7 @@ Implementar y comparar técnicas de filtrado basadas en la transformada wavelet 
 
 ### 4.1 Filtrado de señal ECG <a name="filtrado-de-señal-ecg"></a>
 
-Para filtrar nuestras señales ECG, nos basamos en los parámetros utilizados en la literatura encontrada [iii]. Se utilizó Daubechies 4 debido a la preservación de la resolución tanto  en tiempo y frecuencia y por su uso clásico como filtro adaptativo para preservar ondas clave P,QRS y T.
+Para filtrar nuestras señales ECG, nos basamos en los parámetros utilizados en la literatura encontrada [10]. Se utilizó Daubechies 4 debido a la preservación de la resolución tanto  en tiempo y frecuencia y por su uso clásico como filtro adaptativo para preservar ondas clave P,QRS y T.
 
 Sobre el umbral, se utilizó el método de umbralización adaptativo, en este caso Tj = C · (σ_dj(n) / σ_nV(n)), con C = 5 , el cual minimiza el error de Porcentaje de diferencia cuadrática media (PRD). Por otro lado, en el paper se explica la decisión de no aplicar umbralización a los coeficientes de aproximación ya que estos contienen las componentes de baja frecuencia de la señal, donde residen las ondas P y T del ECG, que son suaves y fácilmente distorsionables, por lo que al filtrarlos se perdería información sútil pero importante, en este caso para analizar la morfología de la señal.
 
@@ -88,7 +88,7 @@ Sobre el umbral, se utilizó el método de umbralización adaptativo, en este ca
 |------------------------------|--------|----------------------------------------------|------------------------------|------------------------------|--------------------------------------------------------------------------------|
 | Symlet 4 (`sym4`)            | 10     | Umbral adaptativo por nivel (`λ_j`)          | Función mejorada  | A10                         | D1, D2, D3, D4, D5, D6, D7, D8, D9, D10 (cada uno umbralizado con `f_i(x, λ_j)`) |
 
-Para filtrar nuestras señales EMG, utilizamos los parámetros y metodología propuestos en la literatura encontrada para mejorar la relación entre eliminación de ruido y preservación de señal útil [y].  
+Para filtrar nuestras señales EMG, utilizamos los parámetros y metodología propuestos en la literatura encontrada para mejorar la relación entre eliminación de ruido y preservación de señal útil [7].  
 Específicamente, se aplicó una descomposición por wavelet discreta (DWT) utilizando la función madre Symlet 4 (`sym4`), con un nivel de descomposición de 10. A cada conjunto de coeficientes de detalle se le aplicó un umbral adaptativo por nivel (λⱼ), seguido de una función de umbralización mejorada, la cual incorpora los parámetros de ajuste μ = 0.91 y δ = 0.01.  
 
 | Músculo   | RAW | Señal Filtrada |
@@ -140,6 +140,24 @@ donde 𝜎 es la desviación estándar estimada de los coeficientes de detalle, 
 
 ### 5.1 Conclusiones ECG <a name="conclusiones-ecg"></a>
 
+El propósito del filtrado aplicado a nuestras señales ECG fue mejorar su calidad eliminando componentes de ruido, manteniendo a la vez la morfología fisiológica esencial para análisis clínico. Para ello, se utilizó la Transformada Discreta de Wavelet (DWT) con Daubechies 4 como función madre y umbralización adaptativa basada en la relación entre los coeficientes de detalle y la varianza del ruido, siguiendo la fórmula propuesta por Alfaouri y Daqrouq (2008) [10]. Esta estrategia se diseñó para preservar especialmente las ondas P, QRS y T, clave en la interpretación de la señal.
+
+Durante el estado de reposo, se observó que la señal original presentaba una base levemente ruidosa, probablemente debido a interferencia de baja frecuencia o micro-movimientos. Luego del filtrado, la señal se estabiliza visiblemente, destacándose por la mejora en la relación señal/ruido (SNR) sin pérdida de las estructuras morfológicas. Esto valida que el umbral adaptativo aplicado a los coeficientes de detalle fue eficaz para remover ruido sin afectar la señal útil.
+
+En el caso de inhalación 1, donde la señal mostraba irregularidades más notorias, se consiguió una mejora clara al reducir picos espurios y estabilizar la línea de base, preservando al mismo tiempo las complejidades del trazado ECG. La adaptabilidad del umbral evitó una supresión excesiva, especialmente en fases donde las amplitudes de la señal eran más variables.
+
+Durante la actividad física, la preservación de los complejos QRS fue especialmente destacable. A pesar del aumento en la amplitud y la frecuencia de las contracciones cardiacas, el método permitió mantener los picos R nítidos y la secuencia de ondas clara. Este resultado demuestra la capacidad del método para operar sobre señales no estacionarias sin distorsionar los eventos de alta energía fisiológica.
+
+En la etapa de inhalación 2, se confirma la robustez del filtrado: se eliminan artefactos sin alterar la continuidad de la señal ni aplanar la forma de las ondas. La técnica utilizada permitió observar la variabilidad respiratoria sin introducir artefactos de filtrado ni deformaciones armónicas.
+
+Finalmente, podemos concluir que el uso de un método wavelet multiescala con umbralización adaptativa:
+	•	Logra una atenuación eficaz del ruido de fondo y artefactos, sin afectar la morfología de la señal ECG.
+	•	Preserva tanto los eventos de baja frecuencia (ondas P y T) como los de alta frecuencia (complejo QRS).
+	•	Se adapta a condiciones fisiológicas variables (reposo, inhalación, actividad) mostrando gran versatilidad.
+	•	Evita los efectos negativos de otros métodos clásicos como el sobre-suavizado o la generación de artefactos de borde (como el efecto Gibbs).
+
+En conjunto, estos resultados permiten afirmar que el algoritmo implementado es clínicamente útil para análisis morfológico de ECG y potencialmente aplicable en entornos de monitoreo ambulatorio o postoperatorio.
+
 ### 5.2 Conclusiones EMG <a name="conclusiones-emg"></a>
 El propósito de filtrar nuestra señal EMG con DWT fue mejorar la calidad de las señales de cada uno de los músculos evaluados, eliminando ruido sin comprometer los componentes fisiológicamente relevantes mediante el uso de umbral mejorado basada en wavelets. Los intervalos importantes a considerar para nuestro análisis son:
 - Descanso: 0s - 40s
@@ -147,18 +165,18 @@ El propósito de filtrar nuestra señal EMG con DWT fue mejorar la calidad de la
 - Contracción fuerte: 70s - 120s
 
 **Señal de Bíceps:**
-  - Periodo de descanso: La señal "raw" presentaba una base levemente oscilante, con actividad probablemente inducida por el ruido de baja frecuencia o artefactos de movimiento, luego del filtrado, se estabilizó casi por completo. El umbral adaptativo aplicado a cada nivel de descomposición wavelet logró eliminar casi todo el ruido basal sin introducir distorsiones de borde ni "efectos de corte" típicos del hard thresholding [y].
+  - Periodo de descanso: La señal "raw" presentaba una base levemente oscilante, con actividad probablemente inducida por el ruido de baja frecuencia o artefactos de movimiento, luego del filtrado, se estabilizó casi por completo. El umbral adaptativo aplicado a cada nivel de descomposición wavelet logró eliminar casi todo el ruido basal sin introducir distorsiones de borde ni "efectos de corte" típicos del hard thresholding [7].
     
-  - Contracción leve: Aquí la señal mostraba una actividad muscular con amplitud moderada que a pesar de su bajo nivel de energía, la función de umbral mejorado con los parámetros que seleccionamos (μ = 0.91 y δ = 0.01) permitió conservar esta región. Esto se debe a que el algoritmo atenúa los coeficientes solo cuando son similares al umbral, evitando sobre-filtrado. [y]
+  - Contracción leve: Aquí la señal mostraba una actividad muscular con amplitud moderada que a pesar de su bajo nivel de energía, la función de umbral mejorado con los parámetros que seleccionamos (μ = 0.91 y δ = 0.01) permitió conservar esta región. Esto se debe a que el algoritmo atenúa los coeficientes solo cuando son similares al umbral, evitando sobre-filtrado. [7]
     
   - Contracción fuerte: Luego de filtrar la señal vemos una mejora significativa ya que los picos altos se preservan con claridad, y la estructura general de la contracción se mantiene. Esto nos indica que el método no elimina componentes de alta energía relevantes.
 
-Por lo tanto, esta señal nos muestra que el algoritmo respetó la morfología muscular durante contracción, sin comprometer los picos fisiológicos. El uso de Symlet 4 como base wavelet fue ideal para este tipo de señales que combinan secciones suaves con otras abruptas. [y]
+Por lo tanto, esta señal nos muestra que el algoritmo respetó la morfología muscular durante contracción, sin comprometer los picos fisiológicos. El uso de Symlet 4 como base wavelet fue ideal para este tipo de señales que combinan secciones suaves con otras abruptas. [7]
 
 **Señal de Tríceps:**
-  - Periodo de descanso: Se evidenció (al principio) un mayor nivel de ruido, incluso con artefactos "impulsivos". La aplicación del método que escogimos logró limpiar eficazmente el ruido sin afectar la señal útil. Este resultado que obtuvimos valida que el umbral por nivel adapta su "agresividad" según el contexto espectral del detalle. [y]
+  - Periodo de descanso: Se evidenció (al principio) un mayor nivel de ruido, incluso con artefactos "impulsivos". La aplicación del método que escogimos logró limpiar eficazmente el ruido sin afectar la señal útil. Este resultado que obtuvimos valida que el umbral por nivel adapta su "agresividad" según el contexto espectral del detalle. [7]
     
-  - Contracción leve y fuerte: Ambas fases de la señal se mantuvieron prácticamente intactas luego del filtrado. Lo "destacable" aquí es que el algoritmo suavizó los bordes transitorios sin eliminar los eventos fisiológicos. A diferencia de los métodos tradicionales que producen el fenómeno tipo Gibbs en los bordes, la función mejorada introduce continuidad en el filtrado, como también se evidenció en las simulaciones del artículo que usamos de base. [y]
+  - Contracción leve y fuerte: Ambas fases de la señal se mantuvieron prácticamente intactas luego del filtrado. Lo "destacable" aquí es que el algoritmo suavizó los bordes transitorios sin eliminar los eventos fisiológicos. A diferencia de los métodos tradicionales que producen el fenómeno tipo Gibbs en los bordes, la función mejorada introduce continuidad en el filtrado, como también se evidenció en las simulaciones del artículo que usamos de base. [7]
 
 El filtrado de esta señal del Tríceps sirve como un buen ejemplo de cómo es que el filtrado wavelet adaptativo no solo "limpia", sino que respeta la naturaleza no estacionaria y multicomponente de la señal EMG.
 
@@ -176,7 +194,7 @@ Finalmente, podemos concluir que el uso del umbral mejorado adaptativo ("funció
 ### 5.3 Conclusiones EEG <a name="conclusiones-eeg"></a>
 Luego de realizar el filtrado mediante la Transformada de Wavelet Discreta (DWT) con la función madre Coiflet 5 y la umbralización adaptativa SURE combinada con soft thresholding, vemos que en nuestras señales de actividad basal y tarea cognitiva se mantienen oscilaciones coherentes con EEG ya que nuestra señal, a pesar de haber recibido el filtrado, no ha perdido su la forma característica de este tipo de datos. Esto nos indica que no se ha eliminado información útil de nuestra señal lo que es esperado del método de soft thresholding adaptativo utilizado.
 
-En el estado de Artefactos, al momento de tomar las señales, se había considerado como artefacto al movimiento ocular (parpadear) y masticar, que son los artefactos mencionados también en nuestro artículo de referencia [i]. En esta señal, luego de filtrarla, podemos verificar una notoria diferencia puesto que hay picos que han reducidos significativamente y aún así se ha mantenido conservada nuestra señal. Esto nos indica que el SURE threshold utilizado ha eliminado los componentes de ruido sin eliminar data significativa.
+En el estado de Artefactos, al momento de tomar las señales, se había considerado como artefacto al movimiento ocular (parpadear) y masticar, que son los artefactos mencionados también en nuestro artículo de referencia [8]. En esta señal, luego de filtrarla, podemos verificar una notoria diferencia puesto que hay picos que han reducidos significativamente y aún así se ha mantenido conservada nuestra señal. Esto nos indica que el SURE threshold utilizado ha eliminado los componentes de ruido sin eliminar data significativa.
 
 Finalmente, en el estado de Actividad Libre, tenemos una mezcla de estímulos de la persona de quien se tomó las medidas debido a los diferentes tipos de música que escuchó, el filtrado conserva la señal y puede observarse que ha eliminado pequeñas perturbaciones que puedan haberse dado durante la toma de datos. Aquí comprobamos que el método SURE se adapta al contenido de la señal en cada nivel de detalle.
 
@@ -196,9 +214,9 @@ Finalmente, en el estado de Actividad Libre, tenemos una mezcla de estímulos de
 
 [6] G. Cornelia y R. Romulus, “ECG Signals Processing Using Wavelets,” University of Oradea, Electronics Department, Faculty of Electrical Engineering and Information Technology, Oradea, Rumania. Disponible en: https://www.sciencedirect.com/science/article/pii/S2590123023002773
 
-[y]  Y. Ouyang, Z. Deng, Y. Yin, X. Wu, y Z. Chen, "An improved wavelet threshold denoising approach for surface electromyography signal," EURASIP Journal on Advances in Signal Processing, vol. 2023, no. 1, p. 10, Jan. 2023. https://doi.org/10.1186/s13634-023-01066-3
+[7]  Y. Ouyang, Z. Deng, Y. Yin, X. Wu, y Z. Chen, "An improved wavelet threshold denoising approach for surface electromyography signal," EURASIP Journal on Advances in Signal Processing, vol. 2023, no. 1, p. 10, Jan. 2023. https://doi.org/10.1186/s13634-023-01066-3
 
-[i] A. K. Bhoi and A. K. Mallick, "EEG De-noising using SURE Thresholding based on Wavelet Transform," International Journal of Computer Applications, vol. 24, no. 6, pp. 6–10, June 2011.
+[8] A. K. Bhoi and A. K. Mallick, "EEG De-noising using SURE Thresholding based on Wavelet Transform," International Journal of Computer Applications, vol. 24, no. 6, pp. 6–10, June 2011.
 
-[ii] R. R. Coifman and D. L. Donoho, “Translation-Invariant Denoising,” in Wavelets and Statistics, A. Antoniadis, Ed., New York: Springer, 1995, pp. 125–150.
-[iii]M. Alfaouri and K. Daqrouq, "ECG Signal Denoising by Wavelet Transform Thresholding," American Journal of Applied Sciences, vol. 5, no. 3, pp. 276–281, 2008.
+[9] R. R. Coifman and D. L. Donoho, “Translation-Invariant Denoising,” in Wavelets and Statistics, A. Antoniadis, Ed., New York: Springer, 1995, pp. 125–150.
+[10]M. Alfaouri and K. Daqrouq, "ECG Signal Denoising by Wavelet Transform Thresholding," American Journal of Applied Sciences, vol. 5, no. 3, pp. 276–281, 2008.
