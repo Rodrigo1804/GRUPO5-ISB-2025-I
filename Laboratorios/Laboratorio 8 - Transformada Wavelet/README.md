@@ -72,8 +72,16 @@ Implementar y comparar técnicas de filtrado basadas en la transformada wavelet 
 
 ### 4.1 Filtrado de señal ECG <a name="filtrado-de-señal-ecg"></a>
 
-Las señales ECG mostraron ruido característico debido a interferencias electromagnéticas y artefactos de movimiento. Se aplicaron filtros DWT con wavelets Symlet 4 y Coiflet 3 en niveles 3 a 7. Ambas configuraciones lograron reducir significativamente el ruido, conservando la morfología característica de los complejos QRS. Sin embargo, Coiflet 3 mostró un filtrado más suave en condiciones de ruido moderado a alto, lo que concuerda con hallazgos previos en la literatura.
+Para filtrar nuestras señales ECG, nos basamos en los parámetros utilizados en la literatura encontrada [iii]. Se utilizó Daubechies 4 debido a la preservación de la resolución tanto  en tiempo y frecuencia y por su uso clásico como filtro adaptativo para preservar ondas clave P,QRS y T.
 
+Sobre el umbral, se utilizó el método de umbralización adaptativo, en este caso Tj = C · (σ_dj(n) / σ_nV(n)), con C = 5 , el cual minimiza el error de Porcentaje de diferencia cuadrática media (PRD). Por otro lado, en el paper se explica la decisión de no aplicar umbralización a los coeficientes de aproximación ya que estos contienen las componentes de baja frecuencia de la señal, donde residen las ondas P y T del ECG, que son suaves y fácilmente distorsionables, por lo que al filtrarlos se perdería información sútil pero importante, en este caso para analizar la morfología de la señal.
+
+| Estado                 | RAW                | Señal Filtrada       | 
+|-----------------------|--------------------|--------------------|
+| Reposo               | ![Raw 1](./Imágenes%20en%20el%20anexo/r-og.jpg)| ![DWT1](./Imágenes%20en%20el%20anexo/f-reposo.jpg) | 
+| Inhalación 1     |![Raw 2](./Imágenes%20en%20el%20anexo/in1-og.jpg)|![DWT2](./Imágenes%20en%20el%20anexo/f-in1.jpg)|
+| Actividad Física     |![Raw 3](./Imágenes%20en%20el%20anexo/og-af.jpg)|![DWT3](./Imágenes%20en%20el%20anexo/f-af.jpg)|
+| Inhalación 2 |![Raw 4](./Imágenes%20en%20el%20anexo/in2-og.jpg)|![DWT4](./Imágenes%20en%20el%20anexo/in2-f.jpg)|
 ### 4.2 Filtrado de señal EMG <a name="filtrado-de-señal-emg"></a>
 
 | Familia de funciones Wavelet | Nivel | Threshold utilizado                         | Tipo de Threshold           | Coeficiente de Aproximación | Coeficientes de Detalle                                                       |
@@ -126,16 +134,7 @@ donde 𝜎 es la desviación estándar estimada de los coeficientes de detalle, 
 |-----------------------------|-------|---------------------|-------------------|----------------------------|-----------------------------|
 | Daubechies 4 (Db4)          | 5    | Tj = C · (σ_dj(n) / σ_nV(n)), C = 5|  Soft Thresholding | No se umbraliza | d1, d2, d3, d4, d5 (cada uno con umbral óptimo para PRD mínimo) | 
 
-Para filtrar nuestras señales ECG, nos basamos en los parámetros utilizados en la literatura encontrada [iii]. Se utilizó Daubechies 4 debido a la preservación de la resolución tanto  en tiempo y frecuencia y por su uso clásico como filtro adaptativo para preservar ondas clave P,QRS y T.
 
-Sobre el umbral, se utilizó el método de umbralización adaptativo, en este caso Tj = C · (σ_dj(n) / σ_nV(n)), con C = 5 , el cual minimiza el error de Porcentaje de diferencia cuadrática media (PRD). Por otro lado, en el paper se explica la decisión de no aplicar umbralización a los coeficientes de aproximación ya que estos contienen las componentes de baja frecuencia de la señal, donde residen las ondas P y T del ECG, que son suaves y fácilmente distorsionables, por lo que al filtrarlos se perdería información sútil pero importante, en este caso para analizar la morfología de la señal.
-
-| Estado                 | RAW                | Señal Filtrada       | 
-|-----------------------|--------------------|--------------------|
-| Reposo               | ![Raw 1](./Imágenes%20en%20el%20anexo/r-og.jpg)| ![DWT1](./Imágenes%20en%20el%20anexo/f-reposo.jpg) | 
-| Inhalación 1     |![Raw 2](./Imágenes%20en%20el%20anexo/in1-og.jpg)|![DWT2](./Imágenes%20en%20el%20anexo/f-in1.jpg)|
-| Actividad Física     |![Raw 3](./Imágenes%20en%20el%20anexo/og-af.jpg)|![DWT3](./Imágenes%20en%20el%20anexo/f-af.jpg)|
-| Inhalación 2 |![Raw 4](./Imágenes%20en%20el%20anexo/in2-og.jpg)|![DWT4](./Imágenes%20en%20el%20anexo/in2-f.jpg)|
 
 ## 5. Conclusiones <a name="conclusiones"></a>
 
