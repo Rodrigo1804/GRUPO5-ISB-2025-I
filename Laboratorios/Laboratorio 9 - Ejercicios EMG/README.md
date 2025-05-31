@@ -58,7 +58,7 @@ plt.show()
 ```
 En esta imagen podemos apreciar las señales correspondientes a las diferentes amplitudes y su comparación con la original
 
-![Señales EMG](./Imágenes%20en%20el%20anexo/Señales_EMG.png)
+![Señales EMG](./Imágenes%20en%20el%20anexo/Senales_EMG.png)
 
 3. Cálculo del **Symmetry Ratio* para cada par de señales:
 
@@ -110,7 +110,7 @@ plt.legend()
 plt.tight_layout()
 plt.show()
 ```
-![Gráfico de comparación](./Imágenes%20en%20el%20anexo/Comparación.png)
+![Gráfico de comparación](./Imágenes%20en%20el%20anexo/Comparacion.png)
 
 ### Reflexión
 
