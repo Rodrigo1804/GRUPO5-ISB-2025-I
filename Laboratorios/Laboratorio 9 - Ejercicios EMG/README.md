@@ -248,3 +248,27 @@ print(freq_median_list)
 Frecuencia mediana por ventana:
 [6.0, 3.0, 3.0, 2.0, 3.0, 3.0, 3.0, 2.0, 3.0, 4.0, 1.0, 1.0, 2.0, 1.0, 1.0, 1.0, 1.0, 3.0, 2.0, 1.0, 5.0, 1.0, 1.0, 3.0, 1.0, 1.0, 3.0, 1.0, 1.0, 2.0]
 ```
+
+**8. Ajustamos una recta (regresión lineal) al RMS vs. tiempo:**
+```
+from scipy.stats import linregress
+import matplotlib.pyplot as plt
+
+tiempo2 = np.arange(len(rms_list))  # 0 a 29
+
+slope_rms, intercept, r_value, p_value, std_err = linregress(tiempo2, rms_list)
+
+rms_fit = slope_rms * tiempo2 + intercept
+
+plt.figure(figsize=(10, 5))
+plt.plot(tiempo2, rms_list, 'o', label='RMS real')
+plt.plot(tiempo2, rms_fit, '-', label=f'Regresión lineal\nPendiente = {slope_rms:.4f}', color='orange')
+plt.title("RMS vs. Tiempo (Indicador de fatiga)")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("RMS")
+plt.grid(True)
+plt.legend()
+plt.tight_layout()
+plt.show()
+```
+![RMS vs Time](./Imágenes%20en%20el%20anexo/RMS_vs_Time.png)
