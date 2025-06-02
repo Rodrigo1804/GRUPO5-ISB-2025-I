@@ -181,6 +181,7 @@ signals = pd.DataFrame({"EMG_Raw": emg_signal, "EMG_Cleaned":nk.emg_clean(emg_si
 #Ploteamos las dos señales (raw ecg y cleaned ecg) superpuestas:
 fig2 = signals.plot()
 ```
+![Raw EMG vs Cleaned EMG](./Imágenes%20en%20el%20anexo/raw_emg_vs_cleaned_emg.png)
 
 **4. Extraemos la envolvente:**
 ```
@@ -189,3 +190,4 @@ amplitude = nk.emg_amplitude(emg_cleaned)
 #Ploteamos las dos señales (raw ecg y la amplitud/envolvente de la clean ecg)
 fig3 = pd.DataFrame({"EMG": emg_signal, "Amplitude": amplitude}).plot(subplots=True)
 ```
+![Raw EMG and Cleaned EMG Amplitude/Envelope](./Imágenes%20en%20el%20anexo/raw_emg_and_cleaned_emg_amplitude.png)
