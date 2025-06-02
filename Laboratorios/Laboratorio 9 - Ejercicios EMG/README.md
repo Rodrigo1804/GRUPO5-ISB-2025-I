@@ -252,7 +252,6 @@ Frecuencia mediana por ventana:
 **8. Ajustamos una recta (regresión lineal) al RMS vs. tiempo:**
 ```
 from scipy.stats import linregress
-import matplotlib.pyplot as plt
 
 tiempo2 = np.arange(len(rms_list))  # 0 a 29
 
