@@ -115,3 +115,75 @@ plt.show()
 ### Reflexión
 
 Se observa que el *Symmetry Ratio* cae por debajo del umbral aceptable del 80 % cuando la amplitud del canal 2 se reduce por debajo del 80 %. Esto indica que asimetrías mayores al 20 % en la activación muscular entre lados ya podrían representar un desbalance clínicamente relevante, lo cual puede ser útil para evaluar disfunciones motoras o en procesos de rehabilitación.
+
+# Ejercicio B: Índices de fatiga – pendiente de RMS vs. pendiente de frecuencia
+
+## Objetivo de la práctica
+Comparar dos métricas clásicas de fatiga: la tasa de crecimiento de la amplitud (RMS) y la tasa de caída de la frecuencia mediana.
+
+## Metodología
+1. Se simuló una señal EMG base con las siguientes consideraciones:
+   - Duración: 10 segundos (tiempo de cada señal)
+   - Frecuencia de muestreo: 1000 Hz 
+   - Ruido blanco: 0.01
+
+**1. Primero importaremos las librerías necesarias:**
+```
+import neurokit2 as nk
+import numpy as np
+import matplotlib.pyplot as plt
+```
+
+**2. Ahora generaremos la señal base de 30s con 3 segmentos de 10s considerando "burst_number" decreciente y "amplitud" creciente:**
+
+```
+duration = 10  
+sampling_rate = 1000
+
+# Simulamos 3 bloques con bursts decrecientes
+emg_1 = nk.emg_simulate(duration=duration, sampling_rate=sampling_rate, burst_number=10, noise=0.01)
+emg_2 = nk.emg_simulate(duration=duration, sampling_rate=sampling_rate, burst_number=6, noise=0.01)
+emg_3 = nk.emg_simulate(duration=duration, sampling_rate=sampling_rate, burst_number=3, noise=0.01)
+
+# Aplicamos amplitudes crecientes para simular "fatiga"
+emg_1 *= 0.5
+emg_2 *= 1.0
+emg_3 *= 1.5
+
+# Concatenamos las señales
+emg_signal = np.concatenate([emg_1, emg_2, emg_3]) #Al concatenarlas obtenemos la señal completa de 30 segundos
+
+#Creamos un vector de tiempo para plotear la señal completa en función del tiempo y no solo de "samples"
+time = np.linspace(0, 30, 30 * sampling_rate)
+
+#Ploteamos la señal raw con fatiga (Amplitud vs samples)
+fig = nk.signal_plot(emg_signal)
+
+#Ploteamos la señal raw con fatiga (Amplitud vs tiempo)
+plt.figure(figsize=(12, 4))
+plt.plot(time, emg_signal, color='red')
+plt.title("Señal EMG simulada con fatiga")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("Amplitud")
+plt.grid(True)
+plt.tight_layout()
+plt.show()
+```
+
+**3. Limpiamos la señal:**
+```
+emg_cleaned = nk.emg_clean(emg_signal, sampling_rate=sampling_rate)
+
+signals = pd.DataFrame({"EMG_Raw": emg_signal, "EMG_Cleaned":nk.emg_clean(emg_signal, sampling_rate=sampling_rate)})
+
+#Ploteamos las dos señales (raw ecg y cleaned ecg) superpuestas:
+fig2 = signals.plot()
+```
+
+**4. Extraemos la envolvente:**
+```
+amplitude = nk.emg_amplitude(emg_cleaned)
+
+#Ploteamos las dos señales (raw ecg y la amplitud/envolvente de la clean ecg)
+fig3 = pd.DataFrame({"EMG": emg_signal, "Amplitude": amplitude}).plot(subplots=True)
+```
