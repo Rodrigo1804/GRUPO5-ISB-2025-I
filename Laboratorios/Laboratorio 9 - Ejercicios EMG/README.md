@@ -169,6 +169,8 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 ```
+![Raw EMG Amplitude vs Samples](./Imágenes%20en%20el%20anexo/raw_emg_samples.png)
+![Raw EMG Amplitude vs Time](./Imágenes%20en%20el%20anexo/raw_emg_time.png)
 
 **3. Limpiamos la señal:**
 ```
