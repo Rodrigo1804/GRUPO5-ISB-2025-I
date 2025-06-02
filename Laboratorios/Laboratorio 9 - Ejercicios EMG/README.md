@@ -187,3 +187,64 @@ amplitude = nk.emg_amplitude(emg_cleaned)
 fig3 = pd.DataFrame({"EMG": emg_signal, "Amplitude": amplitude}).plot(subplots=True)
 ```
 ![Raw EMG and Cleaned EMG Amplitude/Envelope](./Imágenes%20en%20el%20anexo/raw_emg_and_cleaned_emg_amplitude.png)
+
+**5. Ahora dividiremos la envolvente en ventanas de 1 s:**
+```
+ventanas = []
+window_size = sampling_rate
+num_windows = len(amplitude) // window_size
+
+for i in range(num_windows):
+  ventana = amplitude[i * window_size : (i + 1) * window_size]
+  ventanas.append(ventana)
+
+print(f"Número de ventanas de 1s: {len(ventanas)}")
+```
+**Resultados:**
+```
+Número de ventanas de 1s: 30 #Al dividir la envolvente en ventanas de 1s, la señal al tener 30s totales, nos da 30 ventanas.
+```
+
+**6. Calculamos el RMS (media de la envolvente) para cada ventana:**
+```
+rms_list = []
+
+for ventana in ventanas:
+    rms = np.sqrt(np.mean(ventana ** 2))
+    rms_list.append(rms)
+
+print("RMS por ventana:")
+rms_list = [float(rms) for rms in rms_list]
+print(rms_list)
+```
+**Resultados:**
+```
+RMS por ventana:
+[0.06643054762146344, 0.06266698516280708, 0.06778442480609854, 0.06790678432032599, 0.06465474640027785, 0.06357099723797328, 0.0660004768207711, 0.06299511170204732, 0.07155472735497813, 0.06583303710848377, 0.15380846037487828, 0.14473464383367712, 0.22524894763364187, 0.16727767137669886, 0.18888219301400216, 0.1783766342433106, 0.16507413113592437, 0.20812080509919528, 0.14545762851389693, 0.15693566529179062, 0.001699459365889213, 0.3151183954707196, 0.5340333568190462, 0.0018171058717712052, 0.41047007887318837, 0.44524805963033803, 0.001850513319438513, 0.5280817797164201, 0.2986196255491269, 0.0017467285567558315]
+```
+
+**7. Ahora calculamos la frecuencia mediana vía Welch:**
+```
+from scipy.signal import welch
+
+freq_median_list = []
+
+for ventana in ventanas:
+    freqs, psd = welch(ventana, fs=sampling_rate, nperseg=len(ventana))
+
+    cumulative_power = np.cumsum(psd)
+    total_power = cumulative_power[-1]
+    
+    freq_median = freqs[np.where(cumulative_power >= total_power / 2)[0][0]]
+    freq_median_list.append(freq_median)
+
+freq_median_list = [float(f) for f in freq_median_list]
+
+print("Frecuencia mediana por ventana:")
+print(freq_median_list)
+```
+**Resultados:**
+```
+Frecuencia mediana por ventana:
+[6.0, 3.0, 3.0, 2.0, 3.0, 3.0, 3.0, 2.0, 3.0, 4.0, 1.0, 1.0, 2.0, 1.0, 1.0, 1.0, 1.0, 3.0, 2.0, 1.0, 5.0, 1.0, 1.0, 3.0, 1.0, 1.0, 3.0, 1.0, 1.0, 2.0]
+```
