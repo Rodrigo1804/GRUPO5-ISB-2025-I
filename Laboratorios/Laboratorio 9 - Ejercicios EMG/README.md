@@ -271,3 +271,25 @@ plt.tight_layout()
 plt.show()
 ```
 ![RMS vs Time](./Imágenes%20en%20el%20anexo/RMS_vs_Time.png)
+
+**9. Ajustamos una recta (regresión lineal) al RMS vs. tiempo:**
+```
+tiempo = np.arange(len(freq_median_list))
+
+slope_freq, intercept, r_value, p_value, std_err = linregress(tiempo, freq_median_list)
+
+freq_fit = slope_freq * tiempo + intercept
+
+plt.figure(figsize=(10, 5))
+plt.plot(tiempo, freq_median_list, 'o', label='Frecuencia mediana real')
+plt.plot(tiempo, freq_fit, '-', color='green', label=f'Regresión lineal\nPendiente = {slope_freq:.4f}')
+plt.title("Frecuencia mediana vs. Tiempo")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("Frecuencia mediana (Hz)")
+plt.grid(True)
+plt.legend()
+plt.tight_layout()
+plt.show()
+```
+![Frecuencia mediana vs Time](./Imágenes%20en%20el%20anexo/Frecuencia_mediana_vs_Time.png)
+
