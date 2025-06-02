@@ -122,10 +122,6 @@ Se observa que el *Symmetry Ratio* cae por debajo del umbral aceptable del 80 
 Comparar dos métricas clásicas de fatiga: la tasa de crecimiento de la amplitud (RMS) y la tasa de caída de la frecuencia mediana.
 
 ## Metodología
-1. Se simuló una señal EMG base con las siguientes consideraciones:
-   - Duración: 10 segundos (tiempo de cada señal)
-   - Frecuencia de muestreo: 1000 Hz 
-   - Ruido blanco: 0.01
 
 **1. Primero importaremos las librerías necesarias:**
 ```
