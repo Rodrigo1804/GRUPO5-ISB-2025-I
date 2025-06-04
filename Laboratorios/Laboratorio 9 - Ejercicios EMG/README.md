@@ -294,13 +294,12 @@ plt.show()
 ![Frecuencia mediana vs Time](./Imágenes%20en%20el%20anexo/Frecuencia_mediana_vs_Time.png)
 
 ### Reflexión
-1. ¿Cuál de las dos pendientes (RMS o freq_med) resulta ser un indicador más sensible a la fatiga en este escenario sintético?
+#### 1. ¿Cuál de las dos pendientes (RMS o freq_med) resulta ser un indicador más sensible a la fatiga en este escenario sintético?
 
 Se puede observar en los resultados obtenidos que la frecuencia mediana resulta ser más sensible a la fatiga.
-
 Vemos que su pendiente es más pronunciada (-0.0496) y refleja una caída consistente demostrando que la velocidad de conducción disminuye con el tiempo ocasionando fatiga en las fibras musculares rápidas, mientras que el RMS genera una pendiente positiva y pequeña junto a una dispersión mayor de los datos, esto lo hace menos confiable como indicador en este caso en particular ya que si bien el RMS nos permite ver que si el músculo aumenta el esfuerzo, la energia (amplitud) de la señal va a aumentar lo que nos llevaría a entender que se está presentando fatiga muscular; sin embargo, el RMS puede perder fiabilidad por factores como los artefactos o ruido presentes, por su susceptibilidad, haciendo que los valores incrementes dando una pendiente positiva . 
 
-2. ¿Cómo cambiarían las pendientes si aumentas el nivel de ruido en la simulación?
+#### 2. ¿Cómo cambiarían las pendientes si aumentas el nivel de ruido en la simulación?
 
 En el caso de frecuencia mediana (freq_med): la pendiente podría ser menos negativa o hasta positiva si el ruido llega a ser muy alto. Esto afectaría significativamente la detección de fatiga ya que el método de Welch puede detectar componentes de frecuencia que no son generados por la contracción muscular.
 
