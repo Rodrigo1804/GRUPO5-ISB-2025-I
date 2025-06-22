@@ -15,7 +15,7 @@
 
 **Fuente [1]:** [EEG Motor Movement/Imagery Dataset (EEGBCI)](https://physionet.org/content/eegmmidb/1.0.0/)
 
-Esta base de datos está compuesto por 109 sujetos. Para cada caso, se realizaron las siguientes sesiones:
+Esta base de datos está compuesta por 109 sujetos. Para cada caso, se realizaron las siguientes sesiones:
 
 1. Basal: ojos abiertos
 2. Basal: ojos cerrados
