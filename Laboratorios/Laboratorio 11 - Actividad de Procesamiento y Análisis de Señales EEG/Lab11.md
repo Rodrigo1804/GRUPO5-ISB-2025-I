@@ -17,13 +17,13 @@
 
 Esta base de datos está compuesto por 109 sujetos. Para cada caso, se realizaron las siguientes sesiones:
 
-  a. Basal: ojos abiertos
-  b. Basal: ojos cerrados
-  c. Tarea 1: abrir y cerrar el puño derecho o izquierdo 
-  d. Tarea 2: imaginar que se abre y cierra el puño derecho o izquierdo 
-  e. Tarea 3: abrir y cerrar ambos puños o ambos pies (open and close both fists or both feet)
-  f. Tarea 4: imaginar que se abren y cierran ambos puños o ambos pies 
-  g. Se volvieron a repetir las tareas 1-4.
+1. Basal: ojos abiertos
+2. Basal: ojos cerrados
+3. Tarea 1: abrir y cerrar el puño derecho o izquierdo
+4. Tarea 2: imaginar que se abre y cierra el puño derecho o izquierdo
+5. Tarea 3: abrir y cerrar ambos puños o ambos pies (open and close both fists or both feet)
+6. Tarea 4: imaginar que se abren y cierran ambos puños o ambos pies
+7. Se volvieron a repetir las tareas 1-4.
   
 Se utilizaron 64 electrodos con un sistema de distribución 10-10 y los datos se encuentran en formato `.edf´
 
