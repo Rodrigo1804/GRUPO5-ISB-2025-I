@@ -24,16 +24,17 @@ El rango de edad de quiénes se obtendrá los datos debe variar de entre 18 a 24
 
   **Músculos evaluados**
   * Extensor radial largo del carpo – estabiliza muñeca en agarre.
-  * * Flexor superficial de los dedos – activa durante scroll y tipeo.
+  * Flexor superficial de los dedos – activa durante scroll y tipeo.
 
   
   **Tareas experimentales**
-      Para cada sesión, se realizarán las mediciones con BITalino en los últimos 2 minutos.
-      En reposo, el paciente se mantendrá en la misma postura sin utilizar el smartphone.
-    * Sesión de reposo: 2 minutos (2 minutos se toman las medidas con BITalino)
-      En las sesiones de uso del smartphone, se pide realizar acciones como scrollear, chatear o jugar. 
-    * Sesión de uso moderado: 3 a 6 minutos (6 a 8 minutos se toman las medidas con BITalino)
-    * Sesión de uso intensivo: 8 a 24 minutos (24 a 26 minutos se toman las medidas con BITalino)
+  Para cada sesión, se realizarán las mediciones con BITalino en los últimos 2 minutos.
+  En reposo, el paciente se mantendrá en la misma postura sin utilizar el smartphone.
+  * Sesión de reposo: 2 minutos (2 minutos se toman las medidas con BITalino)
+
+  En las sesiones de uso del smartphone, se pide realizar acciones como scrollear, chatear o jugar. 
+  * Sesión de uso moderado: 3 a 6 minutos (6 a 8 minutos se toman las medidas con BITalino)
+  * Sesión de uso intensivo: 8 a 24 minutos (24 a 26 minutos se toman las medidas con BITalino)
 
 ## Resultados obtenidos 
 
