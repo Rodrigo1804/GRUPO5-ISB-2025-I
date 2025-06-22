@@ -16,6 +16,7 @@
 **Fuente:** EEG Motor Movement/Imagery Dataset (EEGBCI) [1]
 
 Esta base de datos está compuesto por 109 sujetos. Para cada caso, se realizaron las siguientes sesiones:
+
   a. Basal: ojos abiertos
   b. Basal: ojos cerrados
   c. Tarea 1: abrir y cerrar el puño derecho o izquierdo 
@@ -23,6 +24,7 @@ Esta base de datos está compuesto por 109 sujetos. Para cada caso, se realizaro
   e. Tarea 3: abrir y cerrar ambos puños o ambos pies (open and close both fists or both feet)
   f. Tarea 4: imaginar que se abren y cierran ambos puños o ambos pies 
   g. Se volvieron a repetir las tareas 1-4.
+  
 Se utilizaron 64 electrodos con un sistema de distribución 10-10 y los datos se encuentran en formato `.edf´
 
 ## 2. Preprocesamiento
