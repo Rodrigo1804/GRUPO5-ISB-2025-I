@@ -5,9 +5,8 @@
 2. [Preprocesamiento](#2-preprocesamiento)
 3. [Extracción de Características](#3-extracción-de-características)
 4. [Optimización y Selección de Features](#4-optimización-y-selección-de-features)
-5. [Análisis Integrado con MNE Python](#5-análisis-integrado-con-mne-python)
-6. [Resultados y Visualizaciones](#6-resultados-y-visualizaciones)
-7. [Referencias](#7-referencias)
+5. [Resultados y Visualizaciones](#6-resultados-y-visualizaciones)
+6. [Referencias](#7-referencias)
 
 
 
@@ -48,16 +47,12 @@ Para el laboratorio nos basaremos en la data del primer y segundo sujeto analiza
 
 ## 3. Extracción de Características
 **Objetivo:** aplicar técnicas de feature engineering sobre las componentes extraídas (estadísticas, bandas, transformaciones) para mejorar la calidad de los datos antes de alimentar modelos de clasificación.
-
 ## 4. Optimización y Selección de Features
 **Objetivo:** integrar y analizar los datos a través de observaciones temporales, frecuenciales y espaciales empleando MNE Python (Epochs, Evoked, montage, interpolate_bads).
 
 
-## 5. Análisis Integrado con MNE Python
 
+## 5. Resultados y Visualizaciones
 
-
-## 6. Resultados y Visualizaciones
-
-## 7. Referencias
+## 6. Referencias
 [1] Schalk, G., McFarland, D.J., Hinterberger, T., Birbaumer, N., Wolpaw, J.R. BCI2000: A General-Purpose Brain-Computer Interface (BCI) System. IEEE Transactions on Biomedical Engineering 51(6):1034-1043, 2004.
