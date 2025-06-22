@@ -21,7 +21,7 @@ Esta base de datos está compuesta por 109 sujetos. Para cada caso, se realizaro
 2. Basal: ojos cerrados
 3. Tarea 1: abrir y cerrar el puño derecho o izquierdo
 4. Tarea 2: imaginar que se abre y cierra el puño derecho o izquierdo
-5. Tarea 3: abrir y cerrar ambos puños o ambos pies (open and close both fists or both feet)
+5. Tarea 3: abrir y cerrar ambos puños o ambos pies 
 6. Tarea 4: imaginar que se abren y cierran ambos puños o ambos pies
 7. Se volvieron a repetir las tareas 1-4.
   
