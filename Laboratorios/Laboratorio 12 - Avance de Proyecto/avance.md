@@ -23,8 +23,8 @@ El rango de edad de quiénes se obtendrá los datos debe variar de entre 18 a 24
   * Software de registro: OpenSignals, MATLAB o Python.
 
   **Músculos evaluados**
-    * Extensor radial largo del carpo – estabiliza muñeca en agarre.
-    * Flexor superficial de los dedos – activa durante scroll y tipeo.
+  * Extensor radial largo del carpo – estabiliza muñeca en agarre.
+  * * Flexor superficial de los dedos – activa durante scroll y tipeo.
 
   
   **Tareas experimentales**
