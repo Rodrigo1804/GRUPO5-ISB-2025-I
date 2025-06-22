@@ -30,7 +30,7 @@ Se utilizaron 64 electrodos con un sistema de distribución 10-10 y los datos se
 ## 2. Preprocesamiento
 **Objetivo:** limpiar las señales de EEG mediante técnicas de filtrado (por ejemplo, filtros pasa banda, notch y wavelet), eliminar artefactos (blink, EMG, ECG) y normalizar/alinear las señales para hacerlas comparables entre sesiones y sujetos.
 
-Para el laboratorio nos basaremos en la data del primer sujeto y solo analizaremos la data de ambos estados basales estudiado y de la primera ejecución de las 4 tareas planteadas. Es decir, de la base de datos, utilizaremos los siguientes archivos: `S001R01.edf´  `S001R02.edf´  `S001R03.edf´  `S001R04.edf´  `S001R05.edf´  `S001R06.edf´  y `S001R07.edf´ los cuales corresponden al primer sujeto.
+Para el laboratorio nos basaremos en la data del primer sujeto y solo analizaremos la data de ambos estados basales estudiado y de la primera ejecución de las 4 tareas planteadas. Es decir, de la base de datos, utilizaremos los siguientes archivos: `S001R01.edf´  S001R02.edf´  S001R03.edf´  S001R04.edf´  S001R05.edf´  S001R06.edf  S001R07.edf` los cuales corresponden al primer sujeto.
 
 
 ## 3. Extracción de Características
