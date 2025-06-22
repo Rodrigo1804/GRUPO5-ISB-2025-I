@@ -13,7 +13,7 @@
 
 ## 1. Origen de los Datos
 
-**Fuente:** EEG Motor Movement/Imagery Dataset (EEGBCI) [1]
+**Fuente [1]:** [EEG Motor Movement/Imagery Dataset (EEGBCI)](https://physionet.org/content/eegmmidb/1.0.0/)
 
 Esta base de datos está compuesto por 109 sujetos. Para cada caso, se realizaron las siguientes sesiones:
 
