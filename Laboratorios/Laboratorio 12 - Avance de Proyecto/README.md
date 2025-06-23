@@ -89,7 +89,32 @@ Específicamente, se aplicó una descomposición por wavelet discreta (DWT) util
  <img src="./Imagenes en el anexo/Aaron_moderado_flexor.png" width="800"/>
  <img src="./Imagenes en el anexo/Aaron_intenso_flexor.png" width="800"/>
 
+## Resultados del test SAS-SV
+
+| Participante | Sexo    | Puntaje SAS-SV | Clasificación         |
+|--------------|---------|----------------|------------------------|
+| Gaby         | Mujer   | 37             | Usuario intensivo     |
+| Wen          | Mujer   | 35             | Usuario intensivo     |
+| Alejandro    | Hombre  | 26             | Usuario ocasional     |
+| Aaron        | Hombre  | 24             | Usuario ocasional     |
+
+
+Con base en los puntajes obtenidos en la escala Smartphone Addiction Scale - Short Version (SAS-SV) y el análisis visual de la actividad electromiográfica (EMG), se clasificó a los participantes en dos grupos:
+- Usuarios intensivos: Gaby y Wen
+- Usuarios ocasionales: Alejandro y Aaron
+
+Las participantes clasificadas como usuarias intensivas superaron el umbral de 31 puntos establecido para mujeres, mientras que los varones estuvieron por debajo del umbral de 33 puntos, confirmando su clasificación como usuarios ocasionales. Esta categorización se corresponde con los patrones de activación muscular observados en las señales EMG, donde Gaby y Wen presentaron mayor frecuencia y amplitud de contracciones, especialmente en el flexor superficial de los dedos, durante las sesiones prolongadas de uso del smartphone.
+
 ## Discusión y próximos pasos
+Los resultados obtenidos revelan diferencias en la actividad muscular entre usuarios intensivos y ocasionales, especialmente en el músculo flexor superficial de los dedos, mientras que en el extensor radial largo del carpo las diferencias fueron menos marcadas.
+
+En las señales EMG procesadas mediante descomposición wavelet discreta (sym4, nivel 10) y umbralización mejorada, se observó que en los usuarios intensivos (Gaby y Wen) el flexor superficial de los dedos presentó mayor cantidad de activaciones, amplitudes más altas y una distribución más densa de eventos durante las sesiones de uso prolongado. Esto refleja un mayor esfuerzo muscular asociado a acciones como el tipeo y el desplazamiento táctil continuo, actividades típicas en el uso del smartphone.
+
+En contraste, la señal registrada en el extensor radial largo del carpo, responsable principalmente de estabilizar la muñeca, mostró patrones similares entre usuarios intensivos y ocasionales. Si bien se registraron activaciones, estas no evidenciaron un incremento sustancial con el aumento de la duración del uso, lo que sugiere que el esfuerzo postural requerido para mantener el agarre del dispositivo puede mantenerse relativamente constante entre los distintos grupos.
+
+Este hallazgo es relevante, ya que sugiere que el movimiento repetitivo de los dedos es un factor más determinante en la aparición de signos de fatiga muscular durante el uso del smartphone, en comparación con la carga postural mantenida de la muñeca. Así, el flexor superficial de los dedos se posiciona como un músculo clave para la evaluación temprana de sobreuso en este contexto.
+
+Finalmente, la metodología empleada no solo facilitó la limpieza del ruido y la mejora de la señal, sino que sentó las bases para un análisis cuantitativo más preciso con métricas como RMS y frecuencia mediana, que serán abordadas en la siguiente fase del estudio.
 
 ## Referencias
 [1]  Y. Ouyang, Z. Deng, Y. Yin, X. Wu, y Z. Chen, "An improved wavelet threshold denoising approach for surface electromyography signal," EURASIP Journal on Advances in Signal Processing, vol. 2023, no. 1, p. 10, Jan. 2023. https://doi.org/10.1186/s13634-023-01066-3
