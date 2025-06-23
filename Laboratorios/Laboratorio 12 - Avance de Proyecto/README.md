@@ -1,6 +1,8 @@
 # Laboratorio 12: Avance del proyecto
 # Evaluación electromiográfica de la fatiga muscular del miembro superior durante el uso del smartphone: Un estudio comparativo entre jóvenes usuarios intensivos y ocasionales
 
+link del paper: https://docs.google.com/document/d/1Fk9rCmvZFyv1IQMk603ACRcE4HknOFrcELzjUgmIeEs/edit?usp=sharing
+
 ## Objetivo del proyecto: 
 Analizar y comparar la actividad electromiográfica de músculos específicos de la extremidad superior durante el uso del smartphone, entre jóvenes con uso intensivo y ocasional del dispositivo, identificando signos de fatiga y su relación con la puntuación en la escala SAS-SV.
 
