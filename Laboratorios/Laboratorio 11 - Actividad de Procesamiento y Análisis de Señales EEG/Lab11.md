@@ -26,6 +26,27 @@ Esta base de datos está compuesta por 109 sujetos. Para cada caso, se realizaro
   
 Se utilizaron 64 electrodos con un sistema de distribución 10-10 y los datos se encuentran en formato `.edf´
 
+### Paciente 1:
+| Actividad                 | Señal Filtrada                |
+|-----------------------|--------------------|
+| Basal 1               | ![Basal 1 - Paciente 1](./Imágenes%20en%20el%20anexo/BASAL1_PACIENTE_1.png)|
+| Basal 2     |![Basal 2 - Paciente 1](./Imágenes%20en%20el%20anexo/BASAL2_PACIENTE_1.png)|
+| Tarea 1     |![Tarea 1 - Paciente 1](./Imágenes%20en%20el%20anexo/TAREA1_PACIENTE_1.png)|
+| Tarea 2 |![Tarea 2 - Paciente 1](./Imágenes%20en%20el%20anexo/TAREA2_PACIENTE_1.png)|
+| Tarea 3 |![Tarea 3 - Paciente 1](./Imágenes%20en%20el%20anexo/TAREA3_PACIENTE_1.png)|
+| Tarea 4 |![Tarea 4 - Paciente 1](./Imágenes%20en%20el%20anexo/TAREA4_PACIENTE_1.png)|
+
+### Paciente 2:
+| Actividad                 | Señal Filtrada                |
+|-----------------------|--------------------|
+| Basal 1               | ![Basal 1 - Paciente 2](./Imágenes%20en%20el%20anexo/BASAL1_PACIENTE_2)|
+| Basal 2     |![Basal 2 - Paciente 2](./Imágenes%20en%20el%20anexo/BASAL2_PACIENTE_2)|
+| Tarea 1     |![Tarea 1 - Paciente 2](./Imágenes%20en%20el%20anexo/TAREA1_PACIENTE_2)|
+| Tarea 2 |![Tarea 2 - Paciente 2](./Imágenes%20en%20el%20anexo/TAREA2_PACIENTE_2)|
+| Tarea 3 |![Tarea 3 - Paciente 2](./Imágenes%20en%20el%20anexo/TAREA3_PACIENTE_2)|
+| Tarea 4 |![Tarea 4 - Paciente 2](./Imágenes%20en%20el%20anexo/TAREA4_PACIENTE_2)|
+
+
 ## 2. Preprocesamiento
 **Objetivo:** limpiar las señales de EEG mediante técnicas de filtrado (por ejemplo, filtros pasa banda, notch y wavelet), eliminar artefactos (blink, EMG, ECG) y normalizar/alinear las señales para hacerlas comparables entre sesiones y sujetos.
 
