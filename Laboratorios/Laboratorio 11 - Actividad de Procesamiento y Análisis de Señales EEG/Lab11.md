@@ -30,22 +30,22 @@ Se utilizaron 64 electrodos con un sistema de distribución 10-10 y los datos se
 | Actividad                 | Señal Filtrada                |
 |-----------------------|--------------------|
 | Basal 1               | ![BASAL1_PACIENTE_1](./Imágenes_Lab11/BASAL1_PACIENTE_1.png)|
-| Basal 2     |![BASAL2_PACIENTE_1](./Imágenes%20en%20el%20anexo/BASAL2_PACIENTE_1.png)|
-| Tarea 1     |![TAREA1_PACIENTE_1](./Imágenes%20en%20el%20anexo/TAREA1_PACIENTE_1.png)|
-| Tarea 2 |![TAREA2_PACIENTE_1](./Imágenes%20en%20el%20anexo/TAREA2_PACIENTE_1.png)|
-| Tarea 3 |![TAREA3_PACIENTE_1](./Imágenes%20en%20el%20anexo/TAREA3_PACIENTE_1.png)|
-| Tarea 4 |![TAREA4_PACIENTE_1](./Imágenes%20en%20el%20anexo/TAREA4_PACIENTE_1.png)|
+| Basal 2     |![BASAL2_PACIENTE_1](./Imágenes_Lab11/BASAL2_PACIENTE_1.png)|
+| Tarea 1     |![TAREA1_PACIENTE_1](./Imágenes_Lab11/TAREA1_PACIENTE_1.png)|
+| Tarea 2 |![TAREA2_PACIENTE_1](./Imágenes_Lab11/TAREA2_PACIENTE_1.png)|
+| Tarea 3 |![TAREA3_PACIENTE_1](./Imágenes_Lab11/TAREA3_PACIENTE_1.png)|
+| Tarea 4 |![TAREA4_PACIENTE_1](./Imágenes_Lab11/TAREA4_PACIENTE_1.png)|
 
 
 ### Paciente 2:
 | Actividad                 | Señal Filtrada                |
 |-----------------------|--------------------|
-| Basal 1               | ![BASAL1_PACIENTE_2](./Imágenes%20en%20el%20anexo/BASAL1_PACIENTE_2)|
-| Basal 2     |![BASAL2_PACIENTE_2](./Imágenes%20en%20el%20anexo/BASAL2_PACIENTE_2)|
-| Tarea 1     |![TAREA1_PACIENTE_2](./Imágenes%20en%20el%20anexo/TAREA1_PACIENTE_2)|
-| Tarea 2 |![TAREA2_PACIENTE_2](./Imágenes%20en%20el%20anexo/TAREA2_PACIENTE_2)|
-| Tarea 3 |![TAREA3_PACIENTE_2](./Imágenes%20en%20el%20anexo/TAREA3_PACIENTE_2)|
-| Tarea 4 |![TAREA4_PACIENTE_2](./Imágenes%20en%20el%20anexo/TAREA4_PACIENTE_2)|
+| Basal 1               | ![BASAL1_PACIENTE_2](./Imágenes_Lab11/BASAL1_PACIENTE_2)|
+| Basal 2     |![BASAL2_PACIENTE_2](./Imágenes_Lab11/BASAL2_PACIENTE_2)|
+| Tarea 1     |![TAREA1_PACIENTE_2](./Imágenes_Lab11/TAREA1_PACIENTE_2)|
+| Tarea 2 |![TAREA2_PACIENTE_2](./Imágenes_Lab11/TAREA2_PACIENTE_2)|
+| Tarea 3 |![TAREA3_PACIENTE_2](./Imágenes_Lab11/TAREA3_PACIENTE_2)|
+| Tarea 4 |![TAREA4_PACIENTE_2](./Imágenes_Lab11/TAREA4_PACIENTE_2)|
 
 
 ## 2. Preprocesamiento
