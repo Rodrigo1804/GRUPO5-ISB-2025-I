@@ -60,8 +60,26 @@ El rango de edad de quiénes se obtendrá los datos debe variar de entre 18 a 24
  <img src="./Imagenes en el anexo/Aaron_moderado_extensor.png" width="800"/>
  <img src="./Imagenes en el anexo/Aaron_intenso_extensor.png" width="800"/>
  
- 
 ### Flexor:
+- Persona 1:
+ <img src="./Imagenes en el anexo/Wen_reposo_flexor.png" width="850"/>
+ <img src="./Imagenes en el anexo/Wen_moderado_flexor.png" width="800"/>
+ <img src="./Imagenes en el anexo/Wen_intenso_flexor.png" width="800"/>
+ 
+- Persona 2:
+ <img src="./Imagenes en el anexo/Ecos_reposo_flexor.png" width="800"/>
+ <img src="./Imagenes en el anexo/Ecos_moderado_flexor.png" width="800"/>
+ <img src="./Imagenes en el anexo/Ecos_intenso_flexor.png" width="800"/>
+
+ - Persona 3:
+ <img src="./Imagenes en el anexo/Gaby_reposo_flexor.png" width="800"/>
+ <img src="./Imagenes en el anexo/Gaby_moderado_flexor.png" width="800"/>
+ <img src="./Imagenes en el anexo/Gaby_intenso_flexor.png" width="800"/>
+
+ - Persona 4:
+ <img src="./Imagenes en el anexo/Aaron_reposo_flexor.png" width="800"/>
+ <img src="./Imagenes en el anexo/Aaron_moderado_flexor.png" width="800"/>
+ <img src="./Imagenes en el anexo/Aaron_intenso_flexor.png" width="800"/>
 ## Discusión y próximos pasos
 
 
