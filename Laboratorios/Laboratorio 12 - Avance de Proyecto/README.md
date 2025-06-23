@@ -39,7 +39,9 @@ El rango de edad de quiénes se obtendrá los datos debe variar de entre 18 a 24
   * Sesión de uso intensivo: 8 a 24 minutos (24 a 26 minutos se toman las medidas con BITalino)
 
 ## Resultados obtenidos 
-
+### Extensor:
+ <img src="./Imágenes en el anexo/Wen_Resposo_extensor.png" width="800"/>  
+### Flexor:
 ## Discusión y próximos pasos
 
 
