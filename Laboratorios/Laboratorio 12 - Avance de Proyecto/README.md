@@ -23,6 +23,7 @@ El rango de edad de quiénes se obtendrá los datos debe variar de entre 18 a 24
   * Electrodos de superficie autoadhesivos.
   * Smartphone propio del participante (uso natural).
   * Software de registro: OpenSignals, MATLAB o Python.
+  * Aplicación de la transformada wavelet discreta (DWT)
 
   **Músculos evaluados**
   * Extensor radial largo del carpo – estabiliza muñeca en agarre.
