@@ -40,8 +40,10 @@ El rango de edad de quiénes se obtendrá los datos debe variar de entre 18 a 24
 
 ## Resultados obtenidos 
 ### Extensor:
-
- <img src="./Imagenes en el anexo/Wen_reposo_extensor.png" width="800"/>  
+- Persona 1:
+ <img src="./Imagenes en el anexo/Wen_reposo_extensor.png" width="800"/>
+ <img src="./Imagenes en el anexo/Wen_moderado_extensor.png" width="800"/>
+ <img src="./Imagenes en el anexo/Wen_intenso_extensor.png" width="800"/>  
  
 ### Flexor:
 ## Discusión y próximos pasos
