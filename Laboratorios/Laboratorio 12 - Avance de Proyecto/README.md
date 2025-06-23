@@ -91,4 +91,5 @@ Específicamente, se aplicó una descomposición por wavelet discreta (DWT) util
 
 ## Discusión y próximos pasos
 
-
+## Referencias
+[1]  Y. Ouyang, Z. Deng, Y. Yin, X. Wu, y Z. Chen, "An improved wavelet threshold denoising approach for surface electromyography signal," EURASIP Journal on Advances in Signal Processing, vol. 2023, no. 1, p. 10, Jan. 2023. https://doi.org/10.1186/s13634-023-01066-3
