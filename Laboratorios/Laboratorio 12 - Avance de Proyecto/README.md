@@ -80,6 +80,7 @@ El rango de edad de quiénes se obtendrá los datos debe variar de entre 18 a 24
  <img src="./Imagenes en el anexo/Aaron_reposo_flexor.png" width="800"/>
  <img src="./Imagenes en el anexo/Aaron_moderado_flexor.png" width="800"/>
  <img src="./Imagenes en el anexo/Aaron_intenso_flexor.png" width="800"/>
+
 ## Discusión y próximos pasos
 
 
