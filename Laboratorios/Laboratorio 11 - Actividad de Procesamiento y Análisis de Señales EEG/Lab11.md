@@ -70,9 +70,31 @@ Para el laboratorio nos basaremos en la data del primer y segundo sujeto analiza
 ## 4. Optimización y Selección de Features
 **Objetivo:** integrar y analizar los datos a través de observaciones temporales, frecuenciales y espaciales empleando MNE Python (Epochs, Evoked, montage, interpolate_bads).
 
+## 5. Resultados PCA
+
+**Resultados obtenidos**
+### Paciente 1:
+| Actividad                 | PCA Obtenido               |
+|-----------------------|--------------------|
+| Basal 1               | ![BASAL1_PACIENTE_1](./Imágenes_Lab11/BASAL_1_PACIENTE_1_PCA.png)|
+| Basal 2     |![BASAL2_PACIENTE_1](./Imágenes_Lab11/BASAL_2_PACIENTE_1_PCA.png)|
+| Tarea 1     |![TAREA1_PACIENTE_1](./Imágenes_Lab11/TAREA_1_PACIENTE_1_PCA.png)|
+| Tarea 2 |![TAREA2_PACIENTE_1](./Imágenes_Lab11/TAREA_2_PACIENTE_1_PCA.png)|
+| Tarea 3 |![TAREA3_PACIENTE_1](./Imágenes_Lab11/TAREA_3_PACIENTE_1_PCA.png)|
+| Tarea 4 |![TAREA4_PACIENTE_1](./Imágenes_Lab11/TAREA_4_PACIENTE_1_PCA.png)|
 
 
-## 5. Discusión
+### Paciente 2:
+| Actividad                 | PCA Obtenido               |
+|-----------------------|--------------------|
+| Basal 1               | ![BASAL1_PACIENTE_2](./Imágenes_Lab11/BASAL_1_PACIENTE_2_PCA.png)|
+| Basal 2     |![BASAL2_PACIENTE_2](./Imágenes_Lab11/BASAL_2_PACIENTE_2_PCA.png)|
+| Tarea 1     |![TAREA1_PACIENTE_2](./Imágenes_Lab11/TAREA_1_PACIENTE_2_PCA.png)|
+| Tarea 2 |![TAREA2_PACIENTE_2](./Imágenes_Lab11/TAREA_2_PACIENTE_2_PCA.png)|
+| Tarea 3 |![TAREA3_PACIENTE_2](./Imágenes_Lab11/TAREA_3_PACIENTE_2_PCA.png)|
+| Tarea 4 |![TAREA4_PACIENTE_2](./Imágenes_Lab11/TAREA_4_PACIENTE_2_PCA.png)|
 
-## 6. Referencias
+## 6. Discusión
+
+## 7. Referencias
 [1] Schalk, G., McFarland, D.J., Hinterberger, T., Birbaumer, N., Wolpaw, J.R. BCI2000: A General-Purpose Brain-Computer Interface (BCI) System. IEEE Transactions on Biomedical Engineering 51(6):1034-1043, 2004.
