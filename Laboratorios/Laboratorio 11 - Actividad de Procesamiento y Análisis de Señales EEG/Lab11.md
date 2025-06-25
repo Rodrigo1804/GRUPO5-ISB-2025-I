@@ -5,7 +5,7 @@
 2. [Preprocesamiento](#2-preprocesamiento)
 3. [Extracción de Características](#3-extracción-de-características)
 4. [Optimización y Selección de Features](#4-optimización-y-selección-de-features)
-5. [Resultados y Visualizaciones](#6-resultados-y-visualizaciones)
+5. [Discusión](#6-discusion)
 6. [Referencias](#7-referencias)
 
 
@@ -72,7 +72,7 @@ Para el laboratorio nos basaremos en la data del primer y segundo sujeto analiza
 
 
 
-## 5. Resultados y Visualizaciones
+## 5. Discusión
 
 ## 6. Referencias
 [1] Schalk, G., McFarland, D.J., Hinterberger, T., Birbaumer, N., Wolpaw, J.R. BCI2000: A General-Purpose Brain-Computer Interface (BCI) System. IEEE Transactions on Biomedical Engineering 51(6):1034-1043, 2004.
