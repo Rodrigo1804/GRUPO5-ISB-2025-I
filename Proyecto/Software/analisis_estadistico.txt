@@ -1,0 +1,136 @@
+
+==============================
+Análisis estadístico — Extensor
+==============================
+
+▶ RMS:
+    Shapiro Reposo: p = 0.008
+    Shapiro Moderado: p = 0.995
+    Shapiro Intenso: p = 0.918
+    Levene homoced.: p = 0.615
+    Friedman: χ² = 6.000, p = 0.050
+
+▶ MAV:
+    Shapiro Reposo: p = 0.003
+    Shapiro Moderado: p = 0.551
+    Shapiro Intenso: p = 0.781
+    Levene homoced.: p = 0.790
+    Friedman: χ² = 4.500, p = 0.105
+
+▶ WL:
+    Shapiro Reposo: p = 0.009
+    Shapiro Moderado: p = 0.120
+    Shapiro Intenso: p = 0.917
+    Levene homoced.: p = 0.861
+    Friedman: χ² = 2.000, p = 0.368
+
+▶ ZC:
+    Shapiro Reposo: p = 0.054
+    Shapiro Moderado: p = 0.707
+    Shapiro Intenso: p = 0.684
+    Levene homoced.: p = 0.745
+    ANOVA: F = 1.997, p = 0.192
+
+▶ SSC:
+    Shapiro Reposo: p = 0.575
+    Shapiro Moderado: p = 0.879
+    Shapiro Intenso: p = 0.974
+    Levene homoced.: p = 0.732
+    ANOVA: F = 2.876, p = 0.108
+
+▶ WAMP:
+    Shapiro Reposo: p = 0.012
+    Shapiro Moderado: p = 0.380
+    Shapiro Intenso: p = 0.712
+    Levene homoced.: p = 0.822
+    Friedman: χ² = 2.000, p = 0.368
+
+▶ MNF:
+    Shapiro Reposo: p = 0.010
+    Shapiro Moderado: p = 0.075
+    Shapiro Intenso: p = 0.687
+    Levene homoced.: p = 0.795
+    Friedman: χ² = 2.000, p = 0.368
+
+▶ MDF:
+    Shapiro Reposo: p = 0.005
+    Shapiro Moderado: p = 0.110
+    Shapiro Intenso: p = 0.685
+    Levene homoced.: p = 0.834
+    Friedman: χ² = 2.000, p = 0.368
+
+▶ Power:
+    Shapiro Reposo: p = 0.002
+    Shapiro Moderado: p = 0.179
+    Shapiro Intenso: p = 0.446
+    Levene homoced.: p = 0.988
+    Friedman: χ² = 2.000, p = 0.368
+
+==============================
+Análisis estadístico — Flexor
+==============================
+
+▶ RMS:
+    Shapiro Reposo: p = 0.367
+    Shapiro Moderado: p = 0.979
+    Shapiro Intenso: p = 0.554
+    Levene homoced.: p = 0.196
+    ANOVA: F = 13.568, p = 0.002
+
+▶ MAV:
+    Shapiro Reposo: p = 0.365
+    Shapiro Moderado: p = 0.823
+    Shapiro Intenso: p = 0.477
+    Levene homoced.: p = 0.145
+    ANOVA: F = 11.850, p = 0.003
+
+▶ WL:
+    Shapiro Reposo: p = 0.096
+    Shapiro Moderado: p = 0.117
+    Shapiro Intenso: p = 0.962
+    Levene homoced.: p = 0.101
+    ANOVA: F = 9.079, p = 0.007
+
+▶ ZC:
+    Shapiro Reposo: p = 0.042
+    Shapiro Moderado: p = 0.155
+    Shapiro Intenso: p = 0.141
+    Levene homoced.: p = 0.364
+    Friedman: χ² = 6.500, p = 0.039
+
+▶ SSC:
+    Shapiro Reposo: p = 0.892
+    Shapiro Moderado: p = 0.772
+    Shapiro Intenso: p = 0.138
+    Levene homoced.: p = 0.258
+    ANOVA: F = 27.515, p = 0.000
+
+▶ WAMP:
+    Shapiro Reposo: p = 0.253
+    Shapiro Moderado: p = 0.186
+    Shapiro Intenso: p = 0.645
+    Levene homoced.: p = 0.238
+    ANOVA: F = 18.686, p = 0.001
+
+▶ MNF:
+    Shapiro Reposo: p = 0.016
+    Shapiro Moderado: p = 0.538
+    Shapiro Intenso: p = 0.341
+    Levene homoced.: p = 0.456
+    Friedman: χ² = 6.500, p = 0.039
+
+▶ MDF:
+    Shapiro Reposo: p = 0.015
+    Shapiro Moderado: p = 0.356
+    Shapiro Intenso: p = 0.329
+    Levene homoced.: p = 0.508
+    Friedman: χ² = 6.500, p = 0.039
+
+▶ Power:
+    Shapiro Reposo: p = 0.268
+    Shapiro Moderado: p = 0.937
+    Shapiro Intenso: p = 0.802
+    Levene homoced.: p = 0.090
+    ANOVA: F = 3.983, p = 0.058
+
+¡Análisis completado! (detalle en analisis_estadistico.txt)
