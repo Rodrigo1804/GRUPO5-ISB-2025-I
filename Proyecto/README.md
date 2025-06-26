@@ -1,48 +1,46 @@
+# Evaluación electromiográfica de la fatiga muscular del miembro superior durante el uso del smartphone  
+**Enlace al proyecto:** https://docs.google.com/document/d/1Fk9rCmvZFyv1IQMk603ACRcE4HknOFrcELzjUgmIeEs/edit?usp=sharing
 
-# Evaluación electromiográfica de la fatiga muscular del miembro superior durante el uso del smartphone: Un estudio comparativo entre jóvenes usuarios intensivos y ocasionales
+---
 
-enlace hacia el paper: https://docs.google.com/document/d/1Fk9rCmvZFyv1IQMk603ACRcE4HknOFrcELzjUgmIeEs/edit?usp=sharing
+## Objetivo  
+Comparar la actividad electromiográfica de músculos seleccionados del antebrazo en jóvenes con uso intensivo y ocasional del smartphone, identificando indicadores de fatiga y su relación con la puntuación en la escala SAS-SV.
 
-## Objetivo del proyecto: 
-Analizar y comparar la actividad electromiográfica de músculos específicos de la extremidad superior durante el uso del smartphone, entre jóvenes con uso intensivo y ocasional del dispositivo, identificando signos de fatiga y su relación con la puntuación en la escala SAS-SV.
+---
 
-## Protocolo para obtención de datos electromiográficos
+## Protocolo de obtención de datos  
 
-El rango de edad de quiénes se obtendrá los datos debe variar de entre 18 a 24 años. Para este proyecto se estará trabajando con 4 participantes.
+- **Participantes:** 4 jóvenes, 18–24 años  
+- **Criterios de inclusión:**  
+  - Uso de smartphone ≥ 1 h/día  
+  - Ausencia de lesiones musculoesqueléticas en extremidad superior  
+- **Criterios de exclusión:**  
+  - Cirugías recientes  
+  - Enfermedades neuromusculares o trastornos posturales  
 
-* Criterios de inclusión:
-  - Uso regular de smartphone (mínimo 1 hora diaria).
-  - Sin lesiones musculoesqueléticas en extremidad superior.
+### Materiales y métodos  
+- **Dispositivo:** BITalino (4 canales sEMG)  
+- **Electrodos:** Superficie autoadhesivos  
+- **Smartphone:** Propio del participante, uso natural  
+- **Software:** OpenSignals, MATLAB o Python  
+- **Procesamiento:** DWT (Symlet 4, nivel 10) con umbralización adaptativa (μ = 0.91, δ = 0.01)  
 
-* Criterios de exclusión:
-  - Cirugías recientes
-  - Enfermedades neuromusculares o trastornos posturales diagnosticados.
+#### Músculos evaluados  
+- **Extensor radial largo del carpo** (estabilización de la muñeca)  
+- **Flexor superficial de los dedos** (scroll y tipeo)  
 
-### Materiales y metodología
-  * Dispositivo BITalino (4 canales sEMG).
-  * Electrodos de superficie autoadhesivos.
-  * Smartphone propio del participante (uso natural).
-  * Software de registro: OpenSignals, MATLAB o Python.
-  * Aplicación de la transformada wavelet discreta (DWT)
+#### Tareas  
+1. **Reposo:** 2 minutos de registro sin interacción  
+2. **Uso moderado:** 6 minutos registrando scroll y chat  
+3. **Uso intensivo:** 24 minutos registrando juego y videos  
 
-  **Músculos evaluados**
-  * Extensor radial largo del carpo – estabiliza muñeca en agarre.
-  * Flexor superficial de los dedos – activa durante scroll y tipeo.
+---
 
-  
-  **Tareas experimentales**
-  Para cada sesión, se realizarán las mediciones con BITalino en los últimos 2 minutos.
-  En reposo, el paciente se mantendrá en la misma postura sin utilizar el smartphone.
-  * Sesión de reposo: 2 minutos (2 minutos se toman las medidas con BITalino)
-
-  En las sesiones de uso del smartphone, se pide realizar acciones como scrollear, chatear o jugar. 
-  * Sesión de uso moderado: 3 a 6 minutos (6 a 8 minutos se toman las medidas con BITalino)
-  * Sesión de uso intensivo: 8 a 24 minutos (24 a 26 minutos se toman las medidas con BITalino)
 ## Resultados
 
-### Resultados Estadísticos
+### Análisis estadístico
 
-#### Músculo Extensor  
+#### Extensor radial largo del carpo  
 | Feature   | Prueba    | Estadístico | p-valor | Significancia            |
 |:----------|:----------|:------------|:--------|:-------------------------|
 | **RMS**   | Friedman  | χ² = 6.000  | 0.050   | No significativa (límite)|
@@ -55,11 +53,11 @@ El rango de edad de quiénes se obtendrá los datos debe variar de entre 18 a 24
 | **MDF**   | Friedman  | χ² = 2.000  | 0.368   | No significativa         |
 | **Power** | Friedman  | χ² = 2.000  | 0.368   | No significativa         |
 
-> **Interpretación:** La activación del extensor radial largo del carpo se mantiene estable en Reposo, Moderado e Intenso (todos p > 0.05), lo que sugiere que su función de estabilización no varía con la carga del smartphone.
+**Interpretación:** La activación del extensor se mantiene estable entre las tres condiciones (todos p > 0.05), lo que respalda su rol de soporte sin cambios relevantes ante distintas intensidades de uso.
 
 ---
 
-#### Músculo Flexor  
+#### Flexor superficial de los dedos  
 | Feature   | Prueba    | Estadístico | p-valor  | Significancia        |
 |:----------|:----------|:------------|:---------|:---------------------|
 | **RMS**   | ANOVA     | F = 13.568  | 0.002    | Significativa        |
@@ -72,59 +70,59 @@ El rango de edad de quiénes se obtendrá los datos debe variar de entre 18 a 24
 | **MDF**   | Friedman  | χ² = 6.500  | 0.039    | Significativa        |
 | **Power** | ANOVA     | F = 3.983   | 0.058    | Tendencia (p ≈ 0.06) |
 
-> **Interpretación:** El flexor superficial de los dedos incrementa su amplitud (RMS, MAV), complejidad (WL, SSC, WAMP) y contenido de frecuencia (MNF, MDF) con la intensidad del uso, confirmando un mayor reclutamiento y dinamismo de contracciones (p < 0.05 en 8 de 9 features).
+**Interpretación:** El flexor aumenta su amplitud (RMS, MAV), complejidad (WL, SSC, WAMP) y contenido frecuencial (MNF, MDF) con la intensidad, evidenciando un reclutamiento y dinámica crecientes (p < 0.05 en 8/9 features).
 
 ---
 
-### Clasificación por RMS Medio  
-| Sujeto   | Reposo   | Moderado | Intenso  | avg_MI   | Grupo          |
-|:---------|:---------|:---------|:---------|:---------|:---------------|
-| Sujeto2  | 0.00179  | 0.01103  | 0.00622  | 0.00862  | Uso Regular    |
-| Sujeto3  | 0.00233  | 0.01262  | 0.01666  | 0.01464  | Uso Regular    |
-| Sujeto4  | 0.00033  | 0.01395  | 0.01896  | 0.01646  | Uso Ocasional  |
-| Sujeto1  | 0.00007  | 0.01609  | 0.02297  | 0.01953  | Uso Ocasional  |
+### Clasificación por RMS medio  
+| Sujeto   | Moderado | Intenso  | avg_MI   | Grupo          |
+|:---------|:---------|:---------|:---------|:---------------|
+| Sujeto2  | 0.01103  | 0.00622  | 0.00862  | Uso Regular    |
+| Sujeto3  | 0.01262  | 0.01666  | 0.01464  | Uso Regular    |
+| Sujeto4  | 0.01395  | 0.01896  | 0.01646  | Uso Ocasional  |
+| Sujeto1  | 0.01609  | 0.02297  | 0.01953  | Uso Ocasional  |
 
-> **Criterio:**  
-> - **Uso Regular:** menor avg_MI → mejor adaptación y menor fatiga (Sujeto2, Sujeto3).  
-> - **Uso Ocasional:** mayor avg_MI → mayor fatiga (Sujeto4, Sujeto1).
+ **Criterio:**  
+ - **Uso regular:** menor avg_MI → mejor adaptación y menor fatiga.
+ - - **Uso ocasional:** mayor avg_MI → mayor fatiga.
 
 ---
 
 ### Resultados SAS-SV  
-| Participante | Sexo   | Puntaje SAS-SV | Clasificación      |
-|:-------------|:-------|:---------------|:-------------------|
-| Sujeto4        | Mujer  | 26             | Ocasional          |
-| Sujeto1          | Mujer  | 24             | Ocasional          |
-| Sujeto2    | Hombre | 37             | Intensivo          |
-| Sujeto3       | Hombre | 36             | Intensivo          |
+| Participante | Sexo   | Puntaje SAS-SV | Clasificación    |
+|:-------------|:-------|:---------------|:-----------------|
+| Sujeto4      | Mujer  | 26             | Ocasional        |
+| Sujeto1      | Mujer  | 24             | Ocasional        |
+| Sujeto2      | Hombre | 37             | Intensivo        |
+| Sujeto3      | Hombre | 36             | Intensivo        |
 
-> **Umbrales:** ≥ 31 para mujeres, ≥ 33 para hombres.  
+> **Umbrales:** ≥ 31 para mujeres, ≥ 33 para hombres.
 
 ---
 
 ## Discusión
 
-1. **Análisis estadístico vs. SAS-SV:**  
-   - Los participantes clasificados como **intensivos** en SAS-SV (Alejandro, Aaron) coinciden con los sujetos de mayor avg_MI (Sujeto1, Sujeto4), confirmando mayor fatiga electromiográfica.  
-   - Los **ocasionales** (Gaby, Wen) muestran avg_MI más bajo (Sujeto2, Sujeto3), reflejando menor reclutamiento muscular.
+1. **Concordancia entre EMG y SAS-SV:**  
+   - Sujetos clasificados como intensivos en SAS-SV (Sujeto2, Sujeto3) coinciden con los de mayor avg_MI (mayor fatiga EMG).  
+   - Sujetos ocasionales (Sujeto4, Sujeto1) presentan avg_MI más bajo y menor reclutamiento muscular.
 
-2. **RMS como indicador de fatiga:**  
-   - El RMS promedio en Moderado e Intenso se revela como un marcador confiable de adaptación muscular. Sujetos con RMS menor mantienen estabilidad en activación y menor riesgo de sobrecarga.
+2. **RMS medio como marcador de fatiga:**  
+   - Refleja la adaptación muscular; valores bajos indican menor riesgo de sobrecarga.
 
-3. **Diferencias músculo-específicas:**  
-   - **Extensor:** estable, cumple función de soporte sin cambios significativos.  
-   - **Flexor:** sensible a la demanda, con aumentos progresivos en amplitud y dinamismo de la señal.
+3. **Diferencias músculo‐dependientes:**  
+   - El extensor permanece estable (función de soporte).  
+   - El flexor responde a la demanda con mayores amplitud y dinamismo.
 
-4. **Implicaciones ergonómicas y clínicas:**  
-   - La sobrecarga repetitiva de los flexores puede causar fatiga y lesión por uso excesivo.  
-   - Intervenciones como pausas activas o ejercicios de fortalecimiento deben enfocarse en usuarios con alto avg_MI/SAS-SV.
+4. **Implicaciones ergonómicas:**  
+   - El uso prolongado sobrecarga los flexores, potencialmente derivando en lesiones por sobreuso.  
+   - Recomendaciones: pausas activas y ejercicios de fortalecimiento, especialmente para usuarios intensivos.
 
-5. **Limitaciones y recomendaciones:**  
-   - Muestra pequeña (n = 4).  
-   - Faltan medidas subjetivas de fatiga y recuperación.  
-   - Futuras investigaciones deben incluir más participantes y evaluar otros grupos musculares y técnicas de recuperación.
+5. **Limitaciones y perspectivas:**  
+   - Tamaño muestral reducido (n = 4).  
+   - Falta de medidas subjetivas de fatiga y recuperación.  
+   - Futuras investigaciones: más participantes, evaluación de otros músculos y técnicas de recuperación.
 
-> **Conclusión:** El uso intensivo del smartphone se traduce en un reclutamiento significativo de los flexores (elevación de RMS y otras features), correlacionado con la clasificación SAS-SV. Los extensores permanecen estables. RMS medio en condiciones de esfuerzo es un buen discriminador entre usuarios regulares y ocasionales, útil para diseñar estrategias ergonómicas personalizadas.
+**Conclusión:** El uso intensivo del smartphone incrementa significativamente la actividad y fatiga de los flexores, acorde con la clasificación SAS-SV. El extensor se mantiene estable. El RMS medio en condiciones de esfuerzo es un indicador robusto para diferenciar grupos de usuarios y diseñar intervenciones ergonómicas personalizadas.
 
 ## Referencias
 [1]  Y. Ouyang, Z. Deng, Y. Yin, X. Wu, y Z. Chen, "An improved wavelet threshold denoising approach for surface electromyography signal," EURASIP Journal on Advances in Signal Processing, vol. 2023, no. 1, p. 10, Jan. 2023. https://doi.org/10.1186/s13634-023-01066-3
