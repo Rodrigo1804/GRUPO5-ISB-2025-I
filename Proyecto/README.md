@@ -1,7 +1,7 @@
-# Laboratorio 12: Avance del proyecto
+
 # Evaluación electromiográfica de la fatiga muscular del miembro superior durante el uso del smartphone: Un estudio comparativo entre jóvenes usuarios intensivos y ocasionales
 
-link del paper: https://docs.google.com/document/d/1Fk9rCmvZFyv1IQMk603ACRcE4HknOFrcELzjUgmIeEs/edit?usp=sharing
+enlace hacia el paper: https://docs.google.com/document/d/1Fk9rCmvZFyv1IQMk603ACRcE4HknOFrcELzjUgmIeEs/edit?usp=sharing
 
 ## Objetivo del proyecto: 
 Analizar y comparar la actividad electromiográfica de músculos específicos de la extremidad superior durante el uso del smartphone, entre jóvenes con uso intensivo y ocasional del dispositivo, identificando signos de fatiga y su relación con la puntuación en la escala SAS-SV.
@@ -48,46 +48,9 @@ Específicamente, se aplicó una descomposición por wavelet discreta (DWT) util
 | Symlet 4 (`sym4`)            | 10     | Umbral adaptativo por nivel (`λ_j`)          | Función mejorada  | A10                         | D1, D2, D3, D4, D5, D6, D7, D8, D9, D10 (cada uno umbralizado con `f_i(x, λ_j)`) |
 
 ### Extensor:
-- Persona 1:
- <img src="./Imagenes en el anexo/Wen_reposo_extensor.png" width="800"/>
- <img src="./Imagenes en el anexo/Wen_moderado_extensor.png" width="800"/>
- <img src="./Imagenes en el anexo/Wen_intenso_extensor.png" width="800"/>
- 
-- Persona 2:
- <img src="./Imagenes en el anexo/Ecos_reposo_extensor.png" width="800"/>
- <img src="./Imagenes en el anexo/Ecos_moderado_extensor.png" width="800"/>
- <img src="./Imagenes en el anexo/Ecos_intenso_extensor.png" width="800"/>
 
- - Persona 3:
- <img src="./Imagenes en el anexo/Gaby_reposo_extensor.png" width="800"/>
- <img src="./Imagenes en el anexo/Gaby_moderado_extensor.png" width="800"/>
- <img src="./Imagenes en el anexo/Gaby_intenso_extensor.png" width="800"/>
-
- - Persona 4:
- <img src="./Imagenes en el anexo/Aaron_reposo_extensor.png" width="800"/>
- <img src="./Imagenes en el anexo/Aaron_moderado_extensor.png" width="800"/>
- <img src="./Imagenes en el anexo/Aaron_intenso_extensor.png" width="800"/>
  
 ### Flexor:
-- Persona 1:
- <img src="./Imagenes en el anexo/Wen_reposo_flexor.png" width="800"/>
- <img src="./Imagenes en el anexo/Wen_moderado_flexor.png" width="800"/>
- <img src="./Imagenes en el anexo/Wen_intenso_flexor.png" width="800"/>
- 
-- Persona 2:
- <img src="./Imagenes en el anexo/Ecos_reposo_flexor.png" width="800"/>
- <img src="./Imagenes en el anexo/Ecos_moderado_flexor.png" width="800"/>
- <img src="./Imagenes en el anexo/Ecos_intenso_flexor.png" width="800"/>
-
- - Persona 3:
- <img src="./Imagenes en el anexo/Gaby_reposo_flexor.png" width="800"/>
- <img src="./Imagenes en el anexo/Gaby_moderado_flexor.png" width="800"/>
- <img src="./Imagenes en el anexo/Gaby_intenso_flexor.png" width="800"/>
-
- - Persona 4:
- <img src="./Imagenes en el anexo/Aaron_reposo_flexor.png" width="800"/>
- <img src="./Imagenes en el anexo/Aaron_moderado_flexor.png" width="800"/>
- <img src="./Imagenes en el anexo/Aaron_intenso_flexor.png" width="800"/>
 
 ## Resultados del test SAS-SV
 
