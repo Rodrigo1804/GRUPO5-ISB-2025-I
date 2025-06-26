@@ -56,10 +56,10 @@ Específicamente, se aplicó una descomposición por wavelet discreta (DWT) util
 
 | Participante | Sexo    | Puntaje SAS-SV | Clasificación         |
 |--------------|---------|----------------|------------------------|
-| Gaby         | Mujer   | 26             | Usuario intensivo     |
-| Wen          | Mujer   | 24             | Usuario intensivo     |
-| Alejandro    | Hombre  | 37             | Usuario ocasional     |
-| Aaron        | Hombre  | 36             | Usuario ocasional     |
+| Gaby         | Mujer   | 26             | Usuario ocasional     |
+| Wen          | Mujer   | 24             | Usuario ocasional    |
+| Alejandro    | Hombre  | 37             | Usuario intensivo     |
+| Aaron        | Hombre  | 36             | Usuario intensivo    |
 
 
 Con base en los puntajes obtenidos en la escala Smartphone Addiction Scale - Short Version (SAS-SV) y el análisis visual de la actividad electromiográfica (EMG), se clasificó a los participantes en dos grupos:
