@@ -93,15 +93,15 @@ Específicamente, se aplicó una descomposición por wavelet discreta (DWT) util
 
 | Participante | Sexo    | Puntaje SAS-SV | Clasificación         |
 |--------------|---------|----------------|------------------------|
-| Gaby         | Mujer   | 37             | Usuario intensivo     |
-| Wen          | Mujer   | 35             | Usuario intensivo     |
-| Alejandro    | Hombre  | 26             | Usuario ocasional     |
-| Aaron        | Hombre  | 24             | Usuario ocasional     |
+| Gaby         | Mujer   | 26             | Usuario intensivo     |
+| Wen          | Mujer   | 24             | Usuario intensivo     |
+| Alejandro    | Hombre  | 37             | Usuario ocasional     |
+| Aaron        | Hombre  | 36             | Usuario ocasional     |
 
 
 Con base en los puntajes obtenidos en la escala Smartphone Addiction Scale - Short Version (SAS-SV) y el análisis visual de la actividad electromiográfica (EMG), se clasificó a los participantes en dos grupos:
-- Usuarios intensivos: Gaby y Wen
-- Usuarios ocasionales: Alejandro y Aaron
+- Usuarios intensivos: Alejandro y Aaron
+- Usuarios ocasionales: Gaby y Wen
 
 Las participantes clasificadas como usuarias intensivas superaron el umbral de 31 puntos establecido para mujeres, mientras que los varones estuvieron por debajo del umbral de 33 puntos, confirmando su clasificación como usuarios ocasionales. Esta categorización se corresponde con los patrones de activación muscular observados en las señales EMG, donde Gaby y Wen presentaron mayor frecuencia y amplitud de contracciones, especialmente en el flexor superficial de los dedos, durante las sesiones prolongadas de uso del smartphone.
 
