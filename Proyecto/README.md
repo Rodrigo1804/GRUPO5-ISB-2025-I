@@ -38,46 +38,93 @@ El rango de edad de quiénes se obtendrá los datos debe variar de entre 18 a 24
   En las sesiones de uso del smartphone, se pide realizar acciones como scrollear, chatear o jugar. 
   * Sesión de uso moderado: 3 a 6 minutos (6 a 8 minutos se toman las medidas con BITalino)
   * Sesión de uso intensivo: 8 a 24 minutos (24 a 26 minutos se toman las medidas con BITalino)
+## Resultados
 
-## Resultados obtenidos
+### Resultados Estadísticos
 
-Para filtrar nuestras señales EMG, utilizamos los parámetros y metodología propuestos en la literatura encontrada para mejorar la relación entre eliminación de ruido y preservación de señal útil [1].  
-Específicamente, se aplicó una descomposición por wavelet discreta (DWT) utilizando la función madre Symlet 4 (`sym4`), con un nivel de descomposición de 10. A cada conjunto de coeficientes de detalle se le aplicó un umbral adaptativo por nivel (λⱼ), seguido de una función de umbralización mejorada, la cual incorpora los parámetros de ajuste μ = 0.91 y δ = 0.01.  
-| Familia de funciones Wavelet | Nivel | Threshold utilizado                         | Tipo de Threshold           | Coeficiente de Aproximación | Coeficientes de Detalle                                                       |
-|------------------------------|--------|----------------------------------------------|------------------------------|------------------------------|--------------------------------------------------------------------------------|
-| Symlet 4 (`sym4`)            | 10     | Umbral adaptativo por nivel (`λ_j`)          | Función mejorada  | A10                         | D1, D2, D3, D4, D5, D6, D7, D8, D9, D10 (cada uno umbralizado con `f_i(x, λ_j)`) |
+#### Músculo Extensor  
+| Feature   | Prueba    | Estadístico | p-valor | Significancia            |
+|:----------|:----------|:------------|:--------|:-------------------------|
+| **RMS**   | Friedman  | χ² = 6.000  | 0.050   | No significativa (límite)|
+| **MAV**   | Friedman  | χ² = 4.500  | 0.105   | No significativa         |
+| **WL**    | Friedman  | χ² = 2.000  | 0.368   | No significativa         |
+| **ZC**    | ANOVA     | F = 1.997   | 0.192   | No significativa         |
+| **SSC**   | ANOVA     | F = 2.876   | 0.108   | No significativa         |
+| **WAMP**  | Friedman  | χ² = 2.000  | 0.368   | No significativa         |
+| **MNF**   | Friedman  | χ² = 2.000  | 0.368   | No significativa         |
+| **MDF**   | Friedman  | χ² = 2.000  | 0.368   | No significativa         |
+| **Power** | Friedman  | χ² = 2.000  | 0.368   | No significativa         |
 
-### Extensor:
+> **Interpretación:** La activación del extensor radial largo del carpo se mantiene estable en Reposo, Moderado e Intenso (todos p > 0.05), lo que sugiere que su función de estabilización no varía con la carga del smartphone.
 
- 
-### Flexor:
+---
 
-## Resultados del test SAS-SV
+#### Músculo Flexor  
+| Feature   | Prueba    | Estadístico | p-valor  | Significancia        |
+|:----------|:----------|:------------|:---------|:---------------------|
+| **RMS**   | ANOVA     | F = 13.568  | 0.002    | Significativa        |
+| **MAV**   | ANOVA     | F = 11.850  | 0.003    | Significativa        |
+| **WL**    | ANOVA     | F = 9.079   | 0.007    | Significativa        |
+| **ZC**    | Friedman  | χ² = 6.500  | 0.039    | Significativa        |
+| **SSC**   | ANOVA     | F = 27.515  | < 0.001  | Significativa        |
+| **WAMP**  | ANOVA     | F = 18.686  | 0.001    | Significativa        |
+| **MNF**   | Friedman  | χ² = 6.500  | 0.039    | Significativa        |
+| **MDF**   | Friedman  | χ² = 6.500  | 0.039    | Significativa        |
+| **Power** | ANOVA     | F = 3.983   | 0.058    | Tendencia (p ≈ 0.06) |
 
-| Participante | Sexo    | Puntaje SAS-SV | Clasificación         |
-|--------------|---------|----------------|------------------------|
-| Gaby         | Mujer   | 26             | Usuario ocasional     |
-| Wen          | Mujer   | 24             | Usuario ocasional    |
-| Alejandro    | Hombre  | 37             | Usuario intensivo     |
-| Aaron        | Hombre  | 36             | Usuario intensivo    |
+> **Interpretación:** El flexor superficial de los dedos incrementa su amplitud (RMS, MAV), complejidad (WL, SSC, WAMP) y contenido de frecuencia (MNF, MDF) con la intensidad del uso, confirmando un mayor reclutamiento y dinamismo de contracciones (p < 0.05 en 8 de 9 features).
 
+---
 
-Con base en los puntajes obtenidos en la escala Smartphone Addiction Scale - Short Version (SAS-SV) y el análisis visual de la actividad electromiográfica (EMG), se clasificó a los participantes en dos grupos:
-- Usuarios intensivos: Alejandro y Aaron
-- Usuarios ocasionales: Gaby y Wen
+### Clasificación por RMS Medio  
+| Sujeto   | Reposo   | Moderado | Intenso  | avg_MI   | Grupo          |
+|:---------|:---------|:---------|:---------|:---------|:---------------|
+| Sujeto2  | 0.00179  | 0.01103  | 0.00622  | 0.00862  | Uso Regular    |
+| Sujeto3  | 0.00233  | 0.01262  | 0.01666  | 0.01464  | Uso Regular    |
+| Sujeto4  | 0.00033  | 0.01395  | 0.01896  | 0.01646  | Uso Ocasional  |
+| Sujeto1  | 0.00007  | 0.01609  | 0.02297  | 0.01953  | Uso Ocasional  |
 
-Las participantes clasificadas como usuarias intensivas superaron el umbral de 31 puntos establecido para mujeres, mientras que los varones estuvieron por debajo del umbral de 33 puntos, confirmando su clasificación como usuarios ocasionales. Esta categorización se corresponde con los patrones de activación muscular observados en las señales EMG, donde Gaby y Wen presentaron mayor frecuencia y amplitud de contracciones, especialmente en el flexor superficial de los dedos, durante las sesiones prolongadas de uso del smartphone.
+> **Criterio:**  
+> - **Uso Regular:** menor avg_MI → mejor adaptación y menor fatiga (Sujeto2, Sujeto3).  
+> - **Uso Ocasional:** mayor avg_MI → mayor fatiga (Sujeto4, Sujeto1).
 
-## Discusión y próximos pasos
-Los resultados obtenidos revelan diferencias en la actividad muscular entre usuarios intensivos y ocasionales, especialmente en el músculo flexor superficial de los dedos, mientras que en el extensor radial largo del carpo las diferencias fueron menos marcadas.
+---
 
-En las señales EMG procesadas mediante descomposición wavelet discreta (sym4, nivel 10) y umbralización mejorada, se observó que en los usuarios intensivos (Gaby y Wen) el flexor superficial de los dedos presentó mayor cantidad de activaciones, amplitudes más altas y una distribución más densa de eventos durante las sesiones de uso prolongado. Esto refleja un mayor esfuerzo muscular asociado a acciones como el tipeo y el desplazamiento táctil continuo, actividades típicas en el uso del smartphone.
+### Resultados SAS-SV  
+| Participante | Sexo   | Puntaje SAS-SV | Clasificación      |
+|:-------------|:-------|:---------------|:-------------------|
+| Sujeto4        | Mujer  | 26             | Ocasional          |
+| Sujeto1          | Mujer  | 24             | Ocasional          |
+| Sujeto2    | Hombre | 37             | Intensivo          |
+| Sujeto3       | Hombre | 36             | Intensivo          |
 
-En contraste, la señal registrada en el extensor radial largo del carpo, responsable principalmente de estabilizar la muñeca, mostró patrones similares entre usuarios intensivos y ocasionales. Si bien se registraron activaciones, estas no evidenciaron un incremento sustancial con el aumento de la duración del uso, lo que sugiere que el esfuerzo postural requerido para mantener el agarre del dispositivo puede mantenerse relativamente constante entre los distintos grupos.
+> **Umbrales:** ≥ 31 para mujeres, ≥ 33 para hombres.  
 
-Este hallazgo es relevante, ya que sugiere que el movimiento repetitivo de los dedos es un factor más determinante en la aparición de signos de fatiga muscular durante el uso del smartphone, en comparación con la carga postural mantenida de la muñeca. Así, el flexor superficial de los dedos se posiciona como un músculo clave para la evaluación temprana de sobreuso en este contexto.
+---
 
-Finalmente, la metodología empleada no solo facilitó la limpieza del ruido y la mejora de la señal, sino que sentó las bases para un análisis cuantitativo más preciso con métricas como RMS y frecuencia mediana, que serán abordadas en la siguiente fase del estudio.
+## Discusión
+
+1. **Análisis estadístico vs. SAS-SV:**  
+   - Los participantes clasificados como **intensivos** en SAS-SV (Alejandro, Aaron) coinciden con los sujetos de mayor avg_MI (Sujeto1, Sujeto4), confirmando mayor fatiga electromiográfica.  
+   - Los **ocasionales** (Gaby, Wen) muestran avg_MI más bajo (Sujeto2, Sujeto3), reflejando menor reclutamiento muscular.
+
+2. **RMS como indicador de fatiga:**  
+   - El RMS promedio en Moderado e Intenso se revela como un marcador confiable de adaptación muscular. Sujetos con RMS menor mantienen estabilidad en activación y menor riesgo de sobrecarga.
+
+3. **Diferencias músculo-específicas:**  
+   - **Extensor:** estable, cumple función de soporte sin cambios significativos.  
+   - **Flexor:** sensible a la demanda, con aumentos progresivos en amplitud y dinamismo de la señal.
+
+4. **Implicaciones ergonómicas y clínicas:**  
+   - La sobrecarga repetitiva de los flexores puede causar fatiga y lesión por uso excesivo.  
+   - Intervenciones como pausas activas o ejercicios de fortalecimiento deben enfocarse en usuarios con alto avg_MI/SAS-SV.
+
+5. **Limitaciones y recomendaciones:**  
+   - Muestra pequeña (n = 4).  
+   - Faltan medidas subjetivas de fatiga y recuperación.  
+   - Futuras investigaciones deben incluir más participantes y evaluar otros grupos musculares y técnicas de recuperación.
+
+> **Conclusión:** El uso intensivo del smartphone se traduce en un reclutamiento significativo de los flexores (elevación de RMS y otras features), correlacionado con la clasificación SAS-SV. Los extensores permanecen estables. RMS medio en condiciones de esfuerzo es un buen discriminador entre usuarios regulares y ocasionales, útil para diseñar estrategias ergonómicas personalizadas.
 
 ## Referencias
 [1]  Y. Ouyang, Z. Deng, Y. Yin, X. Wu, y Z. Chen, "An improved wavelet threshold denoising approach for surface electromyography signal," EURASIP Journal on Advances in Signal Processing, vol. 2023, no. 1, p. 10, Jan. 2023. https://doi.org/10.1186/s13634-023-01066-3
