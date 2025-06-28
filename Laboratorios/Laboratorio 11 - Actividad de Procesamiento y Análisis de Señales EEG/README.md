@@ -6,7 +6,8 @@
 3. [Extracción de Características](#3-extracción-de-características)
 4. [Optimización y Selección de Features](#4-optimización-y-selección-de-features)
 5. [Discusión](#6-discusion)
-6. [Referencias](#7-referencias)
+6. [Conclusiones y Recomendaciones]
+7. [Referencias](#7-referencias)
 
 
 
@@ -97,44 +98,60 @@ Para el laboratorio nos basaremos en la data del primer y segundo sujeto analiza
 
 ## 6. Discusión
 
-## Discusión de Resultados - Análisis PCA sobre Señales EEG
-
-El análisis de componentes principales (PCA) fue aplicado a las características extraídas de las señales EEG correspondientes a las tareas motoras e imaginadas de dos pacientes. Esta técnica permitió reducir la dimensionalidad de los datos y visualizar la distribución espacial de las muestras en un espacio de dos componentes principales (PC1 y PC2), facilitando la identificación de patrones, agrupamientos y outliers.
-
+El Análisis de Componentes Principales (PCA) fue aplicado a las características extraídas de las señales EEG correspondientes a distintas tareas motoras (reales e imaginadas) y condiciones basales de dos pacientes. Esta técnica permite reducir la dimensionalidad de los datos para facilitar su visualización, detectar patrones, evaluar la distribución y localizar valores atípicos.
 
 ### Paciente 1
 
-- **Basal 2:** Se observa una nube de puntos agrupada con pocos valores atípicos, indicando una actividad cerebral estable en estado de reposo.
-- **Tarea 1 (movimiento real):** Hay una dispersión mayor con algunos outliers, lo que sugiere una mayor variabilidad neurológica asociada al movimiento.
-- **Tarea 2 (imaginación):** Aumenta la dispersión en la dirección de PC2, posiblemente reflejando diferencias individuales en la ejecución de la tarea imaginada.
-- **Tarea 3 (ambos puños/pies):** Presencia de dos puntos fuertemente alejados del centro, los cuales podrían representar artefactos o respuestas fisiológicas anómalas.
-- **Tarea 4 (imaginación de ambos):** Se evidencia un patrón elíptico alargado en PC1, con un valor atípico extremo en torno a 300, lo que indica una señal fuera del comportamiento típico.
+- **Basal 1:** La distribución se encuentra mayormente concentrada en torno al origen, con dispersión moderada. Hay algunos puntos alejados (por ejemplo, hacia la derecha y en el eje inferior), lo cual podría deberse a ruido o variabilidad individual en el estado de reposo con ojos abiertos.
+
+- **Basal 2:** La nube de puntos es más compacta y centrada. La mayoría de las muestras se agrupan cercanamente sin outliers extremos. Refleja estabilidad cerebral durante el reposo con ojos cerrados.
+
+- **Tarea 1 (movimiento real de puño):** Aparece una dispersión mayor, con varios puntos separados del grupo principal. Esto podría deberse a la activación neuronal más marcada durante la tarea motora, lo cual introduce más variabilidad en las características EEG.
+
+- **Tarea 2 (imaginación de movimiento):** Aumenta la dispersión vertical, lo que sugiere que los patrones EEG durante la imaginación de movimiento presentan una variabilidad propia, aunque menos pronunciada que la tarea real.
+
+- **Tarea 3 (movimiento de ambos puños/pies):** Se observa una nube bastante densa pero con dos outliers notables. Podrían representar ensayos con una respuesta más intensa o ruidosa.
+
+- **Tarea 4 (imaginación de ambos puños/pies):** La distribución se alarga fuertemente en el eje horizontal (PC1), con un outlier extremo alrededor de 300. Esto indica que, si bien la mayoría de las muestras son similares, existen algunas con diferencias significativas en la representación mental del movimiento.
 
 
 ### Paciente 2
 
-- **Basal 2:** Los datos están distribuidos mayormente hacia el lado izquierdo del gráfico, con una dispersión moderada y sin outliers pronunciados.
-- **Tarea 1:** Se observa un outlier destacado alrededor del punto (200, 100), probablemente asociado a una respuesta neural fuerte o un artefacto puntual.
-- **Tarea 2:** La distribución es compacta, similar a la del estado basal, indicando una posible menor activación durante la tarea imaginada.
-- **Tarea 3:** Se forma un patrón diagonal descendente, con dispersión considerable en ambas componentes, reflejando activaciones heterogéneas.
-- **Tarea 4:** Predomina una nube compacta con algunos puntos lejanos, especialmente uno con una puntuación muy alta en PC1, lo que puede estar relacionado con una activación mental intensa o una diferencia sustancial entre ensayos.
+- **Basal 1:** A pesar de que la mayoría de puntos se encuentran agrupados, existen valores atípicos, particularmente uno muy a la izquierda en PC1 ≈ -85. La dispersión sugiere cierta variabilidad individual incluso en estado basal con ojos abiertos.
+
+- **Basal 2:** Distribución más centrada que Basal 1 pero ligeramente desplazada hacia la izquierda. Aunque hay algunos valores atípicos, la nube principal indica un estado más uniforme.
+
+- **Tarea 1 (movimiento real de puño):** Mayor dispersión en el eje horizontal. Aparece un outlier importante (≈ 200 en PC1 y 100 en PC2), lo que sugiere una activación cerebral mucho más intensa o ruido fisiológico.
+
+- **Tarea 2 (imaginación de movimiento):** Nube compacta, centrada, con menos dispersión que en la tarea real. Es consistente con estudios que reportan una menor activación cortical durante tareas motoras imaginadas.
+
+- **Tarea 3 (movimiento de ambos puños/pies):** Aparece una distribución diagonal descendente, con más dispersión que en las tareas previas. Esto indica heterogeneidad en la ejecución de la tarea motora compleja.
+
+- **Tarea 4 (imaginación de ambos puños/pies):** Patrón central con un par de outliers que sobresalen (uno sobre PC1 ≈ 150). Puede deberse a una respuesta mental más intensa o diferencias cognitivas en la imaginación motora.
 
 
 ### Comparación General
 
-- Las **condiciones basales** tienden a presentar menor dispersión y mayor homogeneidad.
-- Las **tareas reales** (Tarea 1 y 3) presentan mayor variabilidad en la distribución de las componentes principales, lo cual es coherente con una mayor activación y dinamismo cerebral.
-- Las **tareas imaginadas** (Tarea 2 y 4) muestran patrones más controlados en algunos casos, aunque no exentos de valores atípicos.
-- **Paciente 2** evidencia mayor separación entre tareas en comparación con **Paciente 1**, lo que podría implicar una mayor diferenciación de estados mentales.
+- **Condiciones basales** tienden a presentar menor dispersión y valores más agrupados, como era de esperarse en estados de reposo. Aun así, los outliers presentes en algunas sesiones indican que incluso en reposo pueden aparecer variaciones fisiológicas relevantes.
 
----
+- **Tareas reales (Tarea 1 y 3)** presentan mayor dispersión general en ambos pacientes, lo cual sugiere una activación cortical más compleja y variable.
 
-## Conclusiones y Recomendaciones
+- **Tareas imaginadas (Tarea 2 y 4)** tienden a tener agrupamientos más claros, aunque en algunos casos aparecen valores muy extremos (por ejemplo, Tarea 4 en ambos pacientes), lo que puede reflejar diferencias individuales en la habilidad de imaginación motora.
 
-- Se identificaron patrones diferenciados en la actividad cerebral entre tareas y pacientes.
-- Es importante considerar la eliminación o estudio separado de **outliers extremos**, ya que podrían afectar el rendimiento de modelos de clasificación posteriores.
-- Se sugiere complementar este análisis con técnicas como **t-SNE** o **UMAP** para capturar relaciones no lineales que el PCA no detecta.
-- Finalmente, se recomienda analizar la **varianza explicada** por cada componente para validar la representatividad del espacio PCA generado.
+- El **Paciente 2** parece tener mayor variabilidad general entre tareas, con patrones más separados y presencia frecuente de outliers, lo cual podría estar asociado a una mayor reactividad cortical o menor homogeneidad en sus respuestas.
+
+
+### 7. Conclusiones y Recomendaciones
+
+- Las representaciones PCA reflejan con claridad la diferencia entre estados basales, tareas reales e imaginadas. El agrupamiento y dispersión son consistentes con lo que se espera en la literatura sobre EEG y tareas motoras.
+
+- Se deben **analizar y filtrar los outliers extremos**, ya que podrían afectar negativamente a los modelos de clasificación o clustering en etapas posteriores.
+
+- Es recomendable complementar este análisis con técnicas no lineales como **t-SNE** o **UMAP** para capturar patrones que el PCA no detecta completamente.
+
+- Para validación cuantitativa, se sugiere calcular la **varianza explicada por cada componente principal**, asegurando que PC1 y PC2 contengan una proporción significativa de la información total.
+
+- Finalmente, la visualización con etiquetas de clase o color según tarea podría ayudar a identificar agrupamientos específicos, facilitando el análisis de separabilidad entre condiciones cognitivas y motoras.
   
-## 7. Referencias
+## 8. Referencias
 [1] Schalk, G., McFarland, D.J., Hinterberger, T., Birbaumer, N., Wolpaw, J.R. BCI2000: A General-Purpose Brain-Computer Interface (BCI) System. IEEE Transactions on Biomedical Engineering 51(6):1034-1043, 2004.
