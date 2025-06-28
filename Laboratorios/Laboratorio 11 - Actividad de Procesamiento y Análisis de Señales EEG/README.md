@@ -73,6 +73,7 @@ Para el laboratorio nos basaremos en la data del primer y segundo sujeto analiza
 ## 5. Resultados PCA
 
 **Resultados obtenidos**
+
 ### Paciente 1:
 | Actividad                 | PCA Obtenido               |
 |-----------------------|--------------------|
@@ -96,5 +97,44 @@ Para el laboratorio nos basaremos en la data del primer y segundo sujeto analiza
 
 ## 6. Discusión
 
+## Discusión de Resultados - Análisis PCA sobre Señales EEG
+
+El análisis de componentes principales (PCA) fue aplicado a las características extraídas de las señales EEG correspondientes a las tareas motoras e imaginadas de dos pacientes. Esta técnica permitió reducir la dimensionalidad de los datos y visualizar la distribución espacial de las muestras en un espacio de dos componentes principales (PC1 y PC2), facilitando la identificación de patrones, agrupamientos y outliers.
+
+
+### Paciente 1
+
+- **Basal 2:** Se observa una nube de puntos agrupada con pocos valores atípicos, indicando una actividad cerebral estable en estado de reposo.
+- **Tarea 1 (movimiento real):** Hay una dispersión mayor con algunos outliers, lo que sugiere una mayor variabilidad neurológica asociada al movimiento.
+- **Tarea 2 (imaginación):** Aumenta la dispersión en la dirección de PC2, posiblemente reflejando diferencias individuales en la ejecución de la tarea imaginada.
+- **Tarea 3 (ambos puños/pies):** Presencia de dos puntos fuertemente alejados del centro, los cuales podrían representar artefactos o respuestas fisiológicas anómalas.
+- **Tarea 4 (imaginación de ambos):** Se evidencia un patrón elíptico alargado en PC1, con un valor atípico extremo en torno a 300, lo que indica una señal fuera del comportamiento típico.
+
+
+### Paciente 2
+
+- **Basal 2:** Los datos están distribuidos mayormente hacia el lado izquierdo del gráfico, con una dispersión moderada y sin outliers pronunciados.
+- **Tarea 1:** Se observa un outlier destacado alrededor del punto (200, 100), probablemente asociado a una respuesta neural fuerte o un artefacto puntual.
+- **Tarea 2:** La distribución es compacta, similar a la del estado basal, indicando una posible menor activación durante la tarea imaginada.
+- **Tarea 3:** Se forma un patrón diagonal descendente, con dispersión considerable en ambas componentes, reflejando activaciones heterogéneas.
+- **Tarea 4:** Predomina una nube compacta con algunos puntos lejanos, especialmente uno con una puntuación muy alta en PC1, lo que puede estar relacionado con una activación mental intensa o una diferencia sustancial entre ensayos.
+
+
+### Comparación General
+
+- Las **condiciones basales** tienden a presentar menor dispersión y mayor homogeneidad.
+- Las **tareas reales** (Tarea 1 y 3) presentan mayor variabilidad en la distribución de las componentes principales, lo cual es coherente con una mayor activación y dinamismo cerebral.
+- Las **tareas imaginadas** (Tarea 2 y 4) muestran patrones más controlados en algunos casos, aunque no exentos de valores atípicos.
+- **Paciente 2** evidencia mayor separación entre tareas en comparación con **Paciente 1**, lo que podría implicar una mayor diferenciación de estados mentales.
+
+---
+
+## Conclusiones y Recomendaciones
+
+- Se identificaron patrones diferenciados en la actividad cerebral entre tareas y pacientes.
+- Es importante considerar la eliminación o estudio separado de **outliers extremos**, ya que podrían afectar el rendimiento de modelos de clasificación posteriores.
+- Se sugiere complementar este análisis con técnicas como **t-SNE** o **UMAP** para capturar relaciones no lineales que el PCA no detecta.
+- Finalmente, se recomienda analizar la **varianza explicada** por cada componente para validar la representatividad del espacio PCA generado.
+  
 ## 7. Referencias
 [1] Schalk, G., McFarland, D.J., Hinterberger, T., Birbaumer, N., Wolpaw, J.R. BCI2000: A General-Purpose Brain-Computer Interface (BCI) System. IEEE Transactions on Biomedical Engineering 51(6):1034-1043, 2004.
