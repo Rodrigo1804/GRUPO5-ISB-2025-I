@@ -78,6 +78,8 @@ Comparar la actividad electromiográfica de músculos seleccionados del antebraz
  <img src="./Imagenes en el anexo/Aaron_reposo_flexor.png" width="800"/>
  <img src="./Imagenes en el anexo/Aaron_moderado_flexor.png" width="800"/>
  <img src="./Imagenes en el anexo/Aaron_intenso_flexor.png" width="800"/>
+
+ 
 ### Análisis estadístico
 
 #### Extensor radial largo del carpo  
